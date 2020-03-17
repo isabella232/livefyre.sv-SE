@@ -1,0 +1,46 @@
+---
+description: Lägg till anpassade åtgärder i Livefyre-apparna.
+seo-description: Lägg till anpassade åtgärder i Livefyre-apparna.
+seo-title: Lägg till anpassade knappar
+solution: Experience Manager
+title: Lägg till anpassade knappar
+uuid: 27d24c21-d83f-49df-9b3f-15d7abbd2bd7
+translation-type: tm+mt
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+
+---
+
+
+# Lägg till anpassade knappar{#add-custom-buttons}
+
+Lägg till anpassade åtgärder i Livefyre-apparna.
+
+Med Livefyre kan du lägga till anpassade knappar bredvid befintliga åtgärdsknappar (som **[!UICONTROL Share]** och **[!UICONTROL Flag]**) för ett visst innehåll.
+
+Använd argumentet mobile för att definiera om knappen ska visas på mobila enheter.
+
+Så här lägger du till en anpassad åtgärdsknapp för gränssnittet för den mobila enheten:
+
+```
+var convConfig = {...}; // Should have siteId, articleId, etc. 
+convConfig.actionButtons = [ 
+   { 
+      mobile: true,  
+      // (optional) sets whether the button will appear on mobile devices 
+      key: 'Do Something', 
+      callback: function(contentInfo) { 
+         console.log('Author of content is ' + contentInfo.authorId); 
+         console.log('id of content is ' + contentInfo.contentId); 
+      } 
+   }, 
+    ... 
+]; 
+  
+fyre.conv.load(networkConfig, [convConfig]);
+```
+
+1. Skicka ytterligare ett argument i ConvConfig-objektet med namnet actionButtons, som innehåller en array med objekt som beskriver varje knapp som du vill lägga till.
+1. Definiera en tangent för texten som ska visas för varje knapp.
+1. Lägg till ett återanrop som anropas för en klickningshändelse för varje knapp.
+
+Återanropet anropas med ett objekt med två tangenter: `authorId` och `contentId`.
