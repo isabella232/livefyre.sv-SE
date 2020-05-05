@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Versionsinformation
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -33,7 +33,7 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
 Mer information om hur du begär rättigheter för Instagram-konton finns i [Skicka Instagram Rights Request manuellt](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) och [Skicka en delvis automatiserad Instagram Rights Request](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integrering med Adobe Target.** Tack vare den förbättrade integrationen med Adobe Target kan du dela Livefyre-appar direkt i Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Target-dokumentationen](https://marketing.adobe.com/resources/help/en_US/livefyre/livefyre-target.html).
+* **Integrering med Adobe Target.** Tack vare den förbättrade integrationen med Adobe Target kan du dela Livefyre-appar direkt i Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Target-dokumentationen](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problem {#section_ehw_ndt_wcb}
 
