@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre Analytics Events
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -44,7 +44,7 @@ Följande kod definierar de fält i händelseobjektet som tas emot av analyshant
 
 ## Livefyre Analytics Events and eVars {#section_u3k_tft_mcb}
 
-Följande Livefyre-händelser som ska mappas till anpassade händelser som ska användas i rapporter med Report Suite Manager. Mer information om rapportsviter i Adobe Analytics finns i [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html). Mer information om hur du använder Livefyre-händelser med Report Suite Manager finns i [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+Följande Livefyre-händelser som ska mappas till anpassade händelser som ska användas i rapporter med Report Suite Manager. Mer information om rapportsviter i Adobe Analytics finns i [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Mer information om hur du använder Livefyre-händelser med Report Suite Manager finns i [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Livefyre Analytics Events
 
@@ -97,7 +97,7 @@ Nedan följer en lista med konverteringsvariabler (eVars) som finns i Livefyre.
 
 Mer information om ämnen som behandlas på den här sidan finns i:
 
-* [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[ManagerDTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
-* [Regler](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [Regler](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
