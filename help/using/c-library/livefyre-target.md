@@ -5,7 +5,7 @@ seo-title: Använd Adobe Experience Manager Livefyre med Adobe Target
 title: Använd Adobe Experience Manager Livefyre med Adobe Target
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
-source-git-commit: 78399019741620ad8e16d2ba04db7f766631fe74
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -51,4 +51,4 @@ En lista över målinstanser visas.
 
 1. Klicka på  **[!UICONTROL Publish]**.
 
-Livefyre-appen är nu tillgänglig för användning i ditt måloffertbibliotek. Mer information om att publicera appar finns i [Publicera innehåll](/help/using/c-library/t-publish-content.md) och [erbjudanden](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) i Target-dokumentationen.
+Livefyre-appen är nu tillgänglig för användning i ditt måloffertbibliotek. Mer information om att publicera appar finns i [Publicera innehåll](/help/using/c-library/t-publish-content.md) och [erbjudanden](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) i Target-dokumentationen.
