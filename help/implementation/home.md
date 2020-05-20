@@ -4,12 +4,15 @@ solution: Experience Manager
 title: Hjälp om Livefyre-implementering
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
 
-# Implementeringshandbok för Experience Manager Livefyre {#livefyre-help}
+# Handbok för Livefyre-implementering {#livefyre-help}
 
 Implementera Livefyre Studio och Livefyre Apps på er webbplats med hjälp av utvecklarverktyg för att anpassa er upplevelse.
 
