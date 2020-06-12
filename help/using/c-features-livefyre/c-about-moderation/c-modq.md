@@ -5,7 +5,10 @@ seo-title: Moderera innehåll med hjälp av ModQ
 title: Moderera innehåll med hjälp av ModQ
 uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Med ModQ kan du:
 * Moderera i sitt sammanhang, visa hela trådar och Godkänn, Skräp eller Bozo antingen enskilda innehållsdelar eller hela trådar med ett klick.
 * Snabbare och effektivare arbetsflöde.
 * Svara på innehåll och öka engagemanget i communityn.
-* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras material.
+* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras arbete.
 
 Livefyre-innehåll listas i ModQ i upp till 6 veckor, och förmodererat ströminnehåll som inte har adresserats listas i ModQ i 90 dagar.
 
@@ -152,11 +155,11 @@ Använd inställningsavsnittet för att välja alternativ som är tillgängliga 
 
 ## Ändra användarstatus i ModQ {#section_tmw_lg1_z1b}
 
-Klicka på **[!UICONTROL User actions]** knappen på panelen Användarsammanfattning för att stänga av, stänga av eller vitlista användaren.
+Klicka på **[!UICONTROL User actions]** knappen på panelen Användarsammanfattning för att stänga av, hindra eller tillåta-lista användaren.
 
 * **[!UICONTROL Mute:]** gör att du kan stänga av flaggor från den användare som flaggar det listade innehållet. Använd det här alternativet om du vill exkludera användarens flaggor från dina förmodereringsfilter. Innehåll som de flaggar kommer inte att ange ModQ som ett resultat av flaggan, och flaggorna inkluderas inte i flaggreglerna.
 * **[!UICONTROL Ban:]** kan du förbjuda den listade användaren från din plats eller ditt nätverk. (Endast Studio-administratörer eller användarhanterare får förbjuda nätverk av användare.)
-* **[!UICONTROL Whitelist:]** gör att du kan vitlista den listade användaren för din plats eller ditt nätverk. (Endast Studio-administratörer eller användarhanterare får nätverka vitlistar en användare.)
+* **[!UICONTROL Whitelist:]** gör att du kan tillåta listning av den listade användaren för din plats eller ditt nätverk. (Endast Studio-administratörer eller användarhanterare får nätverka för att tillåta att en användare listas.)
 
 
 
