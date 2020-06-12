@@ -5,7 +5,10 @@ seo-title: 9 februari 2017
 title: 9 februari 2017
 uuid: cbbf10f3-d8ca-4c10-849e-fa7208f987be
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ SocialSync för Twitter har varit en del av vår kärnfunktionalitet i flera år
 | Fel | Strömmar | Korrigerade ett fel som förhindrade att reglerna för Tumblr-strömmen sparades. |
 | Fel | Strömmar | Korrigerade ett fel som orsakade felaktiga generator-ID:n i samling-JSON för RSS-feeds. |
 | Förbättring | Strömmar | Har justerat inställningen för alternativet &quot;Endast verifierade konton&quot; som ska inaktiveras som standard. |
-| Förbättring | Strömmar | En ny funktion har lagts till för att tillåta innehållskategorier (via en strömregel) att vitlistas och åsidosätta moderering. |
+| Förbättring | Strömmar | En ny funktion har lagts till för att tillåta innehållskategorier (via en strömregel) att tillåta listning och kringgå moderering. |
 | Fel | Strömmar | Korrigerade ett fel som orsakade att inställningarna &quot;Förmåttlig&quot; och &quot;Förmåttlig media&quot; överfördes till en nyligen skapad strömregel. |
 
 ## UAT-release {#section_dyx_yl2_wy}
