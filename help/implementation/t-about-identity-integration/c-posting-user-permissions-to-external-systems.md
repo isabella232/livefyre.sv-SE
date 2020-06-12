@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Publicera användarbehörigheter till externa system (valfritt)
 uuid: 9c18b20d-3b93-4666-b7de-1ec60318cf88
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Livefyre använder ett PUSH-gränssnitt för att skicka en extern systeminformat
 |--- |--- |
 | ägare | Den här användaren är ägare och kan både moderera innehåll och tilldela nya moderatorer. |
 | admin | Den här användaren är moderator och kan moderera innehåll. |
-| medlem | Den här användaren är vitlistad. Publicerat innehåll passerar inte genom skräppost eller svordomsfilter och kräver inget godkännande i förmodererade strömmar. |
+| medlem | Den här användaren är en lista över tillåtna användare. Publicerat innehåll passerar inte genom skräppost eller svordomsfilter och kräver inget godkännande i förmodererade strömmar. |
 | ingen | Den här användaren är en standardanvändare och har inga särskilda behörigheter. |
 | outcast | Den här användaren har förbjudits att delta i konversationer. |
 
