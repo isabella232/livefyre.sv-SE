@@ -1,28 +1,31 @@
 ---
-description: Du kan vitlista din videodomän med .
-seo-description: Du kan vitlista din videodomän med .
+description: Du kan tillåta att din videodomän listas.
+seo-description: Du kan tillåta att din videodomän listas.
 seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
 title: userPrivacyVideoWhitelist
 uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
 # userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
 
-Om du använder egna videoklipp och spelare som en del av de videoklipp som visas i en Livefyre-visualiseringsapp kan du vitlista din videodomän. När du vitlistar videodomänen tas videomasken bort för anpassade videoklipp och spelare.
+Om du använder dina egna anpassade videoklipp och spelare som en del av de videoklipp som visas i en Livefyre-visualiseringsapp kan du ange din videodomän som tillåten. Om du tillåter att videodomänen listas tas videomasken bort för dina anpassade videoklipp och spelare.
 
 >[!NOTE]
 >
->Använd specifika sökvägar för att säkerställa att endast de videoklipp som är säkra vitlistas. Om du anger en bred sökväg (till exempel sampantomain.com) kan du vitlista osäkra videofilmer.
+>Använd specifika sökvägar för att säkerställa att endast de videoklipp som är säkra är tillåtna. Om du anger en bred sökväg (till exempel sampantomain.com) kan du tillåta att osäkra videofilmer listas.
 
 * Lägg till `userPrivacyVideoWhitelist` efter `userPrivacyOptOut`. Du kan lägga till alla sekretessflaggor för Livefyre samtidigt som en del av ett Livefyre-objekt.
 * `userPrivacyVideoWhitelist` gäller endast innehåll som inte är inbäddat från sociala medier.
 
-I följande exempel visas videoklipp som visas i appar med `sampledomain.com/cdn/videos` sökvägen vitlistade:
+I följande exempel är videoklipp som visas i appar med `sampledomain.com/cdn/videos` sökvägen tillåtna:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
