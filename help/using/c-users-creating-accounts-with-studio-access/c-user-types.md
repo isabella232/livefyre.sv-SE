@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Användarroller och behörigheter
 uuid: d9261cfd-ae60-40d8-9816-25aef541506f
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Följande användarroller och angivna behörigheter är tillgängliga i Studio:
 
 * **Användarhanteraren**
    * Visa och redigera kontoinformation för slutanvändare
-   * Ban- eller vitlistanvändare
+   * Förbjud eller tillåt användare
 
 * **Datahanteraren:** ger åtkomst till kontrollpanelen Livefyre Analytics.
 * **App Manager**
