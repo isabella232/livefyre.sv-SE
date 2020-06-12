@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Ställa in moderering
 uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '1299'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Du kan moderera innehåll på följande sätt:
 * Förmoderera automatiskt innehåll för att filtrera bort oönskat innehåll baserat på de regler du ställt in innan du publicerar innehållet.
 * Ta bort eller godkänn innehåll som har flaggats manuellt med den automatiska förmodereringen med ModQ eller App Content i biblioteket.
 * Identifiera webbplatsbesökare som upprepade gånger publicerar stötande innehåll för att hindra dem från att publicera genom att förbjuda specifika Livefyre-användare, sociala användare eller IP-adresser.
-* Identifiera personer och innehåll som alltid kan visas genom att vitlista användare eller stänga av filter för specifika strömmar, webbplatser eller nätverk.
+* Identifiera personer och innehåll som alltid kan visas genom att tillåta listning av användare eller stänga av filter för specifika strömmar, webbplatser eller nätverk.
 
 Du kan förmåtta innehåll automatiskt på följande sätt:
 
@@ -35,7 +38,7 @@ Du kan förmåtta innehåll automatiskt på följande sätt:
    * Förbjud IP-regioner per landskod på begäran. Bannlyst innehåll markeras som SPAM.
 
 * Skapa en lista med ord som du betraktar som svordomar i Profanity List under **[!UICONTROL Settings > Moderation > Rules]** for your Network or Site.
-* Vitlista användare (tillåt alltid att innehåll från dessa användare visas) genom att använda eller inaktivera filter för specifika strömmar, webbplatser eller nätverk.
+* Tillåt listanvändare (tillåt alltid att innehåll från dessa användare visas) genom att använda eller inaktivera filter för specifika strömmar, webbplatser eller nätverk.
 
 När du har konfigurerat dina svordlistor, SAFE-filter och regler kan du välja om du vill använda förmåttligt innehåll och SAFE-filter i strömmar. Mer information finns i Alternativ för [direktuppspelningsregel för alla direktuppspelningsregler](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
