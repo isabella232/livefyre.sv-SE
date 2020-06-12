@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Medelstora användare
 uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +36,6 @@ Följande information visas (om den är tillgänglig) för alla dina registrerad
 * **[!UICONTROL IP Address]**: deras IP-adress, enligt Livefyre.
 * **[!UICONTROL Bio]**: beskrivning av användaren.
 * **[!UICONTROL Bans]**: listar webbplatser för vilka användaren har förbjudits eller Bozo’d.
-* **[!UICONTROL Whitelists]**: listar webbplatser som användaren har vitlistats för.
+* **[!UICONTROL Whitelists]**: listar webbplatser som användaren har blivit tillåten för.
 
 Mer information om hur du kan moderera användare på fliken App Content finns i [Moderate Using App Content](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
