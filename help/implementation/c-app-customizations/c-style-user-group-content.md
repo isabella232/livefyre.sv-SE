@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Formatera användargruppinnehåll
 uuid: 2205d2c9-1892-427d-a289-bab0bf1dfe19
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +32,4 @@ Så här lägger du till anpassad formatering för specifika användargrupper:
 
 Användargrupper och användartaggar är likvärdiga i Studio. Om du lägger till en användare i en användargrupp läggs en användartagg till i kontot, som du kan formatera med hjälp av LiveFyre CSS-anpassningar.
 
-Alla användare som har publicerat innehåll i en samling kan läggas till i en eller flera användargrupper via Studio. Detta omfattar både förbjudna och vitlistade användare samt innehåll som kommer från SocialSync och Curate.
+Alla användare som har publicerat innehåll i en samling kan läggas till i en eller flera användargrupper via Studio. Detta omfattar både förbjudna och tillåtna användare samt innehåll som kommer från SocialSync och Curate.
