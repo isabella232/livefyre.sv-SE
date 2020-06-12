@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Visa kontoinformation
 uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
@@ -47,6 +50,6 @@ Eftersom deras innehåll nu är Bozo’d kan förbjudna användare fortsätta at
 
 Mer information finns i **[!UICONTROL Studio > App Content > Bozo Content]**.
 
-## Listanvändare {#section_kr4_ptp_vz}
+## Tillåt listanvändare {#section_kr4_ptp_vz}
 
-Med vitlistanvändare kan de publicera direkt i dina appar. Innehåll som publicerats av vitlistade användare skickas inte via Livefyres filter för SÄKER, svordomar eller förmoderering, utan kommer automatiskt att godkännas och läggas till i appen.
+Med Tillåt att användare listas kan de publicera direkt i dina appar. Innehåll som publiceras av användare som är tillåtna att använda går inte igenom Livefyres filter för SÄKER, svordomar eller förmoderering, och kommer automatiskt att godkännas och läggas till i appen.
