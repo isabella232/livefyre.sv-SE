@@ -6,12 +6,33 @@ solution: Experience Manager
 title: Meddelanden
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
+source-git-commit: 7a36b890dd828b0da2c95acce5a074eeacb7ea5d
+workflow-type: tm+mt
+source-wordcount: '1587'
+ht-degree: 0%
 
 ---
 
 
 # Meddelanden{#announcements}
+
+## 22 juni 2020
+
+Vi vill ge dig en uppdatering om den föränderliga dynamiken i användargenererat innehåll (UGC) och den påverkan detta har på Facebook- och Twitter-innehåll i produkten.
+
+Förra året togs API:t för offentlig feed bort av Facebook. Vi har hållit samtal för att försöka hitta en väg framåt. Vi har ombetts att ta bort Facebook-data från Livefyre-produkten. Vi följer Facebooks begäran och Adobe arbetar snabbt för att säkerställa att vi skyddar våra kunder.
+
+Observera att åtkomst till nytt och sparat Facebook-innehåll kommer att tas bort under de kommande veckorna.
+
+* 22 juni 2020: sökningen efter nytt Facebook-innehåll i Livefyre upphör.
+* 7 juli 2020: åtkomst till sparat innehåll i Livefyres resursbibliotek och appinnehållet upphör.
+* 10 augusti 2020: Facebook-innehåll som publiceras på webbplatser som finns i Livefyre-visualiseringar som medievägar, funktionskort, mosaik, karuseller med mera kommer att tas bort.
+
+Den här ändringen påverkar inte Instagram-innehåll som fortfarande är tillgängligt i Livefyre.
+
+Vi vill också dela med oss av att på grund av begränsad efterfrågan på Twitter-innehåll kommer åtkomsten till Twitter att tas bort från Livefyre nästa år den 3 maj 2021. Du har fortfarande fullständig tillgång till nytt och sparat Twitter-innehåll fram till detta datum.
+
+Dessutom kommer alla andra funktioner, inklusive graderingar och recensioner, kommentarer, sidenotes och livebloggning att vara tillgängliga. Adobe kommer även fortsättningsvis att ge fortlöpande stöd för felkorrigeringar, operativsystem och säkerhetsuppdateringar.
 
 ## 25 oktober 2019
 
@@ -117,7 +138,7 @@ Efter en fullständig systemanalys finns de funktioner som påverkas av API-bort
 
 * **Arbetsflöde för sökning och strömning - 14 juni 2018**
 
-   Du kan fortfarande söka efter hashtag och nyckelord, men möjligheten att söka efter personliga Instagram-konton har tagits bort. Som ett alternativ kommer Livefyre att bygga funktioner som gör att du kan söka efter och strömma innehåll från företagskonton. Om du använder Livefyre för att söka efter och strömma din egen organisations Instagram-innehåll måste du [uppgradera](https://help.instagram.com/502981923235522?helpref=search&sr=2&query=change%20personal%20account%20to%20business%20account) till ett företagskonto för att kunna utnyttja den här funktionen.
+   Du kan fortfarande söka efter hashtag och nyckelord, men möjligheten att söka efter personliga Instagram-konton har tagits bort. Som ett alternativ kommer Livefyre att bygga funktioner som gör att du kan söka efter och strömma innehåll från företagskonton. Om du använder Livefyre för att söka efter och strömma din egen organisations Instagram-innehåll måste du [uppgradera](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account) till ett företagskonto för att kunna utnyttja den här funktionen.
 
 **Vi fortsätter att utvärdera lösningar för följande funktionalitet som vi inte kan ersätta på kort sikt:**
 
