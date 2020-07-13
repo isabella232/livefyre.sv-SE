@@ -6,7 +6,10 @@ solution: Experience Manager
 title: CollectionMeta-token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: acba83da6abd919062025322beeced500a3db662
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +100,6 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {prioritet=&quot;high&quot;}
+>[!NOTE]
 >
 >Livefyre tar emot den collectionMeta-token som du skapar och fastställer unika egenskaper genom att kombinera siteId (Livefyre tillhandahålls) och articleId (kunden anges).
-
