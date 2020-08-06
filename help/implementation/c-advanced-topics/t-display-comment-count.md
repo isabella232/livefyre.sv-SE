@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Visa antal kommentarer
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ Med Livefyres `CommentCount.js` kan du hämta innehållsantal för samlingar på
    </span>
    ```
 
-   >[!NOTE] {prioritet=&quot;high&quot;}
+   >[!NOTE]
    >
    >Koden söker efter ett numeriskt värde som ska uppdateras med det faktiska antalet. `CommentCount.js` Var noga med att ta med ett numeriskt värde mellan taggarna.
 
