@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Sök efter Instagram-innehåll
 uuid: 38a7185d-9936-4eaa-97e9-5b23b3566496
 translation-type: tm+mt
-source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -38,5 +41,4 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
    * **[!UICONTROL Recent Tags Search]**: Sök i de senaste posterna med hashtaggen.
 
->Objekt som matchar sökningen visas. För musen över ett objekt för att **[!UICONTROL View Details]** lägga till det i ditt resursbibliotek eller **[!UICONTROL Publish]** till en app.
-
+Objekt som matchar sökningen visas. För musen över ett objekt för att **[!UICONTROL View Details]** lägga till det i ditt resursbibliotek eller **[!UICONTROL Publish]** till en app.
