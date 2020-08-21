@@ -6,9 +6,9 @@ solution: Experience Manager
 title: CollectionMeta-token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
-source-git-commit: acba83da6abd919062025322beeced500a3db662
+source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Livefyre tilldelar varje samling du skapar en unik identifierare. Livefyre tilld
 
 | Parameter | Typ | Beskrivning |
 |--- |--- |--- |
-| networkName | Sträng (valfritt) | Namnet på Livefyre-nätverket (finns i {!UICONTROL Studio > Settings > Integration Settings > Credentials]). Detta är valfritt när du använder biblioteket för att skapa en collectionMeta-token. |
+| networkName | Sträng (valfritt) | Namnet på Livefyre-nätverket (tillgängligt från [!UICONTROL Studio] > [!UICONTROL Settings] > [!UICONTROL Integration Settings] > [!UICONTROL Credentials] ). Detta är valfritt när du använder biblioteket för att skapa en collectionMeta-token. |
 | networkKey | Sträng (valfritt) | Den hemliga nyckeln för det specifika nätverket (finns i Studio > Settings > Integration Settings > Credentials). Detta är valfritt när du använder biblioteket för att skapa en collectionMeta-token. |
 | siteId | Sträng (valfritt) | ID för platsen (tillgängligt från [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Valfritt när du använder biblioteket för att skapa en collectionMeta-token. |
-| siteKey | Sträng (valfritt) | Den hemliga nyckeln för platsen (finns i {!UICONTROL Studio > Inställningar > Integreringsinställningar > Autentiseringsuppgifter]). |
+| siteKey | Sträng (valfritt) | Den hemliga nyckeln för webbplatsen (finns i [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). |
 | articleId | Sträng (valfritt) | Ett unikt ID för samlingen. |
 | title | Sträng (valfritt) | Titeln som du vill använda för samlingen. Vanligtvis motsvarar detta titeln på sidan som visar appen. <br>Till exempel: &quot;Integrationen är så mycket rolig!&quot; <br>Obs!  Titeln får innehålla högst 255 tecken. Titelfältet stöder inte HTML-entiteter. Koda specialtecken med UTF-8. |
 | url | Sträng (valfritt) | Den absoluta kanoniska URL som du vill bifoga till den här samlingen. Den här URL:en används för att generera länkar tillbaka till appen från innehåll som delas på Facebook och Twitter, e-postmeddelanden och Livefyre Studio. <br>Obs!  Om du testar lokalt använder du en giltig bas-URL-domän (till exempel: giltig: `https://customer.com`; ogiltig: `https://localhost:5995`). |
