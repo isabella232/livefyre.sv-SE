@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Riktlinjer för innehåll i Instagram
 uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ När du strukturerar innehåll från Instagram måste du följa deras riktlinjer
 
 Du måste konfigurera ett *Instagram-företagskonto* för att skapa Instagram-strömmar från ett annat specifikt Instagram-affärskonto med hjälp av **[!UICONTROL By Author]** fältet. Användarkontot som du identifierar i **[!UICONTROL By Author]** fältet måste vara ett företagskonto.
 
-Mer information om hur du skapar ett Instagram-företagskonto i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).]
+Mer information om hur du skapar ett Instagram-företagskonto i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Instagram tillämpar följande regler för att hämta innehåll från sin plattform:
 
@@ -38,4 +41,4 @@ Instagram, liksom andra varumärken, har också krav på att använda sina varum
 * Ge attribuering till Instagram och innehållets ägare.
 * Var tydligt skild från annat innehåll i sociala medier om det visas tillsammans med andra nätverks medier.
 
-Mer information finns i Instagrams dokument: [Använda varumärkesresurser](https://help.instagram.com/304689166306603)i Instagram.
+Mer information finns i Instagrams dokument: [Använder Instagram Brand Assets](https://help.instagram.com/304689166306603).
