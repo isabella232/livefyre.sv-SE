@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Använd Google AMP med Storify 2
 uuid: 40c9f083-7284-43ba-ae27-53b1ff9e3954
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 65d931e5bd04964db44f8e3a0e000ecec2652893
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +31,8 @@ Så här använder du Google AMP med Storify 2:
    1. [amp-iframe](https://www.ampproject.org/docs/reference/components/amp-iframe) för att anpassa Storify 2-visningen
    1. [amp-live-list](https://www.ampproject.org/docs/reference/components/amp-live-list) för att anpassa tidsintervallet för uppdateringar
    1. [amp-social-share](https://www.ampproject.org/docs/reference/components/amp-social-share) för att lägga till en knapp för delning via sociala medier
-1. Inkludera innehållet på följande Storify 2 AMP-sida i CSS för Storify 2-sidan i <style amp-custom> tagg: [https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css](https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css)
-1. Inkludera innehållet i följande Storify 2 AMP-kod i din Google AMP-mall: `https://api.livefyre.com/app-service/v4/bootstrap/{{APP_ID}}/amp` där {{APP_ID}} är program-ID för Storify 2-appen i Livefyre Studio.
+1. Inkludera innehållet på följande Storify 2 AMP-sida i CSS för Storify 2-sidan i `<style amp-custom>` -taggen: [https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css](https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css)
+1. Inkludera innehållet i följande Storify 2 AMP-kod i din Google AMP-mall: `https://api.livefyre.com/app-service/v4/bootstrap/{{APP_ID}}/amp` där {{APP_ID}} är app-ID för Storify 2-appen i Livefyre Studio.
    1. Den enda frågeparametern är **pollInterval**, som är det intervall i vilket programmet söker efter uppdateringar (anges i millisekunder).
    1. URL:en innehåller innehåll från de senaste inläggen (inklusive Tweets, videor osv.)
    1. Utgivarsidan måste hämta innehåll från den här URL:en så ofta du vill att Google AMP-sidan ska uppdateras.
