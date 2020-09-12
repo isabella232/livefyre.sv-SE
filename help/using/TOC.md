@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre-dokumentation
+user-guide-title: Livefyre Guide
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Livefyre-dokumentation {#using}
+# Livefyre Guide {#using}
 
 + [Hjälp för Livefyre](home.md)
 + [Meddelanden](c-anouncements.md)
@@ -189,7 +189,7 @@ ht-degree: 0%
    + [Fliken Appinnehåll](c-library/c-app-content.md)
    + [Använd Adobe Experience Manager Livefyre med Hootsuite](c-library/c-hootsuite-livefyre.md)
    + [Använd Adobe Experience Manager Livefyre med Adobe Target](c-library/livefyre-target.md)
-   + [Använd Adobe Launch Livefyre-tillägget](c-library/launch-extension.md)
+   + [Använd Adobe Launch Livefyre Extension](c-library/launch-extension.md)
 + Strömmar {#streams}
    + [Strömmar](c-streams/c-streams.md)
    + [Skapa en ny ström](c-streams/t-create-a-new-stream.md)
