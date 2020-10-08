@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Integrera Livefyre i ett CMS-system
 uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
 translation-type: tm+mt
-source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
+source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
 
 Skapa Livefyre-appar från grunden för att skapa anpassade upplevelser och datavisualiseringar.
 
-Du kan skapa en Livefyre-app från grunden genom att konsumera Livefyre och sociala data med hjälp av API:t för Bootstrap och Stream.
+Du kan skapa en Livefyre-app från grunden genom att konsumera Livefyre och sociala data med API:t för Bootstrap och direktuppspelning.
 
 Information om vilka autentiseringsplattformar som stöds finns i Identitetsintegrering för Livefyre-appar som kräver autentisering.
 
@@ -60,4 +63,5 @@ b. Integrera externa användar- och autentiseringsplattformar. En lista över pl
 >[!NOTE]
 >
 >Livefyre stöder inte Carousel-, bildband-, Storify-, funktionskort-, mosaic- och omröstningsappar som använder Livefyre.js.
+
 Integrera apparna med [Skapa en app](/help/using/c-about-apps/c-create-an-app.md) .
