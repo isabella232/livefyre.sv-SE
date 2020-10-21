@@ -1,15 +1,18 @@
 ---
-source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
+source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
-ht-degree: 6%
+source-wordcount: '517'
+ht-degree: 5%
 
 ---
 # Contribute-artikel
 
-Vi välkomnar bidrag från både vår community och från Adobe anställda utanför dokumentationsteamen.
+| EXL-PR | EXL | Förhandsgranska | Aktivera | Publicerad | Hjälp |
+|--- |--- |--- |--- |--- |--- |
+| [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [Förhandsgranska URL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Redigeringshandbok](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
+Vi välkomnar bidrag från både vår community och från Adobe anställda utanför dokumentationsteamen.
 
 ## Adobe uppförandekod med öppen källkod
 
@@ -37,7 +40,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Stora förändringar för anställda i Adobe
 
-Om du är teknikskribent, programchef eller utvecklare för en Adobe Experience Cloud-lösning och det är ditt jobb att bidra till eller skriva tekniska artiklar bör du använda det privata arkivet [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Om du är teknikskribent, programchef eller utvecklare för en Adobe Experience Cloud-lösning och det är ditt jobb att bidra till eller skriva tekniska artiklar bör du använda den privata databasen [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Verktyg och inställningar
 
@@ -54,7 +57,7 @@ Alla artiklar i den här databasen använder smaksatt GitHub-kod. Om du inte är
 
 ## Etiketter
 
-I den offentliga databasen tilldelas automatiska etiketter för att hämta begäranden som hjälper oss att hantera arbetsflödet för pull-begäran och som hjälper dig att få reda på vad som pågår med din pull-begäran:
+I den offentliga databasen tilldelas automatiska etiketter för att hämta begäranden som hjälper oss att hantera pull-arbetsflödet och som hjälper dig att få reda på vad som pågår med din pull-begäran:
 
 * **Ändringen har skickats till författaren**: Författaren har underrättats om den väntande pull-begäran.
 * **Klar att sammanfoga**: Redo för granskning av vårt team för granskning av pull-förfrågningar.
