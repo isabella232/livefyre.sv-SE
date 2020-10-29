@@ -1,16 +1,20 @@
 ---
 cloud: experience-cloud
+solution: Experience Manager
 solution-title: Läs mer & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Komma igång
 getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementation/c-getting-started/implementation-process/c-implementation-process.html
-tutorials-title: Självstudiekurser
+tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/livefyre.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.sv-SE
 translation-type: tm+mt
-source-git-commit: 170fa6b446345d5e2e272294a3267d1ebbb0cd09
+source-git-commit: deae9c7c98fa0417f1ed553239da630817c13f02
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +31,7 @@ Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-fil
 | getting-started-url | Länk till hjälpsidan Komma igång |
 | tutorials-url | Länka till videosjälvstudiekurser - antingen hjälpstudiekurser eller självstudiekurser på engelska |
 | mini-toc-nivåer | Anger antalet rubriknivåer som visas i den högra listen. standard är 2 |
-| git-repo | Anger platsen för huvudrapporten för intern användning |
+| git-repo | Anger platsen för den överordnad rapporten för intern användning |
 
 I filen TOC.md
 
