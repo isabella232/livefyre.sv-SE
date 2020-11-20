@@ -5,7 +5,10 @@ seo-title: Sök efter Twitter-innehåll
 title: Sök efter Twitter-innehåll
 uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
 translation-type: tm+mt
-source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
+source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
       >[!NOTE]
       >
       >Social Search stöder komplexa Twitter-sökfrågor och alla vanliga Twitter-syntaxindata. Som standard behandlas flera strängar som en AND-fråga. Klicka på **[!UICONTROL info]** knappen för att se exempel på giltiga indata.
-
->=Resultat som returneras listas från senaste till minst.
+      >
+      >=Resultat som returneras listas från senaste till minst.
 
 Objekt som matchar sökningen visas i en stödrastervy. För musen över ett objekt för att **[!UICONTROL View Details]** lägga till det i ditt resursbibliotek eller **[!UICONTROL Publish]** till en app.
