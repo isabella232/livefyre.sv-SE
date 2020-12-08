@@ -1,16 +1,12 @@
 ---
-source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
+source-git-commit: 59f12a4dde987614e412838161bb5e8f6613630b
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 5%
+source-wordcount: '435'
+ht-degree: 6%
 
 ---
 # Contribute-artikel
-
-| EXL-PR | EXL | Förhandsgranska | Aktivera | Publicerad | Hjälp |
-|--- |--- |--- |--- |--- |--- |
-| [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [Förhandsgranska URL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Redigeringshandbok](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Vi välkomnar bidrag från både vår community och från Adobe anställda utanför dokumentationsteamen.
 
