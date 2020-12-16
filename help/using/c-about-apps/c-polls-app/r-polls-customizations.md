@@ -7,11 +7,14 @@ title: Frågeanpassningar
 uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
 
-# Frågeanpassningar{#polls-customizations}
+# Frågar anpassningar{#polls-customizations}
 
 Ändra storlek, bredd och interaktionsalternativ för appen Polls.
 
@@ -21,7 +24,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    Välj vilken typ av omröstning du vill skapa. **[!UICONTROL Single image]** Med kan du lägga till en bild för omröstningsfrågan. **[!UICONTROL Multiple image]** Med kan du lägga till en bild för omröstningens svar. **[!UICONTROL Text only]** skapar en omröstning utan bilder.
 
-* **[!UICONTROL Question]**  *krävs*
+* **[!UICONTROL Question]**  *obligatoriskt*
 
    Ange frågan som ska visas för din omröstning.
 
@@ -37,7 +40,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    Om alternativet är aktiverat innehåller din omröstning en länk som användare kan dela.
 
-* **[!UICONTROL Link]** *valfritt*
+* **[!UICONTROL Link]** *valfri*
 
    Länken som ska visas för din omröstning.
 
@@ -49,13 +52,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    Om alternativet är aktiverat kan tittarna se resultaten av omröstningar. Om alternativet är inaktiverat visas endast en&quot;Tack&quot;-skärm när omröstningen är klar.
 
-* **[!UICONTROL Disclaimer]** *valfritt*
+* **[!UICONTROL Disclaimer]** *valfri*
 
    En valfri ansvarsfriskrivning som visas i din omröstning.
 
 Du kan anpassa omröstningar med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se omröstningar för mer information om hur du anpassar appar med integreringsverktyg.
 
