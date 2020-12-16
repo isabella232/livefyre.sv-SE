@@ -6,6 +6,9 @@ title: 19 oktober 2017
 uuid: 7f5fba9e-bd07-4d85-b67c-7a5577055447
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
