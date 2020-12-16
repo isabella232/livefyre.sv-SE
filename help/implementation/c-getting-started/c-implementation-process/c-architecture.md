@@ -7,6 +7,9 @@ title: Arkitektur
 uuid: 94358e6c-954a-4a52-9bb2-d800b2933130
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ I det här avsnittet finns en översikt över Livefyres nätverksarkitektur.
 
 Livefyre organiserar användare och innehåll per nätverk och webbplats. Varje nätverk kan ha ett eller flera användarkonton kopplade till sig och varje nätverk kan innehålla en eller flera Livefyre-platser. En Livefyre-webbplats är en godtycklig gruppering av samlingar. En samling mappar till ett artikel-ID i ditt CMS-system.
 
-## Understanding Networks {#section_hqt_4m4_xz}
+## Förstå nätverk {#section_hqt_4m4_xz}
 
 Kunder med flera domäner kan dela användarkonton över alla domäner med ett enda Livefyre-nätverk. Kunder som vill ha separata användarkonton för olika domäner behöver separata Livefyre-nätverk.
 
