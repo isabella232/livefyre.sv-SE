@@ -7,6 +7,9 @@ title: Pull Request Structure
 uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
 translation-type: tm+mt
 source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +32,14 @@ Livefyre Pull-begäran till denna slutpunkt kommer att vara:
 https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 ```
 
-där `lftoken` är en JSON Web Token som har signerats med din nätverksnyckel, och **[!UICONTROL {userAuthToken}]** är den användarautentiseringstoken som genereras av Livefyre.
+där `lftoken` är en JSON Web Token som signerats med din nätverksnyckel, och **[!UICONTROL {userAuthToken}]** är den användarauth-token som genereras av Livefyre.
 
-1. Validera `lftoken` att begäranden till din Ping for Pull URL skickades av Livefyre och inte av en skadlig agent.
+1. Använd `lftoken` för att validera att begäranden till din Ping for Pull URL skickades av Livefyre och inte av en skadlig agent.
 1. För alla inkommande begäranden:
 
-   * Se till att frågesträngen finns på begäran `lftoken` .
-   * Använd `validateLivefyreToken` metoden i Livefyre-biblioteken för att kontrollera att den `lftoken` signerades med din nätverksnyckel.
+   * Kontrollera att frågesträngen `lftoken` finns på begäran.
+   * Använd metoden `validateLivefyreToken` i Livefyre-biblioteken för att kontrollera att `lftoken` har signerats med din nätverksnyckel.
 
-   * Om `lftoken` inte finns, eller inte godkänns, ska du inte tillåta slutpunkten att svara med profilinformation. Svara istället med en 403-statuskod (förbjuden) och inget svarstext.
+   * Om `lftoken` inte är närvarande, eller misslyckas med valideringen, ska du inte tillåta slutpunkten att svara med profilinformation. Svara istället med en 403-statuskod (förbjuden) och inget svarstext.
 
 1. `userAuthToken` genereras av Livefyre- `buildUserAuthToken` metoden för användaren med användar-id &quot;system&quot;. Den här användaren är den första användaren som skapas för varje nytt nätverk.
