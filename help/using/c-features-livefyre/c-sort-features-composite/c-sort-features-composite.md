@@ -7,6 +7,9 @@ title: Sorteringsfunktioner
 uuid: e40f5877-acdc-48c2-a2c3-8a8d253cdb93
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Program som använder den här funktionen:
 
 * [Recensioner](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Sortera efter hjälpmedel {#section_grr_hfs_d1b}
+## Sortera efter hjälpläget {#section_grr_hfs_d1b}
 
 Den här funktionen är bara tillgänglig för granskningar. Sortera innehåll efter det antal besökare på webbplatsen som tyckte att en del av innehållet var användbart.
 
@@ -31,7 +34,7 @@ Program som använder den här funktionen:
 
 * [Recensioner](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Sortera efter senaste till äldsta, Första till Sista {#section_t4s_hfs_d1b}
+## Sortera efter senaste till äldsta, Första till sista {#section_t4s_hfs_d1b}
 
 I appen Kommentarer kan du välja att tillåta användare att sortera från det senast publicerade innehållet till det senast publicerade innehållet.
 
