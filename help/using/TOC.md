@@ -41,7 +41,7 @@ ht-degree: 0%
       + [Bildband](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [Bildbandsfunktioner](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [Anpassningar av bildband](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + Live Blog {#liveblog}
+   + Live-blogg {#liveblog}
       + [Live Blog](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [Live-bloggfunktioner](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [Live Blog-anpassningar](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,7 +49,7 @@ ht-degree: 0%
       + [Karta](c-about-apps/c-map-app/c-map-app.md)
       + [Kartfunktioner](c-about-apps/c-map-app/r-map-features.md)
       + [Kartanpassningar](c-about-apps/c-map-app/r-map-customizations.md)
-   + Media Wall {#mediawall}
+   + Medievägg {#mediawall}
       + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [Medieväggningsfunktioner](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [Anpassningar av medieväggen](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
       + [Arbeta med flera redigerare på samma artikel](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
       + [Använd strömmar för att lägga till socialt innehåll i din artikel](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [Fäst ett inlägg i Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-      + Navigeringshandbok {#navigation-guide}
+      + Navigeringsguide {#navigation-guide}
          + [Navigeringshandbok](c-about-apps/c-storify2/c-navigation-guide.md)
          + [Lägga till en navigeringsguide till en Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [Lägga till en titel i navigeringsguiden](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
@@ -225,7 +225,7 @@ ht-degree: 0%
    + [Länka användarkonton](c-users/t-link-user-accounts.md)
    + [Användare som byter nätverk](c-users/c-users-switching-networks.md)
    + [Användarsynkronisering](c-users/t-set-up-user-sync.md)
-+ Användare: Skapa användarkonton {#users-creating-accounts}
++ Användare: Skapar användarkonton {#users-creating-accounts}
    + [Användare: Skapa användarkonton](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Bjud in en användare att skapa ett Studio-konto](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Acceptera en inbjudan att skapa ett Studio-konto](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
@@ -236,7 +236,7 @@ ht-degree: 0%
       + [Lägg till ett socialt konto](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Om Instagram-konton](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Uppdatera en token för ett socialt konto](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ Inställningar: Övriga {#settings-other}
++ Inställningar: Annan {#settings-other}
    + [Konfigurera autentiseringsuppgifter](c-settings-other/t-set-up-credentials.md)
    + [Lägg till en plats i ett nätverk](c-settings-other/t-add-a-site.md)
    + Översättningsuppsättningar {#translation-sets}
