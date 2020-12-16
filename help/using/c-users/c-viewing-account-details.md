@@ -42,9 +42,9 @@ Mer information om hur du använder användartaggar för att formatera användar
 
 I statusavsnittet visas alla förbud eller vitlistor som är kopplade till kontot, och du kan lägga till kontot till alla befintliga nätverk- eller webbplatsförbud och vitlistor.
 
-## Förhindra användare {#section_l5b_5gr_vdb}
+## Bannlyser användare {#section_l5b_5gr_vdb}
 
-Om en användare publicerar olämpliga eller skräppost på en artikel eller på din webbplats kan du välja att förbjuda användaren från ditt nätverk. När allt innehåll som publicerats av användaren har stängts av ställs det automatiskt in på ***Bozo*** -status och visas endast för den som publicerar det. Bannade användare kan logga in i strömmen, publicera kommentarer och visa sitt innehåll i appen. Bannade användare tror att de fortfarande är en del av samtalet. Ingen annan användare på din webbplats kommer dock att kunna se det här innehållet.
+Om en användare publicerar olämpliga eller skräppost på en artikel eller på din webbplats kan du välja att förbjuda användaren från ditt nätverk. När allt innehåll som publicerats av användaren har stängts av ställs det automatiskt in på ***Bozo***-läget och visas endast för bokföringsanvändaren. Bannade användare kan logga in i strömmen, publicera kommentarer och visa sitt innehåll i appen. Bannade användare tror att de fortfarande är en del av samtalet. Ingen annan användare på din webbplats kommer dock att kunna se det här innehållet.
 
 Eftersom deras innehåll nu är Bozo’d kan förbjudna användare fortsätta att publicera olämpligt innehåll, men det kommer inte längre att vara synligt för resten av er community.
 
