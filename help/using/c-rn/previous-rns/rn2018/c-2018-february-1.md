@@ -7,6 +7,9 @@ title: 1 februari 2018
 uuid: c4776206-ccb7-4b5f-b85a-f9bef256ac6e
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Versionsinformation för 1 februari 2018.
 | Fel | Media Wall | Korrigerade ett problem med att vissa videoklipp inte spelades upp i en medievägg. |
 | Förbättring | Strömmar | Skapade en ny funktion för att filtrera strömmar med smarta taggar. |
 | Fel | Strömmar | Ett problem har korrigerats där reglerna för Instagram-strömmen inte kände igen japanska tecken. |
-| Förbättring | Strömmar | Strömmat innehåll är nu automatiskt smart taggat av Adobe Sensei när det sparas i en mapp eller publiceras i en app. |
+| Förbättring | Strömmar | Strömmat innehåll taggas nu automatiskt av Adobe Sensei när det sparas i en mapp eller publiceras i en app. |
 | Fel | Studio | Åtgärda ett fel som rapporterats av Nat Geo som visade specialtecken i namn som HTML. |
 
 ## UAT-release
