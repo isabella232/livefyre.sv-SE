@@ -7,6 +7,9 @@ title: 1 november 2018
 uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
 * Smarta taggar för video
 
-   Utnyttja den senaste datavinsionstekniken, som drivs av Adobe Sensei, för att automatiskt tagga videomaterial när du sparar det i biblioteket. Smarta taggar hjälper dig att hantera UGC mer effektivt men också skapa superprecisa kurationsregler (strömmar) som samlar in innehåll baserat på vad som finns i videon, inte bara texten, vilket sparar mycket arbete när du modererar oönskat innehåll.
+   Utnyttja den senaste tekniken för datavinseende, som drivs av Adobe Sensei, för att automatiskt tagga videomaterial när du sparar det i biblioteket. Smarta taggar hjälper dig att hantera UGC mer effektivt men också skapa superprecisa kurationsregler (strömmar) som samlar in innehåll baserat på vad som finns i videon, inte bara texten, vilket sparar mycket arbete när du modererar oönskat innehåll.
 
    Funktioner:
 
@@ -29,11 +32,12 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
    * Taggar videoklipp i formaten .MP4, .MOV och AVI
    * Taggar videoklipp på upp till 60 sekunder eller 50 MB
    * Det finns två kategorier med smarta taggar för videoklipp: funktioner (djur, objekt, platser osv.) och åtgärder (löpning, gång, sångning osv.)
+
    Mer information finns i [Smarta taggar](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
 * Begränsning av mellanrumsfrekvens
 
-   Instagram har ändrat antalet begäranden som alla företag som använder Instagram API, inklusive Livefyre, kan göra från 5 000 begäranden per timme och token till 200 begäranden per timme och token. Detta kallas *hastighetsbegränsning*. Mer information finns i [Begränsning](/help/using/c-streams/c-instagram-rate-limiting.md)av mellanrumsfrekvens.
+   Instagram har ändrat antalet begäranden som alla företag som använder Instagram API, inklusive Livefyre, kan göra från 5 000 begäranden per timme och token till 200 begäranden per timme och token. Detta kallas *hastighetsbegränsning*. Mer information finns i [Begränsning av mellanrumsfrekvens](/help/using/c-streams/c-instagram-rate-limiting.md).
 
 * Ljudfiler i biblioteket
 
@@ -49,7 +53,7 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
 Inga nya problem löstes i produktionsversionen av den här versionen. Se [avsnittet ovan](#c_rn/section_syx_mdt_wcb).
 
-## UAT-release {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT-version {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
 Problemen i följande tabeller löstes i UAT-versionen av den här versionen.
 
