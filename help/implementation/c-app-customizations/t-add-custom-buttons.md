@@ -7,6 +7,9 @@ title: Lägg till anpassade knappar
 uuid: 27d24c21-d83f-49df-9b3f-15d7abbd2bd7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Lägg till anpassade åtgärder i Livefyre-apparna.
 
-Med Livefyre kan du lägga till anpassade knappar bredvid befintliga åtgärdsknappar (som **[!UICONTROL Share]** och **[!UICONTROL Flag]**) för ett visst innehåll.
+Med Livefyre kan du lägga till anpassade knappar bredvid de befintliga åtgärdsknapparna (som **[!UICONTROL Share]** och **[!UICONTROL Flag]**) för en del av innehållet.
 
 Använd argumentet mobile för att definiera om knappen ska visas på mobila enheter.
 
