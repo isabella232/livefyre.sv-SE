@@ -7,6 +7,9 @@ title: Bädda in anpassad HTML i kommentarer
 uuid: f7d07286-b3b3-447d-8281-51735f24ddd9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -24,4 +27,4 @@ Så här bäddar du in anpassad HTML:
 
 1. Klistra in HTML-koden i redigeraren och klicka på **[!UICONTROL OK]**. (Ett meddelande visas för eventuella HTML-valideringsfel.)
 1. En förhandsgranskning av utdata visas under kommentarredigeraren.
-1. Klicka **[!UICONTROL Post Comment]** för att visa utdata i flödet.
+1. Klicka på **[!UICONTROL Post Comment]** för att visa utdata i strömmen.
