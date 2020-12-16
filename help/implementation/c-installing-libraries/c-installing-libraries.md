@@ -7,6 +7,9 @@ title: Installation
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ NodeJS-biblioteket är beroende av följande moduler:
 
 Mer information finns i NodeJs-dokumenten eller i källan på [GitHub](https://github.com/Livefyre/livefyre-nodejs-utils).
 
-Länkar: [Restler](https://github.com/danwrong/restler), [Validator](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
+Länkar: [Återställare](https://github.com/danwrong/restler), [Validator](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
 
 ## PHP {#section_txj_xwq_rz}
 
@@ -114,7 +117,7 @@ PHP-biblioteket är beroende av följande moduler:
 
 Mer information finns i PHP-dokumenten eller i källan på [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
-Länkar: [ext-json](https://php.net/manual/en/book.json.php), [förfrågningar](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+Länkar: [ext-json](https://php.net/manual/en/book.json.php), [Begäranden](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
@@ -134,7 +137,7 @@ ordereddict == 1.1 if sys.version_info[:2] < 2.7
 
 Mer information finns i Python-dokumenten eller i källan på [GitHub](https://github.com/Livefyre/livefyre-python-utils).
 
-Länkar: [PyJWT](https://github.com/progrium/pyjwt), [Requests](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
+Länkar: [PyJWT](https://github.com/progrium/pyjwt), [Begäranden](https://github.com/kennethreitz/requests), [Python-Date](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
@@ -158,4 +161,4 @@ Ruby-biblioteket är beroende av följande moduler:
 
 Mer information finns i Ruby-dokumenten eller i källan på [GitHub](https://github.com/Livefyre/livefyre-ruby-utils).
 
-Länkar: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [REST Client](https://github.com/rest-client/rest-client/), [adresserbar](https://github.com/sporkmonger/addressable)
+Länkar: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [REST Client](https://github.com/rest-client/rest-client/), [Addressable](https://github.com/sporkmonger/addressable)
