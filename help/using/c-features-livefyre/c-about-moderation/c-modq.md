@@ -26,7 +26,7 @@ Med ModQ kan du:
 * Moderera i sitt sammanhang, visa hela trådar och Godkänn, Skräp eller Bozo antingen enskilda innehållsdelar eller hela trådar med ett klick.
 * Snabbare och effektivare arbetsflöde.
 * Svara på innehåll och öka engagemanget i communityn.
-* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras arbete.
+* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras material.
 
 Livefyre-innehåll listas i ModQ i upp till 6 veckor, och förmodererat ströminnehåll som inte har adresserats listas i ModQ i 90 dagar.
 
@@ -40,7 +40,7 @@ Innehåll som inte visas i ModQ inkluderar:
 * Innehåll som godkänts av en moderator.
 * Innehåll som publicerats av en förbjuden användare eller användarflaggor som används av en bannlyst användare.
 
-## Navigeringsmetod {#section_uv4_db2_yy}
+## Navigerar i ModQ {#section_uv4_db2_yy}
 
 ModQ delas upp i två flikpaneler:
 
@@ -50,12 +50,12 @@ ModQ delas upp i två flikpaneler:
 Båda flikarna har många av samma filter och modereringsverktyg.
 
 * **[!UICONTROL Item Count]** Antalet återstående objekt i kön visas i det övre vänstra hörnet av ModQ.
-* **[!UICONTROL Filter]** Klicka **[!UICONTROL Filter]** för att definiera parametrar som innehållet ska listas med i rutan.
-* **[!UICONTROL History]** Klicka på **[!UICONTROL History]** knappen längst upp till höger på skärmen för att öppna en lista över nyligen modererat innehåll, så att du kan granska ditt arbete eller ändra en modereringsåtgärd som du nyligen har utfört. Klicka på knappen igen för att återgå till det köade innehållet. Endast de 100 senaste åtgärderna visas. **Historik** visar inte åtgärder som har vidtagits av en annan moderator.
+* **[!UICONTROL Filter]** Klicka  **[!UICONTROL Filter]** för att definiera parametrar som innehållet ska listas med i rutan.
+* **[!UICONTROL History]** Klicka på  **[!UICONTROL History]** knappen längst upp till höger på skärmen för att öppna en lista över nyligen modererat innehåll, så att du kan granska ditt arbete eller ändra en modereringsåtgärd som du nyligen har utfört. Klicka på knappen igen för att återgå till det köade innehållet. Endast de 100 senaste åtgärderna visas. **Historik** visar inte åtgärder som har vidtagits av en annan moderator.
 
 * **[!UICONTROL User Pane]** Klicka på knapparna för att expandera eller komprimera längst upp till höger på sidan för att öppna eller stänga användarrutan.
 
-## Förstå ModQ-innehåll {#section_oxm_kgz_y1b}
+## Om ModQ-innehåll {#section_oxm_kgz_y1b}
 
 Varje listad del av innehållet visar förhandsgranskningsinformation, inklusive den webbplats där det publicerades och dess författare. Om du markerar ett objekt visas hela innehållet, inklusive alla medier.
 
@@ -83,35 +83,35 @@ Följande information visas när du markerar ett objekt:
 
 ## Filteralternativ i ModQ {#section_r2c_qc2_yy}
 
-Klicka **[!UICONTROL Filter]** i det övre vänstra hörnet av ModQ-fönstret för att öppna en panel med tillgängliga filteralternativ för listat innehåll. När du väljer alternativ uppdateras ModQ automatiskt så att endast det filtrerade innehållet visas. Klicka **[!UICONTROL Clear filters]** för att rensa alla valda alternativ och läsa in den fullständiga listan med objekt igen.
+Klicka på **[!UICONTROL Filter]** längst upp till vänster i ModQ-fönstret för att öppna en panel med tillgängliga filteralternativ för det listade innehållet. När du väljer alternativ uppdateras ModQ automatiskt så att endast det filtrerade innehållet visas. Klicka på **[!UICONTROL Clear filters]** om du vill ta bort alla valda alternativ och läsa in den fullständiga listan med objekt igen.
 
-Olika filteralternativ är tillgängliga för **[!UICONTROL Items]** - och **[!UICONTROL Streams Premoderation]** flikarna.
+Det finns olika filteralternativ för flikarna **[!UICONTROL Items]** och **[!UICONTROL Streams Premoderation]**.
 
 Följande alternativ är tillgängliga för ModQ under både **[!UICONTROL Items]** och **[!UICONTROL Streams Premoderation]**:
 
 * **[!UICONTROL App]**. Använd fältet Sök i appar för att filtrera resultat efter program. Flera appar kan väljas.
 * **[!UICONTROL System Flags]**. Filtrera innehåll efter regler som Spam, Profanity, SAFE och Premoderation.
 
-   * Om du väljer **[!UICONTROL Spam]** det här alternativet visas allt innehåll som taggats som skräppost av SAFE.
-   * Om du väljer **[!UICONTROL Profanity]** det här alternativet visas allt innehåll som taggats med Profane i nätverks- eller webbplatsprofillistan.
-   * Om du väljer **[!UICONTROL SAFE]** det här alternativet visas allt innehåll i ModQ som ett resultat av dina SAFE-regler.
-   * Om du väljer **[!UICONTROL Premoderation]** det här alternativet visas allt innehåll som taggats för förmoderering av nätverket, strömmen eller appinställningarna.
+   * Om du väljer **[!UICONTROL Spam]** visas allt innehåll som taggats som skräppost av SAFE.
+   * Om du väljer **[!UICONTROL Profanity]** visas allt innehåll som taggats med Profane i nätverks- eller webbplatsprofiler.
+   * Om du väljer **[!UICONTROL SAFE]** visas allt innehåll som skrivs in i ModQ som ett resultat av dina SAFE-regler.
+   * Om du väljer **[!UICONTROL Premoderation]** visas allt innehåll som taggats för förmoderering av nätverket, strömmen eller appinställningarna.
 
 * **[!UICONTROL User Flags]** Filtrera innehåll efter användarflaggor. Alternativen är Offensiv, Spam, Offtopic och Disagree.
 * **[!UICONTROL Rights Requests.]** Visa endast innehåll med behörighet genom att klicka i kryssrutan.
 * **[!UICONTROL Entered the queue.]** Filtrera innehåll efter den tidsram som innehållet skickades till ModQ. Den tid som innehållet skickades till ModQ är inte nödvändigtvis den tid då innehållet publicerades i appen.
 
-Följande alternativ finns för ModQ under **[!UICONTROL Streams Premoderation]**:
+Följande alternativ är tillgängliga för ModQ under **[!UICONTROL Streams Premoderation]**:
 
 * **[!UICONTROL Social Source]** Filtrera innehåll efter den sociala källan som innehållet kommer från. Alternativ för sociala källor är till exempel Twitter, Instagram, Facebook och RSS.
 
-Följande alternativ finns för ModQ under **[!UICONTROL Items]**:
+Följande alternativ är tillgängliga för ModQ under **[!UICONTROL Items]**:
 
 **[!UICONTROL Moderation Recommendations]**. Filtrera innehåll efter den rekommendation som ges av den automatiska modereringsrekommendationen.
 
-Följande bilder visar hur modereringsrekommendationer ser ut i ModQ:  ![](assets/mod_reco1.png)
+Följande bilder visar hur Moderation Recommendations ser ut i ModQ:  ![](assets/mod_reco1.png)
 
-Rekommendationen om moderering ges för innehåll när det är konfigurerat i **[!UICONTROL Network Settings > Moderation]** och **[!UICONTROL Network Settings > ModQ]**.
+Rekommendationen för moderering ges för innehåll när det ställs in i **[!UICONTROL Network Settings > Moderation]** och **[!UICONTROL Network Settings > ModQ]**.
 
 ## Åtgärder som du kan använda i ModQ {#section_h4g_wrn_z1b}
 
@@ -119,8 +119,8 @@ Du kan bestämma vad du ska göra med varje del av innehållet i ModQ.
 
 Välj något av följande alternativ:
 
-* Ikonen som **[!UICONTROL Checkbox]** används för att godkänna innehållet
-* Ikonen som **[!UICONTROL Trash can]** används för att skicka innehåll till papperskorgen
+* Ikonen **[!UICONTROL Checkbox]** för att godkänna innehållet
+* Ikonen **[!UICONTROL Trash can]** som skickar innehållet till papperskorgen
 * **[!UICONTROL Request Rights]** om du vill begära rättigheter till innehållet från innehållsägaren.
 
    >[!NOTE]
@@ -133,7 +133,7 @@ Välj något av följande alternativ:
 
 >[!NOTE]
 >
->När du har papperskorgen tas innehållet och alla svar på innehållet bort permanent från ModQ. Mer information om hur du lägger till en trasig del av innehåll i en app finns i [Lägga tillbaka ett trash-objekt i en app](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
+>När du har papperskorgen tas innehållet och alla svar på innehållet bort permanent från ModQ. Mer information om hur du placerar en trasig del av innehållet i en app finns i [Lägg till ett trash-objekt i en app](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
 
 Om innehållet redan är i önskat läge kan du välja Papperskorgen, Bozo eller Godkänn för att bekräfta läget och ta bort objektet från listan. När du modererar ett innehåll tas det omedelbart bort från kön och inaktiveras i andra moderatorköer.
 
@@ -141,13 +141,13 @@ Om innehållet redan är i önskat läge kan du välja Papperskorgen, Bozo eller
 >
 >Ströminnehållet får inte vara Bozo’d. Om du spårar direktuppspelat innehåll tas det bort permanent från direktuppspelningen och kan inte ångras.
 
-När innehållet har modererats tas det bort från moderatorns ModQ och författaren kan inte längre redigera det inifrån strömmen. Om en moderator stänger ett objekt, eller om en användare tar bort sin kommentar, visas det som nedtonat i andra moderatorköer i realtid. När innehåll har nedtonats visas knappen på sidan så att moderatorerna kan ta bort det från sina listor och behålla sin plats på sidan oavsett annan moderatoraktivitet. **[!UICONTROL Clear Moderated]**
+När innehållet har modererats tas det bort från moderatorns ModQ och författaren kan inte längre redigera det inifrån strömmen. Om en moderator stänger ett objekt, eller om en användare tar bort sin kommentar, visas det som nedtonat i andra moderatorköer i realtid. När innehåll har nedtonats visas knappen **[!UICONTROL Clear Moderated]** på sidan så att moderatorerna kan ta bort det från sina listor och behålla sin plats på sidan oavsett annan moderatoraktivitet.
 
-## Använda papperskorgsfunktionen i ModQ {#section_tpx_qgz_y1b}
+## Använda Papperskorgen i ModQ {#section_tpx_qgz_y1b}
 
 Använd inställningsavsnittet för att välja alternativ som är tillgängliga när innehåll markeras som Streckat.
 
-* ****[!UICONTROL Confirm Trash]**** Aktivera det här alternativet om du vill att moderatorerna ska bekräfta sin åtgärd när de anger innehåll som Papperskorgen. När det här alternativet är aktiverat visas en dialogruta där du uppmanas att ange ett innehåll **[!UICONTROL Trash]** och ett fält där ett **[!UICONTROL Reason for Moderation]****[!UICONTROL Note]** fält kan anges.
+* ****[!UICONTROL Confirm Trash]**** Aktivera det här alternativet om du vill att moderatorerna ska bekräfta sin åtgärd när de anger innehåll som Papperskorgen. När det här alternativet är aktiverat visas en dialogruta där du uppmanas att ange **[!UICONTROL Reason for Moderation]** och ett fält där **[!UICONTROL Note]** kan anges när du väljer **[!UICONTROL Trash]** för innehåll.
 
    (Den här inställningen är tillgänglig **[!UICONTROL only]** på nätverksnivå och gäller för alla webbplatser i nätverket.)
 
@@ -155,7 +155,7 @@ Använd inställningsavsnittet för att välja alternativ som är tillgängliga 
 
 ## Ändra användarstatus i ModQ {#section_tmw_lg1_z1b}
 
-Klicka på **[!UICONTROL User actions]** knappen på panelen Användarsammanfattning för att stänga av, hindra eller tillåta-lista användaren.
+Klicka på knappen **[!UICONTROL User actions]** på panelen Användarsammanfattning om du vill visa en lista över användaren som Mute, Ban eller Allow.
 
 * **[!UICONTROL Mute:]** gör att du kan stänga av flaggor från den användare som flaggar det listade innehållet. Använd det här alternativet om du vill exkludera användarens flaggor från dina förmodereringsfilter. Innehåll som de flaggar kommer inte att ange ModQ som ett resultat av flaggan, och flaggorna inkluderas inte i flaggreglerna.
 * **[!UICONTROL Ban:]** kan du förbjuda den listade användaren från din plats eller ditt nätverk. (Endast Studio-administratörer eller användarhanterare får förbjuda nätverk av användare.)
