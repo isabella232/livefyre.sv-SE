@@ -6,6 +6,9 @@ title: 23 februari 2017
 uuid: 9b08acf4-15e9-43b7-8abc-c0d720b156e6
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Versionsinformation för februari 23, 2017.
 | Fel | Konversationsappar | Förbättrade konversationsappar som alltid länkar ut till användarprofiler, även utan fullständig auth-integrering. |
 | Fel | Mosaik | Korrigerade ett fel som nu visar alla Twitter-bilder via HTTPS. |
 | Förbättring | Sök och strömmar | Lagt till möjlighet att söka efter Instagram Places (incheckningsprogram) i Library Instagram Search och Instagram Stream Rules. |
-| Fel | Inställningar | Ett fel som gjorde att Twitter-konton inte kunde sparas har åtgärdats. |
+| Fel | Inställningar | Ett fel som gjorde att Twitter-konton inte kunde sparas har korrigerats. |
 | Fel | Social sökning | Korrigerade ett fel som gjorde att alternativet &quot;Koppla explicita bilder&quot; inte fungerade korrekt. |
 | Förbättring | Storify 2 | Förbättrad Storify 2 som stöd för att öppna modala länkar (tidigare rullade programmet till postplatsen på sidan). I Storify 2’s Designer har vi lagt till en konfiguration för att växla mellan Scroll och Modal Peralink. Modalt beteende för permanent länk är standardbeteende. |
 | Förbättring | Storify 2 | Förbättrade integreringen mellan Storify 2 och Google AMP för att skapa en mindre CSS-fil. |
