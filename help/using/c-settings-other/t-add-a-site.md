@@ -7,6 +7,9 @@ title: Lägg till en plats i ett nätverk
 uuid: a4a3fdb2-94be-48d9-9523-c97617190e53
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Du kan lägga till och visa upp till 1 200 webbplatser i Studio. Webbplatser vis
 
 Så här lägger du till en ny plats i nätverket:
 
-1. Klicka på **[!UICONTROL Network]** alternativet på Studio-menyraden för att öppna **[!UICONTROL Select Network or Site]** panelen.
+1. Klicka på **[!UICONTROL Network]**-objektet på menyraden i Studio för att öppna panelen **[!UICONTROL Select Network or Site]**.
 1. Använd sökfältet för att söka efter webbplatser eller klicka på **[!UICONTROL Add new site]** för att lägga till ett nytt.
 
    På den här panelen visas alla webbplatser som ingår i det valda nätverket.
