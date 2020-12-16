@@ -22,7 +22,7 @@ Med Livefyres `CommentCount.js` kan du hämta innehållsantal för samlingar på
 
 1. Läs in JavaScript.
 
-   Om du vill använda `CommentCount.js``<head>` den måste du först bädda in JavaScript-filen i det avsnitt på sidan eller mallen som du vill använda den i.
+   Om du vill använda `CommentCount.js` måste du först bädda in JavaScript-filen i `<head>`-avsnittet på sidan eller mallen där du vill använda den.
 
    ```
    <script 
@@ -34,7 +34,7 @@ Med Livefyres `CommentCount.js` kan du hämta innehållsantal för samlingar på
 
 1. Bind HTML-elementet.
 
-   När skriptet har lästs in försöker det hitta andra element på sidan med klassnamnet `livefyre-commentcount`. För vart och ett av dessa element söker skriptet efter `data-lf-site-id` - och `data-lf-article-id` HTML-attribut och använder dessa för att hämta innehåll från Livefyre och uppdatera varje element med det senaste värdet.
+   När skriptet har lästs in försöker det hitta andra element på sidan med klassnamnet `livefyre-commentcount`. För vart och ett av dessa element söker skriptet efter HTML-attributen `data-lf-site-id` och `data-lf-article-id` och använder dem för att hämta innehåll från Livefyre och uppdatera varje element med det senaste värdet.
 
    Följande element skulle till exempel uppdateras:
 
@@ -46,7 +46,7 @@ Med Livefyres `CommentCount.js` kan du hämta innehållsantal för samlingar på
 
    >[!NOTE]
    >
-   >Koden söker efter ett numeriskt värde som ska uppdateras med det faktiska antalet. `CommentCount.js` Var noga med att ta med ett numeriskt värde mellan taggarna.
+   >Koden `CommentCount.js` söker efter ett numeriskt värde som ska uppdateras med det faktiska antalet. Var noga med att ta med ett numeriskt värde mellan taggarna.
 
    **Exempel 1** (Använda URL:en som artikel-ID):
 
@@ -64,16 +64,16 @@ Med Livefyres `CommentCount.js` kan du hämta innehållsantal för samlingar på
 
 1. Konfigurera alternativ.
 
-   Om du vill ha mer kontroll över hur innehållsantalet ersätts, anropar `LF.CommentCount()` och skickar du ett objekt som innehåller konfigurationsalternativen. Se till att anropa funktionen efter att alla element som behöver ersättas finns i DOM. Det bästa stället att anropa den här metoden är i sidfoten, så det händer när DOM läses in, men före händelserna document och window ready.
+   Om du vill ha mer kontroll över hur innehållsantalet ersätts anropar du `LF.CommentCount()` och skickar ett objekt som innehåller konfigurationsalternativen. Se till att anropa funktionen efter att alla element som behöver ersättas finns i DOM. Det bästa stället att anropa den här metoden är i sidfoten, så det händer när DOM läses in, men före händelserna document och window ready.
 
    Vi tillåter följande konfigurationsalternativ:
 
-* **replacer:** Funktionen eller Regex används för att ersätta texten för varje innehållsantal.
+* **replacer:** Function eller Regex som används för att ersätta texten för varje innehållsantal.
 
-* **funktion:** Används för att ersätta varje element. Funktionens argument är:
+* **function:** Används för att ersätta varje element. Funktionens argument är:
 
-   **element:** HTML-elementet som uppdateras.
-   **antal:** Innehållsantalet för det här elementet.
+   **element:** Det HTML-element som uppdateras.
+   **count:** The content count for this element.
 
 * **regex:** Används för att avgöra vilken del av elementets text som ska ersättas av antalet.
 
