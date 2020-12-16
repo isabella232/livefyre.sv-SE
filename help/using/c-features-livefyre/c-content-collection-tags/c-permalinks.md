@@ -7,6 +7,9 @@ title: Permalinks
 uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ Använd din bit.ly URL-genväg för att anpassa innehållet.
 
 Med hjälp av Permalinks kan du länka till arkiverade kommentarer eller innehåll i strömmarna. Om du vill aktivera den här funktionen använder Livefyre ett standard-URL-format:** fyre.it**. Formatet kan anpassas så att det matchar ditt vanliga bit.ly-format.
 
-## Permalink-visning {#section_mxd_wwg_wy}
+## Permalink display {#section_mxd_wwg_wy}
 
-Om användarna klickar på en permanent länk från ett socialt nätverk till en Livefyre-innehållsapp hämtas de till Livefyres innehållsström. Innehållet visas i en delningsvy av strömmen, precis nedanför redigeraren, med en fullständig kontext. En blå linje visas under avataren för det tillåtna innehållet. (Den här blå linjen försvinner efter några sekunder.)
+Om användare klickar på en permanent länk från ett socialt nätverk till en Livefyre-innehållsapp hämtas de till Livefyres innehållsström. Innehållet visas i en delningsvy av strömmen, precis nedanför redigeraren, med en fullständig kontext. En blå linje visas under avataren för det tillåtna innehållet. (Den här blå linjen försvinner efter några sekunder.)
 
 (Om innehållet tas bort visas ett meddelande om detta i grupperingsvyn.)
 
-## Egna persienner {#section_uyn_5wg_wy}
+## Anpassade persienner {#section_uyn_5wg_wy}
 
 Om du vill skapa anpassade länkar för kommentarer när du delar konversationer, kan du använda ditt Bitly-konto i stället för den förkortade LiveCyre-webbadressen (fyre.it). Om du använder ditt Bitly-konto kan du påminna användarna om att de kommer att besöka innehåll på din webbplats när de klickar på en permanent länk.
 
