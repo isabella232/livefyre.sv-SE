@@ -7,11 +7,14 @@ title: Funktioner för kommentarer
 uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 1%
 
 ---
 
 
-# Funktioner för kommentarer{#comments-features}
+# Kommentarsfunktioner{#comments-features}
 
 Många funktioner ingår i kommentarappen för att bädda in realtidskonversationer på din webbplats.
 
