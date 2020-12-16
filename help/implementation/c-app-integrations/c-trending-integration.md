@@ -7,6 +7,9 @@ title: Trender
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ Placera sedan elementet som appen ska visas i.
 <div id="trending"></div>
 ```
 
-Slutligen använder du `Livefyre.require` för att konstruera komponenten.
+Använd slutligen `Livefyre.require` för att konstruera komponenten.
 
 ```
 <script> 
@@ -49,7 +52,7 @@ Livefyre.require([
 </script>
 ```
 
-Nu har du en Trending App! Se hur allt fungerar i [det här exemplet](https://codepen.io/gobengo/pen/GijEy).
+Nu har du en Trending App! Se allt detta i [det här exemplet](https://codepen.io/gobengo/pen/GijEy).
 
 ## Konfiguration {#section_k5k_qhb_c1b}
 
