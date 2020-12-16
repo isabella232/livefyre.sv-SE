@@ -7,6 +7,9 @@ title: AuthDelegate-objekt
 uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Objektet AuthDelegate implementerar det beteende du vill ha för att utföra autentiseringsåtgärder och händelser så att du kan anpassa integreringen med webbplatsens befintliga autentiseringssystem.
 
-## Bygga ett autentiseringsombud {#section_wmn_tv2_gz}
+## Skapar ett autentiseringsdelegat {#section_wmn_tv2_gz}
 
 Autentiseringspaketet måste förses med ett autentiseringsdelegat innan det kan utföra en åtgärd. En auth-delegat är ett JavaScript-objekt som implementerar en av metoderna i det här avsnittet.
 
@@ -70,7 +73,7 @@ authDelegate.viewProfile = function (user) {
 }
 ```
 
-## .editProfile(användare) {#section_bkx_pq2_gz}
+## .editProfile(user) {#section_bkx_pq2_gz}
 
 Redigera en användares profil genom att vidta åtgärder.
 
