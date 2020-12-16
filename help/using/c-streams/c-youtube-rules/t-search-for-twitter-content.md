@@ -29,11 +29,11 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
    * **[!UICONTROL User Search:]** söker efter tweets av indataförfattaren.
    * **[!UICONTROL List Search:]** söker endast i Twitter-listans indata-URL.
 
-1. När du har angett sökvillkoren klickar du **[!UICONTROL Show Filter]** för att förfina sökningen.
+1. När du har angett sökvillkoren klickar du på **[!UICONTROL Show Filter]** för att förfina sökningen.
 
-   * **[!UICONTROL Sort By:]** Med kan du välja om du vill sortera returnerade resultat efter **[!UICONTROL Recently Added]**, eller **[!UICONTROL Most Popular]**.
+   * **[!UICONTROL Sort By:]** Med kan du välja om du vill sortera returnerade resultat efter  **[!UICONTROL Recently Added]**, eller  **[!UICONTROL Most Popular]**.
 
-   * **[!UICONTROL Only Include:]** låter dig begränsa returnerat innehåll till endast det som innehåller **[!UICONTROL Links]** eller **[!UICONTROL Media]**.
+   * **[!UICONTROL Only Include:]** låter dig begränsa returnerat innehåll till endast det som innehåller  **[!UICONTROL Links]** eller  **[!UICONTROL Media]**.
 
    * **[!UICONTROL Tweet Types:]** I kan du begränsa antalet återförsök till Endast Retweets.
    * **[!UICONTROL Location:]** Med kan du definiera en radie inom vilken geotaggat innehåll ska inkluderas. Använd alternativet Plats för att ange en ort och använd skjutreglaget för att definiera den radie inom vilken innehållet ska hämtas.
@@ -41,8 +41,8 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
       >[!NOTE]
       >
-      >Social Search stöder komplexa Twitter-sökfrågor och alla vanliga Twitter-syntaxindata. Som standard behandlas flera strängar som en AND-fråga. Klicka på **[!UICONTROL info]** knappen för att se exempel på giltiga indata.
+      >Social Search stöder komplexa Twitter-sökfrågor och alla vanliga Twitter-syntaxindata. Som standard behandlas flera strängar som en AND-fråga. Klicka på knappen **[!UICONTROL info]** för att se exempel på giltiga indata.
       >
       >=Resultat som returneras listas från senaste till minst.
 
-Objekt som matchar sökningen visas i en stödrastervy. För musen över ett objekt för att **[!UICONTROL View Details]** lägga till det i ditt resursbibliotek eller **[!UICONTROL Publish]** till en app.
+Objekt som matchar sökningen visas i en stödrastervy. För musen över ett objekt till **[!UICONTROL View Details]**, lägg till det i ditt resursbibliotek eller **[!UICONTROL Publish]** i en app.
