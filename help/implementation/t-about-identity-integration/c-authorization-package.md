@@ -7,6 +7,9 @@ title: Autentiseringspaket
 uuid: 4eec30cf-66b6-408d-985d-3e23b8b70d01
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Installera autentiseringspaketet för att aktivera användarautentisering så at
 
 Livefyre-appar använder det globala autentiseringspaketet för att associera användare med appåtgärder. Autentiseringspaketet är tillgängligt via `Livefyre.require`.
 
-Om du vill aktivera autentisering på sidan lägger du först `Livefyre.js` till elementet `<head>` på webbsidan eller webbplatsmallen.
+Om du vill aktivera autentisering på sidan lägger du först till `Livefyre.js` i `<head>`-elementet för webbsidan eller webbplatsmallen.
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script>
@@ -33,7 +36,7 @@ Livefyre.require(['auth'], function (auth) {
 
 ## Metoder {#section_ojx_1lz_fz}
 
-När autentiseringsmodulen tagits med enligt ovan `Livefyre.require`visar den följande metoder som du kan anropa för att meddela andra appar på sidan om autentiseringsrelaterade händelser.
+När autentiseringsmodulen har inkluderats enligt ovan med `Livefyre.require`, visas följande metoder som du kan anropa för att meddela andra appar på sidan om autentiseringsrelaterade händelser.
 
 | Metod | Beskrivning |
 |--- |--- |
