@@ -7,6 +7,9 @@ title: Anpassningar för knappen Överför
 uuid: d820bbec-8c76-4864-9e70-55394010c35d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +49,7 @@ Aktivera knappen för överföring med en inbäddningskod.
 
 Du kan anpassa knappen Överför med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program finns i Anpassa program i **[!UICONTROL App Designer]**
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar
 
 * Integreringsverktyg. Mer information om hur du anpassar program med integreringsverktyg finns i Programintegreringar.
 
