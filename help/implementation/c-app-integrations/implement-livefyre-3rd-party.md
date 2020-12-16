@@ -8,7 +8,7 @@ uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
 translation-type: tm+mt
 source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Så här implementerar du konversationsappar (kommentarer, chatt, Live-blogg, si
 a. Skapa en samling med CollectionMeta-token.
 b. Integrera Livefyre-appar med webbplatser med hjälp av kodstrukturen Livefyre.js.
 
-   * Mer information om hur du använder inbäddningskodstrukturen för Livefyre.js finns i [Bädda in ett program](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
+   * Mer information om hur du använder kodstrukturen Livefyre.js finns i [Bädda in en app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
 
    * Mer information om hur du integrerar kommentarappen finns i [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md).
 
-   * Mer information om hur du integrerar chattappen finns i [Chatta](/help/using/c-about-apps/c-chat-app/c-chat-app.md).
+   * Mer information om hur du integrerar chattappen finns i [Chatt](/help/using/c-about-apps/c-chat-app/c-chat-app.md).
 
-   * Mer information om hur du integrerar Live Blog App finns i [Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
+   * Information om hur du integrerar Live Blog App finns i [Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
 
-   * Mer information om hur du integrerar Sidenotes App finns i [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md).
+   * Mer information om hur du integrerar Sidenotes-appen finns i [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md).
 
 1. Utför autentiseringsintegrering.
 a. Skapa Autentiseringstoken för användare för att skicka och lagra användardata i Livefyre.
@@ -48,7 +48,7 @@ Så här skapar du en visualiseringsapp (karta, medievägg, Trending, Carousel, 
 
 1. Utför appintegrering.
 a. Skapa en samling med CollectionMeta-token.
-b. Integrera Livefyre-appar med webbplatser med hjälp av kodstrukturen Livefyre.js. Mer information om hur du använder inbäddningskodstrukturen för Livefyre.js finns i [Bädda in ett program](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
+b. Integrera Livefyre-appar med webbplatser med hjälp av kodstrukturen Livefyre.js. Mer information om hur du använder kodstrukturen Livefyre.js finns i [Bädda in en app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
 
    * Mer information om hur du integrerar appen Karta finns i [Karta](/help/using/c-about-apps/c-map-app/c-map-app.md).
 
@@ -64,4 +64,4 @@ b. Integrera externa användar- och autentiseringsplattformar. En lista över pl
 >
 >Livefyre stöder inte Carousel-, bildband-, Storify-, funktionskort-, mosaic- och omröstningsappar som använder Livefyre.js.
 
-Integrera apparna med [Skapa en app](/help/using/c-about-apps/c-create-an-app.md) .
+Integrera dessa appar med processen [Skapa en app](/help/using/c-about-apps/c-create-an-app.md).
