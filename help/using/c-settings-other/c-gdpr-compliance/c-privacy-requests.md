@@ -6,6 +6,9 @@ title: Skapa en sekretessförfrågan
 uuid: 9fdbd564-0cea-4e4f-bdea-d5b8744fe63a
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +25,14 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
 
    ![](assets/privacypage1.png)
 
-1. Fyll i informationen i **[!UICONTROL Submit Request]** fönstret:
+1. Fyll i informationen i **[!UICONTROL Submit Request]**-fönstret:
 
    * **[!UICONTROL Reference Id]**. Ange en identifierare som ska användas för framtida referens. Du kan till exempel lägga till text, ett biljettnummer, en URL, en e-postadress eller en annan sträng på upp till 255 tecken
    * **[!UICONTROL Type]**
 
       * **Åtkomst**. Samlar in alla tillgängliga data som är kopplade till kontot. Känsliga detaljer, till exempel lösenord eller sociala referenser, döljs eller utelämnas.
 
-      * **Ta bort**. Ändrar eller döljer alla data som är associerade med kontot. **Om du väljer det här alternativet och klickar på Skicka kan du inte ångra eller avbryta den här åtgärden,*och du kan inte heller återställa borttagna data.***Om kontot tillhör en Livefyre Studio-användare bevaras vissa data för att upprätthålla integriteten i dina affärsposter.
+      * **Ta bort**. Ändrar eller döljer alla data som är associerade med kontot. **Om du väljer det här alternativet och klickar på Skicka kan du inte ångra eller avbryta den här åtgärden,  *och du kan inte heller återställa borttagna data.*** Om kontot tillhör en Livefyre Studio-användare bevaras vissa data för att upprätthålla integriteten i dina affärsposter.
 
          >[!IMPORTANT]
          >
@@ -37,13 +40,14 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
 
       * **Avanmäl dig**. Förhindrar Livefyre från att passivt samla in data eller innehåll från ett socialt konto via Streams eller Social Search. Avanmäl dig och avanmäl dig inte för registrerade användare
       * **Anmäl dig**. Återaktiverar Livefyre för att passivt samla in data eller innehåll från ett socialt konto som tidigare valt ut via Streams eller Social Search. Avanmäl dig och avanmäl dig inte för registrerade användare
+
       ![](assets/privacypage2.png)
 
-   * **[!UICONTROL Identifier Type]** och **[!UICONTROL Identifier]**
+   * **[!UICONTROL Identifier Type]** och  **[!UICONTROL Identifier]**
 
       * **[!UICONTROL User Account]**
 
-         * Identifierar ett konto för en registrerad användare med det användar-ID som genereras av ditt användarhanteringssystem eller Livefyres Studio-användaridentifierare. Du kan också hitta användar-ID:t i Användarinformation för användaren i **Livefyre** **användarinställningar** eller i informationen om innehållet i **resursbiblioteket** eller **programinnehållet**
+         * Identifierar ett konto för en registrerad användare med det användar-ID som genereras av ditt användarhanteringssystem eller Livefyres Studio-användaridentifierare. Du kan också hitta användar-ID:t i användarinformationen för användaren i **Livefyre** **Användarinställningar** eller i informationen om innehållet i **resursbiblioteket** eller **appinnehåll**
 
          * Tillåtna värden: Alfanumerisk sträng på upp till 255 tecken. En e-postadress är inte en giltig inmatning
       * **[!UICONTROL Facebook User]**
@@ -52,7 +56,7 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
          * Tillåtna värden: 6-16 numeriska tecken
       * **[!UICONTROL Instagram User]**
 
-         * Identifierar kontot med ett numeriskt ID som tillhandahålls av Instagram. Den som gjorde begäran bör ange detta. Du hittar instruktioner om hur du hittar det numeriska Instagram-ID:t på ett Instagram-konto genom att söka online
+         * Identifierar kontot med ett numeriskt ID som tillhandahålls av Instagram. Den som gjorde begäran bör ange detta. Du hittar instruktioner om hur du söker efter det numeriska Instagram-ID:t på ett Instagram-konto online
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL Twitter User]**
 
@@ -60,13 +64,14 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL YouTube User]**
 
-         * Identifierar ett konto med ett numeriskt ID från YouTube. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Här finns instruktioner om hur du hittar det numeriska YouTube-ID:t på ett YouTube-konto [här](https://support.google.com/youtube/answer/3250431?hl=en)
+         * Identifierar ett konto med ett numeriskt ID från YouTube. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Du hittar instruktioner om hur du hittar det numeriska YouTube-ID:t på ett YouTube-konto [här](https://support.google.com/youtube/answer/3250431?hl=en)
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL Generic Author]**
 
-         * Identifierar ett konto med ett ID för Livefyre Author ID (JID). Använd det här alternativet för innehåll som har hämtats via RSS, Tumblr eller URL:er. Om du vill hitta det här ID:t söker du efter innehåll som har tilldelats författaren i **programinnehållet** eller **resursbiblioteket** och markerar sedan ett objekt. ID:t är tillgängligt i **appinnehåll** under **Info** eller i **resursbiblioteket** under **Författare** i avsnittet **Detaljer**
+         * Identifierar ett konto med ett ID för Livefyre Author ID (JID). Använd det här alternativet för innehåll som har hämtats via RSS, Tumblr eller URL:er. Om du vill hitta det här ID:t söker du efter innehåll som har tilldelats författaren i **App Content** eller **Resursbibliotek** och väljer sedan ett objekt. ID är tillgängligt i **App Content** under **Info** eller i **Resursbibliotek** under **Författare** i avsnittet **Information**
 
          * Tillåtna värden: Alfanumerisk sträng på upp till 255 tecken
+
          ![](assets/privacypage3.png)
 
 
