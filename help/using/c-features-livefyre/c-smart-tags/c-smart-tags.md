@@ -6,13 +6,16 @@ title: Smarta taggar
 uuid: f978fa83-e79b-46ae-bb3e-0f9449bd0440
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
 
 # Smarta taggar{#smart-tags}
 
-Livefyre använder Adobe Senseis dataveteknik för att automatiskt tagga bilder och videor som du sparar eller överför i biblioteket.
+Livefyre använder Adobe Sensei dataveteknik för att automatiskt tagga bilder och videor som du sparar eller överför i biblioteket.
 
 Med smarta taggar kan du spara mycket tid genom att hantera, söka efter och strukturera innehåll. Med smarta taggar kan du:
 
