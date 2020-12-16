@@ -7,6 +7,9 @@ title: Karta
 uuid: e6021a8a-055d-4c60-817c-ca3236c48159
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 0%
 
 ---
 
