@@ -7,6 +7,9 @@ title: Granska textsträngar
 uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,13 @@ Anpassa textsträngarna för Livefyre-recensioner.
 
 På den här sidan visas och beskrivs de strängar som är tillgängliga för anpassning i granskningsappar. Strängarna som listas här är utöver och åsidosätter standardsträngarna för kärnapparna Livefyre, som listas i String Customizations. I de fall dubbletter visas är strängarna i de här tabellerna standard för granskningsappar.
 
-ImplementationReview/Rating InterfaceStream InfoAuthor / Content InfoUser ActionsPost FunctionsErrors
+Implementering
+Gransknings-/värderingsgränssnitt
+Direktuppspelningsinformation
+Författare/Innehållsinformation
+Användaråtgärder
+Bokför funktioner
+Fel
 
 ## Implementering {#section-vsy-1k4-xz}
 
@@ -36,7 +45,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
@@ -98,7 +107,7 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 |  | wasReviewHelpfulMobile | En bra hjälp? |
 |  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
 |  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
 |  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
 | Rösta modalt | voiceTitle | Hjälpte den här recensionen? |
 |  | röstaNedröst | Nej |
