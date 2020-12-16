@@ -7,15 +7,18 @@ title: Mosaic-anpassningar
 uuid: 4e226d68-f517-4922-bc25-655d524d7d52
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 0%
 
 ---
 
 
-# Mosaic-anpassningar{#mosaic-customizations}
+# Mosaik-anpassningar{#mosaic-customizations}
 
 Ändra storlek, bredd och interaktionsalternativ för Mosaic-appen.
 
-Alla program använder **[!UICONTROL Style]** och **[!UICONTROL Config]** alternativ i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program finns i Anpassa program i **[!UICONTROL App Designer.]**
+Alla program använder alternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** i **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer.]** finns i Anpassa appar
 
 Du kan anpassa mosaik med följande ytterligare alternativ i App Designer:
 
@@ -45,7 +48,7 @@ Du kan anpassa mosaik med följande ytterligare alternativ i App Designer:
 
    * **[!UICONTROL Call-to-action button text]** Anpassa texten på knappen Call-to-action. Standardtexten är&quot;Köp nu&quot;.
 
-   * **[!UICONTROL Product display options]** Välj om du vill visa **[!UICONTROL Photo]** och **[!UICONTROL Product name]** med knappen Call-to-action.
+   * **[!UICONTROL Product display options]** Välj om du vill visa  **[!UICONTROL Photo]** och  **[!UICONTROL Product name]** med knappen Call-to-action.
 
    * **[!UICONTROL Product URL referral tracking]** Växla till om du vill spåra hänvisningar från den här appen till den associerade produktsidan.
 
@@ -57,4 +60,4 @@ Du kan anpassa mosaik med följande ytterligare alternativ i App Designer:
    * **[!UICONTROL Select Product folders]**. Välj de produktmappar på den översta nivån som ska användas för att filtrera UGC. Använd CTRL/Cmd + klicka för att markera flera mappar. Livefyre använder mappen för att avgöra vilka produkter i den mappen som ska visas i appen på olika sidor.
    * **[!UICONTROL Show related content]**. Växla detta för att visa innehåll som publicerats till appen, men som taggats med ett annat produkt-ID. När det produktspecifika innehållet för appen visas visar Livefyre innehåll för andra produkter och innehåll som inte är kopplat till en produkt. Livefyre prioriterar innehållet med samma produkt-ID först, sedan innehåll som publiceras till appen med andra produkt-ID:n och sedan innehåll som publiceras till appen utan produkt-ID:n.
 
-Se [Mosaic-alternativ](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) för mer information om hur du anpassar en mosaik med Livefyre.js.
+Mer information om hur du anpassar en mosaik med Livefyre.js finns i [Mosaic-alternativ](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
