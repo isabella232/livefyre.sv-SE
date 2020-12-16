@@ -19,7 +19,7 @@ Versionsinformation för utgåva 9 februari 2017.
 
 ## SocialSync för Twitter {#section_nv4_yry_wy}
 
-SocialSync för Twitter har varit en del av vår kärnfunktionalitet i flera år. Men i takt med att vår produkt har utvecklats och vuxit har SocialSync för Twitter blivit en mindre värdefull funktion som för närvarande används av en mycket liten del av vår kundbas. För att förbättra Livefyres allmänna upplevelse för våra kunder och fokusera på utvecklingsresurser på områden med störst värde kommer vi att upphöra med funktionen SocialSync för Twitter den 24 februari. SocialSync för Facebook påverkas inte av den här uppdateringen. Om du har några frågor eller funderingar kring uppdateringen, kontakta din LiveFyre CSM.
+SocialSync för Twitter har varit en del av vår kärnfunktionalitet i flera år. Men i takt med att vår produkt har utvecklats och vuxit över tid har SocialSync för Twitter blivit en mindre prisvärd funktion som för närvarande används av en mycket liten del av vår kundbas. För att förbättra Livefyres allmänna upplevelse för våra kunder och fokusera på utvecklingsresurser på områden med störst värde kommer vi att upphöra med funktionen SocialSync för Twitter den 24 februari. SocialSync för Facebook påverkas inte av den här uppdateringen. Om du har några frågor eller funderingar kring uppdateringen, kontakta din LiveFyre CSM.
 
 ## Produktionsrelease {#section_r24_1m2_wy}
 
@@ -37,7 +37,7 @@ SocialSync för Twitter har varit en del av vår kärnfunktionalitet i flera år
 | Förbättring | Strömmar | En ny funktion har lagts till för att tillåta innehållskategorier (via en strömregel) att tillåta listning och kringgå moderering. |
 | Fel | Strömmar | Korrigerade ett fel som orsakade att inställningarna &quot;Förmåttlig&quot; och &quot;Förmåttlig media&quot; överfördes till en nyligen skapad strömregel. |
 
-## UAT-release {#section_dyx_yl2_wy}
+## UAT-version {#section_dyx_yl2_wy}
 
 | Ärendetyp | Komponent | Versionsinformation |
 |--- |--- |--- |
