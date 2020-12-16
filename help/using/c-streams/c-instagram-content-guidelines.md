@@ -18,7 +18,7 @@ ht-degree: 0%
 
 När du strukturerar innehåll från Instagram måste du följa deras riktlinjer och bästa praxis.
 
-Du måste konfigurera ett *Instagram-företagskonto* för att skapa Instagram-strömmar från ett annat specifikt Instagram-affärskonto med hjälp av **[!UICONTROL By Author]** fältet. Användarkontot som du identifierar i **[!UICONTROL By Author]** fältet måste vara ett företagskonto.
+Du måste konfigurera ett *Instagram-företagskonto* för att skapa Instagram-strömmar från ett annat specifikt Instagram-affärskonto genom att använda fältet **[!UICONTROL By Author]**. Användarkontot som du identifierar i fältet **[!UICONTROL By Author]** måste vara ett företagskonto.
 
 Mer information om hur du skapar ett Instagram-företagskonto i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
