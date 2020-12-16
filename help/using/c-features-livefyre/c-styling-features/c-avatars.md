@@ -6,11 +6,14 @@ title: Avatarer
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
 
-# Avatarer{#avatars}
+# Avatars{#avatars}
 
 Tillåt användare att anpassa den bild som visas med innehållet.
 
