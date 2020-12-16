@@ -6,6 +6,9 @@ title: Anpassad knapp för att ringa till åtgärd
 uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## Anpassad knapp för att ringa till åtgärd {#topic_EBE23A0F827645E0A0C619DCF3872EE5}
 
-Knappar för anpassade anrop till åtgärd (CTA) är knappar som kan läggas till i alla resurser i Livefyre Studio för att göra innehållet användbart. De kan hänvisa en slutanvändare till en anpassad URL, t.ex. en sida för sociala medier eller en kundvagn. CTA-knappar kan skapas på flera platser i Livefyre, men de hanteras i **[!UICONTROL Settings]** delen Livefyre Studio.
+Anpassade CTA-knappar (Call-to-Action) är knappar som kan läggas till i alla resurser i Livefyre Studio för att göra innehållet användbart. De kan hänvisa en slutanvändare till en anpassad URL, t.ex. en sida för sociala medier eller en kundvagn. CTA-knappar kan skapas på flera platser i Livefyre, men de hanteras i **[!UICONTROL Settings]**-avsnittet i Livefyre Studio.
 
 Med anpassade CTA:er kan man
 
@@ -27,10 +30,10 @@ Med anpassade CTA:er kan man
 
 Aktivitetskontext
 
-1. Klicka på i Livefyre Studio **[!UICONTROL Settings]**.
-1. Klicka på i den vänstra listen **[!UICONTROL CTAs]**.
+1. Klicka på **[!UICONTROL Settings]** i Livefyre Studio.
+1. Klicka på **[!UICONTROL CTAs]** i den vänstra listen.
 
-   CTA-biblioteket visas, där CTA kan skapas och ordnas i mappar. 1. Click **[!UICONTROL Create CTA]**.
+   CTA-biblioteket visas, där CTA kan skapas och ordnas i mappar. 1. Klicka på **[!UICONTROL Create CTA]**.
 1. Fyll i fälten med de önskade anpassningarna och en knappförhandsgranskning visas längst ned på skärmen Skapa CTA.
 
    ![](assets/cta-button-create.png)
@@ -39,7 +42,7 @@ Aktivitetskontext
 
    Knappen CTA är nu tillgänglig och kan läggas till i alla resurser.
 
-## Lägga till en anpassad Call-to-action-knapp till en resurs {#task_36190DD1C8204C7793CB7EEA379C2155}
+## Lägg till en anpassad Call-to-action-knapp till en resurs {#task_36190DD1C8204C7793CB7EEA379C2155}
 
 Lägg till en CTA-knapp till valfritt innehåll i Livefyre Studio.
 
