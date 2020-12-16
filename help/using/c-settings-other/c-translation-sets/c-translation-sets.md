@@ -7,6 +7,9 @@ title: Översättningsuppsättningar
 uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,8 @@ Ange en översättningsuppsättning för ett nätverk, en webbplats, en app elle
 
 Översättningsuppsättningarna på olika nivåer åsidosätter varandra enligt det här mönstret:
 
-API-översättningsuppsättningen åsidosätter alla översättningsuppsättningar på alla nivåer (App, Network och Site)Programöversättningsuppsättningar åsidosätter översättningsuppsättningar på nätverksnivå och på webbplatsnivå.
+API-översättningsuppsättningen åsidosätter alla översättningsuppsättningar på alla nivåer (app, nätverk och webbplats)
+Programöversättningsuppsättningen åsidosätter översättningsuppsättningar på nätverksnivå och på webbplatsnivå.
 Översättningsuppsättningar på platsnivå åsidosätter översättningsuppsättningar på nätverksnivå.
 
 ## Granska textsträngar {#c_review_text_strings}
@@ -34,7 +38,13 @@ Anpassa textsträngarna för Livefyre-recensioner.
 
 På den här sidan visas och beskrivs de strängar som är tillgängliga för anpassning i granskningsappar. Strängarna som listas här är utöver och åsidosätter standardsträngarna för kärnapparna Livefyre, som listas i String Customizations. I de fall dubbletter visas är strängarna i de här tabellerna standard för granskningsappar.
 
-ImplementationReview/Rating InterfaceStream InfoAuthor / Content InfoUser ActionsPost FunctionsErrors
+Implementering
+Gransknings-/värderingsgränssnitt
+Direktuppspelningsinformation
+Författare/Innehållsinformation
+Användaråtgärder
+Bokför funktioner
+Fel
 
 ## Implementering {#section-vsy-1k4-xz}
 
@@ -53,7 +63,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
@@ -115,7 +125,7 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 |  | wasReviewHelpfulMobile | En bra hjälp? |
 |  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
 |  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
 |  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
 | Rösta modalt | voiceTitle | Hjälpte den här recensionen? |
 |  | röstaNedröst | Nej |
@@ -172,13 +182,20 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorTitleMaxChars | Din titel är för lång. Redigera och försök igen. |
 |  | errorvoiceOwnComment | Du kan inte rösta på din egen recension |
 
-## Textsträngar för sidenotes {#c_sidenotes_text_strings}
+## Sidenotes Text Strings {#c_sidenotes_text_strings}
 
 Anpassa textsträngar för Livefyre Sidenotes
 
 På den här sidan listas och beskrivs alla strängar som är tillgängliga för anpassning i appar för sidoteckensnitt. Mer information om tillgängliga strängar för de viktigaste Livefyre-apparna finns i String Customizations.
 
-ImplementationAuthStream InfoAuthor / Content InfoUser ActionsPost FunctionsModerator InterfaceErrors
+Implementering
+Autentisering
+Direktuppspelningsinformation
+Författare/Innehållsinformation
+Användaråtgärder
+Bokför funktioner
+Moderatorgränssnitt
+Fel
 
 ## Implementering {#section_wp2_ql4_xz}
 
@@ -235,8 +252,8 @@ Inställningar som är tillgängliga för information om författare och individ
 |  | commentvoiceCount | röster |
 |  | commentvoiceCountSing | röst |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | En array. Standard =[ &quot;januari&quot;,&quot;februari&quot;,&quot;mars&quot;,&quot;april&quot;,&quot;maj&quot;,&quot;juni&quot;,&quot;juli&quot;,&quot;augusti&quot;,&quot;september&quot;,&quot;oktober&quot;,&quot;november&quot;,&quot;december&quot; ] |
-|  | questionFörklaring | Nu kan du läsa och skriva kommentarer direkt på meningar, stycken, bilder och citat.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Markera texten</span> och klicka på <span class="&rdquo;fycon-write&rdquo;"></span> ikonen eller klicka på <span class="&rdquo;fycon-action-view&rdquo;"></span> ikonen i slutet av varje stycke. |
+|  | datetimeMonths | En array. Standard =[&quot;januari&quot;,&quot;februari&quot;,&quot;mars&quot;,&quot;april&quot;,&quot;maj&quot;,&quot;juni&quot;,&quot;juli&quot;,&quot;augusti&quot;,&quot;september&quot;,&quot;oktober&quot;,&quot;november&quot;,&quot;december&quot; ] |
+|  | questionFörklaring | Nu kan du läsa och skriva kommentarer direkt på meningar, stycken, bilder och citat.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Markera </span> texten och klicka på  <span class="&rdquo;fycon-write&rdquo;"></span> ikonen eller klicka på  <span class="&rdquo;fycon-action-view&rdquo;"></span> ikonen i slutet av varje stycke. |
 |  | questionMockText | Det som är &quot;välkänt&quot; är inte riktigt känt, bara för att det är &quot;välbekant&quot;. |
 |  | questionTitle | Vad är en Sidenote? |
 
@@ -287,7 +304,7 @@ Strängar som är tillgängliga för användare som publicerar innehåll.
 | Ta bort menyalternativ | menuConfirmAccept | Ja, {action} |
 |  | menuConfirmCancel | Avbryt |
 |  | menuConfirmTitle | Är du säker? |
-| Alternativ på eTe-menyn | menuEtcOptionApprove | Godkänn |
+| Alternativ på ETT-menyn | menuEtcOptionApprove | Godkänn |
 |  | menuEtcOptionDelete | Ta bort |
 |  | menuEtcOptionEdit | Redigera |
 |  | menuEtcOptionFlag | Flagga |
