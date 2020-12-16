@@ -7,6 +7,9 @@ title: Använd Livefyre med andra analysverktyg
 uuid: 26c835f6-aced-41f7-aabe-418afce8a829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Ni kan använda analysverktyg för att samla in data om användarinteraktioner med Livefyre-appar. Du kan använda Adobe Analytics eller något annat verktyg.
 
-Om du vill använda Livefyre med ett valfritt verktyg (inte Adobe Analytics) följer du den procedur som beskrivs på den här sidan.
+Om du vill använda Livefyre med ett valfritt verktyg (inte Adobe Analytics) följer du anvisningarna på den här sidan.
 
 ## Steg 1: Konfigurera händelsehanterare {#section_ngm_gzl_pdb}
 
