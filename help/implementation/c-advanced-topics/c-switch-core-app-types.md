@@ -7,19 +7,22 @@ title: Apptyper för switchkärnor
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
 
-# Apptyper för switchkärnor{#switch-core-app-types}
+# Byt bastappyper{#switch-core-app-types}
 
 Lär dig hur du ändrar från en konversationsapp till en annan.
 
-Med Lifefyre kan du ändra samlingar från en typ av Livefyre Core-program till en annan (Comments, Live Blog eller Chat) genom att helt enkelt ändra vissa inställningar i dina `collectionMeta` data.
+Med Lifefyre kan du ändra samlingar från en typ av Livefyre Core-program till en annan (Comments, Live Blog eller Chat) genom att helt enkelt ändra vissa inställningar i dina `collectionMeta`-data.
 
-Om du vill implementera en viss typ av app lägger du till ett nytt fält i ditt `collectionMeta` objekt. Kommentarer är standard så du behöver inte göra dessa uppdateringar om det är det program du vill använda. Om du vill byta till en annan app efter att en samling har skapats skickar du ett kontrollsummevärde under appinitieringen. Läs mer om hur du skapar ett kontrollsummevärde i vår `collectionMeta` tokendokumentation.
+Om du vill implementera en viss typ av app lägger du till ett nytt fält i `collectionMeta`-objektet. Kommentarer är standard så du behöver inte göra dessa uppdateringar om det är det program du vill använda. Om du vill byta till en annan app efter att en samling har skapats skickar du ett kontrollsummevärde under appinitieringen. Läs mer om hur du skapar ett kontrollsummevärde i vår `collectionMeta`-tokendokumentation.
 
-## Live Blog {#section_kvj_3jj_11b}
+## Live-blogg {#section_kvj_3jj_11b}
 
 ### PHP-exempel
 
@@ -110,7 +113,7 @@ conv_config = {
 }
 ```
 
-## Live Blog {#section_bqt_cjj_11b}
+## Live-blogg {#section_bqt_cjj_11b}
 
 ### PHP-exempel
 
