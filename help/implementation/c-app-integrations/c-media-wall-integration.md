@@ -7,11 +7,14 @@ title: Media Wall
 uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 0%
 
 ---
 
 
-# Media Wall{#media-wall}
+# Medievägg{#media-wall}
 
 Skapa en mediemur med strömmande innehåll i realtid.
 
@@ -33,7 +36,7 @@ Placera sedan det element som medieväggen ska visas i.
 <div id="wall"></div>
 ```
 
-Slutligen använder du `Livefyre.require` för att konstruera komponenten.
+Använd slutligen `Livefyre.require` för att konstruera komponenten.
 
 ```
 <script> 
@@ -52,13 +55,13 @@ Livefyre.require([
 </script>
 ```
 
-Nu har du en mur! Se hur allt fungerar i [det här exemplet](https://codepen.io/gobengo/pen/dFwDL).
+Nu har du en mur! Se allt detta i [det här exemplet](https://codepen.io/gobengo/pen/dFwDL).
 
 **Har du råkat ut för ett fel?** Kontrollera att du skickar rätt miljöparameter. Alternativen är `livefyre.com` (produktion) eller `t402.livefyre.com` (UAT).
 
 >[!NOTE]
 >
->All formatanpassning av tweets som återges av din medieväggsapp måste göras i enlighet med Twitters [visningskrav](https://dev.twitter.com/terms/display-requirements).
+>All formatanpassning av tweets som återges av Media Wall App måste göras i enlighet med Twitters [krav på visning](https://dev.twitter.com/terms/display-requirements).
 
 ## Konfigurationsalternativ {#section_ucv_qvb_c1b}
 
@@ -113,12 +116,12 @@ var wallView = new MediaWall({
 
 `postButton`
 
-Anger vilken [!UICONTROL Post Content] knapp som ska visas på väggen. Det här alternativet kräver att du skickar `opts.collection`och lägger till en Livefyre.js Auth-integrering på sidan.
+Anger att knappen [!UICONTROL Post Content] ska visas på väggen. Det här alternativet kräver att du skickar in `opts.collection` och lägger till en Livefyre.js Auth-integrering på sidan.
 
 `postButton` parametrar:
 
 * `false` (standard): Visa inte knappen Skicka innehåll. (Skapar en skrivskyddad medievägg.)
-* `true` (eller `LiveMediaWall.postButtons.contentWithPhotos`): Inkludera en knapp som gör att användare kan lägga till textinnehåll med bifogade foton.
+* `true` (eller  `LiveMediaWall.postButtons.contentWithPhotos`): Inkludera en knapp som gör att användare kan lägga till textinnehåll med bifogade foton.
 
 * `LiveMediaWall.postButtons.content`: Inkludera en knapp som gör att användare kan lägga till textinnehåll, men inte bifoga foton.
 * `LiveMediaWall.postButtons.photo`: Inkludera en knapp som gör att användare kan lägga till ett foto, men ingen text.
@@ -134,7 +137,7 @@ var wallView = new MediaWall({
 
 `showMore`
 
-Definierar antalet innehållsobjekt som ska läggas till i väggen när någon klickar på [!UICONTROL Show More] knappen.
+Definierar antalet innehållsobjekt som ska läggas till i väggen när du klickar på knappen [!UICONTROL Show More].
 
 ```
 var wallView = new LiveMediaWall({ 
@@ -163,9 +166,9 @@ var wall2 = window.wall2 = new MediaWall({
 }); 
 ```
 
-Giltiga indata finns i W3C-standarderna för egenskaperna CSS [Font Family](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [Font Size](https://www.w3.org/TR/CSS2/fonts.html#font-size-props), [](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) Line Height och [Color](https://www.w3.org/TR/css3-color/#colorunits) .
+Giltiga indata finns i W3C-standarderna för CSS [Teckensnittsfamilj](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [Teckensnittsstorlek](https://www.w3.org/TR/CSS2/fonts.html#font-size-props), [Radhöjd,](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) och [Färg](https://www.w3.org/TR/css3-color/#colorunits)-egenskaper.
 
-* **bodyFontSize** *(CSS Font Size String)* Teckensnittsstorleken för brödtext i innehåll.
+* **bodyFontSize** *(CSS Font Size String)* Teckensnittsstorleken för brödtext.
 
 * **bodyLineHeight** *(CSS Line Height String)* Radhöjden för innehållstext.
 
@@ -175,19 +178,19 @@ Giltiga indata finns i W3C-standarderna för egenskaperna CSS [Font Family](http
 
 * **buttonHoverBackgroundColor** *(CSS-färgsträng)* Färgen för knappens bakgrund vid hovring.
 
-* **buttonTextColor** *(CSS-färgsträng)* Färgen för knappetiketterna.
+* **buttonTextColor** *(CSS Color String)* Färgen för knappetiketterna.
 
-* **cardBackgroundColor** *(CSS-färgsträng)* Bakgrundsfärgen för innehållskort i medieväggen.
+* **cardBackgroundColor** *(CSS Color String)* Bakgrundsfärgen för innehållskort i medieväggen.
 
 * **displayNameColor** *(CSS-färgsträng)* Färgen för visningsnamn i bytelinjen.
 
-* **fontFamily** *(CSS Font Family String)* Teckensnittsfamiljen för brödtext.
+* **fontFamily** *(CSS-teckensnittsfamilj, sträng)* Teckensnittsfamiljen för brödtext.
 
 * **footerTextColor** *(CSS-färgsträng)* Färgen för sekundär text (t.ex. sidfotstext och användarnamn i rutnätet).
 
 * **linkAttachmentBackgroundColor** *(CSS-färgsträng)* Bakgrundsfärgen för bifogade länkar (staplade bilagor).
 
-* **linkAttachmentBorderColor** *(CSS-färgsträng)* Kantfärgen för bifogade länkar (staplade bilagor).
+* **linkAttachmentBorderColor** *(CSS-färgsträng)* Kantfärgen för bifogade länkade (staplade bilagor).
 
 * **linkAttachmentTextColor** *(CSS-färgsträng)* Färgen för länkad bilagetext.
 
