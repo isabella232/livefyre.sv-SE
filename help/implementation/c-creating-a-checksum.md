@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Skapa en kontrollsumma {#creating-a-checksum}
+# Skapar en kontrollsumma {#creating-a-checksum}
 
 Skapa en kontrollsumma med Livefyre-biblioteken.
 
