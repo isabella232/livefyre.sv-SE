@@ -6,6 +6,9 @@ title: Filtrera UGC efter produkt-ID
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Genom att filtrera UGC efter produkt-ID kan du bädda in exakt samma app på fle
 
 Så här filtrerar du UGC efter produkt-ID:
 
-1. Navigera till **[!UICONTROL Apps]** fliken i Livefyre Studio.
+1. Gå till fliken **[!UICONTROL Apps]** i Livefyre Studio.
 
 1. Välj det program som du vill ändra.
 
@@ -30,7 +33,7 @@ Så här filtrerar du UGC efter produkt-ID:
 Använd Ctrl/Kommando + klicka för att markera flera mappar.
 
 1. Inaktivera **[!UICONTROL Show related content]**.
-När det här alternativet är aktiverat visas innehåll som filtreras med attributet först, följt av allt annat innehåll i programmet. `data-lf-attr-product`
+När det här alternativet är aktiverat visas innehåll som filtreras med attributet `data-lf-attr-product` först, följt av allt annat innehåll i programmet.
 
 1. Klicka på **[!UICONTROL Publish]**.
 
@@ -53,7 +56,7 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-Om du vill tagga en produkt ersätter du den `<product 1>` i `data-lf-attr-product` -attributet med önskat produkt-ID. Du kan tagga en produkt eller flera genom att lägga till ytterligare kommaseparerade produkt-ID:n. Produkterna måste finnas i den eller de produktmappar på den översta nivån som valts i steg 5.
+Om du vill tagga en produkt ersätter du `<product 1>` i attributet `data-lf-attr-product` med det önskade produkt-ID:t. Du kan tagga en produkt eller flera genom att lägga till ytterligare kommaseparerade produkt-ID:n. Produkterna måste finnas i den eller de produktmappar på den översta nivån som valts i steg 5.
 
 Det ändrade kodsegmentet ser ut som:
 
