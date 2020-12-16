@@ -7,6 +7,9 @@ title: Bjud in en användare att skapa ett Studio-konto
 uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +26,10 @@ Livefyre Technical Account Manager för ditt nätverk skickar den första kontoi
 
 >[!NOTE]
 >
->Du kan tilldela flera användarroller till en enskild användare. Se [Användarroller och behörigheter](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) för mer information om vilka användarroller och behörigheter du kan ge.
+>Du kan tilldela flera användarroller till en enskild användare. Mer information om vilka användarroller och behörigheter du kan ge finns i [Användarroller och behörigheter](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types).
 
-1. From the **[!UICONTROL Users]** page, click **[!UICONTROL Invite to Studio.]**
-1. I den **[!UICONTROL Invite user]** dialogruta som öppnas väljer du **[!UICONTROL Existing User]** eller **[!UICONTROL New User]**.
-1. Om du vill bjuda in en befintlig användare anger du en **[!UICONTROL Username]**, **[!UICONTROL User ID]** eller **[!UICONTROL Email Address]** i fälten. Om du vill bjuda in en ny användare anger du en **[!UICONTROL Email address]**.
-1. Klicka **[!UICONTROL Add message]** om du vill ange en personlig inbjudan.
-1. Välj åtkomstnivå för det nya kontot och klicka på **[!UICONTROL Invite]** för att skicka inbjudan.
+1. På sidan **[!UICONTROL Users]** klickar du på **[!UICONTROL Invite to Studio.]**
+1. I dialogrutan **[!UICONTROL Invite user]** som öppnas väljer du **[!UICONTROL Existing User]** eller **[!UICONTROL New User]**.
+1. Om du vill bjuda in en befintlig användare anger du **[!UICONTROL Username]**, **[!UICONTROL User ID]** eller **[!UICONTROL Email Address]** i fälten. Om du vill bjuda in en ny användare anger du en **[!UICONTROL Email address]**.
+1. Klicka på **[!UICONTROL Add message]** om du vill ange en personlig inbjudan.
+1. Välj åtkomstnivå för det nya kontot och klicka på **[!UICONTROL Invite]** för att utfärda inbjudan.
