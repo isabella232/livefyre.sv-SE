@@ -7,6 +7,9 @@ title: Ta bort en översättningsuppsättning
 uuid: 8a098100-e51e-4554-83b8-a91fdb204a49
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
