@@ -7,6 +7,9 @@ title: Avlyssnarantal
 uuid: fdd7cfe4-ae69-4d31-baa2-8978368fc3e8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -29,15 +32,15 @@ Program som använder den här funktionen:
 * [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Recensioner](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Avataravlyssnare {#section_wcn_kxp_vz}
+## Avatarer för avlyssnare {#section_wcn_kxp_vz}
 
-Avlyssnarantalet visar maximalt 10 avatarer och visar endast avatarer för de personer som har klickat **[!UICONTROL Follow]** för konversationen.
+Avlyssnarantalet visar maximalt 10 avatarer och visar endast avatarer för de personer som har klickat på **[!UICONTROL Follow]** för konversationen.
 
 >[!NOTE]
 >
 >På grund av utrymmesbegränsningar visar mobilgränssnittet endast antalet avlyssnare och en liten personikon.
 
-I Livefyre Listener Count visas antalet personer som är aktiva på sidan vid en given tidpunkt, plus antalet personer efter konversationen. Om någon är på sidan och följer konversationen kommer användaren inte att räknas dubbelt. Om en användare till exempel befinner sig på en sida och klickar **[!UICONTROL Follow]** kommer avlyssnarantalet inte att öka; om användaren sedan klickar **[!UICONTROL Unfollow]** minskar inte antalet.
+I Livefyre Listener Count visas antalet personer som är aktiva på sidan vid en given tidpunkt, plus antalet personer efter konversationen. Om någon är på sidan och följer konversationen kommer användaren inte att räknas dubbelt. Om en användare till exempel är på en sida och klickar på **[!UICONTROL Follow]** kommer avlyssnarantalet inte att öka; om användaren sedan klickar på **[!UICONTROL Unfollow]**, minskar inte antalet.
 
 Program som använder den här funktionen:
 
