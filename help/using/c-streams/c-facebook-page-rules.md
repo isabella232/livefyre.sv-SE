@@ -7,11 +7,14 @@ title: Regler för Facebook-sidor
 uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
 
-# Regler för Facebook-sidor{#facebook-page-rules}
+# Facebook-sidregler{#facebook-page-rules}
 
 Du kan skapa direktuppspelningsregler som hämtar innehåll från Facebook-sidor.
 
@@ -21,12 +24,12 @@ Om du vill skapa sidregler för Facebook för att hämta innehåll från Faceboo
 
 * **[!UICONTROL Facebook Page]**
 
-   * Ange sidans **[!UICONTROL Name]** namn. Ange bara den avslutande texten för URL:en. **Till exempel:** Om du vill lägga till innehåll från `https://facebook.com/KellysSuperFunFanPage`skriver du *KellysSuperFunFanPage* i **[!UICONTROL Name]** fältet.
+   * Ange **[!UICONTROL Name]** för sidan. Ange bara den avslutande texten för URL:en. **Till exempel:** Om du vill lägga till innehåll från  `https://facebook.com/KellysSuperFunFanPage` skriver du  ** KellysSuperFunFanPage i  **[!UICONTROL Name]** fältet.
 
-   * Aktivera det här alternativet **[!UICONTROL Include Facebook Comments for each post]** om du vill inkludera användarkommentarer till inlägg på sidan.
+   * Aktivera **[!UICONTROL Include Facebook Comments for each post]** om du vill inkludera användarkommentarer till sidinlägg.
    * Aktivera **[!UICONTROL Only Show Author Posts]** om du vill utesluta inlägg från andra användare.
 
-Ytterligare alternativ för strömningsregler för alla strömregler finns i Alternativ för [strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Ytterligare alternativ för strömningsregler för alla strömregler finns i [Alternativ för strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
 >[!NOTE]
 >
