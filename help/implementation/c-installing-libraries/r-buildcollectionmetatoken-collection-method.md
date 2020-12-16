@@ -7,6 +7,9 @@ title: buildCollectionMetaToken-samlingsmetod
 uuid: 533c68c3-c014-4fc3-8114-a57af0e44d85
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
