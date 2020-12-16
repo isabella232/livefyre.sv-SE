@@ -7,6 +7,9 @@ title: Användarinlägg
 uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +20,11 @@ Gör det möjligt för användare att publicera, redigera, flagga, ta bort, svar
 
 Med Livefyre-appar kan användarna publicera och interagera med innehåll sömlöst och intuitivt. Livefyre-gränssnittet innehåller omfattande text- och bildindata, möjlighet att gilla, flagga eller svara på andras kommentarer samt möjlighet att redigera eller ta bort egna, tidigare inlägg.
 
-## Bokför {#section_bty_ww2_wy}
+## Skicka {#section_bty_ww2_wy}
 
-Användare kan publicera innehåll när de är inloggade genom att ange en kommentar eller medielänk i redigerarrutan och klicka på **[!UICONTROL Post comment]**.
+Användare kan publicera innehåll när de är inloggade genom att ange en kommentar eller medielänk i redigeringsrutan och klicka på **[!UICONTROL Post comment]**.
 
-Om du vill publicera innehåll när du inte är inloggad anger användarna en kommentar eller medielänk i redigeraren och klickar på **[!UICONTROL Post comment as…]**. Inloggningsfönstret öppnas och du uppmanas att logga in.
+Om du vill publicera innehåll utan att vara inloggad anger användarna en kommentar eller medielänk i redigeraren och klickar på **[!UICONTROL Post comment as…]**. Inloggningsfönstret öppnas och du uppmanas att logga in.
 
 (I de flesta webbläsare tillåts 8 000 teckenkommentarer; Internet Explorer tillåter 1 500 tecken.)
 
@@ -39,17 +42,17 @@ Användarna kan svara på kommentarer i en tråd genom att klicka på svarslänk
 
 För Chat och Live Blog kan svar aktiveras eller inaktiveras med samlingens inställningar i Studio.
 
-## Gilla {#section_its_kw2_wy}
+## Som {#section_its_kw2_wy}
 
 Användarna måste vara inloggade för att gilla en annan användares innehåll och kanske inte gillar sitt eget innehåll.
 
-Antalet gilla-markeringar och upp till fyra avatarer visas bredvid **[!UICONTROL Like]** knappen.
+Antalet gilla-markeringar och upp till fyra avatarer visas bredvid knappen **[!UICONTROL Like]**.
 
-När du länkar innehåll ändras **[!UICONTROL Like]** länken till **[!UICONTROL Unlike]**. Om du klickar **[!UICONTROL Unlike]** tas avataren bort för användaren och siffran minskas med 1.
+När du länkar innehåll ändras länken **[!UICONTROL Like]** till **[!UICONTROL Unlike]**. Om du klickar på **[!UICONTROL Unlike]** tas avataren bort för den användaren och siffran minskas med 1.
 
 ## Redigera {#section_ubt_qwx_vy}
 
-Som standard kan användare redigera sitt eget innehåll inom fem minuter efter publiceringen genom att klicka på **[!UICONTROL Edit]** länken för att öppna en textruta för redigering.
+Som standard kan användare redigera sitt eget innehåll inom fem minuter efter publiceringen genom att klicka på länken **[!UICONTROL Edit]** för att öppna en textruta för redigering.
 
 Du kan inaktivera den här funktionen på samlingsnivå med panelen Inställningar i Studio. Inställningspanelen kan också användas för att ändra den tid under vilken kommentarer kan redigeras på nätverksnivå.
 
@@ -57,7 +60,7 @@ Moderatorerna kan redigera användarinnehåll när som helst, både internt i st
 
 ## Ta bort {#section_gbr_pwx_vy}
 
-Användarna kan när som helst ta bort sitt eget innehåll genom att klicka **[!UICONTROL Delete]** (visas när de hovrar över innehållet). Moderatorerna kan klicka **[!UICONTROL Delete]** för att ta bort användarens innehåll. ( **[!UICONTROL Delete]** är inte tillgängligt på mobilen.)
+Användarna kan ta bort sitt eget innehåll när som helst genom att klicka på **[!UICONTROL Delete]** (visas när de hovrar över innehållet). Moderatorerna kan klicka på **[!UICONTROL Delete]** för att ta bort användarens innehåll. ( **[!UICONTROL Delete]** är inte tillgängligt på mobilen.)
 
 >[!NOTE]
 >
@@ -65,9 +68,9 @@ Användarna kan när som helst ta bort sitt eget innehåll genom att klicka **[!
 
 ## Flagga {#section_j3l_qvx_vy}
 
-Användarna kan flagga en annan användares innehåll genom att klicka på den **[!UICONTROL Flag]** länk som visas när de hovrar över innehållet.
+Användarna kan flagga en annan användares innehåll genom att klicka på länken **[!UICONTROL Flag]** som visas när de hovrar över innehållet.
 
-Om du klickar på den här länken visas spärrkoden så att användarna kan flagga innehållet som **[!UICONTROL Offensive]**, **[!UICONTROL Disagree]**, **[!UICONTROL Off Topic]** eller **[!UICONTROL Spam]**. En valfri anteckning och e-postadress kan läggas till med flaggan.
+Om du klickar på den här länken visas den spärrade flaggan så att användarna kan flagga innehållet som **[!UICONTROL Offensive]**, **[!UICONTROL Disagree]**, **[!UICONTROL Off Topic]** eller **[!UICONTROL Spam]**. En valfri anteckning och e-postadress kan läggas till med flaggan.
 
 Användarna behöver inte vara inloggade för att flagga en kommentar, vilket innebär att alla kan flagga en kommentar för moderering utan att behöva skapa ett konto.
 
@@ -79,13 +82,13 @@ Du kan också skapa modereringsregler för att automatisera åtgärder som vidta
 
 ## Sortera {#section_bpg_nwx_vy}
 
-Direktuppspelat innehåll kan sorteras efter ålder, nyaste först (standard) eller äldsta först genom att klicka på **[!UICONTROL Newest]** - eller **[!UICONTROL Oldest]** länkarna överst i flödet.
+Direktuppspelat innehåll kan sorteras efter ålder, nyaste först (standard) eller äldsta först genom att klicka på länkarna **[!UICONTROL Newest]** eller **[!UICONTROL Oldest]** överst i flödet.
 
 ## Komprimera/expandera {#section_ypt_qr4_h1b}
 
 * **[!UICONTROL Collapse Replies]**
 
-   Svaren kan utökas eller komprimeras i strömmen genom att klicka på **+ / -** -knapparna ovanför svaren.
+   Svaren kan utökas eller komprimeras i strömmen genom att klicka på knapparna **+ / -** ovanför svaren.
 
 * **[!UICONTROL Collapsed View]**
 
