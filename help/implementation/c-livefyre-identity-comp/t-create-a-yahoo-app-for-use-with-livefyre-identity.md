@@ -7,6 +7,9 @@ title: Skapa en Yahoo! App för användning med Livefyre-identitet
 uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 0%
 
 ---
 
@@ -22,10 +25,10 @@ För att användarna ska kunna logga in med sina Yahoo-inloggningsuppgifter krä
 
 För att skapa en Yahoo! app för användning med Livefyre Identity:
 
-1. Gå till [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/)och logga in på din Yahoo! för att skapa ett nytt eller välja en befintlig app som ska användas med Livefyre-identitet.
+1. Gå till [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/) och logga in på din Yahoo! för att skapa ett nytt eller välja en befintlig app som ska användas med Livefyre-identitet.
 1. Välj **[!UICONTROL Application Type: Web Application]**.
-1. Ange **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
-1. Markera **[!UICONTROL API Permissions: Profiles (Social Directory)]** och **[!UICONTROL Read Public]**.
+1. Ange **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
+1. Välj **[!UICONTROL API Permissions: Profiles (Social Directory)]** och **[!UICONTROL Read Public]**.
 
    När det är klart visas appinformationssidan för Yahoo med programmets klient-ID (Consumer Key) och Client Secret (Consumer Secret) för användning på Studios integreringsinställningar.
 
