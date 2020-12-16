@@ -6,6 +6,9 @@ title: Funktions-API:er
 uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 {value: <number>} 
 ```
 
-Värdet används för att sortera aktuellt innehåll, som är det största till det minsta (10 visas före 1 i innehållslistan). Som standard är det här värdet **nu** i epok, så aktuella kommentarer brukar sorteras från nyaste till äldsta.
+Värdet används för att sortera aktuellt innehåll, som är det största till det minsta (10 visas före 1 i innehållslistan). Som standard är det här värdet **now** i epok, så aktuella kommentarer sorteras vanligen från nyaste till äldsta.
 
 **Exempel på svar**
 
