@@ -1,21 +1,24 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Använd Livefyre med Adobe Analytics och Dynamic Tag Manager (DTM) lk xavvn vefyre med Adobe Analytics och Dynamic Tag Manager (DTM)
+seo-title: Använd Livefyre med Adobe Analytics och Dynamic Tag Manager (DTM) lk xavvn   med Adobe Analytics och Dynamic Tag Manager (DTM)
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
 translation-type: tm+mt
 source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 0%
 
 ---
 
 
-# Använd Livefyre med Adobe Analytics och Dynamic Tag Manager (DTM){#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
+# Använd Livefyre med Adobe Analytics och DTM (Dynamic Tag Manager){#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
 Konfigurera Adobe Analytics och Dynamic Tag Manager (DTM) för att samla in data för Livefyre-appar.
 
 ## Steg 1: Konfigurera händelser i Adobe Analytics {#section_iks_kgd_4cb}
 
-Mappa Livefyre-händelser till en eller flera Custom Success Events i Adobe Analytics Report Suite Manager.
+Mappa Livefyre-händelser till en eller flera anpassade lyckade händelser i Adobe Analytics Report Suite Manager.
 
 Mer information om Report Suite Manager finns i [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html).
 
@@ -29,7 +32,7 @@ Mer information om Report Suite Manager finns i [Report Suite Manager](https://d
 
 Mappa Livefyre-konverteringsvariabler (eVars) till konverteringsvariabler i Adobe Analytics Admin Report Suite Manager. Konverteringsvariabler fungerar som en sorteringsfunktion som avgör hur du ska identifiera data som samlats in från Livefyre-händelser.
 
-1. Klicka på **[!UICONTROL Edit Settings > Conversion > Conversion Variables]** Report Suite Manager.
+1. Klicka på **[!UICONTROL Edit Settings > Conversion > Conversion Variables]** i Report Suite Manager.
 1. Välj de anpassade konverteringsvariabler (eVars) som ska användas och mappa dem till konverteringsvariablerna Livefyre. Så här mappar du en Livefyre-konverteringsvariabel till en anpassad konverteringsvariabel:
 * Aktivera konverteringsvariabeln
 * Namnge konverteringsvariabeln
@@ -44,13 +47,13 @@ Du behöver inte utföra det här steget om du redan har ställt in en egenskap 
 
 1. Skapa eller redigera en befintlig egenskap i DTM.
 1. Skapa eller redigera ett befintligt Adobe Analytics-verktyg.
-1. Om det inte finns något Adobe Analytics-verktyg klickar du på **[!UICONTROL Add a Tool]** .
+1. Om det inte finns något Adobe Analytics-verktyg klickar du på **[!UICONTROL Add a Tool]**.
 Ange följande parametrar för verktyget:
 
    * Ange **[!UICONTROL Tool Type]** till **[!UICONTROL Adobe Analytics]**.
    * Aktivera **[!UICONTROL Automatic Configuration]**.
    * Aktivera **[!UICONTROL Authenticate via Marketing Cloud]**.
-1. Lägg till eller bekräfta namnet på rapportsviten med Livefyre-händelser i **[!UICONTROL Report Suites]** fältet.
+1. Lägg till eller bekräfta namnet på rapportsviten med Livefyre-händelser i fältet **[!UICONTROL Report Suites]**.
 
 ## Steg 4: Konfigurera en sidinläsningsregel för att konfigurera analyshantering {#section_jfj_j3d_4cb}
 
@@ -60,17 +63,17 @@ Ställ in en sidinläsningsregel för att hämta alla data. Med sidinläsningsre
 >
 >Använd inte händelsebaserade regler eller regler för direktsamtal.
 
-1. I DTM väljer du **[!UICONTROL Rules]** tab.
+1. Välj fliken **[!UICONTROL Rules]** i DTM.
 1. Klicka på **[!UICONTROL Page Load Rules]**.
-1. Klicka på **[!UICONTROL Create New Rule]** knappen.
-1. Öppna **[!UICONTROL Conditions]** avsnittet genom att klicka på **[!UICONTROL Plus]** knappen.
-1. Utlös regeln. Välj **[!UICONTROL DOM Ready]** eller **[!UICONTROL Onload]** utlösartyper om du vill fördröja eller implementera regeln asynkront.
+1. Klicka på knappen **[!UICONTROL Create New Rule]**.
+1. Öppna avsnittet **[!UICONTROL Conditions]** genom att klicka på knappen **[!UICONTROL Plus]**.
+1. Utlös regeln. Välj utlösartyperna **[!UICONTROL DOM Ready]** eller **[!UICONTROL Onload]** om du vill fördröja eller implementera regeln asynkront.
 1. (Valfritt) Lägg till ytterligare parametrar för att begränsa vilka sidor som visas i Livefyre-appar. Mer information om ytterligare konfigurationsalternativ finns i [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
-1. Klicka på **[!UICONTROL Javascript/ Third Party Tags]** fliken under **[!UICONTROL Non-sequential]** och sedan på **[!UICONTROL Add New Script]**.
+1. Klicka på fliken **[!UICONTROL Non-sequential]** under **[!UICONTROL Javascript/ Third Party Tags]** och klicka sedan på **[!UICONTROL Add New Script]**.
 1. Välj **[!UICONTROL Sequential HTML]** som skripttyp.
 1. Lägg till följande skript i kodredigeraren och klicka på **[!UICONTROL Save Code]**.
 
-   Följande skript anropar regeln för direktanrop när Livefyre JavaScript har lästs in. `livefyre_analytics` Följande skriptexempel kontrollerar var 400:e ms för att se om det finns `livefyre.analytics` på sidan. När sidan har lästs in skickar livefyre.analytics spårningsinformation.
+   Följande skript anropar regeln `livefyre_analytics` för direktanrop efter att Livefyre JavaScript har lästs in. Följande skriptexempel kontrollerar var 400:e ms för att se om `livefyre.analytics` finns på sidan. När sidan har lästs in skickar livefyre.analytics spårningsinformation.
 
    ```
    /** 
@@ -91,19 +94,19 @@ Ställ in en sidinläsningsregel för att hämta alla data. Med sidinläsningsre
 1. Klicka på **[!UICONTROL Save Code]**.
 1. Klicka på **[!UICONTROL Save Rule]**.
 
-## Steg 5: Skapa en regel för direktanrop för att skapa Adobe Analytics-mappningskonfigurationen för Livefyre {#section_gvp_b1g_pdb}
+## Steg 5: Skapa en regel för direktanrop för att konstruera Adobe Analytics Mapping-konfigurationen för Livefyre {#section_gvp_b1g_pdb}
 
 Det finns andra sätt att implementera Livefyre med DTM genom att använda anpassade händelser, Adobe Analytics-gränssnittsfält i DTM och dataelement. I det här dokumentet används anpassad JavaScript för att uppnå samma effekt.
 
 1. I DTM väljer du fliken **Regler** och klickar sedan på **Direct Call Rules**.
-1. Click on the **Create New Rule** button.
-1. Ge den nya regeln **Livefyre Analytics**.
-1. Expandera **villkorets** konfigurationsområde.
+1. Klicka på knappen **Skapa ny regel**.
+1. Ge den nya regeln namnet **Livefyre Analytics**.
+1. Expandera konfigurationsområdet **villkor**.
 1. I fältet **String** anger du `livefyre_analytics`.
-1. Expandera avsnittet JavaScript/tagg från tredje part och klicka på knappen **Lägg till nytt skript** .
-1. Ange **Livefyre Analytics Config** i rutan **Taggnamn** .
-1. Välj **icke-sekventiellt JavaScript**.
-1. Ange följande Livefyre-konfigurationskod i kodredigeraren och klicka på knappen **Spara kod** .
+1. Expandera avsnittet JavaScript/tagg från tredje part och klicka på knappen **Lägg till nytt skript**.
+1. Ange **Livefyre Analytics Config** i **taggens namn**-inmatningsrutan.
+1. Välj **Icke-sekventiellt JavaScript**.
+1. Ange följande Livefyre-konfigurationskod i kodredigeraren och klicka på knappen **Spara kod**.
 
    ```
    var s = _satellite.getToolsByType('sc')[0].getS(); 
@@ -192,17 +195,17 @@ Det finns andra sätt att implementera Livefyre med DTM genom att använda anpas
 
 ## Steg 6: Godkänn ändringar för sidinläsningsregel {#section_pxc_11t_ycb}
 
-1. Gå till **[!UICONTROL Approvals]** fliken.
+1. Gå till fliken **[!UICONTROL Approvals]**.
 1. Klicka på **[!UICONTROL Approve]**.
-1. Klicka **[!UICONTROL Yes, approve]** för att bekräfta ditt godkännande.
+1. Klicka på **[!UICONTROL Yes, approve]** för att bekräfta ditt godkännande.
 1. Gå till **[!UICONTROL Overview > Publish Queue]**.
 1. Välj den regel som ska publiceras.
 1. Klicka på **[!UICONTROL Publish Selected]**.
-1. Klicka **[!UICONTROL Publish]** för att bekräfta att du vill publicera.
+1. Klicka på **[!UICONTROL Publish]** för att bekräfta att du vill publicera.
 
 ## Skript {#section_xkb_vft_mcb}
 
-I följande exempelkod mappas de specifika eVars till tillgängliga Livefyre eVars. Livefyre-konverteringsvariabeln ( `eVar`) (till exempel `appId`) mappas till det namn du angav i Report Suite Manager (till exempel `eVar81`). Ändra `eVar` namnen i det här skriptet till anpassade konverteringsvariabler.
+I följande exempelkod mappas de specifika eVars till tillgängliga Livefyre eVars. Livefyre-konverteringsvariabelns namn ( `eVar`) (till exempel `appId`) mappas till det namn du angav i Report Suite Manager (till exempel `eVar81`). Ändra `eVar`-namnen i det här skriptet till anpassade konverteringsvariabler.
 
 
 ```
@@ -213,7 +216,7 @@ var evarMap = {
 };
 ```
 
-Följande exempelkod mappar de specifika händelser som du ställer in i Report Suite Manager med tillgängliga Livefyre-händelser. I det här exemplet `event82` ställs in som alla användarinteraktionshändelser utan att det görs skillnad på vilken typ av användarinteraktionshändelse (till exempel länkning eller delning av innehåll). Detta är ett effektivt sätt att registrera all användarinteraktionsinformation i ett -block. Du kan också mappa händelserna i DTM Analytics-gränssnittet med dataelementsreferenser.
+Följande exempelkod mappar de specifika händelser som du ställer in i Report Suite Manager med tillgängliga Livefyre-händelser. I det här exemplet ställs `event82` in som en användarinteraktionshändelse utan att differentiera vilken typ av användarinteraktionshändelse (till exempel länkning eller delning av innehåll). Detta är ett effektivt sätt att registrera all användarinteraktionsinformation i ett -block. Du kan också mappa händelserna i DTM Analytics-gränssnittet med dataelementsreferenser.
 
 ```
 var eventMap = { 
@@ -252,7 +255,7 @@ function trackLivefyreEvent(data) {
   }
 ```
 
-Följande kod skiljer de händelsetyper som `event82` spelar in. Konverteringsvariabeln, registrerar typen av användarinteraktion och skriptet ställer in `eVar83` `eVar83` för att separera användarinteraktionsdata per typ. Så `eVar83` gör att du kan dela upp inspelade data i specifika typer av användarinteraktioner.
+Följande kod skiljer de händelsetyper som `event82` spelar in. Konverteringsvariabeln `eVar83` registrerar typen av användarinteraktion och skriptet ställer in `eVar83` för att separera användarinteraktionsdata efter typ. Med `eVar83` kan du dela upp inspelade data i specifika typer av användarinteraktioner.
 
 ```
   var vars = ['events'];  
