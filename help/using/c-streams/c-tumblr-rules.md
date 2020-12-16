@@ -7,6 +7,9 @@ title: Tumblr-regler
 uuid: fe9601ab-aa5e-48c6-a5bf-5543c179cb90
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ Om du vill skapa Tumblr Rules för att hämta innehåll från Tumblr till din ap
 
 * **[!UICONTROL Blog]**
 
-   * Ange **[!UICONTROL Blog Name]** som Tumblr-blogg. Ange webbadressen (*personal.tumblr.com*) eller namnet på bloggen (*personal*).
+   * Ange **[!UICONTROL Blog Name]** för Tumblr-bloggen. Ange URL:en (*personal.tumblr.com*) eller namnet på bloggen (*personal*).
 
-   * Inkludera upp till ett för **[!UICONTROL Tag]** att filtrera resultat efter inlägg med en viss tagg.
+   * Inkludera upp till en **[!UICONTROL Tag]** för att filtrera resultat efter inlägg med en viss tagg.
 
 * **[!UICONTROL Include recent items.]** Om detta är inställt på:
 
    * **[!UICONTROL Enabled]** lägger Livefyre till de första 20 innehållsobjekten i din feed i strömmen, oavsett publiceringsdatum.
    * **[!UICONTROL Disabled]** lägger Livefyre till de första 20 innehållsobjekten i din feed i strömmen med ett publiceringsdatum som är samma som datumet då ströminstansen skapades eller senare.
 
-Ytterligare alternativ för strömningsregler för alla strömregler finns i Alternativ för [strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Ytterligare alternativ för strömningsregler för alla strömregler finns i [Alternativ för strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
