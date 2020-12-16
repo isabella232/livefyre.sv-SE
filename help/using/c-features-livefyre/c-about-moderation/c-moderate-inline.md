@@ -6,6 +6,9 @@ title: Moderera innehåll från en ström
 uuid: 38faf651-c547-49b3-b3d1-1a1d65c0f81c
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ Moderera innehåll som kommer från en ström med biblioteket.
 
 Moderatorer kan godkänna eller avvisa väntande kommentarer direkt från strömmen med hjälp av biblioteket.
 
-Om du vill moderera väntande innehåll för du bara muspekaren över **[!UICONTROL Pending]** knappen.
+Om du vill moderera väntande innehåll för du bara muspekaren över knappen **[!UICONTROL Pending]**.
 
-Knappen ändras och du kan välja om du vill neka ( **[!UICONTROL Pending]** ) eller godkänna ( **[!UICONTROL x]****[!UICONTROL ✓]**) kommentaren.
+Knappen **[!UICONTROL Pending]** ändras och du kan välja om du vill neka ( **[!UICONTROL x]**) eller godkänna ( **[!UICONTROL ✓]**) kommentaren.
 
 Muspekaren över kommentarsutrymmet och följande modereringsalternativ visas:
 
