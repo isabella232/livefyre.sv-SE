@@ -7,15 +7,18 @@ title: Twitter-krav
 uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
 
-# Twitter-krav{#twitter-display-requirements}
+# Twitter-visningskrav{#twitter-display-requirements}
 
 Sociala medienätverk kräver ofta att deras innehåll visas i enlighet med deras varumärkesstandarder. När du använder Livefyre-plattformen för att presentera Twitter-innehåll på nytt är du alltid ansvarig för att deras användningsvillkor uppfylls, inklusive deras visningsvillkor. Läs och förstå villkoren innan du visar deras innehåll i Livefyre-apparna.
 
-Mer information finns i [Twitters dokumentation om krav](https://about.twitter.com/company/display-requirements) på visning.
+Mer information finns i [Twitters dokumentation](https://about.twitter.com/company/display-requirements) Display Requirements.
 
 Twitter ställer följande krav på presentation:
 
