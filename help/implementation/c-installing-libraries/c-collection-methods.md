@@ -7,6 +7,9 @@ title: Samlingsklassmetoder
 uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
