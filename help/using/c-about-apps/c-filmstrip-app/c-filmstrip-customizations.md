@@ -7,17 +7,20 @@ title: Anpassningar av bildband
 uuid: 99f8b697-4aa3-4813-bcac-d0e0bdee252d
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 0%
 
 ---
 
 
 # Anpassningar av bildband{#filmstrip-customizations}
 
-Alla program använder **[!UICONTROL Style]** och **[!UICONTROL Config]** alternativ i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program finns i Anpassa program i **[!UICONTROL App Designer.]**
+Alla program använder alternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** i **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer.]** finns i Anpassa appar
 
 Du kan anpassa bildbandet med följande ytterligare alternativ i App Designer:
 
-* **[!UICONTROL Content fit]**. Välj **[!UICONTROL crop]** att beskära innehållet för att fylla kortet eller **[!UICONTROL Aspect Ratio]** att visa en hel bild på kortet, oavsett om det fyller hela kortet eller inte.
+* **[!UICONTROL Content fit]**. Välj **[!UICONTROL crop]** om du vill beskära innehållet för att fylla kortet eller **[!UICONTROL Aspect Ratio]** om du vill visa en hel bild på kortet, oavsett om det fyller hela kortet eller inte.
 * **[!UICONTROL Tile Size]**. Ange rutornas storlek i pixlar.
 * **[!UICONTROL Show Notifications]**. Välj om ett meddelande ska visas för nytt innehåll när det direktuppspelas i bildbandsappen.
 * **[!UICONTROL Require rights]**. Aktivera det här alternativet om du bara vill visa innehåll med statusen Beviljad för behörighet.
@@ -35,7 +38,7 @@ Du kan anpassa bildbandet med följande ytterligare alternativ i App Designer:
    * **[!UICONTROL Call-to-action indication text]** Den text som ska visas för att uppmana användaren att klicka på kortet för att öppna modalt anrop till åtgärd.
    * **[!UICONTROL Call-to-action header text]** De ord som ska visas i rubriken ovanför knappen för att ringa upp till åtgärd i det modala innehållet. Standardtexten är&quot;Handla dessa produkter:&quot;.
    * **[!UICONTROL Call-to-action button text]** De ord som ska visas i knappen för att ringa upp till åtgärd i det modala innehållet. Standardtexten är&quot;Köp nu:&quot;.
-   * **[!UICONTROL Product display options]** Välj om du vill visa **[!UICONTROL Photo]** och **[!UICONTROL Product name]** med knappen för att ringa upp.
+   * **[!UICONTROL Product display options]** Välj om du vill visa  **[!UICONTROL Photo]** och  **[!UICONTROL Product name]** med knappen för att ringa upp.
 
       >[!NOTE]
       >
@@ -50,5 +53,5 @@ Du kan anpassa bildbandet med följande ytterligare alternativ i App Designer:
    * **[!UICONTROL Select product folders]**. Välj de produktmappar på den översta nivån som ska användas för att filtrera UGC. Använd CTRL/Cmd + klicka för att markera flera mappar. Livefyre använder mappen för att avgöra vilka produkter i den mappen som ska visas i appen på olika sidor.
    * **[!UICONTROL Show related content]**. Växla detta för att visa innehåll som publicerats till appen, men som taggats med ett annat produkt-ID. När det produktspecifika innehållet för appen visas visar Livefyre innehåll för andra produkter och innehåll som inte är kopplat till en produkt. Livefyre prioriterar innehållet med samma produkt-ID först, sedan innehåll som publiceras till appen med andra produkt-ID:n och sedan innehåll som publiceras till appen utan produkt-ID:n.
 
-Mer information om hur du anpassar ett bildband med Livefyre.js finns i Alternativ [för](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) bildband.
+Se [Bildbandsalternativ](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) för mer information om hur du anpassar en bildband med Livefyre.js.
 
