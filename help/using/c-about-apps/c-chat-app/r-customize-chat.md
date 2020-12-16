@@ -7,6 +7,9 @@ title: Chattanpassningar
 uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ De här alternativen är tillgängliga från chattappen:
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Om det här alternativet är aktiverat visas inlägg med en omgivande ruta och den bakgrundsfärg som är kopplad till valet av **tema** .
+   Om det här alternativet är aktiverat visas inlägg med en omgivande ruta och bakgrundsfärgen som anges i **Theme**-markeringen används.
 
 * **[!UICONTROL Preview media]**
 
@@ -49,11 +52,11 @@ De här alternativen är tillgängliga från chattappen:
 
 * **[!UICONTROL Additional sort option]**
 
-   Här kan du erbjuda sorteringsalternativ för slutanvändarna:** [!UICONTROL Most liked]** eller **[!UICONTROL Most active]**.
+   Gör att du kan erbjuda sorteringsalternativ för slutanvändarna:** [!UICONTROL Most liked]** eller **[!UICONTROL Most active]**.
 
 Du kan anpassa chatt med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Mer information om hur du anpassar chatt med integreringsverktygen finns i Chatt.
 
