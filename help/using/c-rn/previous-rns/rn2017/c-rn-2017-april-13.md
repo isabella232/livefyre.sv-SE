@@ -6,6 +6,9 @@ title: 13 april 2017
 uuid: abc591bd-3385-40f5-99a5-3f4c8ee4dc6b
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Versionsinformation för versionen från 13 april 2017.
 | Fel | API:er | Korrigerade ett fel så att stora filer kan överföras via API:t &quot;Post to Collection&quot;. |
 | Fel | API:er | Korrigerade ett fel som förhindrade att mp4-videor laddades upp när API:t för överföring av media användes. |
 | Fel | Bibliotek | Korrigerade ett fel som gjorde att bibliotekssökningar med hashtaggar ibland misslyckades. |
-| Fel | Kartor | Korrigerade ett fel i kartor som stötte på ett stort antal innehåll i kluster på iOS-enheter. |
+| Fel | Kartor | Korrigerade ett fel i Kartor som stötte på ett stort antal innehåll i kluster på iOS-enheter. |
 | Förbättring | ModQ | Korrigerade ett fel som gjorde att nya Instagram-uppgifter kunde direktuppspelas i ModQ. |
 | Fel | Mosaik | Korrigerade ett fel som gjorde att användare kunde göra ändringar i Mosaic-appar i Designer. |
 | Förbättring | Rättighetsbegäran | En ny status för rättighetsförfrågan med namnet&quot;Misslyckad begäran&quot; har lagts till för att markera när meddelanden om rättighetsförfrågan inte kan skickas. |
