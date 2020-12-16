@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Handbok för Livefyre-implementering {#implementation}
+# Implementeringshandbok för Livefyre {#implementation}
 
 + [Handbok för Livefyre-implementering](home.md)
 + Komma igång {#getting-started}
@@ -98,7 +98,7 @@ ht-degree: 0%
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [Skapar Livefyre-token C#](c-creating-livefyre-tokens-c-.md)
-+ Appintegreringar {#app-integrations}
++ Programintegreringar {#app-integrations}
    + [Chatt](c-app-integrations/c-app-integratios-chat.md)
    + Kommentarer {#comments}
       + [Kommentarer](c-app-integrations/c-comments-integration/c-comments-integration.md)
@@ -128,7 +128,7 @@ ht-degree: 0%
    + [Ändra @mention-ikon](c-app-customizations/c-change-mention-icon.md)
    + [Markera innehåll](c-app-customizations/c-highlight-content.md)
    + [Anpassa datum- och tidsstämpeln](c-app-customizations/c-date-time-stamp.md)
-   + Innehåll {#feature-content}
+   + Funktionsinnehåll {#feature-content}
       + [Innehåll](c-app-customizations/t-feature-content.md)
       + [Aktivera innehåll i Studio](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [Välj innehåll till funktion från en app](c-app-customizations/t-select-content-to-feature.md)
@@ -140,7 +140,7 @@ ht-degree: 0%
    + Formatinnehåll {#style-content}
       + [Formatera användargruppinnehåll](c-app-customizations/c-style-user-group-content.md)
       + [Lägga till användare i grupper](c-app-customizations/c-adding-users-to-groups.md)
-   + Använd egna format {#apply-custom-styles}
+   + Använd anpassade format {#apply-custom-styles}
       + [Använda anpassade format](c-app-customizations/c-applying-custom-styles-.md)
       + [Lägg till anpassade knappar](c-app-customizations/t-add-custom-buttons.md)
    + JavaScript-händelser {#javascript-events}
@@ -163,7 +163,7 @@ ht-degree: 0%
    + [Visa antal kommentarer](c-advanced-topics/t-display-comment-count.md)
    + [Aktivera delning via sociala medier](c-advanced-topics/c-enabling-social-sharing.md)
    + [Aktivitetsström](c-advanced-topics/c-activity-stream.md)
-   + [Bootstrap-HTML](c-advanced-topics/c-bootstrap-html.md)
+   + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
    + [Ändra samling](c-advanced-topics/c-change-collection.md)
    + [Flera samlingar](c-advanced-topics/c-multiple-collections.md)
    + [Apptyper för switchkärnor](c-advanced-topics/c-switch-core-app-types.md)
