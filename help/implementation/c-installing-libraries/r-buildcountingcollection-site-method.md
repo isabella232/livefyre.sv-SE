@@ -6,11 +6,14 @@ title: buildCountingCollection, webbplatsmetod
 uuid: e293d66a-0025-4230-997e-295ce4625713
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 0%
 
 ---
 
 
-# buildCountingCollection, webbplatsmetod{#buildcountingcollection-site-method}
+# buildCountingCollection-webbplatsmetod{#buildcountingcollection-site-method}
 
 Returnerar ett Collection-objekt som har instansierats som en Counting-typ. Kör create_or_update() från Collection-objektet för att slutföra byggprocessen.
 
