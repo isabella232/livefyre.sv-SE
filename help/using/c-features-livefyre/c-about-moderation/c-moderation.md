@@ -6,6 +6,9 @@ title: SAFE-regler
 uuid: 2f91d0d4-dffe-4651-88af-79bbb96c1b5c
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Flaggor som används av SAFE kan användas med följande Studio-komponenter:
 
 * Programinnehåll i biblioteket
 
-   Innehåll som flaggas av SAFE listas i appinnehåll på **[!UICONTROL Library]** fliken. Du kan filtrera innehåll efter flaggor för att moderera innehållet.
+   Innehåll som flaggas av SAFE visas i listan i appinnehåll på fliken **[!UICONTROL Library]**. Du kan filtrera innehåll efter flaggor för att moderera innehållet.
 
 ## Alternativ för SAFE-filter {#section_pg5_ttx_vy}
 
@@ -59,7 +62,7 @@ SAFE använder följande flaggor för filtrerat innehåll och kan användas för
 * **[!UICONTROL Strong Insult]**: Insulterande innehåll, definierat av en lista med nyckelord och frasmönster.
 * **[!UICONTROL Hate Speech]**: En förolämpning baserad på etnicitet eller religion, särskilt när målgruppstillhörigheten är en minoritet eller skyddad.
 * **[!UICONTROL ALL CAPS]**: Text med versaler (läs som stavning).
-* **[!UICONTROL Mild Threat]**: Ett hot eller en förolämpning som vanligen innefattar någon form av mild svordomar riktad mot en annan person. Det här alternativet flaggar potentiella hot oftare, men har också en högre falskt positiv frekvens än **[!UICONTROL Strong Threat]**.
+* **[!UICONTROL Mild Threat]**: Ett hot eller en förolämpning som vanligen innefattar någon form av mild svordomar riktad mot en annan person. Det här alternativet flaggar möjliga hot oftare, men har också en högre falskt positiv frekvens än **[!UICONTROL Strong Threat]**.
 
 * **[!UICONTROL Strong Threat]**: Ett allvarligt hot eller en förolämpning som omnämns att ett eller flera personer skadas av handlingar, ofta med stark svordom. Det här alternativet flaggar potentiella hot mindre ofta, men har också en lägre falskt positiv frekvens än **[!UICONTROL Mild Threat]**.
 
@@ -72,7 +75,7 @@ SAFE använder följande flaggor för filtrerat innehåll och kan användas för
 
    >[!NOTE]
    >
-   >Om du vill aktivera modereringsrekommendationer kontaktar du Adobe Livefyre-supportpersonalen.
+   >Om du vill aktivera Recommendations för moderering kontaktar du supportpersonalen på Adobe Livefyre.
 
 ## Hantera innehåll som inte fångas upp av SAFE {#section_pjy_5tx_vy}
 
