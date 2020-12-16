@@ -7,6 +7,9 @@ title: Konfigurationsalternativ
 uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Välj konfigurationsalternativen Format, Visning och Användarengagemang för St
 
 * **[!UICONTROL Theme]**
 
-   Välj **Ljus** eller **Mörk** för att definiera bakgrundsfärgen för det innehåll som visas. Ändringar som görs i den här inställningen visas omedelbart i förhandsvisningen till höger. Den här inställningen styr bakgrund, innehållstext, användarhandtag, tidsstämpel, delningsknapp och färgval av sociala ikoner för appen.
+   Välj **Ljus** eller **Mörk** för att definiera bakgrundsfärgen för det visade innehållet. Ändringar som görs i den här inställningen visas omedelbart i förhandsvisningen till höger. Den här inställningen styr bakgrund, innehållstext, användarhandtag, tidsstämpel, delningsknapp och färgval av sociala ikoner för appen.
 
 * **[!UICONTROL Brand color]**
 
@@ -49,7 +52,7 @@ Välj konfigurationsalternativen Format, Visning och Användarengagemang för St
 
 * **[!UICONTROL Byline type]**
 
-   Om **[!UICONTROL Byline]** är aktiverat kan du med den här listrutan välja vilken typ av panel som ska visas: teamingång, eller individuella byte. Använd fältet nedan **[!UICONTROL Byline type]** för att ange den text som ska visas som indata.
+   Om **[!UICONTROL Byline]** är aktiverat kan du med den här listrutan välja vilken typ av penna som ska visas: teamingång, eller individuella byte. Använd fältet nedanför **[!UICONTROL Byline type]** för att ange texten som ska visas som indata.
 
    >[!NOTE]
    >
