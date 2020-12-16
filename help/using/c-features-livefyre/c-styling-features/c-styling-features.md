@@ -6,6 +6,9 @@ title: Formateringsfunktioner
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 1%
 
 ---
 
