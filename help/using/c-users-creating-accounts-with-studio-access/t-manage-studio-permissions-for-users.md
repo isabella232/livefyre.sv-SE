@@ -7,6 +7,9 @@ title: Hantera Studio-behörigheter för användare
 uuid: 15c395c8-a9bb-4b0b-9586-61ac36810730
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -19,5 +22,5 @@ Studio-administratörer och Studio Managers kan visa och redigera en annan Studi
 
 Användarhanterare kan visa och hantera slutanvändarkonton (besökare).
 
-1. Klicka på **[!UICONTROL Studio Access]** fliken för att visa och hantera användarens Studio-behörigheter.
+1. Klicka på fliken **[!UICONTROL Studio Access]** för att visa och hantera användarens Studio-behörigheter.
 1. Markera eller avmarkera alternativen i listan för att ändra de tilldelade rollerna.
