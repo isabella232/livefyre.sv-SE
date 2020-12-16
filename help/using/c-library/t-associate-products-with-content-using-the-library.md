@@ -6,6 +6,9 @@ title: Associera produkter med innehåll med hjälp av biblioteket
 uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +27,6 @@ När du publicerar en app med det innehållet visas knappen Call-to-Action autom
    >
    >Du kan bara associera bilder med produkter för innehåll som sparas i en mapp. Du måste ha behörighet för en bild för att kunna associera den med en produkt.
 
-1. Klicka **[!UICONTROL Products]** på **[!UICONTROL Bulk Actions Menu]**.
-1. Klicka på den **[!UICONTROL Product Folder]** som innehåller produkten som ska associeras med innehållet.
-1. Klicka i kryssrutan bredvid en eller flera produkter som du vill associera med innehållet och klicka sedan på **[!UICONTROL Add]** för att spara associationen.
+1. Klicka på **[!UICONTROL Products]** i **[!UICONTROL Bulk Actions Menu]**.
+1. Klicka på **[!UICONTROL Product Folder]** som innehåller produkten som ska associeras med innehållet.
+1. Klicka i kryssrutan bredvid en eller flera produkter som ska associeras med innehållet och klicka sedan på **[!UICONTROL Add]** för att spara associationen.
