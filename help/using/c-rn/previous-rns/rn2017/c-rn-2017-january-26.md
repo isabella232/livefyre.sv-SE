@@ -23,14 +23,14 @@ Versionsinformation för 26 januari 2017.
 |--- |--- |--- |
 | Förbättring | Kommentarer, typografiska tecken | Standardvärdena för Kommentarer och Sidenotes-värden och -knappar har nu ökad färgkontrast för att uppfylla tillgänglighetsstandarder. |
 | Förbättring | Livefyre-identitet | Förbättrad Livefyre-identitet som stöder tangentbordsnavigering för att uppfylla tillgänglighetsstandarder. |
-| Förbättring | Storify 2 | Förbättrad Storify 2 med förkortningar av tidszoner för inlägg så att kunderna tydligt kan förstå när inlägg publiceras. |
+| Förbättring | Storify 2 | Förbättrad Storify 2 med förkortningar av tidszon för inlägg så att kunderna tydligt kan förstå när inlägg publiceras. |
 | Fel | Storify 2 | Korrigerade ett fel som gjorde att Google-sökresultat inte kunde returneras i Storify 2. |
 | Fel | Strömmar | Förbättrade regler för Facebook-sidor för att importera högkvalitativa Facebook-bilder där vi bara importerade miniatyrbilderna innan vi importerade dem. |
 | Förbättring | Strömmar | En rensningsknapp har lagts till för att radera användaruppsättningsplatser i strömningsregler som stöds. |
 | Fel | Studio | Förbättrad sökning av biblioteksresurser med stöd för japanska tecken. |
 
 
-## UAT-release {#section_dyx_yl2_wy}
+## UAT-version {#section_dyx_yl2_wy}
 
 | Ärendetyp | Komponent | Versionsinformation |
 |--- |--- |--- |
