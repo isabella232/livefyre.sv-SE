@@ -7,11 +7,14 @@ title: Användare som skapar användarkonton
 uuid: f8eed23d-40d4-4aee-8ee0-f1790e119961
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
 
-# Användare: Skapa användarkonton{#users-creating-user-accounts}
+# Användare: Skapar användarkonton{#users-creating-user-accounts}
 
 Med Studio-konton kan du få åtkomst till alla Studio-komponenter som du har behörighet för, inklusive appskapande, moderering av innehåll och användarhantering.
 
