@@ -6,11 +6,14 @@ title: Anpassade sidenotes-strängar
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 0%
 
 ---
 
 
-# Anpassade sidenotes-strängar{#sidenotes-custom-strings}
+# Sidenotes Custom Strings{#sidenotes-custom-strings}
 
 Anpassade strängar tillämpas genom ett objekt som injiceras i Sidenotes-konstruktorn och åsidosätter standardsträngar som används i programmet. Dessa kan användas för att anpassa valfri del av språket så att det passar din stil eller dina språkspecifikationer. Strängar sammanfogas automatiskt med standardvärden.
 
