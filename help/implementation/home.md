@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Handbok för Livefyre-implementering {#livefyre-help}
+# Implementeringshandbok för Livefyre {#livefyre-help}
 
 Implementera Livefyre Studio och Livefyre Apps på er webbplats med hjälp av utvecklarverktyg för att anpassa er upplevelse.
 
-Mer information om hur du använder Livefyre Studio och Livefyre Apps i Livefyre Studio finns i användarhandboken [*för *](/help/using/home.md)Adobe Experience Manager Livefyre.
+Mer information om hur du använder Livefyre Studio och Livefyre Apps i Livefyre Studio finns i [*Adobe Experience Manager Livefyre User Guide*](/help/using/home.md).
 
 ## Populära ämnen
 
