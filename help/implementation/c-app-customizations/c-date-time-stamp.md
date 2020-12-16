@@ -7,6 +7,9 @@ title: Anpassa datum- och tidsstämpeln
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +26,10 @@ Livefyre Apps innehåller parametern option, datetimeFormat, som anger datumform
 
 ## Terminologi {#section_xsk_jn4_xz}
 
-* **Absoluta tidsstämplar** definieras som exakta och specifika tider (t.ex. 1 januari 2012 12:00 pm)
-* **Relativa tidsstämplar** definieras som allmänna och mindre exakta tider (t.ex. för 25 sekunder sedan, för 14 minuter sedan, för 1 dag sedan, för 1 år sedan osv.)
+* **Absoluta** tidsstämplar definieras som exakta och specifika tider (t.ex. 1 januari 2012 12:00 pm)
+* **Relativa** tidsstämplar definieras som allmänna och mindre exakta tider (t.ex. för 25 sekunder sedan, för 14 minuter sedan, för 1 dag sedan, för 1 år sedan osv.)
 
-## Formatering {#section_ynx_gn4_xz}
+## Formaterar {#section_ynx_gn4_xz}
 
 Parametern datetimeFormat har följande standardbeteende när inget argument anges:
 
@@ -85,7 +88,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 ## Symbolbeteckning {#section_inq_2n4_xz}
 
-Formateringsfunktioner för datumtid enligt mönsterspecifikationen som definierats i JDK, ICU och CLDR, med mindre ändringar för vanlig användning i JS. Mer information finns i dokumentationen för [Google Closure Library](https://developers.google.com/closure/library/docs/overview).
+Formateringsfunktioner för datumtid enligt mönsterspecifikationen som definierats i JDK, ICU och CLDR, med mindre ändringar för vanlig användning i JS. Mer information finns i [dokumentationen för Google Closure Library](https://developers.google.com/closure/library/docs/overview).
 
 ```
   Symbol Meaning Presentation        Example 
@@ -125,8 +128,8 @@ Objekt som är markerade med # fungerar annorlunda än Java.
 
 Antalet mönsterbokstäver bestämmer formatet.
 
-* **Text:** 4 eller fler, använd den fullständiga blanketten. Använd kort eller förkortad form om den finns, om den är kortare än 4. (Exempel: &quot;EEEE&quot; skapar &quot;Monday&quot;, &quot;EEE&quot; producerar &quot;Mon&quot;.)
-* **Antal:** Minsta antal siffror. Kortare siffror läggs till med noll (till exempel: Om &quot;m&quot; ger &quot;6&quot;, &quot;mm&quot; ger &quot;06&quot;.) År hanteras särskilt. om antalet&quot;y&quot; är 2 kommer år att trunkeras till två siffror. (Exempel: om &quot;yyyy&quot; skapar &quot;1997&quot;, &quot;yy&quot; skapar &quot;97&quot;.) Till skillnad från andra fält läggs bråksekunder till till höger med noll.
-* **Text och nummer:** 3 eller senare, använd text. Färre än 3, använd nummer. (Exempel: &quot;M&quot; skapar &quot;1&quot;, &quot;MM&quot; skapar &quot;01&quot;, &quot;MMM&quot; skapar &quot;Jan&quot; och &quot;MMMM&quot; skapar &quot;January&quot;.)
+* **Text:** 4 eller fler, använd fullständigt format. Använd kort eller förkortad form om den finns, om den är kortare än 4. (Exempel: &quot;EEEE&quot; skapar &quot;Monday&quot;, &quot;EEE&quot; producerar &quot;Mon&quot;.)
+* **tal:** minsta antalet siffror. Kortare siffror läggs till med noll (till exempel: Om &quot;m&quot; skapar &quot;6&quot;, &quot;mm&quot; skapar &quot;06&quot;.) År hanteras särskilt. om antalet&quot;y&quot; är 2 kommer år att trunkeras till två siffror. (Exempel: om &quot;yyyy&quot; skapar &quot;1997&quot;, &quot;yy&quot; skapar &quot;97&quot;.) Till skillnad från andra fält läggs bråksekunder till till höger med noll.
+* **Text och nummer:** 3 eller högre, använd text. Färre än 3, använd nummer. (Exempel: &quot;M&quot; skapar &quot;1&quot;, &quot;MM&quot; skapar &quot;01&quot;, &quot;MMM&quot; skapar &quot;Jan&quot; och &quot;MMMM&quot; skapar &quot;January&quot;.)
 
-Alla tecken i mönstret som inte ligger inom intervallet [&quot;a&quot;..&quot;.z’] och [&quot;A&quot;..&quot;Z’] behandlas som citerad text. Tecken som&quot;:&quot;,&quot;.&quot;,&quot;#&quot; och&quot;@&quot; visas i den resulterande tidstexten även om de inte omsluts av enkla citattecken.
+Alla tecken i mönstret som inte ligger inom intervallet [&quot;a&quot;..&quot;.z&quot;] och [&quot;A&quot;..&quot;Z&#39;] behandlas som citattext. Tecken som&quot;:&quot;,&quot;.&quot;,&quot;#&quot; och&quot;@&quot; visas i den resulterande tidstexten även om de inte omsluts av enkla citattecken.
