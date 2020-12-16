@@ -1,10 +1,13 @@
 ---
-description: Senaste versionsinformation om Adobe Livefyre.
-seo-description: Senaste versionsinformation om Adobe Livefyre.
+description: Senaste versionsinformation för Adobe Livefyre.
+seo-description: Senaste versionsinformation för Adobe Livefyre.
 seo-title: Senaste versionsinformation för Adobe Livefyre
 title: Senaste versionsinformation för Livefyre
 translation-type: tm+mt
 source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
