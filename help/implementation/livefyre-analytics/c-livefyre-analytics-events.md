@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Livefyre Analytics Events
 
-## Definition av händelseobjekt {#section_dh1_yhn_pdb}
+## Händelseobjektsdefinition {#section_dh1_yhn_pdb}
 
 Följande kod definierar de fält i händelseobjektet som tas emot av analyshanteraren på en sida.
 
@@ -45,7 +45,7 @@ Följande kod definierar de fält i händelseobjektet som tas emot av analyshant
 }
 ```
 
-## Livefyre Analytics Events and eVars {#section_u3k_tft_mcb}
+## Livefyre Analytics Events och eVars {#section_u3k_tft_mcb}
 
 Följande Livefyre-händelser som ska mappas till anpassade händelser som ska användas i rapporter med Report Suite Manager. Mer information om rapportsviter i Adobe Analytics finns i [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Mer information om hur du använder Livefyre-händelser med Report Suite Manager finns i [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
@@ -100,7 +100,7 @@ Nedan följer en lista med konverteringsvariabler (eVars) som finns i Livefyre.
 
 Mer information om ämnen som behandlas på den här sidan finns i:
 
-* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Report Suite ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
 * [Regler](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
