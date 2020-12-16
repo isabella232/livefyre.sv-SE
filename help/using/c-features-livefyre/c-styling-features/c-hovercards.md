@@ -6,6 +6,9 @@ title: Hovercards
 uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Livefyre Hovercard är en popup som visar en snabb ögonblicksbild av användari
 
 När du hovrar över en användares avatar på kommentarer, Live-blogg eller chatt visas användarens Hovercard.
 
-Om du klickar **[!UICONTROL View Full Profile]** kommer användaren till den fullständiga profilsidan för användaren.
+Om du klickar på **[!UICONTROL View Full Profile]** dirigeras användaren till den fullständiga profilsidan för den användaren.
 
 >[!NOTE]
 >
