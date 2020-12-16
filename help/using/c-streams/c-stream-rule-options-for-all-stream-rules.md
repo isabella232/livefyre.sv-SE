@@ -7,19 +7,22 @@ title: Direktuppspelningsregelalternativ för alla flödesregler
 uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
 translation-type: tm+mt
 source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
 
-# Direktuppspelningsregelalternativ för alla flödesregler{#stream-rule-options-for-all-stream-rules}
+# Direktuppspelningsregelalternativ för alla direktuppspelningsregler{#stream-rule-options-for-all-stream-rules}
 
 Dessa alternativ gäller för alla flödesregler från alla sociala nätverk eller bokföringsmetoder.
 
 Sökfunktioner för text och nyckelordsfält:
 
-* När du anger nyckelord använder Livefyre automatiskt operatorn Boolean **OR** för enskilda ord. Om du till exempel vill söka efter inlägg med ordet *tårta* eller *recept* skriver du *tårta* och sedan *recept* i **[!UICONTROL keyword]** fältet.
+* När du anger nyckelord används den booleska operatorn **OR** automatiskt i Livefyre för enskilda ord. Om du till exempel vill söka efter inlägg med antingen ordet *tårta* eller *recept* anger du *tårta* och sedan *recept* i fältet **[!UICONTROL keyword]**.
 
-* Du kan söka efter exakta fraser genom att omge den exakta frastexten inom citattecken. Om du till exempel vill söka efter den exakta frasen *tårta* skriver du *&quot;tårtrecept&quot;* i **[!UICONTROL keyword]** fältet.
+* Du kan söka efter exakta fraser genom att omge den exakta frastexten inom citattecken. Om du till exempel vill söka efter den exakta frasen *recept* anger du *&quot;recept på tårta&quot;* i fältet **[!UICONTROL keyword]**.
 
 * Du kan kombinera sökningar med boolesk och exakt fras i en strömregel. Du kan till exempel söka efter *tårta*, *recept* och *&quot;tårtrecept&quot;* genom att ange varje fras i taget.
 
@@ -28,10 +31,10 @@ Sökfunktioner för text och nyckelordsfält:
 * **[!UICONTROL Media]**. Välj något av följande:
 
    * **[!UICONTROL All Content.]** Tillåt allt innehåll.
-   * **[!UICONTROL Media Required.]** Tillåt endast innehåll med bilder och videoklipp. (För Instagram- och Facebook-innehåll kan du ange **[!UICONTROL Photos]** eller **[!UICONTROL Videos]** endast).
+   * **[!UICONTROL Media Required.]** Tillåt endast innehåll med bilder och videoklipp. (För Instagram- och Facebook-innehåll kan du bara ange **[!UICONTROL Photos]** eller **[!UICONTROL Videos]**).
 
 * **[!UICONTROL Language]**. Välj vilket språk du vill söka i. Engelska är standardspråket.
-* **[!UICONTROL Smart Tags]**. Välj de taggar som ska användas för att identifiera innehåll. Livefyre använder dataveteknik för att identifiera foton och videoklipp med specifika smarta taggar för att göra sökningen mer exakt. Använd modifieraren för att filtrera innehåll i strömmen med valfri tagg eller modifieraren för att filtrera innehåll till den ström som använder alla taggar. **[!UICONTROL ANY]** **[!UICONTROL ALL]** Använd **[!UICONTROL Image contains none of these smart tags]** fältet för att ange taggar för foton som innehåller innehåll som du inte vill ha i strömmen. Det här alternativet fungerar inte för textinnehåll.
+* **[!UICONTROL Smart Tags]**. Välj de taggar som ska användas för att identifiera innehåll. Livefyre använder dataveteknik för att identifiera foton och videoklipp med specifika smarta taggar för att göra sökningen mer exakt. Använd modifieraren **[!UICONTROL ANY]** för att filtrera innehåll i strömmen med valfri tagg eller modifieraren **[!UICONTROL ALL]** för att filtrera innehåll i strömmen som använder alla taggar. Använd fältet **[!UICONTROL Image contains none of these smart tags]** för att ange taggar för foton som innehåller innehåll som du inte vill ha i strömmen. Det här alternativet fungerar inte för textinnehåll.
 
 * **[!UICONTROL Products]**. Lägg till produkttaggar för att matcha strömningsregeln med produkter från din produktkatalog.
 * **[!UICONTROL Premoderate]**. Välj något av följande:
