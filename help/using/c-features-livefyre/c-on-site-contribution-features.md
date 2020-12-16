@@ -7,6 +7,9 @@ title: Funktioner för bidrag på plats
 uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +54,7 @@ Program som använder den här funktionen:
 
 * [Knappen Överför](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## Kompatibel med knappen Överför {#section_vzs_t2s_d1b}
+## Knappen Överför är kompatibel {#section_vzs_t2s_d1b}
 
 Du kan välja att visa knappen Överför i din app så att webbplatsbesökarna kan överföra text eller media till en app eller ditt bibliotek.
 
