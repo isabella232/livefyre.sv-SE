@@ -1,12 +1,15 @@
 ---
-description: Använd Bootstrap- och Stream API med Livefyre-appar.
-seo-description: Använd Bootstrap- och Stream API med Livefyre-appar.
+description: Använd Bootstrap och Stream API med Livefyre-appar.
+seo-description: Använd Bootstrap och Stream API med Livefyre-appar.
 seo-title: Appimplementering
 solution: Experience Manager
 title: Appimplementering
 uuid: null
 translation-type: tm+mt
 source-git-commit: b737f2c6afb03d91041a317cc0afb790c3eadcb1
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +17,9 @@ source-git-commit: b737f2c6afb03d91041a317cc0afb790c3eadcb1
 
 Användningsfall: Som kund vill jag integrera Livefyre i mitt CMS-system från tredje part med metoden Livefyre.js.
 
-Det finns tre sätt att implementera Livefyre i en anpassad AEM-komponent eller andra CMS:er som WordPress, Sitecore eller DemandWare: Implementering, API, implementering och autentisering från tredje part.
+Det finns tre sätt att implementera Livefyre i en anpassad AEM eller andra CMS:er som WordPress, Sitecore eller DemandWare: Implementering, API, implementering och autentisering från tredje part.
 
-## App-implementering för Designer {#designerapp}
+## Implementering av Designer-app {#designerapp}
 
 Vad: Det enklaste och snabbaste sättet att integrera en Livefyre-app. Du kan utforma, konfigurera och generera en anpassad JavaScript-inbäddningskod för att integrera en LiveCycle-app på en sida på några minuter.
 
@@ -26,7 +29,7 @@ Exempel: [https://codepen.io/dharafyre/pen/bvGrLo](https://codepen.io/dharafyre/
 
 ### Livefyre.js-implementering {#livefyrejsimp}
 
-Vad: [Livefyre.js](/help/implementation/c-livefyre.js.md) är huvudbiblioteket som driver Apps och Auth på en webbplats. Den definierar det globala `window.Livefyre` objektet och en enda offentlig metod, Livefyre.require, som kan användas för att läsa in andra LiveFyre JavaScript-bibliotek som hjälper till med inbäddning av Livefyre-appar och integrering med andra användarautentiseringssystem.
+Vad: [Livefyre.js](/help/implementation/c-livefyre.js.md) är huvudbiblioteket som driver Apps och Auth på en webbplats. Den definierar det globala `window.Livefyre`-objektet och en offentlig metod, Livefyre.require, som kan användas för att läsa in andra LiveFyre JavaScript-bibliotek som hjälper till med inbäddning av Livefyre-appar och integrering med andra användarautentiseringsplattformar.
 
 Hur:
 
@@ -46,7 +49,7 @@ Exempel:
 
 ## API-implementering {#apiimplementation}
 
-För att skapa anpassade upplevelser och datavisualiseringar kan Livefyre-appar skapas från grunden genom att använda Livefyre och sociala data med hjälp av API:t Bootstrap och Stream.
+För att skapa anpassade upplevelser och datavisualiseringar kan Livefyre-appar skapas från grunden genom att använda Livefyre och sociala data med API:t för Bootstrap och Stream.
 
 ## Integrering av autentisering från tredje part {#thirdpartyauth}
 
