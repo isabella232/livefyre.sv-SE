@@ -6,13 +6,16 @@ title: userPrivacyOptOut
 uuid: a043c50e-0a02-4c83-bbce-54b9b51316a5
 translation-type: tm+mt
 source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
 
 # userPrivacyOptOut{#userprivacyoptout}
 
-Lägg till `userPrivacyOptOut` flaggan på sidan så att en besökare kan välja bort spårningen.
+Lägg till flaggan `userPrivacyOptOut` på sidan så att en besökare kan avanmäla sig från spårningen.
 
 Livefyre tillhandahåller JavaScript-händelser för att spåra användaraktivitet i Livefyre-appar.
 
@@ -32,7 +35,7 @@ Integrering med inbäddning av Livefyre-appar kan konfigurera Livefyre när en b
 
 Instruktioner:
 
-1. Lägg till `userPrivacyOptOut` flaggan på sidan före `Livefyre.js` JavaScript:
+1. Lägg till flaggan `userPrivacyOptOut` på sidan före JavaScript-koden `Livefyre.js`:
 
    ```
    window.Livefyre = {userPrivacyOptOut: true};
@@ -44,6 +47,6 @@ Instruktioner:
 
    >[!NOTE]
    >
-   >Ändra inte värdet när Livefyre-apparna `userPrivacyOptOut` har lästs in.
+   >Ändra inte värdet på `userPrivacyOptOut` när Livefyre-apparna har lästs in.
 
-Kontrollera att ditt arbetsflöde för samtycke anger `userPrivacyOptOut` värdet true om en besökare väljer att avanmäla sig.
+Kontrollera att ditt arbetsflöde för samtycke anger `userPrivacyOptOut` som true om en besökare väljer att avanmäla sig.
