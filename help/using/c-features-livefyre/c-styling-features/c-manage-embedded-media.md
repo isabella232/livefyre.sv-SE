@@ -6,6 +6,9 @@ title: Hantera inbäddade media
 uuid: d8621be1-dcfb-429f-954e-b21fdcf02715
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
