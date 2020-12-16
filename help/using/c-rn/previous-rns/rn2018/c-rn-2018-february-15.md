@@ -7,6 +7,9 @@ title: 15 februari 2018
 uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +24,12 @@ Följande funktioner är nya i produktionsversionen av den här versionen:
 
 * **Smarta taggar.**
 
-   Livefyre använder Adobe Sensei-teknik för bildigenkänning för att automatiskt tagga bilder som du sparar i biblioteket.
+   Livefyre använder Adobe Sensei bildigenkänningsteknik för att automatiskt tagga bilder du sparar i biblioteket.
 Med smarta taggar kan du spara mycket tid när du söker efter och modererar innehåll. Med smarta taggar kan du:
 
    * Söka i sparade bilder efter exakt innehåll baserat på bildinnehållet i stället för enbart text
    * Samla innehåll i strömmar baserat på exakta söktermer som analyserar bilden, i stället för bara text
+
    Mer information om smarta taggar finns i [Smarta taggar](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
 
 * **Meddelanden i produkten.** När du nu loggar in på Livefyre Studio öppnas ett meddelandefönster med uppdateringar om nya funktioner.
