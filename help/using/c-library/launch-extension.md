@@ -6,6 +6,9 @@ title: Adobe Launch Livefyre Extension
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
