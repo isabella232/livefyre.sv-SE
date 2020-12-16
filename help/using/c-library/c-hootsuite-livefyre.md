@@ -6,6 +6,9 @@ title: Använd Adobe Experience Manager Livefyre med Hootsuite
 uuid: ebf2ba17-1622-4bbe-a374-fb325357ef9f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Aktivitetskontext
 
 1. Installera Adobe Experience Manager Livefyre för Hootsuite från appkatalogen Hootsuite.
 
-1. Klicka på **Logga in med Adobe** på din Hootsuite-kontrollpanel.
+1. Klicka på **Logga in med Adobe** på din Hootsuite-instrumentpanel.
 
    ![](assets/hootsuite-login.png)
 
@@ -39,7 +42,7 @@ Aktivitetskontext
 
 Aktivitetskontext
 
-1. Klicka på sökikonen på menyraden för att söka efter resurser i Experience Manager Livefyre-biblioteken.
+1. Klicka på sökikonen på menyraden för att söka efter resurser i dina Experience Manager Livefyre-bibliotek.
 
    ![](assets/hootsuite-search.png)
 
@@ -48,7 +51,7 @@ Aktivitetskontext
 
    ![](assets/hootsuite-select.png)
 
-## Filtreringsalternativ {#concept_5D062A9CD61A4B2E90784E5AA31CB16D}
+## Filteralternativ {#concept_5D062A9CD61A4B2E90784E5AA31CB16D}
 
 Du kan filtrera sökresultaten genom att använda avsnitten Visa resurser från, Rätt, Nyckelord och Taggar.
 
@@ -69,7 +72,7 @@ När du har valt sökparametrar visas dina resurser i strömmen när du söker:
 
 ### Alternativ på menyn Direktuppspelning
 
-Om du klickar på användarens namn eller ikon visas användaren i respektive nätverk. När du klickar på tiden visas den ursprungliga artikeln. När du för musen över objektet visas fler alternativ. Klicka på Dela ![](assets/share.png)
+Om du klickar på användarens namn eller ikon visas användaren i respektive nätverk. När du klickar på tiden visas den ursprungliga artikeln. När du för musen över objektet visas fler alternativ. Klicka på resursen ![](assets/share.png)
 
 kommer att lägga till den aktuella resursen i nätverksdispositionsrutan, så att du kan dela den med dina nätverk via Hootsuite.
 
@@ -77,13 +80,13 @@ kommer att lägga till den aktuella resursen i nätverksdispositionsrutan, så a
 >
 >Delningsknappen visas bara när du filtrerar efter resurser med behörighet.
 
-Klicka på ![](assets/assign.png) ikonen Tilldela för att tilldela det aktuella objektet till någon av dina medlemmar i Hootsuite-teamet. Om ett objekt redan har tilldelats, åtgärdar du ![](assets/resolve.png)
+Klicka på ikonen Tilldela ![](assets/assign.png) för att tilldela det aktuella objektet till en av dina medlemmar i Hootsuite-teamet. Om ett objekt redan har tilldelats, åtgärdar du ![](assets/resolve.png)
 
 visas. Klicka på det för att matcha det aktuella uppdraget.
 
 ### Andra programmenyer
 
-Klicka på Inställningar ![](assets/settings.png)
+Klicka på inställningarna ![](assets/settings.png)
 
 kan du koppla från det aktuella Experience Manager Livefyre-kontot och ansluta till ett annat.
 
@@ -93,7 +96,7 @@ Klicka på menyn ![](assets/menu.png)
 
 ## Experience Manager Livefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
-Förutom att kunna visa dina resursbibliotek i en Hootsuite-ström kan du även spara objekt från Instagram, Twitter, Facebook och YouTube till Experience Manager Livefyre-biblioteken.
+Förutom att du kan visa dina resursbibliotek i en Hootsuite-ström kan du även spara objekt från Instagram, Twitter, Facebook och YouTube till dina Experience Manager Livefyre-bibliotek.
 
 1. Klicka på menyikonen längst ned i varje objekt.
 
@@ -110,7 +113,7 @@ Förutom att kunna visa dina resursbibliotek i en Hootsuite-ström kan du även 
 
 Du kommer åt dina resurser via Mediekomponenter i Composer i Hootsuite.
 
-1. Klicka på länken **Öppna mediebibliotek** i delen **Media** i Composer.
+1. Klicka på länken **Öppna mediebibliotek** i avsnittet **Media** i Composer.
 
    ![](assets/hootsuite-open-media-library.png)
 
@@ -118,4 +121,4 @@ Du kommer åt dina resurser via Mediekomponenter i Composer i Hootsuite.
 
    ![](assets/hootsuite-aem-files.png)
 
-1. Om du vill lägga till en resurs i det aktuella inlägget som du skriver klickar du på det. Om du vill söka efter en viss resurs anger du söktermerna i rutan **Sök media** så visas resultatet.
+1. Om du vill lägga till en resurs i det aktuella inlägget som du skriver klickar du på det. Om du vill söka efter en viss resurs anger du söktermerna i rutan **Sök media** så visas resultaten.
