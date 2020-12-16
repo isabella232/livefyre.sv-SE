@@ -7,11 +7,14 @@ title: Enagement Features
 uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
 
-# Enagement Features{#enagement-features}
+# Enhetsfunktioner{#enagement-features}
 
 Engagera besökarna på webbplatsen med funktioner som får dem att komma tillbaka till webbplatsen när de upptäcker ert innehåll.
 
@@ -27,7 +30,7 @@ Program som använder den här funktionen:
 * [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Recensioner](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## Gilla {#section_q4j_ycm_d1b}
+## Som {#section_q4j_ycm_d1b}
 
 Lägg till möjligheten att&quot;gilla&quot; en kommentar eller ett svar.
 
@@ -59,11 +62,11 @@ Program som använder den här funktionen:
 * [Recensioner](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
-## Vänomnämnanden {#section_yw5_fdm_d1b}
+## Vänmeningar {#section_yw5_fdm_d1b}
 
 @ange en användare eller någon som redan har publicerat innehåll i samlingen.
 
-Om du vill ange någon som har publicerat innehåll i samlingen kan du klicka på **[!UICONTROL @]** omnämnandeknappen eller skriva @ i redigeraren för att visa en lista över personer som kan omnämnas. Listan innehåller alla användare som följer konversationen. (Börja skriva ett namn för att begränsa listan till matchningar för indatatexten.)
+För att nämna någon som har publicerat innehåll i samlingen kan användaren klicka på **[!UICONTROL @]**-omnämnandeknappen eller skriva @ i redigeraren för att visa en lista över personer som kan omnämnas. Listan innehåller alla användare som följer konversationen. (Börja skriva ett namn för att begränsa listan till matchningar för indatatexten.)
 
 >[!NOTE]
 >
@@ -87,9 +90,9 @@ Anpassade åtgärdsknappar, och den associerade åtgärden, kan läggas till i a
 
 Tillåter användare att få e-postmeddelanden när konversationer de följer ändras.
 
-Efter en konversation kan användare ta emot e-postmeddelanden baserat på aktivitet i konversationen. Användarna klickar på knappen **[!UICONTROL Follow]** / **[!UICONTROL Unfollow]** för att ange konversationsspecifika inställningar eller använder sin **[!UICONTROL Profile Settings]** sida för att ange en webbplatsomfattande inställning för att följa konversationer.
+Efter en konversation kan användare ta emot e-postmeddelanden baserat på aktivitet i konversationen. Användare klickar på knappen **[!UICONTROL Follow]** / **[!UICONTROL Unfollow]** för att ange konversationsspecifika inställningar, eller använder sin **[!UICONTROL Profile Settings]**-sida för att ange en webbplatsomfattande inställning för att följa konversationer.
 
-(Funktionen är inte tillgänglig på mobila enheter.) **[!UICONTROL Follow]**
+(Funktionen **[!UICONTROL Follow]** är inte tillgänglig på mobilen.)
 
 >[!NOTE]
 >
