@@ -7,6 +7,9 @@ title: 8 mars 2018
 uuid: 4ed67147-0837-4d5e-8e99-532a4278bcce
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Versionsinformation för utgåva 8 mars 2018.
 
 Följande funktioner är nya i produktionsversionen av den här versionen:
 
-* **Tar bort program. **Möjligheten att ta bort appar i Studio har lagts till så att användarna bättre kan hantera applistan. Om du tar bort en app tas den bort från tabellen, men appen tas inte bort från webbplatsen. Appen fortsätter att ta emot innehåll från en ström om den är konfigurerad att göra det.
+* **Tar bort program. **Möjligheten att ta bort appar i Studio har lagts till så att användarna bättre kan hantera applistan. Om du tar bort en app tas den bort från tabellen, men den tas inte bort från webbplatsen. Appen fortsätter att ta emot innehåll från en ström om den är konfigurerad att göra det.
 
 ## Problem {#section_ehw_ndt_wcb}
 
