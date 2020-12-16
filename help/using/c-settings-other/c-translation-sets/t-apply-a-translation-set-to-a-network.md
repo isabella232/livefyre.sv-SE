@@ -7,11 +7,14 @@ title: Använda en översättningsuppsättning på ett nätverk
 uuid: 3d9a2616-3721-4ac5-a039-aefbf57cf269
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
 
-# Använda en översättningsuppsättning på ett nätverk{#apply-a-translation-set-to-a-network}
+# Använd en översättningsuppsättning på ett nätverk{#apply-a-translation-set-to-a-network}
 
 1. Navigera till Inställningar i Studio. Kontrollera att du arbetar på nätverksnivå och inte på platsnivå.
 1. Välj Nätverksinställningar.
