@@ -7,6 +7,9 @@ title: Konfigurera Rights Management
 uuid: 3ffcbc95-484f-4eba-b817-658c1d658bf8
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 0%
 
 ---
 
@@ -15,20 +18,20 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Definiera inställningarna för att begära rättigheter för Instagram- och Twitter-inlägg.
 
-Innan du kan definiera inställningar för rättighetsbegäran måste du konfigurera ett eller flera sociala konton för Instagram eller Twitter. Mer information om hur du konfigurerar ett socialt konto finns i [Lägga till ett socialt konto](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
+Innan du kan definiera inställningar för rättighetsbegäran måste du konfigurera ett eller flera sociala konton för Instagram eller Twitter. Mer information om hur du konfigurerar ett socialt konto finns i [Lägg till ett socialt konto](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
 
 >[!NOTE]
 >
 >Du kan bara konfigurera behörighetshantering på nätverksnivå. Du kan inte konfigurera platsspecifik behörighetshantering.
 
-1. Navigera till Livefyre Studio **[!UICONTROL Network]** **[!UICONTROL Settings > Rights Management]**.
+1. Navigera till **[!UICONTROL Network]** **[!UICONTROL Settings > Rights Management]** i Livefyre Studio.
 
    >[!NOTE]
    >
    >Du måste ha behörighet på nätverksnivå för moderatorn eller administratören för att kunna konfigurera Rights Management-konton.
 
 1. Välj **[!UICONTROL +Add New Account]** om du inte har konfigurerat några Rights Management-konton.
-1. Klicka **[!UICONTROL Create New Setting]** under det sociala nätverk som du vill använda för Rights Management.
+1. Klicka på **[!UICONTROL Create New Setting]** under det sociala nätverk som du vill använda för Rights Management.
 
    >[!NOTE]
    >
@@ -47,12 +50,12 @@ Innan du kan definiera inställningar för rättighetsbegäran måste du konfigu
 
          **[!UICONTROL Note:]** {handle}, {grantTag} och {termsLink} är skiftlägeskänsliga.
 
-         **[!UICONTROL Note:]** För att förhindra obehörig användning kapslar Twitter in alla inkluderade URL:er med [t.co](https://t.co/) -formatering. För att förhindra att standardmeddelandet innehåller fler än 140 tecken rekommenderar Livefyre att du inte tar med URL:er i standardmeddelandet.
+         **[!UICONTROL Note:]** För att förhindra obehörig användning kapslar Twitter in alla inkluderade URL:er med  [t.](https://t.co/) coformatting. För att förhindra att standardmeddelandet innehåller fler än 140 tecken rekommenderar Livefyre att du inte tar med URL:er i standardmeddelandet.
 
       * Bästa tillvägagångssätt för att skriva meddelanden om rättighetsförfrågan:
 
          * Skapa flera standardmeddelanden så att du inte låter som en robot. Spara varje standardmeddelande innan du skapar nästa standardmeddelande.
          * Uppmuntra dina moderatorer att anpassa den här anteckningen innan de skickar den för att förhindra att ditt nätverks förfrågningar taggas för skräppost.
 
-1. Klicka **[!UICONTROL Save Settings]** för att lägga till ditt Rights Request-konto.
-Skicka en behörighetsförfrågan från resursbiblioteket. Mer information om hur du skickar en rättighetsbegäran [från resursbiblioteket finns i](../c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset) Skicka en rättighetsbegäran.
+1. Klicka på **[!UICONTROL Save Settings]** för att lägga till ditt Rights Request-konto.
+Skicka en behörighetsförfrågan från resursbiblioteket. Mer information om hur du skickar en rättighetsbegäran från resursbiblioteket finns i [Skicka en rättighetsbegäran](../c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset).
