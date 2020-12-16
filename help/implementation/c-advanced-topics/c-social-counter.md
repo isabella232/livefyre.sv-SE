@@ -7,13 +7,16 @@ title: Socialräknare
 uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 0%
 
 ---
 
 
-# Socialräknare{#social-counter}
+# Räknare för sociala medier{#social-counter}
 
-Räkna antalet kuraterade sociala objekt. En fullständig lista över tillgängliga slutpunkter finns i avsnittet om Livefyre [API-referens](https://api.livefyre.com/docs) .
+Räkna antalet kuraterade sociala objekt. En fullständig lista över tillgängliga slutpunkter finns i avsnittet Livefyre [API Reference](https://api.livefyre.com/docs).
 
 Socialräknarens API returnerar antal matchade kurationsregler i en given samling för intervall över en tidsperiod.
 
@@ -33,8 +36,8 @@ API för räknare för sociala nätverk:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **networkName:** Ditt Livefyre-nätverksnamn angavs. Till exempel: *labb* in `labs.fyre.co`.
-* **fråga:** Den URL-säkra bas64-kodade hash-koden för alla webbplatser, artikel-ID och regeltyper som räkningsinformation ska hämtas för (förkodad)
+* **networkName:** Ditt Livefyre-nätverksnamn har tillhandahållits. Till exempel: *labb* i `labs.fyre.co`.
+* **fråga:** Den URL-säkra base64-kodade hash-koden för alla webbplatser, artikel-ID, regeltypstupplar för vilka räkningsinformation ska hämtas (förkodad)
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
@@ -43,8 +46,8 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
    >[!NOTE]
    >Frågan är begränsad till 10 plats-, artikel-ID- och regeltypstupplar. (Det föregående exemplet skulle innehålla 3 tupplar.)
 
-* **från** `(optional)` specificera den relativa eller absoluta tidsperioden till graf, från anger början och standardvärdet för 24 timmar sedan, om det utelämnas.
-* **till** dess att `(optional)` den relativa eller absoluta tidsperioden för diagram anges, tills anger början och standardvärdet är den aktuella tiden (nu), om detta utelämnas.
+* **från** `(optional)` anger den relativa eller absoluta tidsperioden till graf, från anger början och standardvärdet för 24 timmar sedan, om det utelämnas.
+* **tills** `(optional)` titel anger den relativa eller absoluta tidsperioden till graf, tills anger början och standardvärdet är den aktuella tiden (nu), om detta utelämnas.
 
 ### Relativ tid
 
@@ -90,7 +93,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Exempel:
 
-Så här erhåller du antal under den sista minuten för webbplats- `123456` och artikel-ID `some-article-id` och regeltyp `2`till exempel: `123456:some-article-id;2:`
+Om du vill få antal under den sista minuten för plats `123456` och artikel-ID `some-article-id` och regeltyp `2`, till exempel: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
