@@ -25,7 +25,7 @@ Om du använder dina egna anpassade videoklipp och spelare som en del av de vide
 * Lägg till `userPrivacyVideoWhitelist` efter `userPrivacyOptOut`. Du kan lägga till alla sekretessflaggor för Livefyre samtidigt som en del av ett Livefyre-objekt.
 * `userPrivacyVideoWhitelist` gäller endast innehåll som inte är inbäddat från sociala medier.
 
-I följande exempel är videoklipp som visas i appar med `sampledomain.com/cdn/videos` sökvägen tillåtna:
+I följande exempel är videoklipp som visas i appar med sökvägen `sampledomain.com/cdn/videos` tillåtna:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
