@@ -7,17 +7,27 @@ title: Textsträngar för sidenotes
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 0%
 
 ---
 
 
-# Textsträngar för sidenotes{#sidenotes-text-strings}
+# Sidenotes Text Strings{#sidenotes-text-strings}
 
 Anpassa textsträngar för Livefyre Sidenotes
 
 På den här sidan listas och beskrivs alla strängar som är tillgängliga för anpassning i appar för sidoteckensnitt. Mer information om tillgängliga strängar för de viktigaste Livefyre-apparna finns i String Customizations.
 
-ImplementationAuthStream InfoAuthor / Content InfoUser ActionsPost FunctionsModerator InterfaceErrors
+Implementering
+Autentisering
+Direktuppspelningsinformation
+Författare/Innehållsinformation
+Användaråtgärder
+Bokför funktioner
+Moderatorgränssnitt
+Fel
 
 ## Implementering {#section_wp2_ql4_xz}
 
@@ -75,7 +85,7 @@ Inställningar som är tillgängliga för information om författare och individ
 |  | commentvoiceCountSing | röst |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | En array. Standard =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionFörklaring | Nu kan du läsa och skriva kommentarer direkt på meningar, stycken, bilder och citat.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Markera texten</span> och klicka på <span class="&rdquo;fycon-write&rdquo;"></span> ikonen eller klicka på <span class="&rdquo;fycon-action-view&rdquo;"></span> ikonen i slutet av varje stycke. |
+|  | questionFörklaring | Nu kan du läsa och skriva kommentarer direkt på meningar, stycken, bilder och citat.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Markera </span> texten och klicka på  <span class="&rdquo;fycon-write&rdquo;"></span> ikonen eller klicka på  <span class="&rdquo;fycon-action-view&rdquo;"></span> ikonen i slutet av varje stycke. |
 |  | questionMockText | Det som är &quot;välkänt&quot; är inte riktigt känt, bara för att det är &quot;välbekant&quot;. |
 |  | questionTitle | Vad är en Sidenote? |
 
@@ -126,7 +136,7 @@ Strängar som är tillgängliga för användare som publicerar innehåll.
 | Ta bort menyalternativ | menuConfirmAccept | Ja, {action} |
 |  | menuConfirmCancel | Avbryt |
 |  | menuConfirmTitle | Är du säker? |
-| Alternativ på eTe-menyn | menuEtcOptionApprove | Godkänn |
+| Alternativ på ETT-menyn | menuEtcOptionApprove | Godkänn |
 |  | menuEtcOptionDelete | Ta bort |
 |  | menuEtcOptionEdit | Redigera |
 |  | menuEtcOptionFlag | Flagga |
