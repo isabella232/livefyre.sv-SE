@@ -7,6 +7,9 @@ title: JavaScript-händelser för medievägg
 uuid: 8afc0529-4640-476a-b207-91b2c70101f0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Använd Javascript-händelser för att lyssna efter händelser som inträffar i 
 
 Livefyre tillhandahåller JavaScript-händelser för att spåra användaraktivitet i Livefyre-appar. Du kanske vill uppdatera sidan när användare gillar eller delar innehåll på Twitter eller Facebook, eller när nytt innehåll publiceras.
 
-Här är ett exempel på hur du tar emot händelserna. Ersätt `console.log` med koden för att mappa och skicka händelsen till din analysintegrering (Dynamic Tag Management, Adobe Analytics JS, Google Analytics, etc.):
+Här är ett exempel på hur du tar emot händelserna. Ersätt `console.log` med koden för att mappa och skicka händelsen till analysintegreringen (Dynamic Tag Management, Adobe Analytics JS, Google Analytics osv.):
 
 ```
 document.body.addEventListener('insights', function (data) { 
