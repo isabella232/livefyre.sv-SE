@@ -7,6 +7,9 @@ title: Kartanpassningar
 uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Följande alternativ är tillgängliga i appen Karta:
 
 Du kan anpassa appen Karta med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se Karta för mer information om hur du anpassar program med integreringsverktyg.
 
