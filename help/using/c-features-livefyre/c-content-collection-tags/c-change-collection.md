@@ -7,6 +7,9 @@ title: Ändra samling
 uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Använd Ändra samlingsdelegat för att ändra den samling som visas på en sida
 
 Om du till exempel klickar på en video eller ett foto i ett galleri läses en samling som är specifik för den markeringen in, medan sidans URL inte ändras.
 
-Så här läser du in en av tre samlingar från en sida med [kommentarantal](/help/implementation/c-advanced-topics/t-display-comment-count.md) :
+Så här läser du in en av tre samlingar från en enskild [kommentarssida](/help/implementation/c-advanced-topics/t-display-comment-count.md):
 
 ```
 <html> 
