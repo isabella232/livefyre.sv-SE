@@ -7,11 +7,14 @@ title: Aktivera delning via sociala medier
 uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
 translation-type: tm+mt
 source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
 
-# Aktivera delning via sociala medier {#enabling-social-sharing}
+# Aktiverar delning via sociala medier {#enabling-social-sharing}
 
 Konfigurera autentiseringsuppgifter som gör att dina användare kan dela innehåll till olika sociala nätverk.
 
@@ -29,13 +32,13 @@ Om du använder ett anpassat användaridentitetssystem måste du ange dina socia
 >
 >Kunder som använder Janrain Engage behöver bara ange sin Engage Domain- och Engage API Key.
 
-Använd panelen Integreringsinställningar i Admin Console för att ange eller uppdatera följande inloggningsuppgifter för sociala medier.
+Använd panelen Integrationsinställningar i Admin Console för att ange eller uppdatera följande inloggningsuppgifter för sociala medier.
 
 ### Nödvändiga autentiseringsuppgifter:
 
-* **OAuth-proxyomdirigering för klienthemlighet för Facebook** -klient-ID
-* **API-hemlighet för LinkedIn** API-nyckel
-* **API-hemlighet för nyckel för tokenåtkomsttoken för Twitter** Access-token
+* **Omdirigering av** klienthemlighet för OAuth-proxy för klient-ID
+* **API-hemlighet** för LinkedInAPI-nyckel
+* **API-hemlighet för** token för tokenåtkomsttoken för API-nyckel för TwitterAccess
 
 ## Twitter {#section_qp5_1yl_b1b}
 
@@ -47,18 +50,18 @@ Twitter-autentiseringsuppgifter är tillgängliga från Twitter App Dashboard. S
 Du måste:
 
 * Ange ett värde för fältet Återanrops-URL i Twitter-appen. Det här fältet kan vara en enkel platshållare, men kan inte lämnas tomt.
-* Ange att programtypen ska ha både **läs** - och **skrivåtkomst** .
+* Ange att programtypen ska ha tillgång till både **read** och **write**.
 * Bekräfta att webbadressen till Twitter-appens webbplats finns på samma värddomän som kärnappen Livefyre.
 
 >[!NOTE]
 >
->Alla program som visar Twitter-innehåll måste uppfylla kraven för visning. Mer information finns i [Twitter-riktlinjerna](https://dev.twitter.com/terms/display-requirements) .
+>Alla program som visar Twitter-innehåll måste uppfylla kraven för visning. Mer information finns i [Twitter-riktlinjerna](https://dev.twitter.com/terms/display-requirements).
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
 Inloggningsuppgifterna för LinkedIn finns i avsnittet OAuth-nycklar i LinkedIn-programmets API-nycklar.
 
-* Logga in på ditt konto från LinkedIn-utvecklarsidan [https://developer.linkedin.com/](https://developer.linkedin.com/).
+* Logga in på ditt konto från LinkedIns utvecklarsida [https://developer.linkedin.com/](https://developer.linkedin.com/).
 * Hovra över ditt namn i det övre högra hörnet och välj API-nycklar i listrutan.
 * Klicka på programtiteln.
 * Hämta API-nyckelvärden och hemlig nyckel från avsnittet OAuth-nycklar
@@ -67,10 +70,10 @@ Inloggningsuppgifterna för LinkedIn finns i avsnittet OAuth-nycklar i LinkedIn-
 
 Facebook-inloggningsuppgifterna finns på din sida med utvecklarappar.
 
-* Öppna [Facebooks Developer Apps Page](https://developers.facebook.com/apps) som appägare, hitta ditt program och klicka på titeln.
+* Öppna [Facebooks sida för utvecklarappar](https://developers.facebook.com/apps) som appägare, hitta ditt program och klicka på titeln.
 * Hämta in värdena för App ID och App Secret. För programhemligheten kan du behöva klicka på knappen Visa för att visa den.
 
-När du delar till Facebook måste du skapa en omdirigeringssida som tar Facebook-förfrågningar och följer de domänrutiner som krävs av [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). Sidan måste finnas på din domän så att Facebook kan verifiera att begäran kommer från en giltig källa.
+Om du vill dela på Facebook måste du konfigurera en omdirigeringssida så att den tar Facebook-begäranden och följer de domänrutiner som krävs av [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). Sidan måste finnas på din domän så att Facebook kan verifiera att begäran kommer från en giltig källa.
 
 ### Omdirigering till Facebook
 
