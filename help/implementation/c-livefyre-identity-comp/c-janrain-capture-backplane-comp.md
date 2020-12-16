@@ -7,6 +7,9 @@ title: Janrain Capture/Backplane
 uuid: 776e9626-db04-4c34-adfe-681a71b552c5
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '959'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +24,10 @@ För att kunna dra nytta av den inbyggda integreringen av Capture/Backplane mås
 >
 >Hoppa över det här avsnittet om du inte använder Janrain Capture.
 
-Mer information finns i dokumentationen [för](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/)Janrain Backplane.
+Mer information finns i [dokumentationen för Janrain’s Backplane](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/).
 
 1. [Konfigurera Capture.](#c_janrain_capture_backplane/section_r2f_kxt_bbb)
-1. (Valfritt) [Lägg till Livefyre-standardvärden i Capture-appen](#c_janrain_capture_backplane/section_z2s_txt_bbb).
+1. (Valfritt) [Lägg till Livefyre-standardvärden till Capture App](#c_janrain_capture_backplane/section_z2s_txt_bbb).
 1. [Bygg AuthDelegate-objektet.](#c_janrain_capture_backplane/section_asv_vyt_bbb)
 1. [Synkronisera med Livefyre med Ping for Pull.](#c_janrain_capture_backplane/section_ilv_bzt_bbb)
 
@@ -92,7 +95,7 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 Nedan följer några exempel på hur en auth-delegat kan leta efter en Janrain Capture-integrering.
 
-* `errback`: Det återanrop som skickas till autentiseringsdelegatens inloggningsmetod
+* `errback`: Det återanrop som skickas till inloggningsmetoden för din auth-delegat
 * `janrain`: Referensen till din Janrain-fångstvariabel.
 * `window.Backplane`: En referens till objektet Backplan.
 
@@ -127,7 +130,7 @@ authDelegate.login = function(finishLogin) {
 };
 ```
 
-### Utloggning {#logout}
+### Logga ut {#logout}
 
 * `finishLogout`: Det återanrop som skickas till autentiseringsdelegatens inloggningsmetod.
 
@@ -175,7 +178,7 @@ authDelegate.viewProfile = function(user) {
 };
 ```
 
-## Steg 4: Synkronisera med Livefyre med Ping for pull for Janrain Integration {#section_ilv_bzt_bbb}
+## Steg 4: Synkronisera med Livefyre med Ping for Pull för Janrain-integrering {#section_ilv_bzt_bbb}
 
 Om du vill synkronisera Livefyre-fjärrprofiler med ditt Capture-användarhanteringssystem måste du utföra en serie steg som kallas Ping for Pull. Den här processen kräver att du hämtar en giltig åtkomsttoken från Janrain och sedan skickar den token till en slutpunkt som anges i steg 3 nedan.
 
@@ -189,7 +192,7 @@ Om du vill synkronisera Livefyre-fjärrprofiler med ditt Capture-användarhanter
 
 1. Tryck på slutpunkten &quot;Ping to pull Capture&quot; för Livefyre.
 
-   Slutpunkts-URL: [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] där ***{networkName}*** är det nätverksnamn som Livefyre ger dig, och jrtoken är den token som du fick från Janrain i steg 2.
+   Slutpunkts-URL: [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] där ***{networkName}*** är det nätverksnamn som tillhandahålls av Livefyre, och jrtoken är den token som tas emot från Janrain i steg 2.
 
    När du nått den här slutpunkten får du ett svar från 202 och Livefyre påbörjar en asynkron process.
 
