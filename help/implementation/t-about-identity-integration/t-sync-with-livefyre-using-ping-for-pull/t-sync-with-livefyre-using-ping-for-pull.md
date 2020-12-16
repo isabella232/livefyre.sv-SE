@@ -7,15 +7,18 @@ title: Synkronisera med Livefyre med Ping for Pull
 uuid: 7b059064-1cca-46d7-8055-dfe59f493ac1
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
 
-# Synkronisera med Livefyre med Ping for Pull{#sync-with-livefyre-using-ping-for-pull}
+# Synkronisera med Livefyre med Ping för pull{#sync-with-livefyre-using-ping-for-pull}
 
 Använd Ping for Pull för att synkronisera Livefyre med ditt användarhanteringssystem.
 
-Normalt ***skickar*** du Livefyre när som helst när en användare av webbplatsen/appen uppdaterar sin profil (visningsnamn, avatar osv.) och Livefyre ***Pulls*** som användaren har uppdaterat.
+I allmänhet ***Ping*** Livefyre när som helst när en användare av din webbplats/app uppdaterar sin profil (visningsnamn, avatar osv.) och Livefyre ***Pulls*** den användarens uppdaterade profil.
 
 ![](assets/Ping-for-Pull.png)
 
