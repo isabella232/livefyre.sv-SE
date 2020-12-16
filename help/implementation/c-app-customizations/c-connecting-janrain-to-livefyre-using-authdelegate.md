@@ -6,6 +6,9 @@ title: Ansluta Janrain till Livefyre med AuthDelegate
 uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Nedan följer några exempel på hur en auth-delegat kan leta efter en Janrain C
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-* Det återanrop som skickas till autentiseringsdelegatens inloggningsmetod
+* Det återanrop som skickas till inloggningsmetoden för din auth-delegat
 * Referensen till din Janrain-fångstvariabel.
 * : En referens till objektet Backplan.
 
@@ -78,7 +81,7 @@ Utloggning
 
 * **finishLogout:** Det återanrop som skickas till autentiseringsdelegatens inloggningsmetod.
 
-* **window.Backplane:** En referens till objektet Backplan.
+* **window.Backplane:** A reference to your Backplane object.
 
 ```
 /** 
