@@ -7,6 +7,9 @@ title: SDK för mobiler
 uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -18,16 +21,16 @@ Lägg till Livefyre i era mobilappar.
 Det finns flera alternativ för mobilimplementeringar, beroende på hur omfattande anpassning du planerar att göra:
 
 * Webbappar för mobiler
-* Livefyre Android eller iOS SDKs
+* Livefyre Android eller iOS SDK
 * HTTP-API:er
 
-## Webbappar för mobiler {#section_t2k_vpb_11b}
+## Mobile Web Apps {#section_t2k_vpb_11b}
 
 Kunder som öppnar en webbsida på en mobil enhet får automatiskt en Livefyre-innehållsström som är optimerad för mobilen, inklusive en formatering som passar den reducerade skärmstorleken och modifieringar som hanterar pekhändelser.
 
 >[!NOTE]
 >
->När du använder en Livefyre-app i en Android WebView måste parametern Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) anges till true. Om localStorage inte är aktiverat kan Livefyre inte logga in användare i Livefyre-appen.
+>När du använder en Livefyre-app i en Android WebView måste parametern [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) anges till true. Om localStorage inte är aktiverat kan Livefyre inte logga in användare i Livefyre-appen.
 
 För att optimera för mobilen begränsar Livefyre funktionerna Comments, Live Blog och Chat App till att omfatta:
 
@@ -62,5 +65,5 @@ HTTP-API:erna är den grupp slutpunkter som du kan använda för att skapa konve
 
 >[!IMPORTANT]
 >
->**Skapa inte** autentiseringstoken för användare i den mobila klienten eftersom du då måste visa den hemliga nätverksnyckeln för Livefyre i en oskyddad app. En mer robust och säker lösning finns i avsnittet för token för användarautentisering.
+>**Skapa** inte autentiseringstoken för användare i den mobila klienten eftersom du då måste visa den hemliga nätverksnyckeln för Livefyre i en oskyddad app. En mer robust och säker lösning finns i avsnittet för token för användarautentisering.
 
