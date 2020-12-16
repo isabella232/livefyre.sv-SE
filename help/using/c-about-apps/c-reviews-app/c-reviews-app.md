@@ -7,6 +7,9 @@ title: Recensioner
 uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Varje granskning som publiceras i en granskningsapp består av en rubrik på en 
 
 Standardappen för recensioner består av en samling granskningar och ett sammanfattningsavsnitt som visar den genomsnittliga uppdelningen av användaromdömen och omdömen för samlingen. Användarna kan läsa och interagera med granskningarna i realtid.
 
-Allure använder granskningar för att bjuda in användare att bidra med omdömen och åsikter om de produkter de har. Med hjälp av granskningar kan Allure samla in värdefulla och personliga användarsynpunkter från sin målgrupp.
+Allure använder granskningar för att bjuda in sina användare att bidra med omdömen och åsikter om de produkter de har. Med hjälp av granskningar kan Allure samla in värdefulla och personliga användarsynpunkter från sin målgrupp.
 
 ![](assets/ReviewsAllure.png)
 
