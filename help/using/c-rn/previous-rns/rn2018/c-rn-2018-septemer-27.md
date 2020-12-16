@@ -7,6 +7,9 @@ title: 27 september 2018
 uuid: 8d3b01fe-6d1f-4123-aaaf-3009e7c6599f
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +40,12 @@ Problemen i följande tabeller löstes i produktionsversionen av den här versio
 | Artikel | Strömmar | Gör följande uppdateringar för Facebook-sidströmmar:  </br><ul><li>Ökade den tid som Appar lägger på när de når API-hastighetsgränsen från en minut till en timme. </li><li>Ökade tiden som sidor och inlägg skickas för behandling från 10 minuter till en timme.</li></ul> |
 
 
-## UAT-release {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT-version {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
 Problemen i följande tabeller löstes i UAT-versionen av den här versionen.
 
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
-| Fel | AEM | Ett problem har korrigerats där tweets som importerades till AEM Assets via Livefyre hade brutna länkar. |
+| Fel | AEM | Korrigerade ett problem där tweets som importerades till AEM Assets via Livefyre hade brutna länkar. |
 | Förbättring | Bibliotek | Lagt till möjlighet att filtrera videoklipp i biblioteket med videotaggar. |
 
