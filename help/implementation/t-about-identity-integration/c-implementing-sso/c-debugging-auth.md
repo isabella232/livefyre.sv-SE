@@ -7,11 +7,14 @@ title: Felsöka Autentiseringsdelegering
 uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
 
-# Felsöka Autentiseringsdelegering{#debugging-auth-delegate}
+# Felsöka Autentiseringsdelegat{#debugging-auth-delegate}
 
 Du kan logga in en användare via konsolen under integrering och testning för att felsöka auktoriseringen.
 
