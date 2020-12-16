@@ -7,6 +7,9 @@ title: Använda anpassade format
 uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
