@@ -7,6 +7,9 @@ title: Karta
 uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Med kartan kan du strömma geotaggat innehåll till en världskarta, så att du 
 
 >[!NOTE]
 >
->Kartor drivs av [©OpenStreetMap](https://www.openstreetmap.org/copyright), som tillhandahåller de data Livefyre använder för att återge sina kartor.
+>Kartor drivs av [©OpenStreetMap](https://www.openstreetmap.org/copyright), som innehåller de data Livefyre använder för att återge sina kartor.
 
 ## Integrering {#section_w2m_db2_d1b}
 
@@ -56,7 +59,7 @@ function (Map, SDK) {
 </script>
 ```
 
-Kolla in det här [live-exemplet](https://codepen.io/cheung31/pen/wkmbF).
+Ta en titt på det här [levande exemplet](https://codepen.io/cheung31/pen/wkmbF).
 
 ## Konfiguration {#section_jc5_gxb_c1b}
 
@@ -73,7 +76,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Alternativ för att skicka till den underliggande [broschyren](https://leafletjs.com/) , som används för återgivning av kartan. Använd det här alternativet för att ange alternativ [för](https://leafletjs.com/reference.html#map-options)broschyrer, inklusive kartans första mittpunkt samt inledande och högsta zoomnivå. (Valfritt.)
+Alternativ för att skicka till den underliggande [bipacksedeln](https://leafletjs.com/)-kartan som används för återgivning av kartan. Använd det här alternativet om du vill ange [Alternativ för map-karta för broschyrer för broschyrer](https://leafletjs.com/reference.html#map-options), inklusive kartans första mittpunkt samt inledande och högsta zoomnivåer. (Valfritt.)
 
 ```
 var map = new Map({ 
