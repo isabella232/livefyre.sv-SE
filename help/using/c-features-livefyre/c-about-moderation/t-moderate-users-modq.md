@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Medelstora användare{#moderate-users}
+# Moderera användare{#moderate-users}
 
 Panelen Användarsammanfattning innehåller användarinformation som underlättar moderering.
 
