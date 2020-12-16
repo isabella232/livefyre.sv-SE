@@ -7,6 +7,9 @@ title: Tillgänglighetsfunktioner
 uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Livefyre betonar följande när det gäller att se till att Livefyre-identiteter
 
 Om du vill testa att en app fungerar med tillgänglighetsfunktioner kan du:
 
-* Slå på en skärmläsare (till exempel [Röstning](https://www.apple.com/accessibility/mac/vision/) på en Mac- eller Apple-enhet eller [Skärmläsaren](https://www.microsoft.com/en-us/accessibility/windows) på en dator) för att läsa sidan som innehåller appen högt. Genom att använda en skärmläsare verifieras att innehållet är tillgängligt
+* Aktivera en skärmläsare (till exempel [Röstover](https://www.apple.com/accessibility/mac/vision/) på en Mac- eller Apple-enhet eller [Skärmläsaren](https://www.microsoft.com/en-us/accessibility/windows) på en dator) för att läsa sidan som innehåller appen högt. Genom att använda en skärmläsare verifieras att innehållet är tillgängligt
 
 * Bläddra igenom en app och försök använda den enbart med tangentbordet för att verifiera att du kan komma åt varje knapp eller länk på ett logiskt sätt.
 * Ändra zoomnivån och kontrastförhållandet för att se om innehållet återges på ett läsbart och lättläst sätt.
