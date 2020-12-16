@@ -7,6 +7,9 @@ title: SSL-tvång
 uuid: e64af8c2-3ab6-4034-b385-0e552d828c6e
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +35,13 @@ Detta kan påverka Livefyre-kunder som har:
    * Anpassade program (Streamhub SDK eller direkt kodad).
 
 1. Server till server och Mobile HTTP-klienter måste ha stöd för TLS 1.2
-1. Byt värdnamn från `{*}.<network>.fyre.co` till `<network>.{*}.fyre.co`. Värdnamnet `example.network.fyre.co` ändras till `network.`example.fyre.co&quot;. Exempel:
+1. Ändra värdnamn från `{*}.<network>.fyre.co` till `<network>.{*}.fyre.co`. Värdnamnet `example.network.fyre.co` ändras till `network.`example.fyre.co&quot;. Exempel:
 
-   * `bootstrap.<network_name>.fyre.co` till `<network_name>.bootstrap.fyre.co`
+   * `bootstrap.<network_name>.fyre.co` till  `<network_name>.bootstrap.fyre.co`
 
-   * `quill.<network_name>.fyre.co` till `<network_name>.quill.fyre.co`
+   * `quill.<network_name>.fyre.co` till  `<network_name>.quill.fyre.co`
 
-   * `admin.<network_name>.fyre.co` till `<network_name>.admin.fyre.co`
+   * `admin.<network_name>.fyre.co` till  `<network_name>.admin.fyre.co`
 
 ## Hur vet jag om jag har gjort ändringarna? {#section_sqk_5d5_kcb}
 
@@ -62,13 +65,13 @@ En person som arbetar med utvecklingen av din webbplats kan:
 
 ## Java-stöd för TLS 1.2 {#section_lwn_rwk_ycb}
 
-Oracle och OpenJDK JVM för Java 8 och senare konfigureras som standard att använda TLS 1.2 för alla SSL-anslutningar. Du behöver inte vidta några ytterligare åtgärder om du använder Java 8 eller senare.
+Oracle och OpenJDK JVM för Java 8 och senare konfigureras att använda TLS 1.2 som standard för alla SSL-anslutningar. Du behöver inte vidta några ytterligare åtgärder om du använder Java 8 eller senare.
 
 Användare som har Java 7 eller tidigare bör läsa den offentliga dokumentationen om hur man aktiverar TLS 1.2.
 
 ## Varför måste jag ändra mina värdnamn? {#section_d5q_p25_kcb}
 
-Livefyre har inga SSL-certifikat på `{*}.<network>.fyre.co` domäner. Om du ändrar URL:en till HTTPS bryts programmet.
+Livefyre har inga SSL-certifikat på `{*}.<network>.fyre.co`-domäner. Om du ändrar URL:en till HTTPS bryts programmet.
 
 ## Måste jag uppgradera till den senaste versionen av Livefyre SDK:er? {#section_dw5_s25_kcb}
 
