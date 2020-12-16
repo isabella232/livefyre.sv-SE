@@ -7,6 +7,9 @@ title: Implementeringsprocess
 uuid: 9a0f394e-3467-47d1-9816-45e2130db440
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Hur lång tid du ska implementera Livefyre beror på implementeringen och arbetets omfattning.
 
-## Översikt över Livefyres nätverksarkitektur {#section_dgj_l32_rbb}
+## Översikt över Livefyre Network Architecture {#section_dgj_l32_rbb}
 
 Livefyre använder följande termer för att diskutera nätverksarkitektur:
 
@@ -37,11 +40,11 @@ Det finns tre huvudsteg för att integrera Livefyre:
 
 * Appintegrering
 
-   När du implementerar Livefyre beror implementeringsformatet på ditt användningssätt. Mer [information om varje implementeringstyp](/help/implementation/c-getting-started/c-implementation-process/c-app-integration-types.md#c_app_integration_types).
+   När du implementerar Livefyre beror implementeringsformatet på ditt användningssätt. För [mer om varje implementeringstyp](/help/implementation/c-getting-started/c-implementation-process/c-app-integration-types.md#c_app_integration_types).
 
 * Autentiseringsintegrering
 
-   Du måste integrera ditt befintliga användarhanteringssystem med Livefyre för konversationsappar och andra appar som kräver slutanvändarautentisering på din webbplats. Om du för närvarande inte använder något användarhanteringsverktyg kan du använda Livefyre-identitet. Mer [information om Livefyre Identity, vad det är och hur du konfigurerar](/help/implementation/c-livefyre-identity-comp/c-livefyre-identity-comp.md#c_livefyre_identity)det.
+   Du måste integrera ditt befintliga användarhanteringssystem med Livefyre för konversationsappar och andra appar som kräver slutanvändarautentisering på din webbplats. Om du för närvarande inte använder något användarhanteringsverktyg kan du använda Livefyre-identitet. [Mer information om Livefyre Identity, vad det är och hur du konfigurerar det](/help/implementation/c-livefyre-identity-comp/c-livefyre-identity-comp.md#c_livefyre_identity).
 
 * Anpassning
 
