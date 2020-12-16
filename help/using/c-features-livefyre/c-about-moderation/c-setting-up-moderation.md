@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Ställa in moderering{#setting-up-moderation}
+# Konfigurerar moderering{#setting-up-moderation}
 
 Använd fliken Moderation för att ange förhandsmodereringsregler för inkommande innehåll, inklusive avstavningslistor, flaggregler och förbjudna IP-adresser.
 
@@ -33,16 +33,16 @@ Du kan förmåtta innehåll automatiskt på följande sätt:
 
    * Ange flaggregler för innehåll som flaggas av webbplatsens besökare med **[!UICONTROL Settings > Moderation > Rules]**
    * Konfigurera SAFE-regler med **[!UICONTROL Settings > Moderation > Rules]**
-   * Förbjud specifika Twitter-användare att använda **[!UICONTROL Settings > Streams]**
-   * Förhindra IP-adresser med **[!UICONTROL Settings > Bans]**
+   * Förbjud specifika Twitter-användare som använder **[!UICONTROL Settings > Streams]**
+   * Bannlys IP-adresser med **[!UICONTROL Settings > Bans]**
    * Förbjud IP-regioner per landskod på begäran. Bannlyst innehåll markeras som SPAM.
 
-* Skapa en lista med ord som du betraktar som svordomar i Profanity List under **[!UICONTROL Settings > Moderation > Rules]** for your Network or Site.
+* Skapa en lista med ord som du betraktar som svordomar i Profanity List under **[!UICONTROL Settings > Moderation > Rules]** för ditt nätverk eller din webbplats.
 * Tillåt listanvändare (tillåt alltid att innehåll från dessa användare visas) genom att använda eller inaktivera filter för specifika strömmar, webbplatser eller nätverk.
 
-När du har konfigurerat dina svordlistor, SAFE-filter och regler kan du välja om du vill använda förmåttligt innehåll och SAFE-filter i strömmar. Mer information finns i Alternativ för [direktuppspelningsregel för alla direktuppspelningsregler](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+När du har konfigurerat dina svordlistor, SAFE-filter och regler kan du välja om du vill använda förmåttligt innehåll och SAFE-filter i strömmar. Mer information finns i [Alternativ för direktuppspelningsregel för alla direktuppspelningsregler](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
-Livefyre markerar innehåll som **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]** osv. beroende på varifrån innehållet kommer, var det kommer att publiceras och vilka regler du har konfigurerat i systemet. I följande tabell beskrivs de åtgärder som Livefyre vidtar, beroende på dessa faktorer, i detalj.
+Livefyre markerar innehållet som **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]** osv. beroende på varifrån innehållet kommer, var det kommer att publiceras och vilka regler du har konfigurerat i systemet. I följande tabell beskrivs de åtgärder som Livefyre vidtar, beroende på dessa faktorer, i detalj.
 
 ## Hur moderering fungerar
 
@@ -92,7 +92,7 @@ Filtret Massor letar efter upprepat innehåll som publicerats i alla Livefyre-n�
 Använd avsnittet Regler för att skapa regler för förmoderering som baseras på SAFE och flaggor som används av användare. På den här panelen finns två typer av regler:
 
 * **[!UICONTROL Flag Rules:]** Ange en åtgärd som ska utföras på en kommentar som flaggats av användare ett visst antal gånger.
-* **[!UICONTROL SAFE Rules:]**kombinerar SAFE-flaggor med åtgärder som kan vidtas för det flaggade innehållet.
+* **[!UICONTROL SAFE Rules:]**Kombinera SAFE-flaggor med åtgärder som ska vidtas för det flaggade innehållet.
 
 Om du vill skapa flaggregler markerar du flaggan (stötande, Ämne, Ogilla eller Skräppost), anger hur många gånger den måste användas på ett visst innehåll och väljer den åtgärd som ska utföras. Du kan ange en flaggregel för varje flaggalternativ (stötande, Från ämne, Ogilla eller Skräppost).
 
@@ -102,33 +102,33 @@ Tillgängliga åtgärder:
 
 * **[!UICONTROL Trash it:]**skickar den flaggade kommentaren till papperskorgen.
 * **[!UICONTROL Bozo it:]** Döljer den flaggade kommentaren från alla användare, förutom författaren, som den förblir synlig för.
-* **[!UICONTROL Pending:]** anger innehållet som väntande. Om du ställer in Förhandsmoderering på ON under **[!UICONTROL Settings > ModQ]** kommer det att vara i ModQ. I annat fall visas det bara i appinnehåll.
+* **[!UICONTROL Pending:]** anger innehållet som väntande. Om du ställer in Förhandsmoderering på ON under **[!UICONTROL Settings > ModQ]**, kommer det att vara i ModQ. I annat fall visas det bara i appinnehåll.
 
 >[!NOTE]
 >
 >Livefyre rekommenderar att du skapar regler för Bozo-kommentarer som flaggas som skräppost eller stötande av fem användare.
 
-## Rekommendationer om moderering {#section_ec3_vr3_2cb}
+## Moderering av Recommendations {#section_ec3_vr3_2cb}
 
-Du kan använda modereringsrekommendationer för att avgöra hur modererat innehåll som publiceras av webbplatsbesökare i Livefyre-appar ska hanteras. Rekommendationsindikatorn för moderering rekommenderar när det är troligt att en del av innehållet kommer att spåras, baserat på vilka åtgärder du tidigare vidtagit för liknande innehåll. Så här använder du modereringsrekommendationer:
+Du kan använda modereringsrekommendationer för att avgöra hur modererat innehåll som publiceras av webbplatsbesökare i Livefyre-appar ska hanteras. Rekommendationsindikatorn för moderering rekommenderar när det är troligt att en del av innehållet kommer att spåras, baserat på vilka åtgärder du tidigare vidtagit för liknande innehåll. Så här använder du Moderation Recommendations:
 
-1. Aktivera funktionen för modereringsrekommendationer genom att kontakta supportpersonalen på Adobe Livefyre.
+1. Aktivera Recommendations-funktionaliteten Moderation genom att kontakta supportpersonalen på Adobe Livefyre.
 1. Ställ in modereringsrekommendationer i Nätverksinställningar.
 
-   Ställ in modereringsrekommendationer med hjälp av inställningen under **[!UICONTROL Livefyre Recommends Trash]****[!UICONTROL Network Settings]**.
+   Ställ in modereringsrekommendationer med inställningen **[!UICONTROL Livefyre Recommends Trash]** under **[!UICONTROL Network Settings]**.
 
    ![](assets/image_mod_reco_trash.png)
 
-1. Konfigurera en SAFE-regel för att tala om för Livefyre vad du ska göra med innehåll som identifieras i modereringsrekommendationen som innehåll som sannolikt kommer att trasseras. Mer information om hur du ställer in en SAFE-regel för **[!UICONTROL Livefyre Recommends Trash]** alternativet finns i [Moderering](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
+1. Konfigurera en SAFE-regel för att tala om för Livefyre vad du ska göra med innehåll som identifieras i modereringsrekommendationen som innehåll som sannolikt kommer att trasseras. Mer information om hur du konfigurerar en SAFE-regel för alternativet **[!UICONTROL Livefyre Recommends Trash]** finns i [Moderation](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
 
    ![](assets/modreco4.png)
 
-1. Använd alternativen **[!UICONTROL Moderation Recommendation Indicator]** i ModQ eller i Programinnehåll för att filtrera innehåll som enligt modereringsrekommendationen sannolikt kommer att bli genomstruken.
+1. Använd **[!UICONTROL Moderation Recommendation Indicator]** i ModQ eller i App Content för att filtrera innehåll som modereringsrekommendationen identifierar som troligt att det kommer att gå att spåra.
 
    I ModQ ser indikatorn ut så här:  ![](assets/mod_reco1.png)
 
-   Mer information om hur du använder modereringsrekommendationer för måttligt innehåll i ModQ finns i [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
+   Mer information om hur du använder Moderation Recommendations för att moderera innehåll i ModQ finns i [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
 
    I appinnehåll ser modereringsrekommendationerna ut så här:  ![](assets/modreco3.png)
 
-   Mer information om hur du använder modereringsrekommendationer i appinnehåll finns i [moderera innehåll med appinnehåll](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+   Mer information om hur du använder Recommendations för moderering i appinnehåll finns i [Moderera innehåll med appinnehåll](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
