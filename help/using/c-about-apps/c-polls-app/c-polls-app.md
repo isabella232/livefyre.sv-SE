@@ -7,6 +7,9 @@ title: Omröstningar
 uuid: 19264eb2-53f8-4a66-a265-38efb634a207
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
