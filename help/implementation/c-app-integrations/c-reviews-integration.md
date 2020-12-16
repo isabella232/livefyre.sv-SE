@@ -7,6 +7,9 @@ title: Recensioner
 uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
 translation-type: tm+mt
 source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Med granskningar kan medlemmar i communityn lägga in stjärngraderingar och kva
 
 ## Integrering {#section_kk5_15b_c1b}
 
-Om du vill integrera en granskningsapp följer du proceduren för att integrera en konversationsapp. Se [Bädda in ett program](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). Följande är ett exempel på en inbäddad granskningsapp.
+Om du vill integrera en granskningsapp följer du proceduren för att integrera en konversationsapp. Se [Bädda in en app](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). Följande är ett exempel på en inbäddad granskningsapp.
 
 ### Exempel
 
@@ -48,7 +51,7 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 });
 ```
 
-Så som beskrivs i avsnittet Byggnad `CollectionMeta` är `CollectionMeta` ett kodat JSON-objekt. I ovanstående exempel har JSON-objektet följande format innan det är JWT-kodat:
+Som du kan se i avsnittet Building `CollectionMeta` är `CollectionMeta` ett kodat JSON-objekt. I ovanstående exempel har JSON-objektet följande format innan det är JWT-kodat:
 
 ```
 { 
@@ -64,40 +67,40 @@ Så som beskrivs i avsnittet Byggnad `CollectionMeta` är `CollectionMeta` ett k
 
 Om du redan har slutfört avsnittet Komma igång bör du känna till convConfig-objektet. Om du vill aktivera granskningar uppdaterar du convConfig med följande fält:
 
-* **alwaysShowEditor** *(valfritt* booleskt): Som standard visas granskningsredigeraren först när användaren trycker på knappen&quot;Skriv granskning&quot;. Ställ in den här parametern på true om du alltid vill visa redigeraren.
+* **** ** alwaysShowEditoroptionalboolean: Som standard visas granskningsredigeraren först när användaren trycker på knappen&quot;Skriv granskning&quot;. Ställ in den här parametern på true om du alltid vill visa redigeraren.
 
-* **app** *required* string: Programnamnet som ska användas för granskningar. Måste vara &quot;recensioner&quot;.
+* **** ** apprequiredString: Programnamnet som ska användas för granskningar. Måste vara &quot;recensioner&quot;.
 
-* **defaultSort** *(valfri* sträng): Gör att du kan välja standardsorteringsalternativet för granskningar. Möjliga värden är: MostHelpful, highestRated, bottomRated, newest och old.
+* **** ** defaultSortoptionalstring: Gör att du kan välja standardsorteringsalternativet för granskningar. Möjliga värden är: MostHelpful, highestRated, bottomRated, newest och old.
 
-* **disableTitle** *(valfritt* booleskt): Inaktiverar och döljer titelfältet i granskningsredigeraren, som är obligatoriskt och synligt som standard. Standardvärdet är true.
+* **disable** ** Titleoptionalboolean: Inaktiverar och döljer titelfältet i granskningsredigeraren, som är obligatoriskt och synligt som standard. Standardvärdet är true.
 
-* **enableHalfRating** *optional* boolean: Används för att aktivera halv klassificering i standardstjärnans markeringsmodul. Standardvärdet är true.
+* **enableHalfRatingoptionalboolean:** **  Används för att aktivera halv klassificering i standardstjärnans markeringsmodul. Standardvärdet är true.
 
-* **hideShowReviewButton** *valfri* boolesk: Anger om [!UICONTROL Show My Review] knappen ska visas. Ange som true om du vill att användarna ska kunna välja om de vill visa eller visa sina egna granskningar.
+* **** ** hideShowReviewButtonOptionBoolesk: Anger om  [!UICONTROL Show My Review] knappen ska visas. Ange som true om du vill att användarna ska kunna välja om de vill visa eller visa sina egna granskningar.
 
-* **maxRating** *optional* integer Används för att ange antalet stjärnor som visas i standardstjärnans markeringsmodul. Standardvärdet är 5. Detta kan konfigureras upp till 100.
+* **** ** maxRatingoptionalinteger Används för att ange antalet stjärnor som visas i standardstjärnans markeringsmodul. Standardvärdet är 5. Detta kan konfigureras upp till 100.
 
-* **ratingSummaryEnabled** *valfri* boolesk: Används för att visa klassificeringssammanfattningen ovanför granskningsappen. Detta måste aktiveras för att du ska kunna använda ratingSummaryDelegate. Standardvärdet är true.
+* **** ** ratingSummaryEnabledoptionalboolean: Används för att visa klassificeringssammanfattningen ovanför granskningsappen. Detta måste aktiveras för att du ska kunna använda ratingSummaryDelegate. Standardvärdet är true.
 
 ## Granska samlingsmetadata {#section_k1s_sqb_c1b}
 
-* **typ:** *obligatorisk* sträng: Definierar samlingstypen. Måste vara `reviews`.
+* **typ:** ** obligatorisk sträng: Definierar samlingstypen. Måste vara `reviews`.
 
-* **ratingDimensions** *optional* array: En array med strängar för varje typ av dimension som den här samlingen ska använda. Om detta inte anges tillåts bara 1 dimension.
+* **** ** ratingDimensionsOptionsArray: En array med strängar för varje typ av dimension som den här samlingen ska använda. Om detta inte anges tillåts bara 1 dimension.
 
    Om du till exempel vill att användarna ska kunna klassificera produkten som&quot;design&quot;,&quot;funktioner&quot; och&quot;prestanda&quot;, ställer du in matrisen på: `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
 
-* **ratingSubparts** *valfritt* heltal: Antal partitioner som ska visas i textrutan för granskningen. Underdelsetiketterna skickas in med parametern enligt nedan.
+* **** ** ratingSubparts, valfritt heltal: Antal partitioner som ska visas i textrutan för granskningen. Underdelsetiketterna skickas in med parametern enligt nedan.
 
    >[!NOTE]
    >Du måste definiera etiketter för varje underdel.
 
-* **ratingSubpartsIds** *optional* array: Gör att du kan definiera ett ID för varje underdel i din Ratings Collection, som kan användas för att ange deldeldelelementen i din CSS och JavaScript som mål. När användare publicerar granskningar `ratingSubpart` får varje attribut&quot; `data-lf-subpart-id`&quot;, ifyllt med detta ID.
+* **** ** ratingSubpartsIdsoptionalarray: Gör att du kan definiera ett ID för varje underdel i din Ratings Collection, som kan användas för att ange deldeldelelementen i din CSS och JavaScript som mål. När användare publicerar granskningar kommer varje `ratingSubpart` att ha attributet `data-lf-subpart-id` ifyllt med detta ID.
 
 >[!NOTE]
 >
->Om du vill använda `ratingSubpartsIds`måste `ratingSubparts` parametern också definieras och längden på de två arrayerna måste matcha.
+>Om du vill använda `ratingSubpartsIds` måste även parametern `ratingSubparts` definieras och längden på de två arrayerna måste matcha.
 
 ```
 networkConfig["strings"] = { 
@@ -115,7 +118,7 @@ fyre.conv.load(networkConfig, [{
 
 >[!NOTE]
 >
->Om du använder `ratingDimensions`MÅSTE du använda `ratingSelectionDelegate`, `ratingDisplayDelegate`och `ratingSummaryDelegate` (om du vill visa klassificeringssammanfattningen).
+>Om du använder `ratingDimensions` MÅSTE du använda `ratingSelectionDelegate`, `ratingDisplayDelegate` och `ratingSummaryDelegate` (om du vill visa klassificeringssammanfattningen).
 
 ## Anpassning av granskningar {#section_khz_xmb_c1b}
 
@@ -125,16 +128,16 @@ Om du vill ändra bilden för fullständiga stjärnor är klassen `goog-ratings-
 
 ### Konfigurera stjärnbilder med halva stjärnor
 
-Med halv stjärna finns det två klasser, en för varje sida av stjärnan. Den vänstra sidan av den halva stjärnan är `fyre-rating-half-odd` och den högra sidan är `fyre-rating-half-even`. Som standard är halva stjärnor 28 x 14 pixlar.
+Med halv stjärna finns det två klasser, en för varje sida av stjärnan. Den vänstra sidan av halvstjärnan är `fyre-rating-half-odd` och den högra sidan är `fyre-rating-half-even`. Som standard är halva stjärnor 28 x 14 pixlar.
 
 ### Konfigurera verktygstipsvärden för stjärnor
 
-Om du vill konfigurera verktygstipsvärden för stjärnorna följer du den anpassade text som beskrivs i String Customizations. När du har ställt in den ska du använda tangenten `ratingValues` och värdet i en array som innehåller knappbeskrivningssträngarna. Om du har inaktiverat halva stjärnor bör antalet element i arrayen vara detsamma som `maxRating` (ovan). Om du har aktiverat halva stjärnor ska antalet element vara 2x `maxRating`. Det första elementet i arrayen motsvarar det element som är längst till vänster (eller en halv stjärna) och fortsätter från vänster till höger.
+Om du vill konfigurera verktygstipsvärden för stjärnorna följer du den anpassade text som beskrivs i String Customizations. När du har ställt in den använder du nyckeln `ratingValues` och värdet på en array som innehåller verktygstipssträngarna. Om du har inaktiverat halva stjärnor bör antalet element i arrayen vara samma som `maxRating` (ovan). Om du har aktiverat halva stjärnor ska antalet element vara 2x `maxRating`. Det första elementet i arrayen motsvarar det element som är längst till vänster (eller en halv stjärna) och fortsätter från vänster till höger.
 
 ### Växla alternativet Visa min granskning
 
-Om du vill aktivera eller inaktivera alternativet [!UICONTROL Show My Review] anger du parametern som mål i appkonfigurationen som mål `hideShowReviewButton` .
+Om du vill aktivera eller inaktivera alternativet [!UICONTROL Show My Review] anger du parametern `hideShowReviewButton` som mål i appkonfigurationen.
 
 ### Visa textredigeraren som standard
 
-Granskningsredigeraren visas först när användaren trycker på [!UICONTROL write review] knappen. Om du vill visa det här formuläret som standard anger du parametern `alwaysShowEditor` i appkonfigurationen som mål.
+Granskningsredigeraren visas bara när användaren trycker på knappen [!UICONTROL write review]. Om du vill visa det här formuläret som standard anger du parametern `alwaysShowEditor` som mål i appkonfigurationen.
