@@ -6,6 +6,9 @@ title: Konfigurera delning via sociala medier
 uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
