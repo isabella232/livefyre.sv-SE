@@ -7,6 +7,9 @@ title: Samlings- och innehållstaggar
 uuid: 1f6900ac-40ff-41ec-ac26-25ff476cd820
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +20,7 @@ Lägg till nyckelordstaggar i samlingar och innehåll för att kategorisera och 
 
 Genom att tilldela taggar kan du filtrera sökningar efter en viss tagg och hämta data för det smarta indexets API.
 
-Taggar kan läggas till via panelerna **[!UICONTROL Content]** och **[!UICONTROL Collections]** i Studio, eller direkt i Collection-metadata (med objektet collectionMeta) när samlingen initieras eller uppdateras med Livefyre.
+Taggar kan läggas till via panelerna **[!UICONTROL Content]** och **[!UICONTROL Collections]** i Studio, eller direkt till Collection-metadata (med objektet collectionMeta) när samlingen initieras eller uppdateras med Livefyre.
 
 Program som använder den här funktionen:
 
@@ -35,7 +38,7 @@ Program som använder den här funktionen:
 * [Trender](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [Knappen Överför](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## Använda samlingstaggar med API:t för värmeindex {#section_uhd_frk_wy}
+## Använda samlingstaggar med det heta indexets API {#section_uhd_frk_wy}
 
 API:t för värmeindex godkänner en tagg-parameter, vilket gör att du kan hämta den relativa snabbheten för alla samlingar med den taggen på en webbplats eller i hela nätverket.
 
