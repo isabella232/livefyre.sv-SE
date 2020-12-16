@@ -7,6 +7,9 @@ title: Överför knapptextsträngar
 uuid: f4d24af3-c7cb-468d-96b9-b5360047b5dc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
