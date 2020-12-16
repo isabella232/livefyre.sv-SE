@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Vi vill ge dig en uppdatering om den föränderliga dynamiken i användargenererat innehåll (UGC) och den påverkan detta har på Facebook- och Twitter-innehåll i produkten.
 
-Förra året togs API:t för offentlig feed bort av Facebook. Vi har hållit samtal för att försöka hitta en väg framåt. Vi har ombetts att ta bort Facebook-data från Livefyre-produkten. Vi följer Facebooks begäran och Adobe arbetar snabbt för att säkerställa att vi skyddar våra kunder.
+Förra året togs API:t för offentlig feed bort av Facebook. Vi har hållit samtal för att försöka hitta en väg framåt. Vi har ombetts att ta bort Facebook-data från Livefyre-produkten. Vi följer Facebooks begäran och Adobe arbetar snabbt för att se till att vi skyddar våra kunder.
 
 Observera att åtkomst till nytt och sparat Facebook-innehåll kommer att tas bort under de kommande veckorna.
 
@@ -32,7 +32,7 @@ Den här ändringen påverkar inte Instagram-innehåll som fortfarande är tillg
 
 Vi vill också dela med oss av att på grund av begränsad efterfrågan på Twitter-innehåll kommer åtkomsten till Twitter att tas bort från Livefyre nästa år den 3 maj 2021. Du har fortfarande fullständig tillgång till nytt och sparat Twitter-innehåll fram till detta datum.
 
-Dessutom kommer alla andra funktioner, inklusive graderingar och recensioner, kommentarer, sidenotes och livebloggning att vara tillgängliga. Adobe kommer även fortsättningsvis att ge fortlöpande stöd för felkorrigeringar, operativsystem och säkerhetsuppdateringar.
+Dessutom kommer alla andra funktioner, inklusive graderingar och recensioner, kommentarer, sidenotes och livebloggning att vara tillgängliga. Adobe kommer också att fortsätta att ge fortlöpande stöd för felkorrigeringar, operativsystem och säkerhetsuppdateringar.
 
 ## 25 oktober 2019
 
@@ -81,7 +81,7 @@ Två ytterligare funktioner som åtgärdar Instagram API-borttagningar från bö
 
 * **Automatisk övervakning av svar på begäran om användarrättigheter för företagskontobaserade sökningar**
 
-   Facebook har också tagit bort möjligheten för partners som Adobe att skicka meddelanden om rättighetsförfrågningar från Instagram för sina kunders räkning, vilket eliminerar möjligheten att hantera fullständiga automatiserade rättigheter från Livefyre. I maj levererade vi manuell, klippa ut och klistra in funktionalitet för att ge kunderna möjlighet att återuppta spårning av användarrättigheter och upprätthålla register för granskning. Från och med idag - endast för kontoningsbaserade sökningar - finns möjligheten att automatiskt övervaka svar på förfrågningar om rättigheter och uppdatera aktivitetshistoriken i Livefyre.
+   Facebook har också tagit bort möjligheten för partners som Adobe att skicka meddelanden om rättighetsförfrågningar från Instagram för sina kunders räkning, vilket har eliminerat möjligheten att hantera fullständiga automatiserade rättigheter från Livefyre. I maj levererade vi manuell, klippa ut och klistra in funktionalitet för att ge kunderna möjlighet att återuppta spårning av användarrättigheter och upprätthålla register för granskning. Från och med idag - endast för kontoningsbaserade sökningar - finns möjligheten att automatiskt övervaka svar på rättighetsbegäranden och uppdatera aktivitetshistoriken i Livefyre.
 
 ## 22 juni 2018 {#section_k1t_vmv_g2b}
 
@@ -103,7 +103,7 @@ Läs de senaste uppdateringarna av funktionalitetsstatus för API:t för Instagr
 
 En del en av två uppdateringar av arbetsflödet för begäran om användningsrättigheter för Instagram-innehåll är nu tillgänglig. Från programinnehåll och biblioteket kan du nu kopiera meddelandet om rättighetsbegäran från Livefyre Studio och klistra in det i just det Instagram-inlägg som du vill ska användas. Möjligheten att göra detta i ModQ kommer att levereras i en framtida version. Den 14 juni 2018 kommer vi att återställa funktionen som automatiskt övervakar ditt svar på din rättighetsbegäran och uppdaterar aktivitetshistoriken.
 
-Läs [versionsinformationen](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) från maj 2018 om du vill ha mer information och instruktioner om hur du använder funktionen.
+Läs [24 maj, 2018, versionsinformationen](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) för mer information och instruktioner om hur du använder funktionen.
 
 ## 17 maj 2018 {#section_hwb_1qz_wdb}
 
@@ -121,7 +121,7 @@ Torsdagen den 3 maj 2018 tog Facebook bort ett antal Instagram-API:er som använ
 
 Vi uppskattar ditt tålamod när vi analyserade effekten på Livefyre-systemet. I följande översikt förklaras vilka Livefyre-funktioner som fortsätter att fungera sömlöst och vilka funktioner API-borttagningen har påverkat samt hur och när vi ska åtgärda ändringarna.
 
-För det första kan du vara säker på att majoriteten av Livefyres Instagram inte påverkas. Instagraminnehåll kan fortfarande direktuppspelas av hashtag och plats och publiceras i mappar och Livefyre-visualiseringsappar. Direktuppspelat innehåll för alla andra källor - Twitter, Facebook, YouTube, Tumblr, RSS och e-post - förblir oförändrat.
+För det första kan du vara säker på att majoriteten av Livefyres Instagram inte påverkas. Instagraminnehåll kan fortfarande direktuppspelas av hashtag och plats och publiceras i mappar och Livefyre-visualiseringsappar. Direktuppspelat innehåll för alla andra källor - Twitter, Facebook, YouTube, Tumblr, RSS och e-post - ändras inte.
 
 Efter en fullständig systemanalys finns de funktioner som påverkas av API-borttagningen och de datum då vi tror att de kommer att åtgärdas.
 
