@@ -6,6 +6,9 @@ title: 30 mars 2017
 uuid: 2adf04a9-6c52-4fa1-a0c9-b2d3886305e9
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +35,8 @@ Versionsinformation för 30 mars 2017-utgåvan.
 |---|---|---|
 | Fel | Appinnehåll | Ändrat beteendet för &quot;Mer information&quot; så att om det finns flera anonyma flagghändelser för ett visst innehåll visas alltid den tidigaste händelsen. |
 | Fel | Bibliotek | Korrigerade ett fel som gjorde att bibliotekssökningar med hashtaggar ibland misslyckades. |
-| Fel | Kartor | Korrigerade ett fel i kartor som stötte på ett stort antal innehåll i kluster på iOS-enheter. |
-| Förbättring | Mosaik | Lagt till möjlighet att konfigurera Mosaic-appar att klicka var som helst på ett innehållskort för att öppna modal efter animeringstyp `none` i designern och `cardAnimation: 'off'`om det initieras via SDK. |
+| Fel | Kartor | Korrigerade ett fel i Kartor som stötte på ett stort antal innehåll i kluster på iOS-enheter. |
+| Förbättring | Mosaik | Lagt till möjlighet att konfigurera Mosaic-appar att klicka var som helst på ett innehållskort för att öppna modala efter animeringstyp `none` i designer och `cardAnimation: 'off'`om det initieras via SDK. |
 | Fel | Mosaik | Korrigerade ett fel som gjorde att användare kunde göra ändringar i Mosaic-appar i Designer. |
 | Förbättring | Rättighetsbegäran | En ny status för rättighetsförfrågan med namnet&quot;Misslyckad begäran&quot; har lagts till för att markera när meddelanden om rättighetsförfrågan inte kan skickas. |
 | Förbättring | Inställningar | Lagt till möjlighet för kunder att skapa regler för skräppostmoderering i Inställningar. |
