@@ -7,6 +7,9 @@ title: Kommentarsmeddelande
 uuid: 36907977-8233-4978-9413-232c7b2fae20
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +30,9 @@ Klicka på förhandsgranskningen av en ny kommentar för att hoppa till den plat
 
 Anmälaren försvinner när alla nya kommentarer har visats och visas igen när en ny kommentar visas ovanför eller under användarens aktuella vy av flödet.
 
-## Dölja kommentarsaviseringen {#section_cmy_cvx_vy}
+## Döljer kommentarsaviseraren {#section_cmy_cvx_vy}
 
-Klicka på **[!UICONTROL x]** i det högra hörnet av **[!UICONTROL New Comments]** fältet för att stänga sidans meddelandefunktion. Uppdatera sidan så visas meddelandet igen.
+Klicka på **[!UICONTROL x]** i det högra hörnet av fältet **[!UICONTROL New Comments]** för att stänga meddelandefunktionen för sidan. Uppdatera sidan så visas meddelandet igen.
 
 Dölj meddelandewidgeten i hela nätverket med CSS-anpassningar.
 
