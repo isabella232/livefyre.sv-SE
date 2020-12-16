@@ -7,16 +7,19 @@ title: Välj innehåll från Studio
 uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
 
-# Välj innehåll från Studio{#select-content-to-feature-from-studio}
+# Välj innehåll att använda från Studio{#select-content-to-feature-from-studio}
 
 Du kan välja innehåll att använda i Studio i stället för i en app.
 
-1. I Studio klickar du på **[!UICONTROL +]** skylten bredvid en del av innehållet.
-1. Markera **[!UICONTROL Featured]** -taggen i listrutan.
-1. Klicka **[!UICONTROL Enter]** för att visa innehållet.
+1. I Studio klickar du på **[!UICONTROL +]**-tecknet bredvid en del av innehållet.
+1. Välj taggen **[!UICONTROL Featured]** i listrutan.
+1. Klicka på **[!UICONTROL Enter]** för att visa innehållet.
 
-   Taggen sparas och visas bredvid innehållet. 1. Om du inte längre vill ha något innehåll klickar du på **[!UICONTROL x]** på den **[!UICONTROL Featured]** tagg som visas på innehållet.
+   Taggen sparas och visas bredvid innehållet. 1. Om du vill sluta använda innehåll klickar du på **[!UICONTROL x]** på taggen **[!UICONTROL Featured]** som visas på innehållet.
