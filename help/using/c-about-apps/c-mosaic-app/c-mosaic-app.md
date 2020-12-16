@@ -7,6 +7,9 @@ title: Mosaik
 uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Mosaic omvandlar användargenererat innehåll till en dynamisk vägg av färger 
 
 Besökare på webbplatsen kan hovra över ett mosaikkort för att visa text och annan innehållsinformation. Mobila och icke-mobila användare kan expandera ett kort för att se en större bild, dela innehåll och spela upp video. När nya objekt blir tillgängliga tas gamla objekt bort och placeras tillbaka i kön för att bilda det perfekta rutnätet.
 
-## Om Mosaik {#section_tng_slj_yy}
+## Om mosaik {#section_tng_slj_yy}
 
 Mosaic visar det senaste Livefyre- och Stream-innehållet i en enhetlig rutnätsvisning. Om du vill skapa en smidigare visuell upplevelse visas innehållsinformation endast vid muspekaren. När nya objekt blir tillgängliga tas gamla objekt bort och placeras i kön igen.
 
@@ -84,9 +87,9 @@ Mosaik fungerar bäst med en samling som ständigt har nytt innehåll. Om appen 
 
 Mosaik visar innehållet i ett perfekt rutnät. Om du har 25 innehållsdelar måste behållarbredden anpassas till fem innehållsdelar för att alla 25 innehållsdelar ska visas: fem över och fem ned.
 
-Om behållarbredden bara får plats i fyra rutnät för att skapa ett perfekt rutnät, men du har 25 innehållsdelar, klassificerar Mosaic det extra innehållet som en utdataenhet och visar det inte i appen. Den ena avvikande delen av innehållet roteras inte eftersom den tekniskt sett finns i appen, men inte visas. Om behållarbredden passar in i sju visas bara 21, eftersom fyra är avvikande och inte kommer att utgöra det perfekta rutnätet.
+Om behållarbredden bara får plats i fyra rutnät för att skapa ett perfekt rutnät, men du har 25 innehållsdelar, klassificerar Mosaic det extra innehållet som en utdataenhet och visar det inte i appen. Den enda föregående delen av innehållet roteras inte eftersom den tekniskt sett finns i appen, men inte visas. Om behållarbredden passar in i sju visas bara 21, eftersom fyra är avvikande och inte kommer att utgöra det perfekta rutnätet.
 
-Ibland visas inte innehållet eftersom du aktiverat **[!UICONTROL Require rights]**. Om du aktiverar detta måste du ha behörighet för allt innehåll i appen. Om rättighetsstatusen inte&quot;beviljas&quot; för ett visst innehåll visas det inte i appen.
+Ibland visas inte innehållet eftersom du har aktiverat **[!UICONTROL Require rights]**. Om du aktiverar detta måste du ha behörighet för allt innehåll i appen. Om rättighetsstatusen inte&quot;beviljas&quot; för ett visst innehåll visas det inte i appen.
 
 ## Skapa mosaik med Studio {#section_dwb_glj_yy}
 
