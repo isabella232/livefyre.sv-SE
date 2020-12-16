@@ -7,6 +7,9 @@ title: Använda Profanity-filtret
 uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
@@ -23,43 +26,43 @@ Livefyre innehåller en standardsvordlista. Du kan välja att använda den här 
 
 Om du vill ange en egen anpassad vinstlista som nätverksstandard skickar du den till kontohanteraren för Livefyre.
 
-## Aktivera profilering {#section_yqc_qsk_f1b}
+## Aktivera profilfiltrering {#section_yqc_qsk_f1b}
 
 Aktivera och konfigurera vinstfiltret på både nätverks- och webbplatsnivå. Inaktivera avstavningsfiltret på nätverksnivå för att automatiskt inaktivera avstavningsfiltret för alla webbplatser som ärver från nätverket.
 
 >[!NOTE]
 >
->Allt innehåll som skickas via Livefyre kontrolleras med rikedom. Om innehåll hittas som innehåller ord som finns i standardsvordlistan eller i din anpassade Profanity-lista, markeras &quot;Profanity&quot;. Om du vill att Livefyre automatiskt ska vidta åtgärder för dessa objekt går du **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL ON]**.
+>Allt innehåll som skickas via Livefyre kontrolleras med rikedom. Om innehåll hittas som innehåller ord som finns i standardsvordlistan eller i din anpassade Profanity-lista, markeras &quot;Profanity&quot;. Om du vill att Livefyre automatiskt ska vidta åtgärder för dessa objekt aktiverar du **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL ON]**.
 
 ## Aktivera Profanity-filtret för ett nätverk {#section_twd_ssk_f1b}
 
-1. Välj **[!UICONTROL Network]** från menyn för nätverkslistrutor.
+1. Välj **[!UICONTROL Network]** på nätverkets listruta.
 1. Gå till **[!UICONTROL Settings > Network Settings > Moderation]**.
-1. Rulla ned till **[!UICONTROL Profanity List]** och ange **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL ON]**.
+1. Rulla ned till **[!UICONTROL Profanity List]** och ställ in **[!UICONTROL Enable Profanity Checking]** på **[!UICONTROL ON]**.
 
-1. Använd **[!UICONTROL Update Network Profanity List]** fältet för att lägga till ord i listan eller klicka på ett ord för att ta bort det från listan.
+1. Använd fältet **[!UICONTROL Update Network Profanity List]** för att lägga till ord i listan eller klicka på ett ord för att ta bort det från listan.
 
 >[!NOTE]
 >
->Om du redigerar Profanity List på nätverksnivå påverkas inte befintliga listor på webbplatsnivå. Om du vill vara säker på att ändringar från nätverket görs på platsen väljer du **[!UICONTROL Restore Network List]** för platsen efter att ändringarna har gjorts.
+>Om du redigerar Profanity List på nätverksnivå påverkas inte befintliga listor på webbplatsnivå. Om du vill vara säker på att ändringar från nätverket görs på platsen väljer du **[!UICONTROL Restore Network List]** för platsen när ändringarna har gjorts.
 
 ## Aktivera Profanity-filtret för en webbplats {#section_fld_wsk_f1b}
 
 1. Välj platsen på menyn för nätverkslistrutor.
 1. Gå till **[!UICONTROL Settings > Site Settings > Moderation]**.
-1. Rulla ned till **[!UICONTROL Profanity List]** och ange **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL ON]**.
+1. Rulla ned till **[!UICONTROL Profanity List]** och ställ in **[!UICONTROL Enable Profanity Checking]** på **[!UICONTROL ON]**.
 
 1. Välj något av följande alternativ:
 
    * Om du vill ärva Profanity List från nätverket (detta är inte vanligt) anger du **[!UICONTROL Use Site Profanity List]** till **[!UICONTROL OFF]**.
 
-   * Om du vill redigera egenskapslistan specifikt för webbplatsen ställer du in **[!UICONTROL Use Site Profanity List]** på att **[!UICONTROL On]** öppna **[!UICONTROL Update Profanity List]** fältet där du kan redigera listan:
+   * Om du vill redigera egenskapslistan specifikt för webbplatsen anger du **[!UICONTROL Use Site Profanity List]** till **[!UICONTROL On]** för att öppna fältet **[!UICONTROL Update Profanity List]** där du kan redigera listan:
 
       * Om du vill ta bort ett ord klickar du på det.
-      * Om du vill lägga till ett ord skriver du ordet i **[!UICONTROL Add new word]** rutan och trycker på **[!UICONTROL Return]**.
+      * Om du vill lägga till ett ord skriver du ordet i rutan **[!UICONTROL Add new word]** och trycker på **[!UICONTROL Return]**.
 
-      * Om du vill se om ett ord finns med i listan skriver du ordet i **[!UICONTROL Test profanity filter]** rutan.
-   * Om du vill importera nätverkets egenskapslista igen och använda den på webbplatsen klickar du på **[!UICONTROL Restore Network List]**.
+      * Om du vill se om ett ord finns med i listan skriver du ordet i rutan **[!UICONTROL Test profanity filter]**.
+   * Klicka på **[!UICONTROL Restore Network List]** om du vill importera nätverkets Profanity List igen och använda den på webbplatsen.
    * Om du vill ta bort allt innehåll från listan och börja från början klickar du på **[!UICONTROL Clear List]**.
 
 
@@ -67,9 +70,9 @@ Aktivera och konfigurera vinstfiltret på både nätverks- och webbplatsnivå. I
 
 Använd Profanity List för att filtrera dina innehållssökningar och för att skapa Premoderation Rules for ModQ.
 
-Om du vill söka efter innehåll som innehåller svordomar går du till **[!UICONTROL Library > App Content]** och **[!UICONTROL Filter by Flags]** markerar **[!UICONTROL Profanity]** kryssrutan. Allt innehåll som har fångats upp av Profanity-filtret för den valda webbplatsen eller det valda nätverket visas. Den här listan kommer att innehålla innehåll som hämtas till appen med SocialSync och Streams.
+Om du vill söka efter innehåll som innehåller svordomar går du till **[!UICONTROL Library > App Content]**, **[!UICONTROL Filter by Flags]** och markerar kryssrutan **[!UICONTROL Profanity]**. Allt innehåll som har fångats upp av Profanity-filtret för den valda webbplatsen eller det valda nätverket visas. Den här listan kommer att innehålla innehåll som hämtas till appen med SocialSync och Streams.
 
-Om du vill skapa regler för förmoderering väljer du Studio **[!UICONTROL Settings > Network Settings > Moderation]**. När svordomsfiltret har aktiverats visas en ny regel som gör att du kan flagga eller använda förmåttligt innehåll som innehåller svordomar. Som standard aktiveras den här regeln automatiskt **[!UICONTROL Premoderate]** för profilinnehåll, som kan ändras till antingen **[!UICONTROL Trash it]** eller **[!UICONTROL Bozo it]**.
+Välj **[!UICONTROL Settings > Network Settings > Moderation]** från Studio om du vill skapa regler för förmoderering. När svordomsfiltret har aktiverats visas en ny regel som gör att du kan flagga eller använda förmåttligt innehåll som innehåller svordomar. Som standard aktiverar den här regeln automatiskt **[!UICONTROL Premoderate]** för profilinnehåll, som kan ändras till antingen **[!UICONTROL Trash it]** eller **[!UICONTROL Bozo it]**.
 
 >[!NOTE]
 >
@@ -78,11 +81,11 @@ Om du vill skapa regler för förmoderering väljer du Studio **[!UICONTROL Sett
 ## Visa och uppdatera Profanity-listan för ett nätverk {#section_qdb_btk_f1b}
 
 1. Gå till **[!UICONTROL Settings > Network Settings > Moderation]**.
-1. Bläddra ned till **[!UICONTROL Profanity List]** avsnittet.
-1. Ange **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL On]** att visa listan som är aktiverad för ditt nätverk (Livefyre som standard eller din överförda anpassade lista) och redigera den. Du kan redigera listan på följande sätt:
+1. Bläddra ned till avsnittet **[!UICONTROL Profanity List]**.
+1. Ange **[!UICONTROL Enable Profanity Checking]** till **[!UICONTROL On]** om du vill visa listan som är aktiverad för ditt nätverk (Livefyre-standard eller din överförda anpassade lista) och redigera den. Du kan redigera listan på följande sätt:
    * Om du vill ta bort ett ord klickar du på det.
-   * Om du vill lägga till ett ord skriver du ordet i **[!UICONTROL Add new word]** rutan och trycker på **[!UICONTROL Return]**.
-   * Om du vill se om ett ord finns med i listan skriver du ordet i **[!UICONTROL Test profanity filter]** rutan.
+   * Om du vill lägga till ett ord skriver du ordet i rutan **[!UICONTROL Add new word]** och trycker på **[!UICONTROL Return]**.
+   * Om du vill se om ett ord finns med i listan skriver du ordet i rutan **[!UICONTROL Test profanity filter]**.
 
 >[!NOTE]
 >
