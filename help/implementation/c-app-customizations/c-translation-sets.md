@@ -7,6 +7,9 @@ title: Översättningsuppsättningar
 uuid: 8ba66a61-5520-482a-bc0b-e4f6b57f1744
 translation-type: tm+mt
 source-git-commit: 366b7248c2f3b6994fa10419599e66fa1c8e5e48
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +67,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
@@ -78,11 +81,11 @@ Strängar som är tillgängliga för användargränssnittet Granska och Klassifi
 |  | följ | Jag är intresserad |
 |  | shareText | Jag skrev just en recension. Kolla in den! |
 | Tips för klassificeringsverktyg |  |  |
-|  | ratingValues | En array. Default =[&quot;Poor&quot;,&quot;Poor&quot;,&quot;Fair&quot;,&quot;Fair&quot;,&quot;Average&quot;,&quot;Average&quot;,&quot;Good&quot;,&quot;Good&quot;,&quot;Excellent&quot;,&quot;Excellent&quot;]. |
+|  | ratingValues | En array. Standard = [&quot;Dålig&quot;,&quot;Dålig&quot;,&quot;Verklig&quot;,&quot;Medelgod&quot;,&quot;Medel&quot;,&quot;Bra&quot;,&quot;Bra&quot;,&quot;Utmärkt&quot;,&quot;Utmärkt&quot;]. |
 |  |  | Obs! Värdena i arrayen måste dupliceras för att ge både den vänstra och den högra halvan av varje stjärna samma namn. |
 | Klassificera underdelar |  |  |
-|  | ratingSubpartPlaceholder | En array. Standard =[] |
-|  | ratingSubpartTitles | En array. Standard =[] |
+|  | ratingSubpartPlaceholder | En array. Standard = [] |
+|  | ratingSubpartTitles | En array. Standard = [] |
 |  | reviewStreamTitle | Tom som standard. Titel på sammanfattningsavsnittet i granskningen. |
 | Diverse |  |  |
 |  | AverageRating | Genomsnittlig användarklassificering |
@@ -139,7 +142,7 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 |  | wasReviewHelpfulMobile | En bra hjälp? |
 |  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
 |  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
 |  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
 | *Rösta modalt* |  |  |
 |  | voiceTitle | Hjälpte den här recensionen? |
@@ -203,7 +206,7 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorTitleMaxChars | Din titel är för lång. Redigera och försök igen. |
 |  | errorvoiceOwnComment | Du kan inte rösta på din egen recension |
 
-## Textsträngar för sidenotes {#c_sidenotes_text_strings}
+## Sidenotes Text Strings {#c_sidenotes_text_strings}
 
 Anpassa textsträngar för Livefyre Sidenotes
 
@@ -281,7 +284,7 @@ Inställningar som är tillgängliga för information om författare och individ
 |  | commentvoiceCount | röster |
 |  | commentvoiceCountSing | röst |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | *En matris. Standard = *[ &quot;januari&quot;,&quot;februari&quot;,&quot;mars&quot;,&quot;april&quot;,&quot;maj&quot;,&quot;juni&quot;,&quot;juli&quot;,&quot;augusti&quot;,&quot;september&quot;,&quot;oktober&quot;,&quot;november&quot;,&quot;december&quot; ] |
+|  | datetimeMonths | *En matris. Standard = *[&quot;januari&quot;,&quot;februari&quot;,&quot;mars&quot;,&quot;april&quot;,&quot;maj&quot;,&quot;juni&quot;,&quot;juli&quot;,&quot;augusti&quot;,&quot;september&quot;,&quot;oktober&quot;,&quot;november&quot;,&quot;december&quot; ] |
 |  | questionFörklaring | Nu kan du läsa och skriva kommentarer direkt på meningar, stycken, bilder och citat. <br>Markera texten och klicka på ikonen eller klicka på ikonen i slutet av varje stycke. |
 |  | questionMockText | Det som är &quot;välkänt&quot; är inte riktigt känt, bara för att det är &quot;välbekant&quot;. |
 |  | questionTitle | Vad är en Sidenote? |
@@ -338,7 +341,7 @@ Strängar som är tillgängliga för användare som publicerar innehåll.
 |  | menuConfirmAccept | Ja, {action} |
 |  | menuConfirmCancel | Avbryt |
 |  | menuConfirmTitle | Är du säker? |
-| *Alternativ på eTe-menyn* |  |  |
+| *Alternativ på ETT-menyn* |  |  |
 |  | menuEtcOptionApprove | Godkänn |
 |  | menuEtcOptionDelete | Ta bort |
 |  | menuEtcOptionEdit | Redigera |
