@@ -7,6 +7,9 @@ title: Trendanpassningar
 uuid: 4dc58d90-8924-4c89-8f2a-650ac6e0538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 | Plats | Ange den webbplats som dina Trends Apps ska väljas från. |
 |---|---|
-| Filtrera efter apptagg | Ange ett värde **[!UICONTROL App Tag]** som Trends ska filtreras med, om så önskas. Använd apptaggar för att definiera specifika appar som du vill inkludera i trender. I det här fältet får du bara ange en tagg. |
+| Filtrera efter apptagg | Ange ett **[!UICONTROL App Tag]**-värde som Trends vid behov ska filtreras med. Använd apptaggar för att definiera specifika appar som du vill inkludera i trender. I det här fältet får du bara ange en tagg. |
 | Antal appar | Ange antalet (mest aktiva) appar som ska visas. |
 | Inkludera stapeldiagram | Om det här alternativet är aktiverat visas stapeldiagram med applistan. |
 | App-inställningar | Om det här alternativet är aktiverat öppnas appens namn på en ny flik. |
@@ -26,7 +29,7 @@ Med Trending Apps kan du visa de mest aktiva apparna på en viss webbplats genom
 
 Du kan anpassa kommentarer med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se Trending för mer information om hur du anpassar program med integreringsverktyg.
 
