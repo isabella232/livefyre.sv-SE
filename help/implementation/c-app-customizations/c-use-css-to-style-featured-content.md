@@ -7,11 +7,14 @@ title: Använd CSS för att formatera innehåll
 uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
-# Använd CSS för att formatera innehåll{#use-css-to-style-featured-content}
+# Använd CSS för att formatera aktuellt innehåll{#use-css-to-style-featured-content}
 
 Använd tillgängliga CSS-klasser för att formatera innehåll som är annorlunda än annat innehåll i appen.
 
