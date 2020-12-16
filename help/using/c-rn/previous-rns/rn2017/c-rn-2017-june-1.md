@@ -6,6 +6,9 @@ title: 1 juni 2017
 uuid: 70c39b30-896d-437a-9852-80eb47c08892
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Versionsinformation för version 1 juni 2017.
 |---|---|---|
 | Förbättring | Appinnehåll | En förbättring har lagts till så att användare i appinnehåll kan hämta inbyggda videofiler som överförts till en Livefyre-app och/eller via API:t för överföring av media. |
 | Fel | Mosaik | Korrigerade ett fel i Mosaic som förhindrade att nyskapade mosaikteman lästes in efter en uppdatering av sidan. |
-| Fel | Rights Management | Korrigerade ett fel som gjorde att Rights Management bröts på nyligen borttaget/markerat som privat Instagram- och Twitter-innehåll. |
+| Fel | Rights Management | Korrigerade ett fel som gjorde att Rights Management bröt på nyligen borttaget/markerat som privat Instagram- och Twitter-innehåll. |
 | Fel | Storify 2 | Sorteringsetiketterna i Storify 2 har uppdaterats så att de matchar det förväntade beteendet. &quot;Äldsta till nyaste&quot; och &quot;Nyaste till äldsta&quot; står nu &quot;Första till sista&quot; och &quot;Sista till först&quot;. Sorteringsordningen baseras på den ordning som anges i Storify 2 Editor, inte på publiceringsdatumet. |
 
 ## UAT-release
