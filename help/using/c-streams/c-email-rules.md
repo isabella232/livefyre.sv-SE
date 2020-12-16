@@ -7,6 +7,9 @@ title: E-postregler
 uuid: 3cd27d28-b7c0-4cbc-bae3-e2ef7beacba9
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -28,4 +31,4 @@ När e-postmeddelandet har skickats används fälten för att fylla i följande 
 * **[!UICONTROL Body:]** Används för att fylla i innehållsinformation i Studio.
 * **[!UICONTROL Attachments:]** Mediefiler måste bifogas, annars ignoreras e-postmeddelandet. Filtyper som stöds är 3GP, ASF, AVI, DV, GIF, JPG, MOV, MP4, MPEG, MPG, PNG, QT och WMV. Totalt för alla bilagor måste vara mindre än 25 MB.
 
-Ytterligare alternativ för strömningsregler för alla strömregler finns i Alternativ för [strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Ytterligare alternativ för strömningsregler för alla strömregler finns i [Alternativ för strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
