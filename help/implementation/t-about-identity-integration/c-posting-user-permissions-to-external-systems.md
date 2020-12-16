@@ -24,11 +24,11 @@ Livefyre använder ett PUSH-gränssnitt för att skicka en extern systeminformat
 |--- |--- |
 | ägare | Den här användaren är ägare och kan både moderera innehåll och tilldela nya moderatorer. |
 | admin | Den här användaren är moderator och kan moderera innehåll. |
-| medlem | Den här användaren är en lista över tillåtna användare. Publicerat innehåll passerar inte genom skräppost eller svordomsfilter och kräver inget godkännande i förmodererade strömmar. |
+| medlem | Den här användaren är en lista över tillåtna användare. Publicerat innehåll passerar inte genom skräppost eller svordomsfilter och kräver inte godkännande i förmodererade strömmar. |
 | ingen | Den här användaren är en standardanvändare och har inga särskilda behörigheter. |
 | outcast | Den här användaren har förbjudits att delta i konversationer. |
 
-Om du vill publicera användarbehörigheter till externa system måste du registrera en URL som tar emot behörighetsdata som POST-begäranden.
+Om du vill publicera användarbehörigheter till externa system måste du registrera en URL som tar emot behörighetsdata som POSTEN begär.
 
 Exempel:
 
@@ -46,7 +46,7 @@ Den registrerade URL:en ska acceptera POST:er med följande data som innehållst
 
 | Parameter | Beskrivning |
 |--- |--- |
-| jid | JID för den användare vars anknytning ändras. Ett JID är en sträng i formuläret `user_id@network`. |
+| jid | JID för den användare vars anknytning ändras. Ett JID är en sträng i formatet `user_id@network`. |
 | anknytning | Namnet på de tilldelade behörigheterna, som måste vara något av följande:  `{admin | member | none | outcast | owner}` |
 
-Mer information om hur du uppdaterar inställningarna för användaranknytning finns i API-referens för [Lägg till användaranknytning](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post).
+Mer information om hur du uppdaterar användartillhörighetsinställningar finns i [API-referens för Lägg till användaranknytning](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post).
