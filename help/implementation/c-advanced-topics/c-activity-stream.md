@@ -7,6 +7,9 @@ title: Aktivitetsström
 uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 0%
 
 ---
 
@@ -39,16 +42,16 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### Parametrar
 
-* **resurs:** *sträng* A URN för objektet som du begär aktivitetsdata för.
+* **resource:** ** stringA URN för objektet som du begär aktivitetsdata för.
 
-* **sedan:** *heltal* Ett 64-bitars heltal som representerar ID:t för den senaste händelsen som du fick. Ange&quot;0&quot; om du inte har några tidigare data.
+* **sedan:** ** integerEtt 64-bitars heltal som representerar ID:t för den senaste händelsen som du fick. Ange&quot;0&quot; om du inte har några tidigare data.
 
 ## URN-strängar {#section_skl_q4l_b1b}
 
 Exempel:
 
-* **urn:livefyre:** `example.fyre.co` Aktivitetsströmmen för `example.fyre.co`.
-* **urn:livefyre:** `example.fyre.co:site=54321` Aktivitetsströmmen för plats 54321 under `example.fyre.co` nätverket.
+* **urn:livefyre:** `example.fyre.co` Aktivitetsströmmen för  `example.fyre.co`.
+* **urn:livefyre:** `example.fyre.co:site=54321` Aktivitetsströmmen för plats 54321 under  `example.fyre.co` nätverket.
 
 ## Tokenprinciper {#section_nwh_c5j_11b}
 
@@ -273,8 +276,8 @@ Ett svar med nya data sedan den senaste begäran:
 ## Anteckningar {#section_hj3_crj_11b}
 
 * Ett lyckat anrop till API genererar en HTTP 200-statuskod. Alla andra statuskoder ska betraktas som fel.
-* Om värdet inte är null använder du värdet från `data.meta.cursor.next` som `since` parameter i nästa begäran.
-* Om värdet från `data.meta.cursor.next` är null betyder det att det inte finns några nya data att använda. Du bör begära om senare med samma `since` värde för att se om nya data har kommit fram.
-* I praktiken bör du omedelbart begära mer data om `data.meta.cursor.next` värdet inte är null.
+* Om värdet inte är null använder du värdet från `data.meta.cursor.next` som `since`-parameter för nästa begäran.
+* Om värdet från `data.meta.cursor.next` är null betyder det att det inte finns några nya data att använda. Du bör begära om senare med samma `since`-värde för att se om nya data har kommit fram.
+* I praktiken bör du omedelbart begära mer data om `data.meta.cursor.next`-värdet inte är null.
 * Det finns ungefär två timmars data tillgängliga via detta API i produktionen.
 * Du bör konfigurera processerna så att slutpunkten avfrågas ofta vid kronjobb för att undvika att data saknas. Ett intervall på fem minuter bör vara helt lämpligt för de flesta implementeringar.
