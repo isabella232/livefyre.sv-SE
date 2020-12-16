@@ -45,7 +45,7 @@ Följande användarroller och angivna behörigheter är tillgängliga i Studio:
    * Visa och redigera kontoinformation för slutanvändare
    * Förbjud eller tillåt användare
 
-* **Datahanteraren:** ger åtkomst till kontrollpanelen Livefyre Analytics.
+* **Data Manager:** ger åtkomst till kontrollpanelen Livefyre Analytics.
 * **App Manager**
    * Skapa och redigera appar
    * Skapa och redigera strömmar som pekar på appar
