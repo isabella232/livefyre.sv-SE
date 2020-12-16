@@ -7,15 +7,18 @@ title: Skapa en app för granskningar
 uuid: 6caeafe7-c04e-484e-b02f-98dc6d9b3184
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 0%
 
 ---
 
 
-# Skapa en app för granskningar{#creating-a-reviews-app}
+# Skapa en granskningsapp{#creating-a-reviews-app}
 
 Granskningar erbjuder ett brett urval av anpassningar så att du kan skapa en granskningsapp som passar dina behov och ditt varumärke.
 
-Använd appen Recensioner genom att bädda in den på din webbplats som ett JS-program. Du kan inte skapa en granskningsapp i Livefyre Studio. Mer information om hur du skapar en granskningsapp på din webbplats finns i [Granska integrering](/help/implementation/c-app-integrations/c-reviews-integration.md).
+Använd appen Recensioner genom att bädda in den på din webbplats som ett JS-program. Du kan inte skapa en granskningsapp i Livefyre Studio. Information om hur du skapar en granskningsapp på din webbplats finns i [Granska integrering](/help/implementation/c-app-integrations/c-reviews-integration.md).
 
 
 ## Klassificeringar {#section_hs5_c4h_21b}
@@ -30,15 +33,15 @@ Mer information finns i fältet maxRating för objektet convConfig för granskni
 
 Klassificeringsikonerna kan anpassas efter din profilering och stil.
 
-Mer information finns **[!UICONTROL Configure Star Ratings]** under Anpassa granskningar.
+Mer information finns i **[!UICONTROL Configure Star Ratings]** under Anpassa granskningar.
 
-## Värderingsdimensioner {#section_cnx_snh_21b}
+## Klassificera Dimensioner {#section_cnx_snh_21b}
 
 Klassificeringsdimensioner är de kategorier som dina granskare betygsätter din produkt eller tjänst för. Exempel på klassificeringsdimensioner är&quot;prestanda&quot;,&quot;design&quot;,&quot;kostnad&quot;,&quot;total&quot; eller någon annan kategori som du väljer.
 
 Som standard visas en&quot;övergripande&quot; graderingsdimension, men du kan definiera och implementera flera graderingsdimensioner, vilket visas i exemplet nedan.
 
-Mer information finns i fältet ratingDimensions under Granska samlingens metadata.
+Mer information finns i fältet ratingDimensions under Metadata för Granska samling.
 
 ## Granska textfält {#section_xcm_4nh_21b}
 
@@ -76,7 +79,7 @@ Det finns API:er för granskningar så att du kan visa genomsnittlig information
 
 [Omdömen och recensioner](https://api.livefyre.com/docs/apis/by-category/ratings-and-reviews)
 
-* **[!UICONTROL Bootstrap API Endpoint]** Med Bootstrap API Endpoint kan din granskning läsas av sökmotorer som Google så att innehållet och nyckelorden kan förbättra sökmotoroptimeringen.
+* **[!UICONTROL Bootstrap API Endpoint]** Med API-slutpunkten för Bootstrap kan din granskning läsas av sökmotorer som Google så att innehåll och nyckelord kan förbättra sökmotoroptimeringen.
 
 * **[!UICONTROL Average User Ratings]** API:t för genomsnittlig användarklassificering hämtar den genomsnittliga användarklassificeringen för en eller flera granskningssamlingar, så att du kan skapa en visualisering av informationen på en indexsida eller lägga till den på en sökindexsida.
 
