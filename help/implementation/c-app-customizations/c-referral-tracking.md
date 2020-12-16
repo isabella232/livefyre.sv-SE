@@ -7,11 +7,14 @@ title: Referensspårning
 uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
 
-# Referensspårning{#referral-tracking}
+# Hänvisningsspårning{#referral-tracking}
 
 Spåra klickningar från hänvisningstrafik till sidan.
 
