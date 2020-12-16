@@ -7,6 +7,9 @@ title: Begränsa media
 uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
