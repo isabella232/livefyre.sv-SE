@@ -7,6 +7,9 @@ title: Skapa en LinkedIn-app för användning med Livefyre-identitet
 uuid: c5112f24-a4e0-4526-afe8-b8f27a3b2854
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Så här skapar du en LinkedIn-app som ska användas med Livefyre-identitet:
 1. Gå till https://www.linkedin.com/secure/developer och logga in på ditt LinkedIn-konto för att skapa en ny app eller välja en befintlig app som ska användas med Livefyre Identity.
 1. Klicka på **[!UICONTROL Create Application]**.
 1. Fyll i formuläret för att skapa programmet.
-1. Aktivera behörigheterna **[!UICONTROL Default Application Permissions]** och **[!UICONTROL r_basicprofile]** appen i **[!UICONTROL r_emailaddress]** .
+1. Aktivera appbehörigheterna **[!UICONTROL r_basicprofile]** och **[!UICONTROL r_emailaddress]** i **[!UICONTROL Default Application Permissions]**.
 1. Ange **[!UICONTROL OAuth 2.0 Authorized Redirect URL]** som `https://identity.livefyre.com/{network-name}.fyre.co/api/v1.0/public/profile/social/complete/linkedin_fyre`.
 1. Spara appen.
 1. I **[!UICONTROL Livefyre > Integration Settings > Livefyre Identity > LinkedIn]** växlar du **[!UICONTROL Enable LinkedIn Login]** till **[!UICONTROL On]**.
