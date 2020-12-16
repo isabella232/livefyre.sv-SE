@@ -7,11 +7,14 @@ title: Live Blog-anpassningar
 uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
-# Live Blog-anpassningar{#live-blog-customizations}
+# Live-blogganpassningar{#live-blog-customizations}
 
 Anpassa formatet och hur kommentarerna visas på bloggen.
 
@@ -25,7 +28,7 @@ Med Live Blog kan du lägga upp uppdateringar i realtid av pågående artiklar o
 
 * **[!UICONTROL Comments appear in cards]**
 
-   Om det här alternativet är aktiverat visas inlägg med en omgivande ruta och den bakgrundsfärg som är kopplad till valet av **tema** .
+   Om det här alternativet är aktiverat visas inlägg med en omgivande ruta och bakgrundsfärgen som anges i **Theme**-markeringen används.
 
 * **[!UICONTROL Nest levels for replies]**
 
@@ -61,7 +64,7 @@ Med Live Blog kan du lägga upp uppdateringar i realtid av pågående artiklar o
 
 Du kan anpassa Live-bloggen med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Mer information om hur du anpassar appar med integreringsverktygen finns i Live-bloggen.
 
