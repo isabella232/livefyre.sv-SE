@@ -7,6 +7,9 @@ title: CSS-klasser
 uuid: 8714e7e5-3858-458f-a464-de87fd2f0ff0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Använd CSS för att anpassa Livefyre-apparna för en mer fullständig integreri
 * [CSS för kommentarmeddelandefunktion](#c_css_classes/section_dy4_krh_xz)
 * [Storify CSS Classes](../c-app-customizations/c-storify-css-classes.md#c_storify_css_classes)
 
-## CSS-redigerare {#section_edx_prh_xz}
+## Redigerarens CSS {#section_edx_prh_xz}
 
 Använd de här klasserna om du vill ändra gränssnittet för postredigeraren.
 
@@ -90,7 +93,7 @@ Dölj&quot;|&quot; som skiljer sorteringsalternativen åt.
 | Klass | Beskrivning |
 |---|---|
 | .fyre-comment-author-tag- *`custom tag name`* | Livefyre skapar en CSS-klass i det här formatet för varje användartagg som läggs till via Livefyres Studio, [profilsynkronisering](/help/implementation/t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md). Den här klassen kan användas för att formatera bakgrunden för allt innehåll som publiceras av användarkonton, inklusive den taggen. |
-| .fyre-tag-content-icon- *`tag name`* | Livefyre kommer att skapa en CSS-klass i det här formatet för varje innehållstagg som läggs till via Livefyre [Studio](/help/implementation/c-app-customizations/c-adding-users-to-groups.md). Den här klassen kan användas för att formatera innehåll som du har lagt till taggen i. |
+| .fyre-tag-content-icon- *`tag name`* | Livefyre skapar en CSS-klass i det här formatet för varje innehållstagg som läggs till via Livefyre [Studio](/help/implementation/c-app-customizations/c-adding-users-to-groups.md). Den här klassen kan användas för att formatera innehåll som du har lagt till taggen i. |
 | .fyre-comment-user | Begränsningsramen som innehåller användarprofilbilden. |
 | .fyre-comment-username | Användarnamnet. |
 | .fyre-moderator | Begränsningsramen för moderatorn. |
@@ -102,7 +105,7 @@ Dölj&quot;|&quot; som skiljer sorteringsalternativen åt.
 | .fyre-comment-like | Begränsningsramen runt länken Gilla. |
 | .fyre-comment-reply | Begränsningsramen runt länken Svara. |
 
-## CSS för kommentarer {#section_m2v_mrh_xz}
+## Aktuella kommentarer, CSS {#section_m2v_mrh_xz}
 
 >[!NOTE]
 >
@@ -128,7 +131,7 @@ Dölj&quot;|&quot; som skiljer sorteringsalternativen åt.
 | .fyre-archive-stream-title | Texten&quot;Från arkivet&quot;. |
 | .fyre-archive-stream-title-icon | The logo for the &quot;From the Archive&quot; header. |
 
-## CSS för kommentarmeddelandefunktion {#section_dy4_krh_xz}
+## Kommentarsmeddelandets CSS {#section_dy4_krh_xz}
 
 Med dessa klasser kan du anpassa Livefyre Comment Notifier.
 
