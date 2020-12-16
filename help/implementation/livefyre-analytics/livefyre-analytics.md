@@ -7,6 +7,9 @@ title: Analyser
 uuid: b022aa77-59b9-422a-8d9f-fb9d8a1b0478
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 0%
 
 ---
 
@@ -44,18 +47,18 @@ Klicka på listrutan med datum för att välja ett intervall som ska visas. Anv�
 
 Snabbdatum:
 
-* **Idag:** Visar data från midnatt på morgonen den aktuella dagen, till den sista fullständiga timmen före den här stunden.
+* **I dag:** Visar data från midnatt på morgonen den aktuella dagen till den sista fullständiga timmen före den här stunden.
 * **I går:** Visar data för föregående 24 timmar.
-* **7 dagar:** Visar data för de föregående 7 dagarna, med undantag för idag.
-* **30 dagar:** Visar de föregående 30 dagarnas data, förutom idag.
-* **Den här veckan:** Visar data från midnatt på morgonen förra söndagen, till den sista fullständiga timmen före denna stund.
-* **Den här månaden:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, fram till den sista fullständiga timmen före den här stunden.
+* **7 dagar:** Visar de 7 föregående dagarnas data, förutom idag.
+* **30 dagar:** Visar de föregående 30 dagarnas data, med undantag för idag.
+* **Den här veckan:** Visar data från midnatt på morgonen förra söndagen, till den sista hela timmen före denna stund.
+* **Den här månaden:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, till den sista fullständiga timmen före det här tillfället.
 * **Förra veckan:** Visar förra veckans data.
 * **Förra månaden:** Visar data för förra månaden.
 
-## Visa/dölja aktiviteter {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
+## Visar/döljer aktiviteter {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
 
-Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive kommentering, flaggning, delning och moderering. Använd listrutan **Visa/dölj aktiviteter** för att välja vilka aktiviteter du vill ska ingå i instrumentpanelen.
+Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive kommentering, flaggning, delning och moderering. Använd listrutan **Visa/dölj aktiviteter** för att välja aktiviteter som du vill ska ingå i instrumentpanelen.
 
 >[!NOTE]
 >
@@ -65,18 +68,18 @@ Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive komm
 
 Vilka aktiviteter som är tillgängliga varierar beroende på kontrollpanelens typ och exportering, och kan omfatta:
 
-* **Inlägg:** Visar data från midnatt på morgonen den aktuella dagen, till den sista fullständiga timmen före den här stunden.
+* **Inlägg:** Visar data från midnatt på morgonen den aktuella dagen till den sista fullständiga timmen före den här stunden.
 * **Svar:** Visar data för föregående 24 timmar.
-* **gilla:** Visar data för de föregående 7 dagarna, med undantag för idag.
-* **Ogillar:** Visar de föregående 30 dagarnas data, förutom idag.
+* **gilla-markeringar:** Visar de 7 föregående dagarnas data, med undantag för idag.
+* **Ogilla-markeringar:** Visar de senaste 30 dagarnas data, med undantag för idag.
 * **Innehåller media:** Visar data från midnatt på morgonen förra söndagen, till den sista fullständiga timmen före denna stund.
-* **Posten har fotouppladdning:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, fram till den sista fullständiga timmen före den här stunden.
+* **Posten har fotouppladdning:** Visar data från midnatt den första dagen i den aktuella månaden, till den sista fullständiga timmen före den här stunden.
 * **Posten har en länk:** Visar förra veckans data.
-* **Inlägget innehåller @omnämns:** Visar data för förra månaden.
+* **Posten har @mentions:** Visar data för förra månaden.
 * **Godkänd:** Visar data för förra månaden.
-* **Bozo&#39;d:** Visar data för förra månaden.
+* **Bozo&#39;d:** Visar förra månadens data.
 * **Streckad:** Visar data för förra månaden.
-* **Moderering totalt:** Visar data för förra månaden.
+* **Måttsumma:** Visar data för förra månaden.
 
 ## Exporterar instrumentpanelsdata {#concept_730DB61A9F894BE6BFB34E0E2A421ED3}
 
