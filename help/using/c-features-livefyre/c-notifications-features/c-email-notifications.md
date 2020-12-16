@@ -7,6 +7,9 @@ title: E-postmeddelanden
 uuid: 27dad133-bd8d-4949-8146-1254c160d3af
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Användare och moderatorer kan välja om de vill eller inte vill få e-postmedde
 * Datasynkronisering med Livefyre: med att behålla inställningarna synkroniserade med Livefyre.
 * Anpassa e-postmeddelanden: e-postanpassningar.
 
-Använd alternativen **Inställningar > Integreringsinställningar > Inställningar** för e-postmeddelanden för att anpassa e-postmeddelanden för ditt nätverk.
+Använd alternativen **Inställningar > Integreringsinställningar > Inställningar för e-postavisering** för att anpassa e-postaviseringar för ditt nätverk.
 
 >[!NOTE]
 >
@@ -43,7 +46,7 @@ Med Livefyre kan du göra det möjligt för användare att få e-postmeddelanden
 
 Om du vill att användare ska kunna ange sina meddelandeinställningar lägger du till ett e-postmeddelande i användarinställningarna för ditt användarprofilsystem. Lägg till motsvarande fält i databasschemat för din användarprofil och hantera sedan dina användarinställningar med Ping for Pull. (Samarbeta med din Technical Integration Manager för att definiera standardfrekvenser för ditt nätverk. Om du är Enterprise Profiles-kund skickar du de valda standardvärdena till ditt Livefyre-leveransteam för konfiguration i Livefyre-databasen.)
 
-Användare på din webbplats kan sedan följa en konversation och börja få e-postmeddelanden genom att klicka på **[!UICONTROL +Follow]** knappen i kommentarredigeraren. Meddelandeinställningarna definieras på Livefyres nätverksnivå. Alla användarinställningar gäller för alla webbplatser och konversationer i nätverket.
+Användare på din webbplats kan sedan följa en konversation och börja få e-postmeddelanden genom att klicka på knappen **[!UICONTROL +Follow]** i kommentarredigeraren. Meddelandeinställningarna definieras på Livefyres nätverksnivå. Alla användarinställningar gäller för alla webbplatser och konversationer i nätverket.
 
 **Rekommenderade standardvärden**
 
@@ -61,7 +64,7 @@ Livefyre har två alternativ för e-postfrekvens:
 
 **Omedelbart**
 
-E-postmeddelanden som skickas omedelbart visar postens text, artikelrubrik, författarens användarnamn och en **svarslänk** som tar användaren till innehållet på sidan. Dessa e-postmeddelanden innehåller även en länk för **att avbryta prenumerationen** i sidfoten, vilket gör att användare kan avbryta prenumerationen på e-postmeddelanden för den samlingen. Om du klickar på **unsubscribe **kommer du till en bekräftelsesida där du ser att de har avbeställt prenumerationen.
+E-postmeddelanden som skickas omedelbart visar postens text, artikelrubrik, författarens användarnamn och en **svarslänk** som tar användaren till innehållet på sidan. Dessa e-postmeddelanden innehåller även länken **unsubscribe** i sidfoten, vilket gör att användare kan avbryta prenumerationen på e-postmeddelanden för den samlingen. Om du klickar på **unsubscribe **kommer du till en bekräftelsesida där du ser att de har avbeställt prenumerationen.
 
 **Timsammandrag**
 
@@ -75,7 +78,7 @@ E-postmeddelanden som skickas i en timsammandrag visar allt innehåll, svar på 
 
 Moderatorer kan välja att få e-post för innehåll som publicerats i en app de följer och för kommentarer som har flaggats som skräppost eller stötande i en app de modererar. **Obs!** Inga e-postmeddelanden skickas när användare flaggar en kommentar med inställningen Inte instämmer eller Ej ämne, eftersom dessa kategorier inte anses viktiga för moderatormeddelanden.
 
-Fälten moderator_comments och moderator_flags bör också läggas till i databasschemat för användarprofilsinställningar för moderatorn så att moderatorerna kan uppdatera frekvensen för sina e-postmeddelanden och avanmäla sig om de vill. Livefyre rekommenderar att du anger dessa två e-postmeddelandefält för moderatorn som **aldrig**. Alternativen är **aldrig** (standard), **omedelbart** och **ofta**.
+Fälten moderator_comments och moderator_flags bör också läggas till i databasschemat för användarprofilsinställningar för moderatorn så att moderatorerna kan uppdatera frekvensen för sina e-postmeddelanden och avanmäla sig om de vill. Livefyre rekommenderar att du ställer in dessa två e-postmeddelandefält för moderatorn på **never**. Alternativen är **never** (standard), **directly** och **ofta**.
 
 **Moderatorns e-postadress (flaggat innehåll):**
 
@@ -91,7 +94,7 @@ Flera fält i e-postmeddelandemallarna kan ändras så att de passar din stil oc
 
 * **[!UICONTROL From Email Address]**
 
-   &quot;Från e-postadress&quot; för alla e-postmeddelanden kan anpassas så att de överensstämmer med ert varumärke. Livefyre rekommenderar **noreply@customerdomain.com** och ersätter **** kunddomänen med ditt domännamn. (Standardvärdet är **noreply@livefyre.com**.) Skicka önskat &quot;från e-postadress&quot; till din Technical Integration Manager för konfiguration i Livefyre-databasen för ditt nätverk.
+   &quot;Från e-postadress&quot; för alla e-postmeddelanden kan anpassas så att de överensstämmer med ert varumärke. Livefyre rekommenderar **noreply@customerdomain.com** att ersätta **kunddomän** med ditt domännamn. (Standardvärdet är **noreply@livefyre.com**.) Skicka önskat &quot;från e-postadress&quot; till din Technical Integration Manager för konfiguration i Livefyre-databasen för ditt nätverk.
 
    >[!NOTE]
    >
