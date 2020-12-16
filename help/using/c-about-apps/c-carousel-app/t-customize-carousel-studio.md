@@ -7,6 +7,9 @@ title: Anpassa en Carousel med Studio
 uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Ändra storlek, bredd och interaktionsalternativ för Carousel-appen.
 
-Alla program använder **[!UICONTROL Style]** och **[!UICONTROL Config]** alternativ i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+Alla program använder alternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** i **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 Du kan anpassa en Carousel med följande ytterligare alternativ i App Designer:
 
@@ -35,6 +38,7 @@ Du kan anpassa en Carousel med följande ytterligare alternativ i App Designer:
 
    * **[!UICONTROL Call-to-action button]** Växla till om du vill visa knappen för att ringa till åtgärd.
    * **[!UICONTROL Require rights to display products]** Aktivera det här alternativet om du vill kräva att innehållsägaren har beviljat rättigheter för innehållet innan en knapp för att ringa upp visas för innehållet.
+
    >[!NOTE]
    >
    >Innehållet visas även om rättigheter inte har beviljats för innehållet, men knappen för att ringa upp till åtgärd visas inte med innehållet om inte rättigheter för innehållet har beviljats.
@@ -43,7 +47,8 @@ Du kan anpassa en Carousel med följande ytterligare alternativ i App Designer:
    * **[!UICONTROL Call-to-action indication text]** Den text som ska visas för att uppmana användaren att klicka på kortet för att öppna modalt anrop till åtgärd.
    * **[!UICONTROL Call-to-action header text]** De ord som ska visas i rubriken ovanför knappen Call-to-action i det modala innehållet. Standardtexten är&quot;Handla dessa produkter:&quot;.
    * **[!UICONTROL Call-to-action button text]** De ord som ska visas i knappen Call-to-action i det modala innehållet. Standardtexten är&quot;Köp nu:&quot;.
-   * **[!UICONTROL Product display options]** Välj om du vill visa **[!UICONTROL Photo]** och **[!UICONTROL Product name]** med knappen Call-to-action.
+   * **[!UICONTROL Product display options]** Välj om du vill visa  **[!UICONTROL Photo]** och  **[!UICONTROL Product name]** med knappen Call-to-action.
+
    >[!NOTE]
    >
    >Både Foto- och produktnamnsknapparna markerar blått när de är aktiverade.
