@@ -7,11 +7,14 @@ title: syncUser-nätverksmetod
 uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
 
-# syncUser-nätverksmetod{#syncuser-network-method}
+# syncUser Network Method{#syncuser-network-method}
 
 Instruerar Livefyre att hämta användarinformation från en tidigare angiven URL för användarsynkronisering. Returnerar ett booleskt värde.
 
