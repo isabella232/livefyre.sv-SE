@@ -7,6 +7,9 @@ title: Livefyre iOS SDK
 uuid: bfdef31a-49fc-4b25-b0c5-300f27067302
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ platform :ios, :deployment_target => '6.0'
 pod 'StreamHub-iOS-SDK', '~> 0.3.0'
 ```
 
-Du måste också lägga till en Specs-databas i din CocoaPod-installation (detta klonar den i `~/.cocoapods/repos` katalogen):
+Du måste också lägga till en Specs-databas i din CocoaPod-installation (detta klonar den i katalogen `~/.cocoapods/repos`):
 
 ```
 pod repo add livefyre https://github.com/Livefyre/cocoapods.git
@@ -75,13 +78,13 @@ open CommentStream.xcworkspace
 
 >[!NOTE]
 >
->Om du vill köra tester i Xcode 6 måste du lägga till $(PLATFORM_DIR)/Developer/Library/Frameworks i FRAMEWORK_SEARCH_PATHS i Pods-test-XCTest+HTTPStubSuiteCleanUp[podhttps://stackoverflow.com/a/24651704](https://stackoverflow.com/a/24651704).
+>Om du vill köra tester i Xcode 6 måste du lägga till $(PLATFORM_DIR)/Developer/Library/Frameworks i FRAMEWORK_SEARCH_PATHS i Pods-test-XCTest+HTTPStubSuiteCleanUp-pod[https://stackoverflow.com/a/24651704](https://stackoverflow.com/a/24651704).
 
 Du behöver filen LFSTestConfig.plist från Livefyre, som Livefyre tillhandahåller på begäran.
 
-## Xcode-dokumentation {#section_arl_b3v_zz}
+## Xcode Documentation {#section_arl_b3v_zz}
 
-Du kan bläddra i [dokumentationen](https://livefyre.github.com/StreamHub-iOS-SDK/) eller skapa målet &quot;Dokumentation&quot; i Xcode (kräver att appledoc är installerat) på datorn.
+Du kan bläddra i [dokumentationen](https://livefyre.github.com/StreamHub-iOS-SDK/) eller så kan du skapa dokumentationsmålet i Xcode (kräver att appledoc är installerat) på datorn.
 
 ## Krav {#section_m5l_13v_zz}
 
@@ -89,4 +92,4 @@ StreamHub iOS SDK-versioner eftersom v0.2.0 kräver iOS 6.0 eller senare.
 
 ## Bilaga (JSON-stöd) {#section_pcd_5hv_zz}
 
-Observera att för dem som tittar på interna StreamHub-iOS SDK:er använder vi en modifierad version av [JSONKit](https://github.com/escherba/JSONKit) som standard-JSON-parser (istället för Apple-tillhandahållen NSJSONSerialization). Vi var tvungna att göra detta eftersom den Apple-matade tolken inte stöder avkodning av JSON-filer som innehåller heltal eller flyttal som är större än de som kan representeras av systemet. Vår ändrade version av JSONKit trunkerar mycket stora tal till motsvarande systemmaximum i stället för att generera ett undantag.
+Observera att för dem som tittar på interna StreamHub-iOS SDK:er använder vi en modifierad version av [JSONKit](https://github.com/escherba/JSONKit) som JSON-standardtolk (i stället för Apple-tillhandahållen NSJSONSerialization). Vi var tvungna att göra detta eftersom den Apple-matade tolken inte stöder avkodning av JSON-filer som innehåller heltal eller flyttal som är större än de som kan representeras av systemet. Vår ändrade version av JSONKit trunkerar mycket stora tal till motsvarande systemmaximum i stället för att generera ett undantag.
