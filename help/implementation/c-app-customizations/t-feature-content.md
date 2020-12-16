@@ -7,18 +7,21 @@ title: Innehåll
 uuid: c45f594b-69de-4db4-820b-465015d74825
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
 
-# Innehåll{#feature-content}
+# Funktionsinnehåll{#feature-content}
 
 Använd anpassad formatering för att framhäva aktuellt innehåll.
 
 Med innehåll kan du rikta uppmärksamheten mot valda användarinlägg. Aktuellt innehåll kan ha ett annat format än annat innehåll på sidan, och det aktuella innehållet i Livefyre visas ovanför redigeraren. När innehållet väl har valts innehåller det ett aktuellt märke och kan ha anpassats med den förbättrade CSS-klassen. De två senast inbyggda innehållsobjekten för Livefyre visas också ovanför redigeraren i strömmen.
 
 1. Aktivera alternativet i Studio. Se [](../c-app-customizations/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
-1. Utbilda moderatorerna för att identifiera och välja innehåll som ska presenteras direkt från en kommentar, en Live-blogg eller en app för granskningar, eller från avsnitten App Content och ModQ i Studio.
+1. Utbilda moderatorerna för att identifiera och välja innehåll som ska presenteras direkt från en kommentar, Live-blogg eller en app för granskningar, eller från avsnitten App Content och ModQ i Studio.
 
        Moderatorer kan:
    
