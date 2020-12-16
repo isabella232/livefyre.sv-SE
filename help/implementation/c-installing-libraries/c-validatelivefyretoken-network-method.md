@@ -7,6 +7,9 @@ title: validateLivefyreToken-nätverksmetod
 uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
