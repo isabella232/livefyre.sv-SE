@@ -7,11 +7,14 @@ title: Anpassningar av kommentarer
 uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
 
-# Anpassningar av kommentarer{#comments-customizations}
+# Anpassade kommentarer{#comments-customizations}
 
 Anpassa kommentarerna för att bädda in realtidskonversationer på webbplatsen.
 
@@ -29,7 +32,7 @@ Använd de tillgängliga alternativen för att tillåta användarna att dela inn
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Om det här alternativet är aktiverat visas inlägg i en omgivande ruta och den bakgrundsfärg som är kopplad till den valda **[!UICONTROL Theme]** rutan.
+   Om det här alternativet är aktiverat visas inlägg i en omgivande ruta och bakgrundsfärgen som anges i **[!UICONTROL Theme]**-markeringen används.
 
 * **[!UICONTROL Expand media]**
 
@@ -69,11 +72,11 @@ Använd de tillgängliga alternativen för att tillåta användarna att dela inn
 
 * **[!UICONTROL Most liked comment sort]**
 
-   Om det här alternativet är aktiverat kan användare sortera efter **[!UICONTROL Top Comments]** eller **[!UICONTROL Hot Threads]** (utöver standardalternativen **[!UICONTROL Newest]** och **[!UICONTROL Oldest]** sorteringsalternativen).
+   Om den är aktiverad kan användare sortera efter **[!UICONTROL Top Comments]** eller **[!UICONTROL Hot Threads]** (utöver standardsorteringsalternativen **[!UICONTROL Newest]** och **[!UICONTROL Oldest]**).
 
 Du kan anpassa kommentarer med:
 
-* **[!UICONTROL Style]** och alternativ **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]**. Mer information om standardprogram **[!UICONTROL Style]** och alternativ för alla program i finns i Anpassa program **[!UICONTROL Config]** **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * **[!UICONTROL Integration tools]**. Mer information om hur du anpassar kommentarer med Integreringsverktyg finns i Kommentarer.
 
