@@ -7,6 +7,9 @@ title: Fotoöverföring
 uuid: 1fc92fbe-1dd4-43f3-a43f-cc9a5ac3aea1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 1%
 
 ---
 
