@@ -7,6 +7,9 @@ title: JavaScript-händelser för konversationsappar
 uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 11%
 
 ---
 
