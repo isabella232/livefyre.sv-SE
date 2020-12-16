@@ -7,6 +7,9 @@ title: Lokalisera strängar
 uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +159,7 @@ Om det här alternativet är aktiverat visas aktuellt innehåll högst upp i str
 | ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag | Aktuellt |
 |  | featuredCommentsTitlePlural | Kommentarer |
 
-## Textredigerare {#section_ky5_td4_xz}
+## Textredigeraren {#section_ky5_td4_xz}
 
 Som standard är den tillgänglig längst upp på sidan för alla användare.
 
@@ -273,7 +276,7 @@ Om inget annat anges är det tillgängligt för alla inloggade användare. För 
 | Nyckel | Standardtext |  |
 |---|---|---|
 | Redigera modul | Tillgängligt för Studio Admins, User Managers och Moderators |  |
-| @(@mention.) | &lt;/>(Öppnar det anpassade html-fönstret.) |  |
+| @(@mention.) | &lt;/>(Öppnar det anpassade HTML-fönstret.) |  |
 |  | customHtmlDialogTitle(Visas som rubrik för modal.) | Lägg till anpassad HTML |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
@@ -358,7 +361,7 @@ Strängar som är tillgängliga för anpassningsbara felmeddelanden.
 | secondsAgo | {number}s |
 | secondsAgoSingular | {number}s |
 
-## Media Wall {#section_vwt_d5n_xz}
+## Medievägg {#section_vwt_d5n_xz}
 
 Strängar som är tillgängliga för Media Wall App.
 
@@ -434,7 +437,7 @@ Strängar som är tillgängliga för Upload App.
 | editorErrorGeneric | Ett fel uppstod |
 | editorErrorTitleRequired | En titel krävs |
 
-## Omröstning {#section_pdg_fwh_xz}
+## Avsökning {#section_pdg_fwh_xz}
 
 Strängar tillgängliga för omröstningar.
 
@@ -524,7 +527,7 @@ Strängar tillgängliga för Livefyre Identity.
 | filesizemustbelessthanMB | Filstorleken måste vara mindre än {#}MB |
 | invalidusernamorpassword | Ogiltigt användarnamn eller lösenord |
 | minimumlengthOf-tecken | Minsta längd på {#} tecken |
-| maxLengthOf-tecken | Maximal längd för {#} tecken |
+| maxLengthOf-tecken | Maximal längd på {#} tecken |
 | rotwasanerror | Ett fel uppstod |
 | thisFieldDisrequired | Det här fältet är obligatoriskt. |
 | validfileextensions | Giltiga filtillägg |
