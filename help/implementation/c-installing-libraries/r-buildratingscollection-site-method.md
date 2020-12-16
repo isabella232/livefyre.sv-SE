@@ -6,11 +6,14 @@ title: buildRatingsCollection, webbplatsmetod
 uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 0%
 
 ---
 
 
-# buildRatingsCollection, webbplatsmetod{#buildratingscollection-site-method}
+# buildRatingsCollection-webbplatsmetod{#buildratingscollection-site-method}
 
 Returnerar ett Collection-objekt som har instansierats som en graderingstyp. Kör create_or_update() från Collection-objektet för att slutföra byggprocessen.
 
