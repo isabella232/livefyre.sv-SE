@@ -7,15 +7,18 @@ title: Bädda in en kommentarapp
 uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 
-# Bädda in en kommentarapp{#embed-a-comments-app}
+# Bädda in en kommentarsapp{#embed-a-comments-app}
 
 När du bäddar in kommentarappen följer du processen för att bädda in en Core-app.
 
-När du bäddar in appen Kommentarer följer processen för att bädda in en Core-app som beskrivs i [Bädda in en app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Inbäddning av appen Kommentarer följer processen för att bädda in en Core-app som beskrivs i [Bädda in en app](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Exempel
 
