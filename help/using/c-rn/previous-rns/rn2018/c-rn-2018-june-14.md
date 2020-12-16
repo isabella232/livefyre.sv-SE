@@ -7,6 +7,9 @@ title: 14 juni 2018
 uuid: f1bba3af-2020-4dfc-9938-05b1183c30ab
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 1%
 
 ---
 
