@@ -7,6 +7,9 @@ title: Förhandsgranska en artikel
 uuid: 3b5321c3-1fab-4439-86ab-efa2ffc24f41
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,6 @@ I förhandsgranskningsläget finns följande alternativ:
 >
 >Om Sample Data är avmarkerat visas alla inlägg som du har publicerat från redigeraren i förhandsvisningen.
 
-1. Klicka **[!UICONTROL Preview Mode]** för att välja mobil-, tablet- eller datorformat och om exempeldata ska visas eller inte.
-1. Klicka **[!UICONTROL Preview Mode]** för att expandera förhandsvisningen och fylla Studio-fönstret.
-1. Klicka **[!UICONTROL Exit Preview]** för att återgå till designläge.
+1. Klicka på **[!UICONTROL Preview Mode]** för att välja mobil-, tablet- eller datorformat och om exempeldata ska visas eller inte.
+1. Klicka på **[!UICONTROL Preview Mode]** om du vill expandera förhandsvisningen så att Studio-fönstret fylls.
+1. Klicka på **[!UICONTROL Exit Preview]** för att återgå till designläge.
