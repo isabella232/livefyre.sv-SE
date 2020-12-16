@@ -7,21 +7,24 @@ title: Integrering av sidenotes
 uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
 
-# Integrering av sidenotes{#sidenotes-integration}
+# Sidenotes Integration{#sidenotes-integration}
 
 Integrera en Sidenotes-app genom att följa en process som liknar Core Applications.
 
-Om integreringen av Core Application är slutförd kan koden som skrivits för att generera objektet återanvändas som `collectionMeta` Sidenotes.
+Om integreringen av Core Application är slutförd kan koden som skrivits för att generera `collectionMeta`-objektet återanvändas för Sidenotes.
 
-Du kan också återanvända dina befintliga `auth` ombud genom att ange ett `auth` ombud som har skapats med `fyre.conv` till typografiska tecken i `authDelegate` fältet (valfritt).
+Du kan också återanvända dina befintliga `auth`-delegater genom att ange ett `auth`-delegat som skapats med `fyre.conv` till signaturer i fältet (valfritt) `authDelegate`.
 
 >[!NOTE]
 >
->Med sidenotes kan du inkludera `network`, `siteId`och `articleId` i ett enda objekt, i stället för att skicka dem separat i andra delar av konstruktorn.
+>Med sidenotes kan du inkludera `network`, `siteId` och `articleId` i ett enskilt objekt, i stället för att skicka dem separat i andra delar av konstruktorn.
 
 ```
 <!DOCTYPE html> 
@@ -53,7 +56,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-Så som beskrivs i avsnittet Byggnad `collectionMeta` är `collectionMeta` ett kodat JSON-objekt. I exemplet ovan har JSON-objektet följande format innan det är JWT-kodat.
+Som du kan se i avsnittet Building `collectionMeta` är `collectionMeta` ett kodat JSON-objekt. I exemplet ovan har JSON-objektet följande format innan det är JWT-kodat.
 
 ```
 { 
@@ -65,7 +68,7 @@ Så som beskrivs i avsnittet Byggnad `collectionMeta` är `collectionMeta` ett k
 }
 ```
 
-Mer information finns i `collectionMeta` token.
+Mer information finns i `collectionMeta`-token.
 
 ## Mobilinställningar
 
