@@ -7,6 +7,9 @@ title: Autentiseringstoken för användare
 uuid: 6483debd-453c-4780-b19c-1d8041693617
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ Om du vill skapa en variabel använder du det önskade språkbiblioteket och ski
 |---|---|---|
 | networkName | Sträng *krävs* | Namnet på Livefyre-nätverket (tillhandahålls av Livefyre). |
 | networkKey | Sträng *krävs* | Den hemliga nyckeln för det här specifika nätverket (tillhandahålls av Livefyre). |
-| userId | Sträng *krävs* | ID:t för användaren som loggar in som det är lagrat i ditt användarhanteringssystem (endast alfanumeriska tecken, bindestreck, understreck och punkttecken tillåts: [a-zA-Z0-9_-.]). **Obs!** userId måste vara unikt. |
-| förfaller | Ett heltal *krävs* | När token ska upphöra att gälla från och med nu (i sekunder). **Obs!** Det här värdet kan också skickas som ett flyttal. JSON-webbtoken som skapas lagrar det här värdet i UNIX-epok. |
+| userId | Sträng *krävs* | ID:t för användaren som loggar in som det är lagrat i ditt användarhanteringssystem (endast alfanumeriska tecken, bindestreck, understreck och punkttecken tillåts: [a-zA-Z0-9_-.]). **Obs!** UserId måste vara unikt. |
+| förfaller | Heltal *krävs* | När token ska upphöra att gälla från och med nu (i sekunder). **Obs!** Det här värdet kan också skickas som ett flyttal. JSON-webbtoken som skapas lagrar det här värdet i UNIX-epok. |
 | displayName | Sträng *krävs* | Text som identifierar den här användaren i användargränssnittet och i kommentarer. (Maximalt antal tecken: 50.) |
 
 ## Java {#section_b42_mjz_1cb}
