@@ -7,11 +7,14 @@ title: Media Wall
 uuid: 54f4fb0b-e427-4b73-bb96-31325805b081
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
 
-# Media Wall{#media-wall}
+# Medievägg{#media-wall}
 
 Skapa Media Walls med bilder, chatt, video och annat direktuppspelat innehåll.
 
