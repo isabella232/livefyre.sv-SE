@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Använd Livefyre Studio för att skapa appar, samla användargenererat innehåll och moderera innehåll.
 
-Mer information om hur du implementerar och anpassar Livefyre-appar på din webbplats med hjälp av utvecklarverktyg finns i implementeringshandboken för [*Adobe Experience Manager Livefyre *](/help/implementation/home.md).
+Mer information om hur du implementerar och anpassar Livefyre-appar på din webbplats med hjälp av utvecklarverktyg finns i [*Adobe Experience Manager Livefyre Implementeringshandbok*](/help/implementation/home.md).
 
 ## Populära ämnen
 
