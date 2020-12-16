@@ -7,11 +7,14 @@ title: Live Blog
 uuid: 40ae3120-c630-440e-b224-49cd99677dc2
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
 
-# Live Blog{#live-blog}
+# Live-blogg{#live-blog}
 
 Med Live Blog kan skribenter och redaktörer publicera uppdateringar i realtid och omvandla webbplatsen till en engagerande nyhetskälla.
 
