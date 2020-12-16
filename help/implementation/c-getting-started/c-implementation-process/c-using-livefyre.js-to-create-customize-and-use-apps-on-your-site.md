@@ -5,6 +5,9 @@ title: Bädda in en app
 uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -13,13 +16,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Lägg till Livefyre-appar på dina webbsidor med hjälp av kodstrukturen Livefyre.js.
 
-Denna dokumentation är avsedd för en teknisk målgrupp. Om du vill ha [icke-teknisk information om appar](/help/using/c-about-apps/c-about-apps.md).
+Denna dokumentation är avsedd för en teknisk målgrupp. För [icke-teknisk information om appar](/help/using/c-about-apps/c-about-apps.md).
 
 I det här avsnittet beskrivs den kodstruktur som du måste inkludera i sidmallen för att bädda in Livefyre-appar på webbplatsen.
 
 1. Skapa en HTML-fil med en Livefyre-platshållare.
 
-   Skapa en ny HTML-fil i valfri textredigerare. Skapa ett Livefyre- `<div>` element som appen ska bäddas in i.
+   Skapa en ny HTML-fil i valfri textredigerare. Skapa en platshållare för Livefyre `<div>`-elementet där appen ska bäddas in.
 
    ```
    <html> 
@@ -32,7 +35,7 @@ I det här avsnittet beskrivs den kodstruktur som du måste inkludera i sidmalle
 
 1. Inkludera biblioteket Livefyre.js.
 
-   Inkludera sedan Livefyre JS Library. Placera följande referens i ett `<script>` element i `<head>` elementet. Öppna sedan sidan i en webbläsare och använd webbläsarens webbläsare för att bekräfta att Livefyre har lästs in.
+   Inkludera sedan Livefyre JS Library. Placera följande referens i ett `<script>`-element i `<head>`-elementet. Öppna sedan sidan i en webbläsare och använd webbläsarens webbläsare för att bekräfta att Livefyre har lästs in.
 
    ```
    <head> 
@@ -42,7 +45,7 @@ I det här avsnittet beskrivs den kodstruktur som du måste inkludera i sidmalle
 
 1. Bygg Livefyre-appen.
 
-   Används `Livefyre.require` för att konstruera både Core- och SDK-appar genom att skicka in det eller de Livefyre-paket som du tänker använda.
+   Använd `Livefyre.require` för att konstruera både Core- och SDK-appar genom att skicka in Livefyre-paket som du tänker använda.
 
    1. Bygg en huvudapp.
 
