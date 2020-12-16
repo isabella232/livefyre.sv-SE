@@ -7,11 +7,14 @@ title: Begränsning och tweetfrekvens
 uuid: b9edfb1e-e6cf-4a48-8756-05f5f18d8799
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
 
-# Begränsning och tweetfrekvens{#throttling-and-frequency-of-tweets}
+# Begränsning och frekvens för tweets{#throttling-and-frequency-of-tweets}
 
 Alla tweet som matchar en regel visas inte i en ström.
 
