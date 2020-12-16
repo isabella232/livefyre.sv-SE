@@ -7,6 +7,9 @@ title: 12 april 2018
 uuid: f6c3f1f1-d716-4da3-9ba9-3f3623d8d9f5
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | Fel | Bildband | Ett problem har korrigerats där tweets utan bilder inte visades i bildbandens standardvy. |
 | Förbättring | Bildband | Korrigerade några problem som gjorde bildbandet mer tillgängligt. |
 | Förbättring | Bibliotek, appar | Ett problem har korrigerats där videoklipp från Instagram som var äldre än tre månader inte återges korrekt i biblioteket och appar. |
-| Förbättring | Media Wall | Förbättrad tillgänglighet för medievägg på följande sätt: När du <br>öppnar och stänger modulerna via tangentbordskommandon flyttas fokus inte längre<br>tillbaka till sidans övre del. Fokusera istället på det element som senast fokuserades före modala popup-fönster.  <br>Knappen Läs in mer kan tabbas till och aktiveras med tangenten Enter. |
+| Förbättring | Media Wall | Förbättrad tillgänglighet för medievägg på följande sätt: <br>Om du öppnar och stänger modulerna via tangentbordskommandon flyttas fokus inte längre tillbaka<br>till sidans överkant. Fokusera istället på det element som senast fokuserades före modala popup-fönster.  <br>Knappen Läs in mer kan tabbas till och aktiveras med tangenten Enter. |
 | Förbättring | Media Wall | Ett problem har korrigerats där du kom till startsidan när du klickade på en Twitter-, Instagram- eller Facebook-ikon, men där det i skärmläsare felaktigt angavs att ikonen tog dig till det enskilda inlägget. Detta har korrigerats för att identifiera att ikonen tar dig till hemsidan, inte till inlägget. |
 | Fel | Mosaik | Ett problem har korrigerats där en Mosaic-app inte visade rätt färg från App Designer. |
 | Fel | Rights Management | Ett problem har korrigerats där rättighetsförfrågningar inte fungerade för resurser efter att de hade hittats i en social sökning. |
