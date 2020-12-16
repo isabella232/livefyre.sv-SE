@@ -6,6 +6,9 @@ title: SSL-checklista
 uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
