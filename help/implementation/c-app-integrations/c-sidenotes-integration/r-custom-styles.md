@@ -6,11 +6,14 @@ title: Egna format för sidenotes
 uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 
-# Egna format för sidenotes{#sidenotes-custom-styles}
+# Sidenotes Custom Styles{#sidenotes-custom-styles}
 
 Egna format används genom ett objekt som injiceras i Sidenotes-konstruktorn.
 
@@ -40,7 +43,7 @@ new Livefyre.Sidenotes({
 | `commentDownvote` | &quot;fontColor&quot;,&quot;fontSize&quot; | Nedklicka på en anteckning. |
 | `commentReplyExpand` | backgroundColor, borderColor, borderWidth, fontColor, fontFamily, fontSize, fontWeight, lineHeight | Knapp för att utöka trådar med ett stort antal svar. |
 | `commentTags` | &quot;fontColor&quot;,&quot;fontFamily&quot;,&quot;fontSize&quot;,&quot;fontWeight&quot;,&quot;lineHeight&quot; | Taggar om en användare i en anteckning. |
-| `commentUpvote` | &quot;fontColor&quot;,&quot;fontSize&quot; | Knappen för att skicka med en anteckning. |
+| `commentUpvote` | &quot;fontColor&quot;,&quot;fontSize&quot; | Knapp för att skicka med en anteckning. |
 | `editorTextarea` | &quot;height&quot;,&quot;width&quot;,&quot;fontColor&quot;,&quot;fontFamily&quot;,&quot;fontSize&quot;,&quot;fontWeight&quot;,&quot;lineHeight&quot; | Inmatningsruta för textområde för att lämna anteckningar. |
 | `mediaBlockBtn` | &quot;fontColor&quot;,&quot;fontSize&quot;,&quot;left&quot;,&quot;position&quot;,&quot;right&quot;,&quot;top&quot; | Ikonen för att starta media när det ligger ovanpå ett medieobjekt (img, video). |
 | `mediaBlockBtnActive` | &quot;fontColor&quot;,&quot;fontSize&quot;,&quot;left&quot;,&quot;position&quot;,&quot;right&quot;,&quot;top&quot; | Ikonen för att starta media i ett aktivt läge. |
