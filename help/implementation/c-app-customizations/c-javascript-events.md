@@ -7,17 +7,20 @@ title: JavaScript Events-definitioner och exempel
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 15%
 
 ---
 
 
-# JavaScript Events-definitioner och exempel{#javascript-events-definitions-and-examples}
+# Definitioner och exempel för JavaScript-händelser{#javascript-events-definitions-and-examples}
 
 Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
 
 Livefyre tillhandahåller JavaScript-händelser för att spåra användaraktivitet i Livefyre-appar. Du kanske vill uppdatera sidan när användare gillar eller delar innehåll på Twitter eller Facebook, eller när nytt innehåll publiceras.
 
-Med Livefyre kan du även lägga till händelser i tredjepartsanalyser (Adobe Analytics JS, Google Analytics, Dynamic Tag Management, osv.) för att spåra apphändelser. Mer information får du om du samarbetar med en integrationshanterare från tredje part för att få fram rätt händelser.
+Med Livefyre kan du även lägga till händelser i tredjepartsanalyser (Adobe Analytics JS, Google Analytics, Dynamic Tag Management osv.) för att spåra apphändelser. Mer information får du om du samarbetar med en integrationshanterare från tredje part för att få fram rätt händelser.
 
 Om du vill binda till dessa händelser lägger du till följande kod på sidan när du initierar appen på en sida. Ersätt händelsenamnet för `{eventName}`:
 
@@ -154,13 +157,13 @@ data är odefinierade.
 
 ## showMore {#section_pqg_nz4_xz}
 
-En användare klickade på **[!UICONTROL Show More]** knappen.
+En användare klickade på knappen **[!UICONTROL Show More]**.
 
 data är odefinierade.
 
 ## userFollowed {#section_xxw_jz4_xz}
 
-Returnerar true när en användare klickar på **[!UICONTROL Follow]** knappen och false när innehållet skickas till strömmen.
+Returnerar true när en användare klickar på **[!UICONTROL Follow]**-knappen och false när innehållet skickas till strömmen.
 
 ```
 data = { 
@@ -171,7 +174,7 @@ data = {
 
 ## userUnfollowed {#section_wm1_gz4_xz}
 
-Returnerar true när en användare klickar på knappen **Följ** inte och false när innehåll skickas till strömmen.
+Returnerar true när en användare klickar på knappen **Följ inte** och false när innehåll skickas till strömmen.
 
 ```
 data = { 
