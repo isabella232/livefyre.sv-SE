@@ -22,7 +22,7 @@ Versionsinformation för 15 november 2018.
 
 Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
-* **Uppdateringar av sökning och strömning i Instagram.** Du kan använda ett *Instagram-företagskonto* för att:
+* **Uppdateringar av sökning och strömning i Instagram.** Du kan använda ett  *Instagram-* företagskonto:
 
    * Utför en social sökning i Instagram per användare (användaren måste också vara ett Instagram-affärskonto).
 
@@ -34,9 +34,9 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
 * **Automatisk övervakning av användningsrättigheter begär svar för företagskontobaserade sökningar.** Endast för företagskontonsbaserade sökningar - möjlighet att automatiskt övervaka svar på behörighetsförfrågningar och uppdatera aktivitetshistoriken i Livefyre är tillgängligt.
 
-Mer information om hur du begär rättigheter för Instagram-konton finns i [Skicka Instagram Rights Request manuellt](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) och [Skicka en delvis automatiserad Instagram Rights Request](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
+Mer information om hur du begär rättigheter för Instagram-konton finns i [Skicka rättighetsbegäran manuellt](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) och [Skicka en delvis automatiserad begäran om Instagram-rättigheter](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integrering med Adobe Target.** Integreringen med Adobe Target gör att du kan dela Livefyre-appar direkt i ditt Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Target-dokumentationen](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
+* **Integrering med Adobe Target.** Integreringen med Adobe Target gör att du kan dela Livefyre-appar direkt i ditt Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Måldokumentation](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problem {#section_ehw_ndt_wcb}
 
@@ -46,7 +46,7 @@ Problemen i följande tabeller löstes i den här versionen.
 
 | Ärendetyp | Komponent | Versionsinformation |
 |--- |--- |--- |
-| Problem | AppService: Livefyre-identitet | Korrigerade ett fel där klickning på [!UICONTROL Reset to Default] inte återställde logotypen under Login Modal i Studio > Integreringsinställningar > Livefyre-identitet till standardbilden. |
+| Problem | AppService: Livefyre-identitet | Korrigerade ett fel där klickningen på [!UICONTROL Reset to Default] inte återställde logotypen under Login Modal i Studio > Integreringsinställningar > Livefyre-identitet till standardbilden. |
 | Problem | Bibliotek | Ett problem där en video som överfördes till biblioteket och sedan visades i resursinformationen inte visades korrekt har åtgärdats. |
 | Problem | Strömmar | Korrigerade ett problem som förhindrade att produkter visades i en strömregel. |
 | Problem | Strömmar | Ett problem har korrigerats där produkttaggar inte var tillgängliga för en strömregel. |
