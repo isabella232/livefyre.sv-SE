@@ -7,6 +7,9 @@ title: Innehåll
 uuid: 2204a989-69b3-440d-beae-7e9c6e9d5698
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 0%
 
 ---
 
@@ -15,17 +18,17 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Markera viktigt innehåll för användarna genom att använda CSS för att anpassa formatet Aktuellt innehåll.
 
-Alla delar av innehållet i en samling kan taggas som&quot;aktuella&quot; av era ägare eller moderatorer av nätverksplatser för att framhäva viktigt innehåll och uppmuntra till högkvalitativa svar från andra användare. När ett visst innehåll har tagits fram visas en **[!UICONTROL Featured]** tagg på innehållet i programmet så att användarna enkelt kan identifiera innehåll som ägare och moderatorer har markerat.
+Alla delar av innehållet i en samling kan taggas som&quot;aktuella&quot; av era ägare eller moderatorer av nätverksplatser för att framhäva viktigt innehåll och uppmuntra till högkvalitativa svar från andra användare. När en del innehåll har presenterats visas en **[!UICONTROL Featured]**-tagg på innehållet i appen, så att användare enkelt kan identifiera innehåll som ägare och moderatorer har markerat.
 
 I kommentarer:
 
-* De två senaste delarna av **[!UICONTROL Featured]** innehållet kommer också att dras över strömmen.
+* De två senaste delarna av **[!UICONTROL Featured]**-innehållet kommer också att hämtas ovanför strömmen.
 * Det kan ta upp till sju minuter innan Aktuellt innehåll visas ovanför redigeraren.
-* En **[!UICONTROL Featured]** tagg kan läggas till i alla kommentarer i strömmen och användas för att formatera kommentaren, men endast innehåll som skapats av den användare som skapats i Livefyre visas ovanför redigeraren.
+* En **[!UICONTROL Featured]**-tagg kan läggas till i en kommentar i strömmen och användas för att formatera kommentaren, men bara innehåll som skapats av den användare som skapats i Livefyre visas ovanför redigeraren.
 
-När innehållet inte är tillgängligt tas den **[!UICONTROL Featured]** tagg som visas bort i realtid.
+När innehållet inte är tillgängligt kommer taggen **[!UICONTROL Featured]** som visas att tas bort i realtid.
 
-När ett innehållsobjekt har angetts visas ett **[!UICONTROL Featured]** emblem i innehållet i programmet, och du kan använda den fyre-funna CSS-klassen för att anpassa innehållet.
+När ett innehåll har angetts visas ett **[!UICONTROL Featured]**-märke för innehållet i appen, och du kan använda den fyre-funna CSS-klassen för att anpassa innehållet.
 
 Program som använder den här funktionen:
 
