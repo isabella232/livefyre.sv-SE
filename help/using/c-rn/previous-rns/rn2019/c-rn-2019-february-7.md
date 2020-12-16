@@ -7,6 +7,9 @@ title: Versionsinformation
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
