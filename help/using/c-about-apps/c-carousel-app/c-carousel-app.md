@@ -7,6 +7,9 @@ title: Carousel
 uuid: c0704fba-6119-44ca-9ad1-1e2cb692ebda
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 0%
 
 ---
 
