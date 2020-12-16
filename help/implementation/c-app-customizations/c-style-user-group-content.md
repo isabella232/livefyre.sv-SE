@@ -20,7 +20,7 @@ Använd anpassad formatering för att skilja ut era användare.
 
 Livefyre har anpassade formateringsfunktioner som gör att du kan anpassa innehåll som publiceras av specifika användartyper (till exempel moderatorer, redigerare eller andra användargrupper som du vill definiera) till Livefyre Chat, Comments, Reviews eller Live Blog Apps. På så sätt kan du markera det här innehållet för dina användare.
 
-Om du vill lägga till en anpassad formatering måste du först skapa och tilldela användargrupper med hjälp av fältet Användartaggar i Studio. Använd sedan CSS för att skapa formateringsalternativ för varje grupp och markera grupptillhörighet med hjälp av märken, så att du kan skilja mellan en grupps innehåll och en annan grupps innehåll på webbplatsen. Med användargrupper kan ditt team ange tonen för konversationer och dina användare uttrycka sina egna identiteter och anknytningar.
+Om du vill lägga till en anpassad formatering måste du först skapa och tilldela användargrupper med hjälp av fältet Användartaggar i Studio. Använd sedan CSS för att skapa formatalternativ för varje grupp och markera grupptillhörighet med hjälp av märken, så att du kan skilja mellan en grupps innehåll och en annan grupps innehåll på din webbplats. Med användargrupper kan ditt team ange tonen för konversationer och dina användare uttrycka sina egna identiteter och anknytningar.
 
 Så här lägger du till anpassad formatering för specifika användargrupper:
 
