@@ -7,11 +7,14 @@ title: Sidenotes-funktioner
 uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
-# Sidenotes-funktioner{#sidenotes-features}
+# Sidenotes Features{#sidenotes-features}
 
 Sidenotes-appen har dessa funktioner för din webbplats.
 
