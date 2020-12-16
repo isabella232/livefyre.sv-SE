@@ -7,11 +7,14 @@ title: Funktioner för innehållsbeteende
 uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 0%
 
 ---
 
 
-# Funktioner för innehållsbeteende{#content-behavior-features}
+# Innehållsbeteendefunktioner{#content-behavior-features}
 
 Livefyre har funktioner i Appar som gör att du kan välja hur besökarna ska se appinnehåll.
 
