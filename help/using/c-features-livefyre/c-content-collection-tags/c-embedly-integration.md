@@ -7,13 +7,16 @@ title: Embedly-integrering
 uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 8%
 
 ---
 
 
 # Embedly-integrering {#embedly-integration}
 
-Use `embed.ly` to display multiple media formats, directly in the App.
+Använd `embed.ly` för att visa flera medieformat, direkt i appen.
 
 För att bättre kunna aktivera inbäddat medieinnehåll från en mängd olika källor, bland annat Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify och Tumblr, använder Livefyre-appar Embeg som tredjepartsleverantör för URL-expansion. Om en användare eller moderator innehåller en länk som stöds i ett inlägg, kommer de medier som ingår i länken att expandera när de publiceras i samlingen.
 
@@ -23,7 +26,7 @@ Det ger Livefyre-appar tillgång till de över 250 olika inbäddade mediaalterna
 >
 >Livefyre expanderar bara en delmängd av Embeeks fullständiga leverantörslista. Inbäddade bilder utökas endast på HTTPS-sidor om leverantören är Twitter, YouTube, Imgur, Vine, Wikipedia eller SoundCloud. Kontakta din tekniska kontohanterare för ytterligare frågor om länkexpansion eller källor.
 
-På den här sidan visas exempel på några populära inbäddade medietyper och deras tillåtna URL-mönster. `Embed.ly` lägger ständigt till nya källor. En fullständig lista över leverantörer finns här `https://embed.ly/embed/features/providers`.
+På den här sidan visas exempel på några populära inbäddade medietyper och deras tillåtna URL-mönster. `Embed.ly` lägger ständigt till nya källor. En fullständig lista över leverantörer finns på `https://embed.ly/embed/features/providers`.
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Det går bara att bädda in innehåll som kan visas för allmänheten. Om du fö
 
 | Typ | Provider | URL:er |
 |--- |--- |--- |
-| Kartor | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Obs **: URL måste börja med`http`och inte`https.` |
+| Kartor | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Obs**: URL:en måste börja med  `http` och inte  `https.` |
 | Sociala nätverk | Google Plus | <ul><li>`https://plus.google.com/*`</li><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li>`https://google.com/profiles/*`</li></ul> |
 | Video | YouTube | <ul><li>`https://*youtube.com/watch*`</li><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul> |
 | Foton | Flickr | `https://www.flickr.com/photos/*`<br>`https://flic.kr/*` |
