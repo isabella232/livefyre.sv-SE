@@ -7,6 +7,9 @@ title: Aggregerat innehåll med hjälp av aktuella API:er
 uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 0%
 
 ---
 
@@ -151,7 +154,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## Aktuell (webbplats) {#section_lq5_ymw_xz}
+## Aktuell (plats) {#section_lq5_ymw_xz}
 
 Returnerar de 50 senaste delarna av det aktuella innehållet (och författarna) för indatawebbplatsen. (Använd sidindelning för att returnera allt innehåll, i stället för bara de senaste 50.)
 
@@ -355,7 +358,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## Aktuellt (huvud) {#section_n4b_lmw_xz}
+## Aktuell (Head) {#section_n4b_lmw_xz}
 
 Returnerar de två senast markerade innehållsdelarna för indatamängden.
 
