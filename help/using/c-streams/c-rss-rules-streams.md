@@ -7,6 +7,9 @@ title: RSS-regler
 uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +40,4 @@ Livefyre tolkar RSS-flöden baserat på följande RSS-specifikationer:
 
 Livefyre läser inte feeds som inte följer dessa specifikationer, och deras innehåll hämtas inte till strömmen. Använd tjänsten WC3 Feed Validation för att kontrollera syntaxen för din RSS-feed och kontrollera att den är giltig.
 
-Ytterligare alternativ för strömningsregler för alla strömregler finns i Alternativ för [strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Ytterligare alternativ för strömningsregler för alla strömregler finns i [Alternativ för strömningsregel för alla strömregler](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
