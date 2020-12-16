@@ -7,6 +7,9 @@ title: 9 augusti 2018
 uuid: c59ae5ec-9d26-41c4-9a98-cb95c89ee26a
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Versionsinformation för version 9 augusti 2018.
 
 ## Nya funktioner {#section_syx_mdt_wcb}
 
-**Smarta taggar för video:** Nu kan användarna se smarta taggar för videor som är mindre än 50 MB.
+**Smarta taggar för video:** Användare kan nu se smarta taggar för videoklipp under 50 MB.
 
 ## Problem {#section_ehw_ndt_wcb}
 
@@ -37,7 +40,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | Fel | Social sökning | Ett problem har korrigerats där användare inte kunde söka efter offentliga Facebook-inlägg med alternativet URL i Social Search. |
 | Förbättring | Synkronisering via sociala medier | Sociala nätverk har gjort sekretessändringar som innebär att social synkronisering inte längre stöds för Facebook. |
 | Förbättring | Strömmar | När du nu tar bort en app tar du bort alla strömmar som är kopplade till den appen. |
-| Förbättring | Studio | Kunderna kan nu skicka Livefyre-event till Adobe Analytics separat i motsats till satsvis. |
+| Förbättring | Studio | Nu kan man skicka Livefyre-event till Adobe Analytics separat i motsats till i grupp. |
 | Förbättring | Studio | Modala fönster som visas i konversationsappar för sociala nätverk kommer nu att vara modala fönster från det sociala nätverket istället för Adobe Experience Manager Livefyre eller andra varumärkesprofilerade modala fönster. |
 
 ## UAT-release
