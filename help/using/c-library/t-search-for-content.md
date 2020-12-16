@@ -20,7 +20,7 @@ Använd Social Search för att söka efter Instagram-innehåll som ska inkludera
 
 >[!NOTE]
 >
->Innan du kan utföra en social sökning för Instagram måste du lägga till ett Instagram-företagskonto i **[!UICONTROL Social Accounts]** avsnittet i **[!UICONTROL Network Settings]** och godkänna att Livefyre använder det kontot. Mer information om hur du skapar ett Instagram-företagskonto i Adobe Livefyre Studio finns i [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Innan du kan utföra en social sökning för Instagram måste du lägga till ett Instagram-företagskonto i **[!UICONTROL Social Accounts]**-avsnittet i **[!UICONTROL Network Settings]** och godkänna att Livefyre använder det kontot. Mer information om hur du skapar ett Instagram-företagskonto i Adobe Livefyre Studio finns i [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Du kan spara och återanvända sökningar. Klicka i sökfältet för att visa en lista över dina senaste och sparade sökningar.
 
@@ -28,8 +28,8 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
 1. Konfigurera ett Instagram-affärskonto.
 1. Navigera till **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
-1. Välj **[!UICONTROL Instagram]** att söka efter Instagram-innehåll.
-1. Ange sökvillkoren och klicka **[!UICONTROL Show Filter]** för att förfina sökningen.
+1. Välj **[!UICONTROL Instagram]** om du vill söka efter Instagram-innehåll.
+1. Ange sökvillkoren och klicka på **[!UICONTROL Show Filter]** för att förfina sökningen.
 
    * **[!UICONTROL Business User Search:]** Söker efter Instagram-inlägg av indataförfattaren.
 
@@ -41,4 +41,4 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
    * **[!UICONTROL Recent Tags Search]**: Sök i de senaste posterna med hashtaggen.
 
-Objekt som matchar sökningen visas. För musen över ett objekt för att **[!UICONTROL View Details]** lägga till det i ditt resursbibliotek eller **[!UICONTROL Publish]** till en app.
+Objekt som matchar sökningen visas. För musen över ett objekt till **[!UICONTROL View Details]**, lägg till det i ditt resursbibliotek eller **[!UICONTROL Publish]** i en app.
