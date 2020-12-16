@@ -7,6 +7,9 @@ title: Storify CSS Classes
 uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +54,7 @@ Här kan du anpassa rubrikavsnittet för artikelsidan.
 | Knappen .s-share-button | Huvudrubrikrad 2 Delningsknapp. |
 | .s-share-menu | Huvudrubrikrad 2 Dela-menyn. |
 
-## Publicera element {#section_lrs_fsh_xz}
+## Posta element {#section_lrs_fsh_xz}
 
 Här kan du anpassa format för elementen i artikeln.
 
