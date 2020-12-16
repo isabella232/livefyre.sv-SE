@@ -7,6 +7,9 @@ title: Begränsa innehåll från Twitter-användare
 uuid: 692dd9c0-487d-4ea8-b87e-58bea22522db
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
