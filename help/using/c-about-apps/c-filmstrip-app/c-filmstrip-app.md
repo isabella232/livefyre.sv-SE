@@ -1,14 +1,14 @@
 ---
-description: Bildbandet är en visualiseringsapp som visar användargenererat innehåll i ett dynamiskt enda vågrätt band med foton, som liknar en filmremsa från en kamera.
+description: 'Lär dig allt om bildbandsappen med vår fullständiga guide. Visualiseringsappen visar dina bilder i en retro-kamerafilm. Överordnad it with our tips. '
 seo-description: Bildbandet är en visualiseringsapp som visar användargenererat innehåll i ett dynamiskt enda vågrätt band med foton, som liknar en filmremsa från en kamera.
 seo-title: Bildband
 solution: Experience Manager
-title: Bildband
+title: Guide to Filmstrip App
 uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Bildbandet är en visualiseringsapp som visar användargenererat innehåll i ett dynamiskt enda vågrätt band med foton, som liknar en filmremsa från en kamera.
 
-## Om bildbandet {#section_tng_slj_yy}
+## Lär dig hur du använder bildbandet {#section_tng_slj_yy}
 
 Du kan använda bildbandet med UGC i e-handelsscenarier, till exempel produktsidor eller transaktionswebbplatser. Slutanvändare kan navigera på bildbandet genom att klicka på sidopilarna för att bläddra igenom det tillgängliga innehållet från vänster till höger. Nytt innehåll visas till vänster när det kommer in i appen. Du kan välja om den nya UGC-direktuppspelningen ska ha en etikett som säger *New* för att hjälpa besökarna att snabbt identifiera nytt innehåll.
 
