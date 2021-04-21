@@ -1,18 +1,14 @@
 ---
 description: Använd din bit.ly URL-genväg för att anpassa innehållet.
-seo-description: Använd din bit.ly URL-genväg för att anpassa innehållet.
-seo-title: Permalinks
-solution: Experience Manager
 title: Permalinks
-uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
+exl-id: a21cbcca-9173-42ec-910d-7ec2edc60676
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Permalinks{#permalinks}
 
@@ -22,7 +18,7 @@ Med hjälp av Permalinks kan du länka till arkiverade kommentarer eller innehå
 
 ## Permalink display {#section_mxd_wwg_wy}
 
-Om användare klickar på en permanent länk från ett socialt nätverk till en Livefyre-innehållsapp hämtas de till Livefyres innehållsström. Innehållet visas i en delningsvy av strömmen, precis nedanför redigeraren, med en fullständig kontext. En blå linje visas under avataren för det tillåtna innehållet. (Den här blå linjen försvinner efter några sekunder.)
+Om användarna klickar på en permanent länk från ett socialt nätverk till en Livefyre-innehållsapp hämtas de till Livefyres innehållsström. Innehållet visas i en delningsvy av strömmen, precis nedanför redigeraren, med en fullständig kontext. En blå linje visas under avataren för det tillåtna innehållet. (Den här blå linjen försvinner efter några sekunder.)
 
 (Om innehållet tas bort visas ett meddelande om detta i grupperingsvyn.)
 
@@ -48,4 +44,3 @@ Program som använder den här funktionen:
 * [Recensioner](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-
