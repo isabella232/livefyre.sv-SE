@@ -1,18 +1,14 @@
 ---
 description: Använd sökfältet högst upp på sidan för att söka efter webbplatsbesökare efter visningsnamn, användar-ID, e-postadress eller det datum då de anslöt till ditt Livefyre-nätverk.
-seo-description: Använd sökfältet högst upp på sidan för att söka efter webbplatsbesökare efter visningsnamn, användar-ID, e-postadress eller det datum då de anslöt till ditt Livefyre-nätverk.
-seo-title: Sök efter användare
-solution: Experience Manager
 title: Sök efter användare
-uuid: 613ea931-760a-4db6-ac00-a4199708b95c
+exl-id: 7e85fe5a-1bcc-400c-9e0c-bf00c455b860
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # Sök efter användare{#search-for-users}
 
@@ -28,4 +24,3 @@ Använd sökfältet högst upp på sidan för att söka efter webbplatsbesökare
 1. Visa endast **[!UICONTROL Banned]** eller **[!UICONTROL Whitelisted]** användare.
 1. Visa endast **[!UICONTROL Studio]** användare.
 1. Visa endast konton med **[!UICONTROL User Tags]** bifogade indata. ![](assets/UsersFilter-1024x568.png)
-
