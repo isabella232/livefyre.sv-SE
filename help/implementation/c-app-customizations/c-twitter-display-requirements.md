@@ -1,30 +1,26 @@
 ---
-description: En översikt över Twitters krav på visning.
-seo-description: En översikt över Twitters krav på visning.
-seo-title: Twitter-krav
-solution: Experience Manager
-title: Twitter-krav
-uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
+description: Översikt över Twitter krav för visning.
+title: Twitter Display Requirements
+exl-id: f985a47e-4bab-4e60-8b8b-d8c6e5321be7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
+# Twitter Display Requirements{#twitter-display-requirements}
 
-# Twitter-visningskrav{#twitter-display-requirements}
+Sociala medienätverk kräver ofta att deras innehåll visas i enlighet med deras varumärkesstandarder. När du använder Livefyre-plattformen för att presentera Twitter-innehåll på nytt ansvarar du alltid för att användningsvillkoren, inklusive visningsvillkoren, uppfylls. Läs och förstå villkoren innan du visar deras innehåll i Livefyre-apparna.
 
-Sociala medienätverk kräver ofta att deras innehåll visas i enlighet med deras varumärkesstandarder. När du använder Livefyre-plattformen för att presentera Twitter-innehåll på nytt är du alltid ansvarig för att deras användningsvillkor uppfylls, inklusive deras visningsvillkor. Läs och förstå villkoren innan du visar deras innehåll i Livefyre-apparna.
+Mer information finns i [Twitter Display Requirements](https://about.twitter.com/company/display-requirements)-dokumentationen.
 
-Mer information finns i [Twitters dokumentation](https://about.twitter.com/company/display-requirements) Display Requirements.
-
-Twitter ställer följande krav på presentation:
+Twitter ställer följande krav för presentation:
 
 * Onlinevisning (webb och mobil) måste innehålla följande:
 
-   * Twitter-logotyp
+   * Twitter logo
    * Användarnamn, @handle, avatar
    * Oändrad tweet-text
    * Twitter-åtgärder (Svara, Retweet, Gilla)
@@ -32,7 +28,7 @@ Twitter ställer följande krav på presentation:
 
 * Passiv visning (sändning, in-venue, digital out of help) måste innehålla minst följande:
 
-   * Twitter-logotyp
+   * Twitter logo
    * Oändrad tweet-text (kan ta bort länkarna om de inte är relevanta i sammanhanget)
    * Användarnamn och handtag
 
