@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Använda Profanity-filtret
-solution: Experience Manager
 title: Använda Profanity-filtret
-uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
+description: Använda Profanity-filtret
+exl-id: 6ea7d913-f562-42a5-a6ea-241aa4e1089a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
-
 
 # Använda Profanity-filtret{#using-the-profanity-filter}
 
@@ -90,4 +86,3 @@ Välj **[!UICONTROL Settings > Network Settings > Moderation]** från Studio om 
 >[!NOTE]
 >
 >Endast Studio-administratörer och moderatorer kan redigera favoritlistor.
-
