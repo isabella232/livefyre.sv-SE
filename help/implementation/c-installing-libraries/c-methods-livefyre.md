@@ -1,18 +1,14 @@
 ---
 description: Språkbindningar för Livefyres biblioteksmetoder på serversidan.
-seo-description: Språkbindningar för Livefyres biblioteksmetoder på serversidan.
-seo-title: Klasser och metoder
-solution: Experience Manager
 title: Klasser och metoder
-uuid: 2e7327d8-0f92-485c-b607-a566894b3561
+exl-id: 68028182-2a60-4c6e-8132-bbc7333ad0d9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # Klasser och metoder{#classes-and-methods}
 
@@ -23,4 +19,3 @@ Följande klasser av metoder finns för att interagera med Livefyre:
 * [Installation](../c-installing-libraries/c-installing-libraries.md). Gränssnitt för interaktion med Livefyres nätverks-API.
 * [Samling](../c-installing-libraries/c-collection-methods.md#c_collection_methods). Gränssnitt för interaktion med API på Livefyre Collection-nivå.
 * [Webbplats](../c-installing-libraries/c-site-methods.md#c_site_methods). Gränssnitt för interaktion med Livefyres webbplats-API.
-
