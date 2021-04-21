@@ -1,17 +1,14 @@
 ---
 description: Skapa en sekretessförfrågan i Livefyre.
-seo-description: Skapa en sekretessförfrågan i Livefyre.
-seo-title: Skapa en sekretessförfrågan
 title: Skapa en sekretessförfrågan
-uuid: 9fdbd564-0cea-4e4f-bdea-d5b8744fe63a
+exl-id: 117e1edb-becd-45f2-bfe5-12fb19ad01e0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en sekretessförfrågan{#create-a-privacy-request}
 
@@ -36,7 +33,7 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
 
          >[!IMPORTANT]
          >
-         >Om du tar bort data för ett konto tas data som är kopplade till kontot bort eller förstörs permanent. Du kan inte ångra den här åtgärden och inte heller återställa data efter att du har tagit bort den.
+         >Om du tar bort data för ett konto raderas eller förstörs data som är kopplade till kontot permanent. Du kan inte ångra den här åtgärden och inte heller återställa data efter att du har tagit bort den.
 
       * **Avanmäl dig**. Förhindrar Livefyre från att passivt samla in data eller innehåll från ett socialt konto via Streams eller Social Search. Avanmäl dig och avanmäl dig inte för registrerade användare
       * **Anmäl dig**. Återaktiverar Livefyre för att passivt samla in data eller innehåll från ett socialt konto som tidigare valt ut via Streams eller Social Search. Avanmäl dig och avanmäl dig inte för registrerade användare
@@ -52,19 +49,19 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
          * Tillåtna värden: Alfanumerisk sträng på upp till 255 tecken. En e-postadress är inte en giltig inmatning
       * **[!UICONTROL Facebook User]**
 
-         * Identifierar ett konto med ett numeriskt ID från Facebook. Den som gjorde begäran bör ange detta. Här finns instruktioner om hur du hittar det numeriska Facebook-ID:t [här](https://www.facebook.com/help/1397933243846983?helpref=faq_content)
+         * Identifierar ett konto med ett numeriskt ID från Facebook. Den som gjorde begäran bör ange detta. Här finns instruktioner om hur du hittar det numeriska Facebook-id:t [här](https://www.facebook.com/help/1397933243846983?helpref=faq_content)
          * Tillåtna värden: 6-16 numeriska tecken
       * **[!UICONTROL Instagram User]**
 
-         * Identifierar kontot med ett numeriskt ID som tillhandahålls av Instagram. Den som gjorde begäran bör ange detta. Du hittar instruktioner om hur du söker efter det numeriska Instagram-ID:t på ett Instagram-konto online
+         * Identifierar kontot med ett numeriskt ID från Instagram. Den som gjorde begäran bör ange detta. Du kan hitta instruktioner om hur du hittar det numeriska Instagram-id:t på ett Instagram-konto genom att söka online
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL Twitter User]**
 
-         * Identifierar ett konto med ett numeriskt ID från Twitter. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Du hittar instruktioner om hur du hittar det numeriska Twitter-ID:t för ett Twitter-konto genom att söka online
+         * Identifierar ett konto med ett numeriskt ID från Twitter. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Du kan hitta instruktioner om hur du hittar det numeriska Twitter-id:t för ett Twitter-konto genom att söka online
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL YouTube User]**
 
-         * Identifierar ett konto med ett numeriskt ID från YouTube. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Du hittar instruktioner om hur du hittar det numeriska YouTube-ID:t på ett YouTube-konto [här](https://support.google.com/youtube/answer/3250431?hl=en)
+         * Identifierar ett konto med ett numeriskt ID från YouTube. Den person som begär ändringen av sekretessen bör tillhandahålla detta. Här finns instruktioner om hur du hittar det numeriska YouTube-id:t på ett YouTube-konto [här](https://support.google.com/youtube/answer/3250431?hl=en)
          * Tillåtna värden: 5-16 numeriska tecken
       * **[!UICONTROL Generic Author]**
 
@@ -89,5 +86,4 @@ Så här söker du efter och söker efter en användare och skapar en rapport om
 
    >[!IMPORTANT]
    >
-   >Om du tar bort data för ett konto tas data som är kopplade till kontot bort eller förstörs permanent. Du kan inte ångra den här åtgärden och inte heller återställa data efter att du har tagit bort den.
-
+   >Om du tar bort data för ett konto raderas eller förstörs data som är kopplade till kontot permanent. Du kan inte ångra den här åtgärden och inte heller återställa data efter att du har tagit bort den.
