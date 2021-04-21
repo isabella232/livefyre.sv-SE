@@ -1,17 +1,14 @@
 ---
 description: Spara innehåll från fliken Social sökning om du vill spara innehåll som ska användas i appar.
-seo-description: Spara innehåll från fliken Social sökning om du vill spara innehåll som ska användas i appar.
-seo-title: Spara innehåll i resursbibliotek
 title: Spara innehåll i resursbibliotek
-uuid: 5f076a55-4358-4ee5-866e-5b6c0199b580
+exl-id: 7a3adf14-2a93-4ef8-912b-b8dc21078337
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # Spara innehåll i resursbibliotek{#save-content-to-asset-library}
 
