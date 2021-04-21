@@ -1,29 +1,25 @@
 ---
 description: Du kan använda Livefyre Identity med Facebook för att tillåta användare att använda sina Facebook-inloggningar för att interagera med appar på din webbplats.
-seo-description: Du kan använda Livefyre Identity med Facebook för att tillåta användare att använda sina Facebook-inloggningar för att interagera med appar på din webbplats.
-seo-title: Skapa en Facebook-app för användning med Livefyre-identitet
-solution: Experience Manager
 title: Skapa en Facebook-app för användning med Livefyre-identitet
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+exl-id: ec320865-6ea3-4f6f-a5f6-31f3d5cbdc93
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en Facebook-app för användning med Livefyre-identitet{#create-a-facebook-app-for-use-with-livefyre-identity}
 
 Du kan använda Livefyre Identity med Facebook för att tillåta användare att använda sina Facebook-inloggningar för att interagera med appar på din webbplats.
 
-För att användarna ska kunna logga in med sina Facebook-autentiseringsuppgifter krävs följande information om Facebook-appen för Livefyre:
+För att dina användare ska kunna logga in med sina Facebook-autentiseringsuppgifter krävs följande appinformation från Facebook:
 
 * Program-ID
 * Apphemlighet
 
-Så här skapar du en Facebook-app som ska användas med Livefyre-identitet:
+Så här skapar du en Facebook-app som ska användas med Livefyre Identity:
 
 1. Gå till [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 1. Logga in på ditt Facebook-utvecklarkonto.
@@ -44,4 +40,4 @@ Så här skapar du en Facebook-app som ska användas med Livefyre-identitet:
    * Gör appen offentlig.
    * Kontrollera att **[!UICONTROL Approved Items]** för **[!UICONTROL Login Permissions]** innehåller `email`, `public_profile` och `user_friends`.
 
-När det är klart visas ditt program-ID och din apphemlighet på Facebook-utvecklarens Dashboard, som du kan använda i Studions integreringsinställningar.
+När det är klart visas ditt program-ID och din apphemlighet på Facebook-utvecklarens Dashboard som du kan använda i Studions integreringsinställningar.
