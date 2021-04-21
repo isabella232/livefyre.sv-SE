@@ -1,18 +1,14 @@
 ---
 description: Anpassa kommentarerna för att bädda in realtidskonversationer på webbplatsen.
-seo-description: Anpassa kommentarerna för att bädda in realtidskonversationer på webbplatsen.
-seo-title: Anpassningar av kommentarer
-solution: Experience Manager
 title: Anpassningar av kommentarer
-uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
+exl-id: 6a1de42c-4a0f-41c6-ba0d-8cdf0ebfbcea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Anpassade kommentarer{#comments-customizations}
 
@@ -20,7 +16,7 @@ Anpassa kommentarerna för att bädda in realtidskonversationer på webbplatsen.
 
 
 
-Använd de tillgängliga alternativen för att tillåta användarna att dela innehåll på Twitter, Facebook och LinkedIn och föra in sina vänner i strömmen.
+Använd de tillgängliga alternativen för att låta dina användare dela innehåll i Twitter, Facebook och LinkedIn, och för in sina vänner i strömmen.
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -60,7 +56,7 @@ Använd de tillgängliga alternativen för att tillåta användarna att dela inn
 
 * **[!UICONTROL Users may share posts]**
 
-   Om det är aktiverat kan användarna dela inlägg. Om det här alternativet är aktiverat kan användare dela publicerat innehåll på Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
+   Om det är aktiverat kan användarna dela inlägg. Om det här alternativet är aktiverat kan användare dela publicerat innehåll till Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
 
 * **[!UICONTROL Featured content at top of stream]**
 
@@ -79,4 +75,3 @@ Du kan anpassa kommentarer med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * **[!UICONTROL Integration tools]**. Mer information om hur du anpassar kommentarer med Integreringsverktyg finns i Kommentarer.
-
