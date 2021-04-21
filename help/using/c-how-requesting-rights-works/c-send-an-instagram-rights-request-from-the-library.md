@@ -1,32 +1,28 @@
 ---
 description: Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en sökning eller direktuppspelning efter författare (företagskonto) med ett delvis automatiserat arbetsflöde.
-seo-description: Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en sökning eller direktuppspelning efter författare (företagskonto) med ett delvis automatiserat arbetsflöde.
-seo-title: Skicka en delvis automatiserad begäran om instagramrättigheter
-solution: Experience Manager
-title: Skicka en delvis automatiserad begäran om instagramrättigheter
-uuid: 18cf88ab-af0d-4a40-93d2-adfbdbdd21d5
+title: Skicka en delvis automatiserad Instagram Rights Request
+exl-id: 2747784e-689a-4683-867d-0883b281d47b
 translation-type: tm+mt
-source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-
-# Skicka en delvis automatiserad begäran om instagramrättigheter{#send-a-partially-automated-instagram-rights-request}
+# Skicka en delvis automatiserad Instagram Rights Request{#send-a-partially-automated-instagram-rights-request}
 
 Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en sökning eller direktuppspelning efter författare (företagskonto) med ett delvis automatiserat arbetsflöde.
 
 Innan du kan skicka en delvis automatiserad begäran om rättigheter måste du:
 
-* Lägg till ett Instagram-affärskonto. Mer information om hur du konfigurerar ett Instagram-företagskonto finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+* Lägg till ett Instagram-företagskonto. Mer information om hur du konfigurerar ett Instagram-företagskonto finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 * Konfigurera Rights Management. Mer information om hur du konfigurerar behörighetshantering finns i [Begär rättigheter](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
 
-Så här begär du rättigheter från Instagram för en sökning eller direktuppspelning av en företagskontons författare i ett delvis automatiserat arbetsflöde:
+Så här begär du rättigheter från Instagram för en sökning eller direktuppspelning av en företagskontonas författare i ett delvis automatiserat arbetsflöde:
 
 1. Öppna fönstret **[!UICONTROL Rights options]**.
-1. Välj det konto som ska användas för att begära rättigheter. Kontot måste vara ett Instagram-affärskonto.
+1. Välj det konto som ska användas för att begära rättigheter. Kontot måste vara ett Instagram-företagskonto.
 1. (Valfritt) Redigera begärandemeddelandet. Om meddelandet saknar ett element eller om ett obligatoriskt element är felstavat visas ett felmeddelande som anger felaktig eller saknad information.
 1. Klicka på **[!UICONTROL Copy]** för att kopiera texten i rutan till Urklipp.
 
@@ -38,9 +34,9 @@ Så här begär du rättigheter från Instagram för en sökning eller direktupp
 
    ![](assets/rr_insta_workaround2.png)
 
-   Livefyre öppnar posten i Instagram.
+   Livefyre öppnar inlägget i Instagram.
 
-1. Klistra in den kopierade rättighetsförfrågningstexten i Instagram-inlägget på Instagram.
+1. Klistra in den kopierade rättigheten och begär text i Instagram-posten på Instagram.
 1. När användaren svarar tilldelar Livefyre automatiskt rättigheter till innehållet i Livefyre.
 
 Livefyre spårar när du skickar rättighetsbegäran, när en användare svarar och när resursrättigheterna beviljas.
