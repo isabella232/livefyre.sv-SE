@@ -1,18 +1,14 @@
 ---
 description: Svar på vanliga frågor (FAQs) om sekretessförfrågningar som är klara för GDPR.
-seo-description: Svar på vanliga frågor (FAQs) om sekretessförfrågningar som är klara för GDPR.
-seo-title: Frågor och svar om sekretess
-solution: Experience Manager
 title: Frågor och svar om sekretess
-uuid: 0cd6f0d2-504d-46e9-ac46-070536cda086
+exl-id: 6d0add45-589a-46d0-b15a-63a7599aad73
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # Frågor och svar om sekretessförfrågningar{#privacy-request-faqs}
 
@@ -41,4 +37,3 @@ Svar på vanliga frågor (FAQs) om sekretessförfrågningar som är klara för G
 * **Hur skapar jag en rapport över data som spårats av en aktuell eller tidigare anställd?** [Visa en sekretessrapport ](../../c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md#c_view_a_privacy_report) om du vill generera en rapport över data som spårats för ett användarkonto.
 
 * **Klarar Livefyre sociala strömmar?** När en användare tar bort ett inlägg eller en tweet från sitt sociala nätverk, raderas även innehållet inom 24 timmar från alla källor i Livefyre. Detta gäller Twitter och Facebook.
-
