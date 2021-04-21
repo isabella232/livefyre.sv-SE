@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för versionen från 13 april 2017.
-seo-description: Versionsinformation för versionen från 13 april 2017.
-seo-title: 13 april 2017
 title: 13 april 2017
-uuid: abc591bd-3385-40f5-99a5-3f4c8ee4dc6b
+exl-id: 56da541d-9097-4f45-8e14-b6c4ccf32040
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # 13 april 2017{#april}
 
@@ -34,7 +31,7 @@ Versionsinformation för versionen från 13 april 2017.
 | Fel | Storify 2 | En förbättrad användarvänlighet har lagts till så att fasta Storify 2-inlägg inte återger överlappande stift och stängningsikoner när du använder alternativet &quot;Visa permalinks in Modal&quot;. |
 | Fel | Strömmar | Korrigerade ett fel som gjorde att bannern&quot;App tar inte emot nytt innehåll&quot; felaktigt visades ovanpå sidorna för flödesregel. |
 | Förbättring | Strömmar | Ändrade standardvärdet för nyligen skapade strömregler till Använd SAFE-regler när det är tillämpligt. |
-| Förbättring | Strömmar (tidigare Curate Rules) | Borttagen alternativet Endast vacciner från reglerna Twitter-ström/Curate, eftersom Vines nu visas som Twitter-videor. |
+| Förbättring | Strömmar (tidigare Curate Rules) | Borttagen alternativet Endast vacciner från Twitter Stream/Curate-regler, eftersom Vines nu visas som Twitter-videor. |
 
 ## UAT-release
 
@@ -48,4 +45,3 @@ Versionsinformation för versionen från 13 april 2017.
 | Fel | Recensioner | Korrigerade vissa användbarhetsfel när parametern alwaysShowEditor aktiverades i appen Reviews. |
 | Fel | Storify 2 | Korrigerade ett fel som förhindrade Storify 2-inbäddning från återgivning när du använde requireJS-biblioteket på sidan. |
 | Fel | Strömmar | Korrigerade ett fel som förhindrade att regler kopierades över till en ny ström när en befintlig ström klonades. |
-
