@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för utgåva 18 december 2018.
-seo-description: Versionsinformation för utgåva 18 december 2018.
-seo-title: Versionsinformation
-solution: Experience Manager
 title: Versionsinformation för Livefyre 18 december 2018
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: a8efbc26-043e-4c0f-8d60-2d894d03f67a
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Versionsinformation - 18 dec 2018
 
