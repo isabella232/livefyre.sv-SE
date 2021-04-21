@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för appen Polls.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för appen Polls.
-seo-title: Frågeanpassningar
-solution: Experience Manager
 title: Frågeanpassningar
-uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
+exl-id: f82dce69-8ad0-48bd-a293-e5501374d5d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Frågar anpassningar{#polls-customizations}
 
@@ -61,4 +57,3 @@ Du kan anpassa omröstningar med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se omröstningar för mer information om hur du anpassar appar med integreringsverktyg.
-
