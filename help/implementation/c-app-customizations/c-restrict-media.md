@@ -1,18 +1,14 @@
 ---
 description: Begränsa den typ av media som kommer in i appströmmen.
-seo-description: Begränsa den typ av media som kommer in i appströmmen.
-seo-title: Begränsa media
-solution: Experience Manager
 title: Begränsa media
-uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
+exl-id: ae09a058-41de-4b63-8654-cc82f5abad14
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # Begränsa media{#restrict-media}
 
@@ -24,7 +20,7 @@ Som standard kan alla bifogade mediefiler bäddas in i appar. Med Livefyre kan d
 >
 >Livefyre samarbetar med Embeely för medieintegrering. Mer information finns i Innehållsintegrering > Egen integrering. Kontakta din tekniska kontohanterare för frågor om länkexpansion eller källor.
 
-Det här exemplet blockerar YouTube och Vimeo-inbäddning från din kommentarström:
+Det här exemplet blockerar YouTube- och Vimeo-inbäddning från din kommentarström:
 
 ```
 var attachmentDelegate = function(embedObj) { 
@@ -44,4 +40,3 @@ När konversationen läses in:
 networkConfig["attachmentDelegate"] = attachmentDelegate; 
 fyre.conv.load(networkConfig, [convConfig]);
 ```
-
