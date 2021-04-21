@@ -1,18 +1,14 @@
 ---
 description: I det här avsnittet beskrivs hur du skapar det JSON-objekt för UserAuth som skapar den token för användarautentisering som krävs för att logga in användare i dina appar.
-seo-description: I det här avsnittet beskrivs hur du skapar det JSON-objekt för UserAuth som skapar den token för användarautentisering som krävs för att logga in användare i dina appar.
-seo-title: Autentiseringstoken för användare
-solution: Experience Manager
 title: Autentiseringstoken för användare
-uuid: 6483debd-453c-4780-b19c-1d8041693617
+exl-id: 564144dd-6db4-447b-80ac-b743ecac833d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Autentiseringstoken för användare{#user-auth-token}
 
@@ -64,4 +60,3 @@ network.build_user_auth_token(userId, displayName, expires)
 >[!NOTE]
 >
 >Nätverksnycklar delas inte för demosite-konton för Livefyre. Du får en nätverksnyckel när Livefyre har etablerat en miljö åt dig. Den här nyckeln bör hållas privat.
-
