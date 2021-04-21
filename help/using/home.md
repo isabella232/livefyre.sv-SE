@@ -1,16 +1,14 @@
 ---
-seo-title: Användarhandbok för Livefyre
-solution: Experience Manager
 title: Användarhandbok för Livefyre
-uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
+description: Användarhandbok för Livefyre
+exl-id: 1b106519-9165-4cce-bddf-c0980424f54d
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # Användarhandbok för Livefyre {#livefyre-help}
 
@@ -38,4 +36,3 @@ Mer information om hur du implementerar och anpassar Livefyre-appar på din webb
 * [Använd Livefyre med Adobe Launch Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [Versionsinformation](c-rn/c-rn.md#c_rn)
-
