@@ -1,18 +1,14 @@
 ---
 description: Sidenotes-konfigurationsobjektet är ett JSON-objekt som används för att ange det innehåll som Livefyre-appen återger på sidan.
-seo-description: Sidenotes-konfigurationsobjektet är ett JSON-objekt som används för att ange det innehåll som Livefyre-appen återger på sidan.
-seo-title: Konfigurationsalternativ för sidenotes
-solution: Experience Manager
 title: Konfigurationsalternativ för sidenotes
-uuid: 067e51e6-9720-4226-a805-c7a07c8cdaa0
+exl-id: efebf9e5-6623-4953-a8f6-c58495304ac1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurationsalternativ för sidenotes{#sidenotes-configuration-options}
 
@@ -35,4 +31,3 @@ Objektet innehåller följande parametrar:
 | väljare | *requiredObject,* string, or array | Anger de element som startikonerna ska visas på. (Använder specifikationen för CSS3 DOM-väljare.) Om det är ett objekt, innehåller ett inkluderingsavsnitt och ett&quot;utelämnar&quot;-avsnitt som kommer att tillämpa CSS-väljaren för alla matchande inkluderingar, samt ta bort alla element som matchar uteslutningarna. Om du anger en sträng kommer alla matchande element på sidan att tas med. Om det är en array, listas de element som ska inkluderas. |
 | strängar | ** alternativt objekt | Lägger till anpassade textsträngar för att ändra språk och text i hela programmet. Mer information finns i Anpassade strängar. |
 | threadContainerEl | *alternativt* objekt, sträng eller array | Anger ett element där tråden för sidobjekt visas. Med den här parametern kan du flytta tråden. Om strängväljaren matchar mer än ett element väljs det första. (Använder specifikationen för CSS3 DOM-väljare.) |
-
