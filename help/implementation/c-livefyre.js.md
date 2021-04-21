@@ -1,24 +1,20 @@
 ---
 description: Huvudbiblioteket Livefyre använde för att driva Livefyre på er webbplats.
-seo-description: Huvudbiblioteket Livefyre använde för att driva Livefyre på er webbplats.
-seo-title: Livefyre.js
-solution: Experience Manager
 title: Livefyre.js
-uuid: 7b3eca57-d5e8-416d-badf-a9c51d10dadd
+exl-id: 82083dc0-3b4a-467c-bad7-dbf242ab5bbd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre.js {#livefyre-js}
 
 Huvudbiblioteket Livefyre använde för att driva Livefyre på er webbplats.
 
-`Livefyre.js` är huvudbiblioteket som du kan installera på alla Livefyre-aktiverade webbsidor. Det definierar det globala `window.Livefyre`-objektet och en offentlig metod, `Livefyre.require`, som kan användas för att läsa in andra LiveFyre JavaScript-bibliotek som kan användas med [Bädda in Livefyre-appar](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md), [Integrera din autentiseringsleverantör med Livefyre](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) med mera.
+`Livefyre.js` är huvudbiblioteket som du kan installera på alla Livefyre-aktiverade webbsidor. Det definierar det globala `window.Livefyre`-objektet och en enda offentlig metod, `Livefyre.require`, som kan användas för att läsa in andra LiveFyre JavaScript-bibliotek som kan användas med [Bädda in Livefyre-appar](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md), [Integrera autentiseringsprovidern med Livefyre](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) med mera.
 
 ## Lägg till på din webbplats {#section_cst_twg_xz}
 
