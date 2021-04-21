@@ -1,18 +1,14 @@
 ---
 description: 'Lär dig allt om bildbandsappen med vår fullständiga guide. Visualiseringsappen visar dina bilder i en retro-kamerafilm. Överordnad it with our tips. '
-seo-description: Bildbandet är en visualiseringsapp som visar användargenererat innehåll i ett dynamiskt enda vågrätt band med foton, som liknar en filmremsa från en kamera.
-seo-title: Bildband
-solution: Experience Manager
 title: Guide to Filmstrip App
-uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
+exl-id: a96e5de0-bebb-42ee-ae10-813ad8b9e960
 translation-type: tm+mt
-source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
-
 
 # Bildband{#filmstrip}
 
