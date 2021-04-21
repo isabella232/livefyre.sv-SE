@@ -1,18 +1,14 @@
 ---
 description: Livefyre Identity och Apps innehåller tillgänglighetsfunktioner som gör att alla webbplatsbesökare kan interagera med innehållet, inklusive de som kan använda skärmläsare och andra hjälpmedel.
-seo-description: Livefyre Identity och Apps innehåller tillgänglighetsfunktioner som gör att alla webbplatsbesökare kan interagera med innehållet, inklusive de som kan använda skärmläsare och andra hjälpmedel.
-seo-title: Tillgänglighetsfunktioner
-solution: Experience Manager
 title: Tillgänglighetsfunktioner
-uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
+exl-id: c1f10835-06a8-459b-8d58-63ad61a3e0b7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # Tillgänglighetsfunktioner{#accessibility-features}
 
@@ -36,7 +32,7 @@ Livefyre betonar följande när det gäller att se till att Livefyre-identiteter
 
 >[!NOTE]
 >
->Hjälpmedelsfunktionerna för Livefyre-appar gäller bara för själva apparna. Användargränssnittets innehåll i apparna (till exempel undertextning av video och bildbeskrivningar) är bara tillgängligt om innehållsägaren har lagt till de här hjälpmedelsfunktionerna i innehållet.
+>Hjälpmedelsfunktionerna för Livefyre-appar gäller bara för själva apparna. Användargränssnittets innehåll i apparna (till exempel undertextning av video och bildbeskrivningar) är bara tillgängligt om innehållsägaren har lagt till dessa hjälpmedelsfunktioner i innehållet.
 
 Om du vill testa att en app fungerar med tillgänglighetsfunktioner kan du:
 
@@ -56,4 +52,3 @@ Appar och Livefyre-funktioner som är tillgängliga:
 * [Mosaik](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [Omröstningar](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [Sidenotes](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
