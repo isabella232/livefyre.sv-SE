@@ -1,18 +1,14 @@
 ---
 description: Du kan välja om och hur besökarna på webbplatsen ska logga in på dina appar.
-seo-description: Du kan välja om och hur besökarna på webbplatsen ska logga in på dina appar.
-seo-title: Autentiseringsfunktioner
-solution: Experience Manager
 title: Autentiseringsfunktioner
-uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
+exl-id: 4d0691e2-1327-4008-bf12-82cc91ed0612
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '67'
 ht-degree: 2%
 
 ---
-
 
 # Autentiseringsfunktioner{#authentication-features}
 
@@ -31,4 +27,3 @@ Program som använder den här funktionen:
 * [Sidenotes](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Knappen Överför](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
