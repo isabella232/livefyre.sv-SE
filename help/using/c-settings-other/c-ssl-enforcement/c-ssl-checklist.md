@@ -1,17 +1,14 @@
 ---
 description: Följ stegen i checklistan för att kontrollera att du kan konvertera från HTTP till HTTPS.
-seo-description: Följ stegen i checklistan för att kontrollera att du kan konvertera från HTTP till HTTPS.
-seo-title: SSL-checklista
 title: SSL-checklista
-uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
+exl-id: 20161aa5-57c9-417b-af0e-c9e1e771f861
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # SSL-checklista{#ssl-checklist}
 
@@ -25,5 +22,4 @@ Du kommer att konvertera från HTTP till HTTPS om följande objekt har slutfört
 * Alla mina mobilappar har stöd för TLS 1.2-chiffret.
 * Alla mina anpassade JavaScript-integreringar (StreamhubSDK eller direkt API-användning) använder HTTPS.
 * Om jag paketerar Livefyre JavaScript använder vi de senaste versionerna.
-* Jag har meddelat någon tredjepartstjänst (t.ex. innehållsanalys, moderering osv.) som använder Livefyre API:er åt mig för dessa ändringar.
-
+* Jag har anmält alla tredjepartstjänster (t.ex. innehållsanalys, moderering osv.) som använder Livefyre API:er åt mig för dessa ändringar.
