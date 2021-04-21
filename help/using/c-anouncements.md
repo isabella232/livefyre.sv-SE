@@ -1,42 +1,38 @@
 ---
 description: Nyheter om Livefyre och Livefyre Studio. Gäller från 15 november 2018.
-seo-description: Nyheter om Livefyre och Livefyre Studio. Gäller från 15 november 2018.
-seo-title: Meddelanden
-solution: Experience Manager
 title: Meddelanden
-uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
+exl-id: 78fe3f11-2365-4765-a0af-f817e9c80ea9
 translation-type: tm+mt
-source-git-commit: 7a36b890dd828b0da2c95acce5a074eeacb7ea5d
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
-
 
 # Meddelanden{#announcements}
 
 ## 22 juni 2020
 
-Vi vill ge dig en uppdatering om den föränderliga dynamiken i användargenererat innehåll (UGC) och den påverkan detta har på Facebook- och Twitter-innehåll i produkten.
+Vi vill förse dig med en uppdatering om den föränderliga dynamiken i användargenererat innehåll (UGC) och den påverkan detta har på Facebook- och Twitter-innehåll i produkten.
 
-Förra året togs API:t för offentlig feed bort av Facebook. Vi har hållit samtal för att försöka hitta en väg framåt. Vi har ombetts att ta bort Facebook-data från Livefyre-produkten. Vi följer Facebooks begäran och Adobe arbetar snabbt för att se till att vi skyddar våra kunder.
+Förra året togs API:t för offentlig feed bort av Facebook. Vi har hållit samtal för att försöka hitta en väg framåt. Vi har ombetts att ta bort Facebook-data från Livefyre-produkten. Vi uppfyller Facebook krav och Adobe arbetar snabbt för att se till att vi skyddar våra kunder.
 
-Observera att åtkomst till nytt och sparat Facebook-innehåll kommer att tas bort under de kommande veckorna.
+Kom ihåg att åtkomst till nytt och sparat Facebook-innehåll kommer att tas bort under de kommande veckorna.
 
 * 22 juni 2020: sökningen efter nytt Facebook-innehåll i Livefyre upphör.
 * 7 juli 2020: åtkomst till sparat innehåll i Livefyres resursbibliotek och appinnehållet upphör.
 * 10 augusti 2020: Facebook-innehåll som publiceras på webbplatser som finns i Livefyre-visualiseringar som medievägar, funktionskort, mosaik, karuseller med mera kommer att tas bort.
 
-Den här ändringen påverkar inte Instagram-innehåll som fortfarande är tillgängligt i Livefyre.
+Ändringen påverkar inte Instagram-innehåll som fortfarande är tillgängligt i Livefyre.
 
-Vi vill också dela med oss av att på grund av begränsad efterfrågan på Twitter-innehåll kommer åtkomsten till Twitter att tas bort från Livefyre nästa år den 3 maj 2021. Du har fortfarande fullständig tillgång till nytt och sparat Twitter-innehåll fram till detta datum.
+På grund av den begränsade efterfrågan på Twitter-innehåll vill vi också dela med oss av att tillgången till Twitter kommer att tas bort från Livefyre nästa år den 3 maj 2021. Du har fortfarande fullständig tillgång till nytt och sparat Twitter-innehåll fram till detta datum.
 
 Dessutom kommer alla andra funktioner, inklusive graderingar och recensioner, kommentarer, sidenotes och livebloggning att vara tillgängliga. Adobe kommer också att fortsätta att ge fortlöpande stöd för felkorrigeringar, operativsystem och säkerhetsuppdateringar.
 
 ## 25 oktober 2019
 
-Den 4 september 2019 tog Facebook oväntat bort åtkomsten till vissa behörigheter och funktioner från Livefyre-arbetsflödet, som har avbrutit möjligheten att söka efter eller strömma Facebook-innehåll. Om din app behöver åtkomst till publish_pages, user_vänner eller offentlig sidåtkomst ber du dem via den befintliga appgranskningsprocessen. Vi har formellt begärt återaktiverad åtkomst till dessa behörigheter och väntar på godkännande från Facebook. Vi informerar dig så snart vi har godkänt och innehållet finns tillgängligt igen.
+Den 4 september 2019 tog Facebook oväntat bort åtkomsten till vissa behörigheter och funktioner från Livefyre-arbetsflödet, vilket har avbrutit möjligheten att söka efter eller strömma Facebook-innehåll. Om din app behöver åtkomst till publish_pages, user_vänner eller offentlig sidåtkomst ber du dem via den befintliga appgranskningsprocessen. Vi har formellt begärt återaktiverad åtkomst till dessa behörigheter och väntar på godkännande från Facebook. Vi informerar dig så snart vi har godkänt och innehållet finns tillgängligt igen.
 
 Innehåll som redan har publicerats på din eller dina webbplatser påverkas inte.
 
@@ -48,32 +44,32 @@ Vi uppskattar verkligen ditt tålamod under det här oväntade driftsavbrottet.
 
 ## 7 juni 2019
 
-Vi är glada att kunna rapportera att strömmar från Instagram och sökningar har återställts i Livefyre. Du kan fortsätta använda social sökning efter Instagram-innehåll och återuppta direktuppspelning av Instagram-innehåll i mappar och appar. Om du vill starta om direktuppspelning av innehåll måste du göra följande:
+Vi är glada att kunna rapportera att Instagram strömmar och sökningar har återställts i Livefyre. Du kan fortsätta använda social sökning för Instagram-innehåll och återuppta direktuppspelning av Instagram-innehåll i mappar och appar. Om du vill starta om direktuppspelning av innehåll måste du göra följande:
 * Logga in på Livefyre
-* Gå till Inställningar för att återauktorisera och uppdatera åtkomsttoken som är kopplad till ditt Instagram Business Account
+* Gå till Inställningar för att återauktorisera och uppdatera åtkomsttoken som är kopplad till ditt Instagram Business-konto
 * Vänta en till två timmar innan innehållet börjar strömmas igen
 * Kontakta support Om du stöter på problem
 
-Facebook-strömmar har inte återställts ännu, men vi arbetar fortfarande aktivt med Facebook för att återupprätta den här funktionen och kommer att uppdatera dig så fort vi vet mer.
+Facebook-strömmar har ännu inte återställts, men vi arbetar fortfarande aktivt med Facebook för att återupprätta den här funktionen och kommer att uppdatera dig så fort vi vet mer.
 
 Tack för ditt fortsatta tålamod med detta oväntade avbrott i tjänsten.
 
 ## 5 juni 2019
 
-Facebook meddelar vanligtvis i förväg när det är möjligt om ändringar, men de fattade ett snabbt beslut i går om att inaktivera åtkomst till Facebook- och Instagram-innehåll i Livefyre. På grund av den här ändringen kan du inte direktuppspela, söka efter eller dela Facebook- eller Instagram-innehåll.  Vi ber om ursäkt för att vi inte har kunnat ge dig några tips om den här förändringen.
+Facebook meddelar i allmänhet i förväg när så är möjligt att ändringar har gjorts, men de fattade i går ett snabbt beslut att inaktivera åtkomsten till Facebook- och Instagram-innehåll i Livefyre. På grund av den här ändringen kommer du inte att kunna strömma, söka efter eller dela Facebook- eller Instagram-innehåll.  Vi ber om ursäkt för att vi inte har kunnat ge dig några tips om den här förändringen.
 
-Kom ihåg att det fortfarande finns sätt att komma åt Facebook- och Instagram-innehåll:
+Kom ihåg att det fortfarande finns sätt att få åtkomst till Facebook- och Instagram-innehåll:
 
 * Innehåll som redan har publicerats på din eller dina webbplatser påverkas inte
 * Innehåll som redan finns i strömmappen kan fortfarande användas
 
-Vi samarbetar nära med Facebook för att återinföra den här funktionen och vi hoppas på en lösning inom kort. Tack och säg till om jag kan besvara några frågor. Vi vill fortsätta att uppskatta ert tålamod och ert partnerskap.
+Vi samarbetar nära med Facebook för att återinföra denna funktion och vi hoppas på en lösning inom kort. Tack och säg till om jag kan besvara några frågor. Vi vill fortsätta att uppskatta ert tålamod och ert partnerskap.
 
 
 
 ## 15 november 2018 {#section_yx3_hnp_5fb}
 
-Två ytterligare funktioner som åtgärdar Instagram API-borttagningar från början av maj är nu aktiva:
+Två ytterligare funktioner som åtgärdar borttagningen av API:er i Instagram från början av maj är nu aktiva:
 
 * **Söka efter och strömma innehåll från företagskonton**
 
@@ -81,19 +77,19 @@ Två ytterligare funktioner som åtgärdar Instagram API-borttagningar från bö
 
 * **Automatisk övervakning av svar på begäran om användarrättigheter för företagskontobaserade sökningar**
 
-   Facebook har också tagit bort möjligheten för partners som Adobe att skicka meddelanden om rättighetsförfrågningar från Instagram för sina kunders räkning, vilket har eliminerat möjligheten att hantera fullständiga automatiserade rättigheter från Livefyre. I maj levererade vi manuell, klippa ut och klistra in funktionalitet för att ge kunderna möjlighet att återuppta spårning av användarrättigheter och upprätthålla register för granskning. Från och med idag - endast för kontoningsbaserade sökningar - finns möjligheten att automatiskt övervaka svar på rättighetsbegäranden och uppdatera aktivitetshistoriken i Livefyre.
+   Facebook har också tagit bort möjligheten för partners som Adobe att skicka rättighetsförfrågningar från Instagram för sina kunders räkning, vilket eliminerar möjligheten att hantera Livefyre helt automatiskt. I maj levererade vi manuell, klippa ut och klistra in funktionalitet för att ge kunderna möjlighet att återuppta spårning av användarrättigheter och upprätthålla register för granskning. Från och med idag - endast för kontoningsbaserade sökningar - finns möjligheten att automatiskt övervaka svar på rättighetsbegäranden och uppdatera aktivitetshistoriken i Livefyre.
 
 ## 22 juni 2018 {#section_k1t_vmv_g2b}
 
-Vi är glada att kunna meddela att möjligheten att söka efter videoinnehåll i Instagram har återinförts.
+Vi är glada att kunna meddela att sökningen efter videoinnehåll i Instagram har återupptagits.
 
 ## 14 juni 2018 {#section_kk5_qpz_d2b}
 
-Läs de senaste uppdateringarna av funktionalitetsstatus för API:t för Instagram:
+Läs de senaste uppdateringarna om status för funktionalitet som gäller borttagning av Instagram API:
 
 * **Söka efter och strömma innehåll från företagskonton**
 
-   Som vi meddelade i början av maj innebar API-borttagningarna att det inte gick att söka efter personliga Instagram-konton. Ett annat alternativ är att Livefyre-teamet har skapat funktioner som gör det möjligt att söka efter och strömma innehåll från företagskonton. Livefyre-teamet har slutfört det här arbetet, men versionen väntar på godkännande från Facebook. Därför räknar vi med att den här funktionen kommer att bli tillgänglig senare i sommar och kommer att meddela dig så snart den är tillgänglig.
+   Som vi meddelade i början av maj innebar API-borttagningarna att det inte gick att söka efter personliga Instagram-konton. Ett annat alternativ är att Livefyre-teamet har skapat funktioner som gör det möjligt att söka efter och strömma innehåll från företagskonton. Medan Livefyre-teamet har slutfört det här arbetet väntar dess release på godkännande av Facebook. Därför räknar vi med att den här funktionen kommer att bli tillgänglig senare i sommar och kommer att meddela dig så snart den är tillgänglig.
 
 * **Arbetsflöde för begäran om användningsrättigheter**
 
@@ -101,7 +97,7 @@ Läs de senaste uppdateringarna av funktionalitetsstatus för API:t för Instagr
 
 ## 24 maj 2018 {#section_xbk_wvd_ydb}
 
-En del en av två uppdateringar av arbetsflödet för begäran om användningsrättigheter för Instagram-innehåll är nu tillgänglig. Från programinnehåll och biblioteket kan du nu kopiera meddelandet om rättighetsbegäran från Livefyre Studio och klistra in det i just det Instagram-inlägg som du vill ska användas. Möjligheten att göra detta i ModQ kommer att levereras i en framtida version. Den 14 juni 2018 kommer vi att återställa funktionen som automatiskt övervakar ditt svar på din rättighetsbegäran och uppdaterar aktivitetshistoriken.
+En del av två uppdateringar av arbetsflödet för begäran om användningsrättigheter för Instagram-innehåll är nu tillgängliga. Från programinnehåll och biblioteket kan du nu kopiera meddelandet om rättighetsbegäran från Livefyre Studio och klistra in det i just det Instagram-inlägg som du vill ska användas. Möjligheten att göra detta i ModQ kommer att levereras i en framtida version. Den 14 juni 2018 kommer vi att återställa funktionen som automatiskt övervakar ditt svar på din rättighetsbegäran och uppdaterar aktivitetshistoriken.
 
 Läs [24 maj, 2018, versionsinformationen](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) för mer information och instruktioner om hur du använder funktionen.
 
@@ -121,14 +117,14 @@ Torsdagen den 3 maj 2018 tog Facebook bort ett antal Instagram-API:er som använ
 
 Vi uppskattar ditt tålamod när vi analyserade effekten på Livefyre-systemet. I följande översikt förklaras vilka Livefyre-funktioner som fortsätter att fungera sömlöst och vilka funktioner API-borttagningen har påverkat samt hur och när vi ska åtgärda ändringarna.
 
-För det första kan du vara säker på att majoriteten av Livefyres Instagram inte påverkas. Instagraminnehåll kan fortfarande direktuppspelas av hashtag och plats och publiceras i mappar och Livefyre-visualiseringsappar. Direktuppspelat innehåll för alla andra källor - Twitter, Facebook, YouTube, Tumblr, RSS och e-post - ändras inte.
+Först och främst kan du vara säker på att majoriteten av Livefyres Instagram-funktioner inte påverkas. Instagram-innehåll kan fortfarande direktuppspelas av hashtag och plats och publiceras i mappar och Livefyre-visualiseringsappar. Direktuppspelat innehåll för alla andra källor - Twitter, Facebook, YouTube, Tumblr, RSS och e-post - ändras inte.
 
 Efter en fullständig systemanalys finns de funktioner som påverkas av API-borttagningen och de datum då vi tror att de kommer att åtgärdas.
 
 **Följande funktioner är för närvarande inte tillgängliga och förväntas bli tillgängliga senast 17 maj 2018:**
 
 * Visa detaljer, spara och publicera Instagram-innehåll i mappar och appar i Social Search.
-* Vidta åtgärder för Instagram-innehåll i ModQ.
+* Vidareutveckla Instagram-material i ModQ.
 
 **Arbetsyta för följande funktioner förväntas bli tillgängliga vid de datum som visas nedan:**
 
@@ -143,9 +139,9 @@ Efter en fullständig systemanalys finns de funktioner som påverkas av API-bort
 **Vi fortsätter att utvärdera lösningar för följande funktionalitet som vi inte kan ersätta på kort sikt:**
 
 * **Sök efter URL**. Det går inte längre att söka efter en URL för att hitta ett visst medium.
-* **Videoinnehåll**. Videoinnehåll visas inte längre genom Instagram-sökning.
+* **Videoinnehåll**. Videomaterial visas inte längre genom Instagram-sökning.
 
-Mer information om Facebooks plattformsändringar finns här:
+Läs mer om Facebook plattformsändringar här:
 
 [https://developers.facebook.com/blog/post/2018/04/04/facebook-api-platform-product-changes/](https://developers.facebook.com/blog/post/2018/04/04/facebook-api-platform-product-changes/)
 
