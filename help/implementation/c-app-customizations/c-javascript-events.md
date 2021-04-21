@@ -1,24 +1,20 @@
 ---
 description: Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
-seo-description: Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
-seo-title: JavaScript Events-definitioner och exempel
-solution: Experience Manager
 title: JavaScript Events-definitioner och exempel
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
-
 
 # Definitioner och exempel för JavaScript-händelser{#javascript-events-definitions-and-examples}
 
 Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
 
-Livefyre tillhandahåller JavaScript-händelser för att spåra användaraktivitet i Livefyre-appar. Du kanske vill uppdatera sidan när användare gillar eller delar innehåll på Twitter eller Facebook, eller när nytt innehåll publiceras.
+Livefyre tillhandahåller JavaScript-händelser för att spåra användaraktivitet i Livefyre-appar. Du kanske vill uppdatera sidan när användare gillar eller delar innehåll till Twitter eller Facebook, eller när nytt innehåll publiceras.
 
 Med Livefyre kan du även lägga till händelser i tredjepartsanalyser (Adobe Analytics JS, Google Analytics, Dynamic Tag Management osv.) för att spåra apphändelser. Mer information får du om du samarbetar med en integrationshanterare från tredje part för att få fram rätt händelser.
 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-
