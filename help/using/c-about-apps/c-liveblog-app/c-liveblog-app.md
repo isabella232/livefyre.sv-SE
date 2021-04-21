@@ -1,18 +1,14 @@
 ---
 description: Med Live Blog kan skribenter och redaktörer publicera uppdateringar i realtid och omvandla webbplatsen till en engagerande nyhetskälla.
-seo-description: Med Live Blog kan skribenter och redaktörer publicera uppdateringar i realtid och omvandla webbplatsen till en engagerande nyhetskälla.
-seo-title: Live Blog
-solution: Experience Manager
 title: Live Blog
-uuid: 40ae3120-c630-440e-b224-49cd99677dc2
+exl-id: 9a356e8b-7120-466b-8c78-4e7d6d21d0c4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # Live-blogg{#live-blog}
 
@@ -31,4 +27,3 @@ Live-bloggen skiljer sig från kommentarer på följande sätt:
 Nu när en annan snöstorm var på väg ville Slate ge läsarna omedelbara uppdateringar om de vilda vädersvängningarna på östkusten. Med hjälp av en Live-blogg kunde Slate-redigerare omedelbart dela uppdateringar om stormen, inklusive sina egna foton, användartweets och information om snöfallet. Live-bloggen var så användbar att den gjorde förstasidan på Slate:s webbplats.
 
 ![](assets/LiveBlogSlate_example.png)
-
