@@ -1,18 +1,14 @@
 ---
 description: Räkna antalet kuraterade sociala objekt.
-seo-description: Räkna antalet kuraterade sociala objekt.
-seo-title: Socialräknare
-solution: Experience Manager
 title: Socialräknare
-uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
+exl-id: def7fba4-1c2e-4c7b-84f7-f9ede592d675
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # Räknare för sociala medier{#social-counter}
 
@@ -22,7 +18,7 @@ Socialräknarens API returnerar antal matchade kurationsregler i en given samlin
 
 >[!NOTE]
 >
->Detta API är bara tillgängligt för Twitter-hashtaggar.
+>Detta API är bara tillgängligt för Twitter hashtags.
 
 API för räknare för sociala nätverk:
 
