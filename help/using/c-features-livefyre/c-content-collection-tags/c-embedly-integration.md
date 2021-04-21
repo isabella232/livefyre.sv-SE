@@ -1,24 +1,20 @@
 ---
 description: Använd embed.ly för att visa flera medieformat direkt i appen.
-seo-description: Använd embed.ly för att visa flera medieformat direkt i appen.
-seo-title: Embedly-integrering
-solution: Experience Manager
 title: Embedly-integrering
-uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
+exl-id: 859fe306-367e-4207-b9f7-c730ba0cd24d
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 8%
+source-wordcount: '325'
+ht-degree: 5%
 
 ---
-
 
 # Embedly-integrering {#embedly-integration}
 
 Använd `embed.ly` för att visa flera medieformat, direkt i appen.
 
-För att bättre kunna aktivera inbäddat medieinnehåll från en mängd olika källor, bland annat Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify och Tumblr, använder Livefyre-appar Embeg som tredjepartsleverantör för URL-expansion. Om en användare eller moderator innehåller en länk som stöds i ett inlägg, kommer de medier som ingår i länken att expandera när de publiceras i samlingen.
+För att kunna aktivera inbäddat mediematerial från en mängd olika källor, bland annat Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify och Tumblr, använder Livefyre-appar Embeg som tredjepartsleverantör för URL-expansion. Om en användare eller moderator innehåller en länk som stöds i ett inlägg, kommer de medier som ingår i länken att expandera när de publiceras i samlingen.
 
 Det ger Livefyre-appar tillgång till de över 250 olika inbäddade mediaalternativen som Embeely stöder.
 
@@ -32,7 +28,7 @@ På den här sidan visas exempel på några populära inbäddade medietyper och 
 >
 >Formateringen för e-post kräver en fullständig länk. Kortare länkar fungerar inte.
 
-Det går bara att bädda in innehåll som kan visas för allmänheten. Om du försöker bädda in innehåll som inte är offentligt visas länken till innehållet i blogginlägget och en platshållarikon medföljer. När du klickar på länken skickas läsaren till ett felmeddelande från den tjänst där innehållet finns, till exempel ett Facebook-meddelande för ett foto som bara är för vänner. Kontakta kontohanteraren om du märker att mediefiler inte har expanderats som förväntat.
+Det går bara att bädda in innehåll som kan visas för allmänheten. Om du försöker bädda in innehåll som inte är offentligt visas länken till innehållet i blogginlägget och en platshållarikon medföljer. När du klickar på länken visas ett felmeddelande från den tjänst där innehållet finns, till exempel ett Facebook-meddelande för ett foto som bara är för vänner. Kontakta kontohanteraren om du märker att mediefiler inte har expanderats som förväntat.
 
 ## Exempel på e-post-URL:er
 
@@ -67,4 +63,3 @@ Program som använder den här funktionen:
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Trender](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [Knappen Överför](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
