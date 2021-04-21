@@ -1,24 +1,20 @@
 ---
 description: Bädda in realtidskommentarer i appen.
-seo-description: Bädda in realtidskommentarer i appen.
-seo-title: Kommentarer
-solution: Experience Manager
 title: Kommentarer
-uuid: f409d04a-2ecc-42fd-9d45-c723aafad116
+exl-id: 938be5c6-d39f-4b10-b46f-fd7ce11d7e66
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # Kommentarer{#comments}
 
 Bädda in realtidskommentarer i appen.
 
-Kommentarer ersätter dina standardkommentarer med realtidskonversationer. Våra funktioner för social integrering gör det enkelt att fånga upp alla konversationer som pågår om dina inlägg på Twitter och Facebook, och få in användarnas vänner i konversationen.
+Kommentarer ersätter dina standardkommentarer med realtidskonversationer. Våra funktioner för social integrering gör det enkelt att fånga upp alla samtal som pågår om dina inlägg i Twitter och Facebook och att föra in användarnas vänner i konversationen.
 
 Mashable använder kommentarer för att öka användarnas deltagande i sina diskussioner. Funktioner som multimedieöverföring, delning via sociala medier, avlyssnarräkning och enkel inloggning gör det enkelt och roligt att delta i samtalet.
 
@@ -29,4 +25,3 @@ Mashable använder kommentarer för att öka användarnas deltagande i sina disk
 c_comments_app.dita
 
  -->
-
