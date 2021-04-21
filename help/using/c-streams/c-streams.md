@@ -1,18 +1,14 @@
 ---
 description: Skicka markerat innehåll till Livefyre Apps eller Studio Library.
-seo-description: Skicka markerat innehåll till Livefyre Apps eller Studio Library.
-seo-title: Strömmar
-solution: Experience Manager
 title: Strömmar
-uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
+exl-id: 5abc2e7c-ee5f-4f73-8eb4-8d8a1c8c73a3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Strömmar{#streams}
 
@@ -33,4 +29,3 @@ Använd Streams-gränssnittet för att definiera regler som Studio ska använda 
 >[!NOTE]
 >
 >Innehåll som skapas medan strömmen är aktiv visas i apparna. Innehåll som skapats innan regler har definierats och strömmen är aktiv, eller efter att strömmen har inaktiverats, visas inte i dina appar.
-
