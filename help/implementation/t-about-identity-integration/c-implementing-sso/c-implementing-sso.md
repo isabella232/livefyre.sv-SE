@@ -1,18 +1,14 @@
 ---
 description: För att autentisera en användare med Livefyre via ett flöde som inte aktiveras av en Livefyre-app, rekommenderar Livefyre att du implementerar metoden forEachAuthentication i ditt AuthDelegate-objekt.
-seo-description: För att autentisera en användare med Livefyre via ett flöde som inte aktiveras av en Livefyre-app, rekommenderar Livefyre att du implementerar metoden forEachAuthentication i ditt AuthDelegate-objekt.
-seo-title: Implementera SSO
-solution: Experience Manager
 title: Implementera SSO
-uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
+exl-id: 9af75b8a-9d2a-446e-8cce-2de8645038f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Implementera SSO{#implementing-sso}
 
@@ -33,4 +29,3 @@ Livefyre förlitar sig på användartokens för att koordinera autentiseringen. 
 >[!NOTE]
 >
 >När inloggningen är klar skapar autentiseringen en session för användaren och försöker läsa in användarens session när sidan uppdateras och läses in igen. `auth.logout()` kommer att rensa den här sessionen. Detta innebär att det inte är nödvändigt att hantera en användares session oberoende av auktoriseringen.
-
