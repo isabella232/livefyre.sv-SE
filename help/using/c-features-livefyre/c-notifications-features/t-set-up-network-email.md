@@ -1,18 +1,14 @@
 ---
 description: Anpassa tillgängliga e-postmeddelandefält.
-seo-description: Anpassa tillgängliga e-postmeddelandefält.
-seo-title: Konfigurera nätverks-e-post
-solution: Experience Manager
 title: Konfigurera nätverks-e-post
-uuid: c368d236-e25a-4118-8abc-5230618c97ee
+exl-id: 5305f3d2-d89d-4da2-9baa-64fabe41c74a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera nätverkets e-postadress{#set-up-network-email}
 
@@ -30,4 +26,3 @@ Konfigurera e-postmeddelanden.
    >Om fältet är tomt skickas inga e-postmeddelanden.
 
 * **Visningsnamn för e-post:** ange namnet som ska visas i stället för din e-postadress i e-postkommentarsmeddelanden.
-
