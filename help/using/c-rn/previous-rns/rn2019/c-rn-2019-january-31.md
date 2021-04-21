@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för Livefyre 31 januari 2019.
-seo-description: Versionsinformation för Livefyre 31 januari 2019.
-seo-title: Versionsinformation
-solution: Experience Manager
 title: Versionsinformation för Livefyre 31 januari 2019
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: 3a0b0500-cc62-4d12-84b7-dd40294e6186
 translation-type: tm+mt
-source-git-commit: 2e6bb47771170656f0e8ce1d896f84628d536dfa
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # Versionsinformation - 31 januari 2019
 
