@@ -1,18 +1,14 @@
 ---
 description: Tillgängliga händelser som du kan binda JavaScript till för visualiseringsappar (till exempel medievägg).
-seo-description: Tillgängliga händelser som du kan binda JavaScript till för visualiseringsappar (till exempel medievägg).
-seo-title: JavaScript-händelser för visualiseringsappar
-solution: Experience Manager
 title: JavaScript-händelser för visualiseringsappar
-uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
+exl-id: 93406d36-881d-4f35-a9a6-b42805f47c85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 8%
+source-wordcount: '533'
+ht-degree: 6%
 
 ---
-
 
 # JavaScript-händelser för visualiseringsappar{#javascript-events-for-visualization-apps}
 
@@ -29,8 +25,8 @@ I följande tabell visas App-händelserna för Visualization Apps. Ett X anger a
 | Visa |  |  |  |  |  |  |  |
 | Bokför |  | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |  | Ej tillämpligt |
 | Bokfört |  | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |  | Ej tillämpligt |
-| Twitter-svar | X | X |  | X | X | Ej tillämpligt | X |
-| Twitter gillar | X | X |  | X | X | Ej tillämpligt | X |
+| Twitter Reply | X | X |  | X | X | Ej tillämpligt | X |
+| Twitter Gilla | X | X |  | X | X | Ej tillämpligt | X |
 | LF gillar | X |  | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
 | LF ogilla | X |  | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
 | Dela efter | Ej tillämpligt |  | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
