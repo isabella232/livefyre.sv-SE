@@ -1,17 +1,14 @@
 ---
 description: Associera produkter med innehåll från biblioteket för att synkronisera innehåll och produktkataloger på en lätthanterlig plats.
-seo-description: Associera produkter med innehåll från biblioteket för att synkronisera innehåll och produktkataloger på en lätthanterlig plats.
-seo-title: Associera produkter med innehåll med hjälp av biblioteket
 title: Associera produkter med innehåll med hjälp av biblioteket
-uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
+exl-id: 4d3e99cc-9188-4b5c-afdb-d177c66f19e6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # Associera produkter med innehåll med hjälp av biblioteket{#associate-products-with-content-using-the-library}
 
