@@ -1,24 +1,20 @@
 ---
-description: Du kan använda Livefyre-identitet med LinkedIn för att tillåta användare att använda sina LinkedIn-inloggningar för att interagera med appar på webbplatsen.
-seo-description: Du kan använda Livefyre-identitet med LinkedIn för att tillåta användare att använda sina LinkedIn-inloggningar för att interagera med appar på webbplatsen.
-seo-title: Skapa en LinkedIn-app för användning med Livefyre-identitet
-solution: Experience Manager
+description: Du kan använda Livefyre Identity med LinkedIn för att tillåta användare att använda sina LinkedIn-inloggningar för att interagera med appar på din webbplats.
 title: Skapa en LinkedIn-app för användning med Livefyre-identitet
-uuid: c5112f24-a4e0-4526-afe8-b8f27a3b2854
+exl-id: e77eca6a-1698-414e-994e-1189f780ada1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
-
 # Skapa en LinkedIn-app för användning med Livefyre-identitet{#create-a-linkedin-app-for-use-with-livefyre-identity}
 
-Du kan använda Livefyre-identitet med LinkedIn för att tillåta användare att använda sina LinkedIn-inloggningar för att interagera med appar på webbplatsen.
+Du kan använda Livefyre Identity med LinkedIn för att tillåta användare att använda sina LinkedIn-inloggningar för att interagera med appar på din webbplats.
 
-För att aktivera LinkedIn-inloggning krävs följande information för LinkedIn-appen:
+För att aktivera LinkedIn-inloggning krävs följande appinformation för LinkedIn:
 
 * Konsumentnyckel (API-nyckel)
 * Consumer Secret (API-hemlighet)
@@ -32,7 +28,7 @@ Så här skapar du en LinkedIn-app som ska användas med Livefyre-identitet:
 1. Ange **[!UICONTROL OAuth 2.0 Authorized Redirect URL]** som `https://identity.livefyre.com/{network-name}.fyre.co/api/v1.0/public/profile/social/complete/linkedin_fyre`.
 1. Spara appen.
 1. I **[!UICONTROL Livefyre > Integration Settings > Livefyre Identity > LinkedIn]** växlar du **[!UICONTROL Enable LinkedIn Login]** till **[!UICONTROL On]**.
-1. Ange klient-ID och klienthemlighet för LinkedIn.
+1. Ange LinkedIn klient-ID och LinkedIn Client Secret.
 1. Klicka på **[!UICONTROL Save Settings]**.
 
-När det är klart visas appinformationssidan för LinkedIn med programmets API-nyckel (Consumer Key) och API Secret (Consumer Secret) för användning på Studios integreringsinställningar.
+När det är klart visas appinformationssidan i LinkedIn en lista över programmets API-nyckel (Consumer Key) och API Secret (Consumer Secret) som kan användas på Studios integreringsinställningar.
