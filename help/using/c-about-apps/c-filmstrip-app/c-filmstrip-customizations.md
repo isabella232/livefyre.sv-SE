@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Anpassningar av bildband
-solution: Experience Manager
 title: Anpassningar av bildband
-uuid: 99f8b697-4aa3-4813-bcac-d0e0bdee252d
+description: Anpassningar av bildband
+exl-id: 2765699f-7adc-4b17-acfb-ef594ff65e89
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
-
 
 # Anpassningar av bildband{#filmstrip-customizations}
 
@@ -54,4 +50,3 @@ Du kan anpassa bildbandet med följande ytterligare alternativ i App Designer:
    * **[!UICONTROL Show related content]**. Växla detta för att visa innehåll som publicerats till appen, men som taggats med ett annat produkt-ID. När det produktspecifika innehållet för appen visas visar Livefyre innehåll för andra produkter och innehåll som inte är kopplat till en produkt. Livefyre prioriterar innehållet med samma produkt-ID först, sedan innehåll som publiceras till appen med andra produkt-ID:n och sedan innehåll som publiceras till appen utan produkt-ID:n.
 
 Se [Bildbandsalternativ](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) för mer information om hur du anpassar en bildband med Livefyre.js.
-
