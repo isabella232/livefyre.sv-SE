@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Livefyre Analytics Events
-solution: Experience Manager
 title: Livefyre Analytics Events
-uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
+description: Livefyre Analytics Events
+exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
 translation-type: tm+mt
-source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre Analytics Events
 
@@ -58,14 +54,14 @@ Följande Livefyre-händelser som ska mappas till anpassade händelser som ska a
 | Visa | När en app gick in i visningsrutan för första gången. |
 | Bokför | Varje gång en användare skriver in en kommentar eller ett innehåll, inklusive ex: inlägg på högsta nivån, svar, recensioner, medieväggsöverföringar |
 | Bokfört | När ett inlägg lyckades. |
-| Twitter_svar | När som helst en användare svarade på Twitter |
+| Twitter_Svara | En användare svarade när som helst på Twitter |
 | Twitter_Gilla | Var innehåll delades: Retweet |
 | Livefyre_Like | När som helst används livefyllliknande funktion i en app |
 | Livefyre_Till skillnad | När som helst ogillar en användare en |
 | ShareOnPost | Varje gång en användare publicerar innehåll och använder funktionen för delning efter publicering |
 | ShareButtonClick | Varje gång en användare klickar på delningsknappen på en kommentar |
-| ShareTwitter | När användaren klickar på Dela till Twitter |
-| ShareFacebook | När användaren klickar på Dela till Facebook |
+| ShareTwitter | När du klickar på Dela till Twitter |
+| ShareFacebook | När du klickar på Dela till Facebook |
 | ShareURL | När textområdet Dela till URL är markerat/kopierat. |
 | ExpanderaSvar | När en användare klickar på länken + eller Expandera för att visa alla svar på ett inlägg på den översta nivån |
 | KomprimeraSvar | När en användare klickar på länken - eller Komprimera för att visa alla svar på ett inlägg på den översta nivån |
@@ -94,7 +90,7 @@ Nedan följer en lista med konverteringsvariabler (eVars) som finns i Livefyre.
 | Program-ID | Programmets URN |
 | Kontext-ID | Innehålls-ID i Livefyre |
 | Apptyp | Livefyre-apptyp. Alternativ: <br><ul><li>Live Blog  </li><li> Funktionskort</li><li>Carousel</li><li>Chatt </li><li>Kommentarer</li><li>Bildband</li><li>Karta</li><li>Mosaik</li><li>Media Wall</li><li>Trender</li><li>Knappen Överför</li></ul> |
-| Innehållstyp | Instagram, Twitter, Facebook, LiveFyre, YouTube osv. |
+| Innehållstyp | Instagram, Twitter, Facebook, LiveFyre, YouTube m.m. |
 
 ## Mer info {#section_b3d_4yl_pdb}
 
