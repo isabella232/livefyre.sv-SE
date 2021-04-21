@@ -1,21 +1,18 @@
 ---
-description: Du kan skapa direktuppspelningsregler som hämtar innehåll från Instagram.
-seo-description: Du kan skapa direktuppspelningsregler som hämtar innehåll från Instagram.
-seo-title: Instagramregler
-title: Instagramregler
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+description: Du kan skapa strömregler som hämtar innehåll från Instagram.
+title: Instagram Rules
+exl-id: ac00a12c-94b1-4464-ad3f-991382759d71
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
+# Instagram Rules{#instagram-rules}
 
-# Instagramregler{#instagram-rules}
-
-Du kan skapa direktuppspelningsregler som hämtar innehåll från Instagram.
+Du kan skapa strömregler som hämtar innehåll från Instagram.
 
 >[!NOTE]
 >
@@ -27,11 +24,11 @@ Skapa Instagram-regler baserat på @mentions eller hashtag.
 >
 >Alla Instagram-regler kräver minst en hashtagg. Om du lägger till nyckelord och ett användarnamn för regeln returneras innehåll som innehåller båda posterna.
 
-Om du vill skapa Instagram-regler för att hämta innehåll från Instagram-flöden till din app eller mapp, filtrerar du efter:
+Om du vill skapa Instagram-regler för att hämta innehåll från Instagram-flöden till din app eller mapp, filtrera efter:
 
 * **[!UICONTROL Words]**
 
-   * Ange **[!UICONTROL hashtags]** som ska inkluderas i eller exkluderas från Instagram-strömmen. Om du anger värden för både **[!UICONTROL Contains]**- och **[!UICONTROL Does not contain]**-fälten returneras bilder som innehåller den första och inte den andra.
+   * Ange **[!UICONTROL hashtags]** som ska inkluderas i eller exkluderas från din Instagram-ström. Om du anger värden för både **[!UICONTROL Contains]**- och **[!UICONTROL Does not contain]**-fälten returneras bilder som innehåller den första och inte den andra.
 
    * Om du till exempel anger nyckelorden **[!UICONTROL Contains]** Giants, Posey och **[!UICONTROL Does not contain]** för nyckelordet Dodger, returneras alla inlägg som innehåller ordet Giants eller Posey, och ordet Dodger tas inte med.
 
@@ -47,9 +44,9 @@ Om du vill skapa Instagram-regler för att hämta innehåll från Instagram-flö
 
    >[!NOTE]
    >
-   >Du måste ha ett Instagram-företagskonto konfigurerat i Livefyre för att kunna använda författarsökningen i en regel för Instagram-strömning. Mer information om hur du konfigurerar Instagram-affärskonton i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+   >Du måste ha ett Instagram-företagskonto konfigurerat i Livefyre för att kunna använda författarsökningen i en Instagram Stream-regel. Mer information om hur du konfigurerar Instagram-företagskonton i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-   * Ange **[!UICONTROL @usernames]** för att hämta till strömmen. Kontot som är associerat med **@username** måste vara ett Instagram-affärskonto.
+   * Ange **[!UICONTROL @usernames]** för att hämta till strömmen. Kontot som är associerat med **@username** måste vara ett Instagram-företagskonto.
 
    * Ange **@usernames** som ska uteslutas från strömmen.
 
