@@ -1,18 +1,14 @@
 ---
 description: Omvandla varje del av varje sida på webbplatsen till en samverkande och interaktiv arbetsyta.
-seo-description: Omvandla varje del av varje sida på webbplatsen till en samverkande och interaktiv arbetsyta.
-seo-title: Best Practices for Sidenotes
-solution: Experience Manager
 title: Best Practices for Sidenotes
-uuid: 0f511fff-275a-436f-a81f-dbdf0bd39900
+exl-id: 2aa42a8b-89c2-4fd1-b21e-96eeb427bc47
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
-
 
 # Metodtips för sidenotes{#best-practices-for-sidenotes}
 
@@ -30,7 +26,7 @@ Eftersom Sidenotes är ett nytt sätt att kommentera har de som arbetar med prod
 
 ## Expandera räckvidd {#section_w1c_rc4_sy}
 
-Sidenotes ger inte bara ett nytt perspektiv på kommentering, utan även på delning av innehåll socialt. När dina läsare markerar en text visas en knapp där de kan dela ditt innehåll direkt på Twitter eller Facebook med två klick. Den här låga friktionsupplevelsen ökar virusets räckvidd samtidigt som användarna får ett nytt sätt att enkelt interagera med innehållet.
+Sidenotes ger inte bara ett nytt perspektiv på kommentering, utan även på delning av innehåll socialt. När läsaren markerar en text öppnas en knapp där han/hon kan dela materialet direkt till Twitter eller Facebook med två klick. Den här låga friktionsupplevelsen ökar virusets räckvidd samtidigt som användarna får ett nytt sätt att enkelt interagera med innehållet.
 
 ## Registrera din community {#section_ipc_xc4_sy}
 
