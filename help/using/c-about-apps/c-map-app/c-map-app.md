@@ -1,18 +1,14 @@
 ---
 description: Använd karta för att generera interaktiva kartor med innehållsströmning till appen.
-seo-description: Använd karta för att generera interaktiva kartor med innehållsströmning till appen.
-seo-title: Karta
-solution: Experience Manager
 title: Karta
-uuid: e6021a8a-055d-4c60-817c-ca3236c48159
+exl-id: f5f45a39-0181-406a-ac5c-1f4377dafcf9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # Karta{#map}
 
@@ -27,4 +23,3 @@ Använd karta för att visa var människor diskuterar ett specifikt ämne, särs
 >[!NOTE]
 >
 >Kartan tillhandahålls av ©OpenStreetMap, som innehåller de data Livefyre använder för att återge kartan.
-
