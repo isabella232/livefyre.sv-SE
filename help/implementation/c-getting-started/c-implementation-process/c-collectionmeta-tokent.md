@@ -1,18 +1,14 @@
 ---
 description: Skapa en unik token på servern som identifierar alla samlingar du skapar.
-seo-description: Skapa en unik token på servern som identifierar alla samlingar du skapar.
-seo-title: CollectionMeta-token
-solution: Experience Manager
 title: CollectionMeta-token
-uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
+exl-id: 52edfe75-5ce6-40c9-9afe-c34a3812f1e7
 translation-type: tm+mt
-source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
-
 
 # CollectionMeta-token{#collectionmeta-token}
 
