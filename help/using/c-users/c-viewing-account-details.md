@@ -1,18 +1,14 @@
 ---
 description: Klicka på en användare för att visa information om kontot.
-seo-description: Klicka på en användare för att visa information om kontot.
-seo-title: Visa kontoinformation
-solution: Experience Manager
 title: Visa kontoinformation
-uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
+exl-id: f60aed5c-c737-48ed-afb8-73a991f21a90
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Visa kontoinformation{#viewing-account-details}
 
