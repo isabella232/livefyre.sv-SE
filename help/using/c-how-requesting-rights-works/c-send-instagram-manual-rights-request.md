@@ -1,32 +1,29 @@
 ---
-description: Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en hashtagg, URL-adress eller platsbaserad Instagram-sökning eller -direktuppspelning med hjälp av ett manuellt arbetsflöde.
-seo-description: Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en hashtagg, URL-adress eller platsbaserad Instagram-sökning eller -direktuppspelning med hjälp av ett manuellt arbetsflöde.
-seo-title: Skicka rättighetsbegäran för Instagram manuellt
-title: Skicka rättighetsbegäran för Instagram manuellt
-uuid: c07b3f6f-c14c-4e62-b18b-25934ebe45bf
+description: Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en hashtagg, URL-adress eller platsbaserad Instagram-sökning eller strömning med hjälp av ett manuellt arbetsflöde.
+title: Skicka Instagram Rights Request manuellt
+exl-id: 60643c07-b782-41bf-95f3-93bf7f23c6d3
 translation-type: tm+mt
-source-git-commit: ed95681b0228e38900c73bd6d87a36bf51299c01
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
+# Skicka begäran om Instagram-rättigheter manuellt{#send-instagram-rights-request-manually}
 
-# Skicka rättighetsbegäran för Instagram manuellt{#send-instagram-rights-request-manually}
-
-Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en hashtagg, URL-adress eller platsbaserad Instagram-sökning eller -direktuppspelning med hjälp av ett manuellt arbetsflöde.
+Du kan begära rätten att återanvända en Instagram-resurs som du har fått från en hashtagg, URL-adress eller platsbaserad Instagram-sökning eller strömning med hjälp av ett manuellt arbetsflöde.
 
 Innan du kan skicka en begäran om rättigheter måste du:
 
-* Lägg till ett Instagram-socialt konto. Mer information om hur du konfigurerar ett socialt konto finns i [Lägg till ett socialt konto](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram). Om du vill skicka en manuell eller delvis automatiserad begäran om rättigheter måste du skapa ett Instagram-affärskonto. Mer information om Instagram-konton finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
+* Lägg till ett socialt Instagram-konto. Mer information om hur du konfigurerar ett socialt konto finns i [Lägg till ett socialt konto](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram). Om du vill skicka en manuell eller delvis automatiserad begäran om rättigheter måste du skapa ett Instagram-konto. Mer information om Instagram-konton finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
 * Konfigurera Rights Management. Mer information om hur du konfigurerar behörighetshantering finns i [Begär rättigheter](../c-how-requesting-rights-works/c-how-requesting-rights-works.md).
 
-Så här skickar du en manuell behörighetsbegäran för Instagram-innehåll:
+Så här skickar du en manuell begäran om rättigheter för Instagram-innehåll:
 
 1. Öppna fönstret **[!UICONTROL Rights options]**.
-1. Välj det konto som ska användas för att begära rättigheter. Kontot måste vara ett Instagram-affärskonto.
+1. Välj det konto som ska användas för att begära rättigheter. Kontot måste vara ett Instagram-företagskonto.
 1. (Valfritt) Redigera begärandemeddelandet. Om meddelandet saknar ett element eller om ett obligatoriskt element är felstavat visas ett felmeddelande som anger felaktig eller saknad information.
 1. Klicka på **[!UICONTROL Copy]** för att kopiera texten i rutan till Urklipp.
 
@@ -38,13 +35,13 @@ Så här skickar du en manuell behörighetsbegäran för Instagram-innehåll:
 
    ![](assets/rr_insta_workaround2.png)
 
-   Livefyre öppnar posten i Instagram.
+   Livefyre öppnar inlägget i Instagram.
 
-1. Klistra in den kopierade rättighetsförfrågningstexten i Instagram-inlägget på Instagram.
+1. Klistra in den kopierade rättigheten och begär text i Instagram-posten på Instagram.
 
 Så här övervakar du rättighetsförfrågan manuellt:
 
-1. Om du vill ta reda på om användaren svarade måste du övervaka inlägget i Instagram manuellt för att få svar.
-1. När Instagram-användaren beviljar rättigheter kan du manuellt tilldela rättigheterna till innehållet i Livefyre. Information om hur du manuellt beviljar rättigheter i Livefyre finns i [Bevilja eller återkalla rättigheter manuellt för en resurs från resursbiblioteket](../c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md#t_manually_grant_the_rights_for_one_or_more_assets).
+1. Om du vill ta reda på om användaren har svarat måste du övervaka inlägget i Instagram manuellt för att få svar.
+1. När Instagram-användaren ger behörighet kan du manuellt tilldela rättigheterna till det material som ingår i Livefyre. Information om hur du manuellt beviljar rättigheter i Livefyre finns i [Bevilja eller återkalla rättigheter manuellt för en resurs från resursbiblioteket](../c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md#t_manually_grant_the_rights_for_one_or_more_assets).
 
 Livefyre spårar när du skickar en manuell begäran om rättigheter för en mediefil och när du beviljar rättigheter för en mediefil.
