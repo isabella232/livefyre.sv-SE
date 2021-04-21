@@ -1,16 +1,14 @@
 ---
-seo-title: Bädda in en app
-solution: Experience Manager
 title: Bädda in en app
-uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
+description: Bädda in en app
+exl-id: 12f75093-1b4d-4cf1-8593-dbd17ff33872
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Bädda in en app{#embed-an-app}
 
