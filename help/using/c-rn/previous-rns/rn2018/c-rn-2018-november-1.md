@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för 1 november 2018.
-seo-description: Versionsinformation för 1 november 2018.
-seo-title: 1 november 2018
-solution: Experience Manager
 title: 1 november 2018
-uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
+exl-id: b12b6a56-f14f-4447-9fde-25cb3acf6665
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # 1 november 2018{#november}
 
@@ -35,9 +31,9 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
    Mer information finns i [Smarta taggar](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
-* Begränsning av mellanrumsfrekvens
+* Instagram Rate Limiting
 
-   Instagram har ändrat antalet begäranden som alla företag som använder Instagram API, inklusive Livefyre, kan göra från 5 000 begäranden per timme och token till 200 begäranden per timme och token. Detta kallas *hastighetsbegränsning*. Mer information finns i [Begränsning av mellanrumsfrekvens](/help/using/c-streams/c-instagram-rate-limiting.md).
+   Instagram har ändrat antalet begäranden som alla företag som använder Instagram API, inklusive Livefyre, kan göra från 5 000 begäranden per timme och token till 200 begäranden per timme och token. Detta kallas *hastighetsbegränsning*. Mer information finns i [Instagram Rate Limiting](/help/using/c-streams/c-instagram-rate-limiting.md).
 
 * Ljudfiler i biblioteket
 
@@ -62,5 +58,4 @@ Problemen i följande tabeller löstes i UAT-versionen av den här versionen.
 | Förbättring | GDPR | Alla data som tilldelats tidigare kunder inom Analytics tas bort. |
 | Fel | Bibliotek | Ett problem där en video som överfördes till biblioteket och sedan visades i resursinformationen inte visades korrekt har åtgärdats. |
 | Fel | Mosaik | Korrigerade ett problem där mosaiken visade det sista innehållet från en Instagram-karusell som en miniatyrbild i stället för ett kort. |
-| Fel | Social sökning | Korrigerade ett problem där social sökning i Instagram inte fungerade som förväntat. |
-
+| Fel | Social sökning | Korrigerade ett problem där Instagram sociala sökning inte fungerade som förväntat. |
