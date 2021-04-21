@@ -1,18 +1,14 @@
 ---
 description: Många funktioner ingår i kommentarappen för att bädda in realtidskonversationer på din webbplats.
-seo-description: Många funktioner ingår i kommentarappen för att bädda in realtidskonversationer på din webbplats.
-seo-title: Funktioner för kommentarer
-solution: Experience Manager
 title: Funktioner för kommentarer
-uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
+exl-id: aca45cfc-07cb-4f58-8ad4-f7d07fe250ca
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
-
 
 # Kommentarsfunktioner{#comments-features}
 
@@ -53,7 +49,6 @@ Många funktioner ingår i kommentarappen för att bädda in realtidskonversatio
 * [Begränsa kommentarer](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_d5c_2bm_d1b)
 * [Vanliga kommentarer](/help/using/c-features-livefyre/c-sort-features-composite/c-top-comments.md#c_top_comments)
 * [Översättningsuppsättningar](/help/using/c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
-* [Twitter-åtgärdsknappar](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
+* [Twitter åtgärdsknappar](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
 * [Användarmärken](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
 * [Användarinlägg](/help/using/c-features-livefyre/c-content-behavior-features/c-user-posts.md#c_user_posts)
-
