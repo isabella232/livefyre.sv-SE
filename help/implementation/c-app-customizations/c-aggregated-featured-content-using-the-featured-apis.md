@@ -1,18 +1,14 @@
 ---
 description: Livefyre innehåller fyra API:er med funktioner, som gör att du kan hämta de 50 senast använda innehållsobjekten för indatanätverket, platsen eller samlingen, eller de två innehållsdelarna som finns högst upp i en indatamängd.
-seo-description: Livefyre innehåller fyra API:er med funktioner, som gör att du kan hämta de 50 senast använda innehållsobjekten för indatanätverket, platsen eller samlingen, eller de två innehållsdelarna som finns högst upp i en indatamängd.
-seo-title: Aggregerat innehåll med hjälp av aktuella API:er
-solution: Experience Manager
 title: Aggregerat innehåll med hjälp av aktuella API:er
-uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
+exl-id: 19f146bf-f406-4667-8ed9-7c7fb3672c05
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
-
 
 # Aggregerat innehåll med hjälp av aktuella API:er{#aggregated-featured-content-using-the-featured-apis}
 
@@ -466,4 +462,3 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
    } 
 }
 ```
-
