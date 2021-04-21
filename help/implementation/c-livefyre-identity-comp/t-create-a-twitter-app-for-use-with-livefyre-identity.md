@@ -1,24 +1,20 @@
 ---
 description: Du kan använda Livefyre Identity med Twitter för att tillåta användare att använda sina Twitter-inloggningar för att interagera med appar på din webbplats.
-seo-description: Du kan använda Livefyre Identity med Twitter för att tillåta användare att använda sina Twitter-inloggningar för att interagera med appar på din webbplats.
-seo-title: Skapa en Twitter-app för användning med Livefyre-identitet
-solution: Experience Manager
 title: Skapa en Twitter-app för användning med Livefyre-identitet
-uuid: 841cce7c-618d-4154-85a3-1de96d04bb69
+exl-id: 4f2b919f-fe5d-49a3-8432-04ffb3d68ce4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en Twitter-app för användning med Livefyre-identitet{#create-a-twitter-app-for-use-with-livefyre-identity}
 
 Du kan använda Livefyre Identity med Twitter för att tillåta användare att använda sina Twitter-inloggningar för att interagera med appar på din webbplats.
 
-För att aktivera Twitter-inloggning krävs följande information om Twitter-appen:
+För att aktivera Twitter-inloggning krävs följande appinformation för Twitter:
 
 * Konsumentnyckel (API-nyckel)
 * Consumer Secret (API-hemlighet)
@@ -34,4 +30,4 @@ Så här skapar du en Twitter-app som ska användas med Livefyre-identitet:
 
 1. Välj **[!UICONTROL Access: Read only]** på fliken **[!UICONTROL Permissions]**.
 
-När det är klart kommer Twitters sida Application Management (Programhantering) > Keys and Access Tokens (Twitters) att visa programmets konsumentnyckel (API Key) och hemlighet (API Secret) för användning på Studios sida Integrationsinställningar.
+När det är klart listas appens API-nyckel (Consumer Key) och API Secret (API Secret) på Twitter-sidan Application Management (Programhantering > Tangenter och åtkomsttoken) för användning på sidan Integreringsinställningar i Studio.
