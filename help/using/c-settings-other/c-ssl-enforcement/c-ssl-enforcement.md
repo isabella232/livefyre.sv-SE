@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SSL-tvång
-solution: Experience Manager
 title: SSL-tvång
-uuid: e64af8c2-3ab6-4034-b385-0e552d828c6e
+description: SSL-tvång
+exl-id: 033e15d9-84f6-42d5-8457-04263dcbd11c
 translation-type: tm+mt
-source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # SSL-tvång{#ssl-enforcement}
 
@@ -65,7 +61,7 @@ En person som arbetar med utvecklingen av din webbplats kan:
 
 ## Java-stöd för TLS 1.2 {#section_lwn_rwk_ycb}
 
-Oracle och OpenJDK JVM för Java 8 och senare konfigureras att använda TLS 1.2 som standard för alla SSL-anslutningar. Du behöver inte vidta några ytterligare åtgärder om du använder Java 8 eller senare.
+Oracle och OpenJDK JVM för Java 8 och senare konfigureras som standard att använda TLS 1.2 för alla SSL-anslutningar. Du behöver inte vidta några ytterligare åtgärder om du använder Java 8 eller senare.
 
 Användare som har Java 7 eller tidigare bör läsa den offentliga dokumentationen om hur man aktiverar TLS 1.2.
 
