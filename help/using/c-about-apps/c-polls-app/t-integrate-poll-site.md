@@ -1,18 +1,14 @@
 ---
 description: Använd funktionen Anpassad HTML i Livefyre för att lägga till omröstningar i dina kommentarer eller i Live-bloggappar.
-seo-description: Använd funktionen Anpassad HTML i Livefyre för att lägga till omröstningar i dina kommentarer eller i Live-bloggappar.
-seo-title: Lägga till en omröstning i en kommentar eller en Live-bloggapp
-solution: Experience Manager
 title: Lägga till en omröstning i en kommentar eller en Live-bloggapp
-uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
+exl-id: a889392c-8fef-4006-829a-adfe1c3cd126
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # Lägg till en omröstning i en kommentar eller en Live-bloggapp{#add-a-poll-to-a-comments-or-live-blog-app}
 
