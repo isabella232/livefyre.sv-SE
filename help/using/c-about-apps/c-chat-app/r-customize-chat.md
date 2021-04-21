@@ -1,18 +1,14 @@
 ---
 description: Anpassa chattappar för att visa innehåll som en kontinuerlig ström av okopplade chattar, så att era målgrupper kan engagera sig i realtidskonversationer kring live-event eller meddelanden.
-seo-description: Anpassa chattappar för att visa innehåll som en kontinuerlig ström av okopplade chattar, så att era målgrupper kan engagera sig i realtidskonversationer kring live-event eller meddelanden.
-seo-title: Chattanpassningar
-solution: Experience Manager
 title: Chattanpassningar
-uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
+exl-id: da6a3d41-426a-4734-a3e7-951cbe9e9988
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
-
 
 # Chattanpassningar{#chat-customizations}
 
@@ -48,7 +44,7 @@ De här alternativen är tillgängliga från chattappen:
 
 * **[!UICONTROL Users may share comments]**
 
-   Om det här alternativet är aktiverat kan användare dela publicerade kommentarer på Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
+   Om det här alternativet är aktiverat kan användare dela publicerade kommentarer till Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
 
 * **[!UICONTROL Additional sort option]**
 
@@ -59,4 +55,3 @@ Du kan anpassa chatt med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Mer information om hur du anpassar chatt med integreringsverktygen finns i Chatt.
-
