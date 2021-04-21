@@ -1,17 +1,14 @@
 ---
 description: Följande kortkommandon är tillgängliga för moderatorer i ModQ.
-seo-description: Följande kortkommandon är tillgängliga för moderatorer i ModQ.
-seo-title: ModQ-kortkommandon
 title: ModQ-kortkommandon
-uuid: fc4e7796-b6b5-4782-a0fc-b2326ca56d66
+exl-id: 759a1e8a-ac84-4a5b-b630-b63530fb3907
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # ModQ-kortkommandon{#modq-keyboard-shortcuts}
 
@@ -29,4 +26,3 @@ Följande kortkommandon är tillgängliga för moderatorer i ModQ.
 | Bannlyanvändare | Förbjud endast den valda användaren för den platsen | Skift + B |  |
 | Whitelist-användare | Tillåt att den markerade användaren endast visas för den platsen | Skift + W |  |
 | Rensa webbplatsfilter | Visa alla objekt i nätverket | Skift+Q |  |
-
