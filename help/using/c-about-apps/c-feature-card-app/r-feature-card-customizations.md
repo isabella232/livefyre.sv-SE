@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för appen Karta.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för appen Karta.
-seo-title: Anpassningar av funktionskort
-solution: Experience Manager
 title: Anpassningar av funktionskort
-uuid: dd43c076-027f-42c8-be2e-7d863d4e3976
+exl-id: b907885a-211d-4628-9955-5f1a5ec577cf
 translation-type: tm+mt
-source-git-commit: a014b5cd618672934843f1adf20d6b2cc504e2d8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # Anpassningar av funktionskort{#feature-card-customizations}
 
@@ -49,4 +45,3 @@ Du kan anpassa funktionskort med:
    * **[!UICONTROL Filter UGC by Product ID]**. Välj det här alternativet om du vill skapa en app för flera produktsidor. Filtrera produktspecifik UGC till appen för varje produktsida. Du kan markera en eller flera mappar som du vill associera specifika samlingar med appen.
    * **[!UICONTROL Select Product folders]**. Välj de produktmappar på den översta nivån som ska användas för att filtrera UGC. Använd `CTRL/Command + click` för att markera mer än en mapp. Livefyre använder mappen för att avgöra vilka produkter i den mappen som ska visas i appen på olika sidor.
    * **[!UICONTROL Show related content]**. Växla detta för att visa innehåll som publicerats till appen, men som taggats med ett annat produkt-ID. När det produktspecifika innehållet för appen visas visar Livefyre innehåll för andra produkter och innehåll som inte är kopplat till en produkt. Livefyre prioriterar innehållet med samma produkt-ID först, sedan innehåll som publiceras till appen med andra produkt-ID:n och sedan innehåll som publiceras till appen utan produkt-ID:n.
-
