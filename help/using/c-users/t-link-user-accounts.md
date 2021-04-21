@@ -1,18 +1,14 @@
 ---
 description: Länka ditt Studio-konto till ditt Livefyre-konto för att moderera eller hantera alla dina Livefyre-sajter eller nätverk från en och samma plats.
-seo-description: Länka ditt Studio-konto till ditt Livefyre-konto för att moderera eller hantera alla dina Livefyre-sajter eller nätverk från en och samma plats.
-seo-title: Länka användarkonton
-solution: Experience Manager
 title: Länka användarkonton
-uuid: f1106367-64f9-4304-aa04-f931f79ffd6d
+exl-id: 68f47cb1-fc14-4f7c-a8ff-ac407ca3ffe1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # Länka användarkonton{#link-user-accounts}
 
@@ -29,4 +25,3 @@ Så här länkar du konton:
 1. Klicka på **[!UICONTROL Connect account]**.
 1. I det fönster som öppnas väljer du det användarkonto som du vill länka till det här kontot.
 1. Bekräfta **[!UICONTROL Link Profile]**-informationen och klicka på **[!UICONTROL Link]**. ![](assets/UsersConnectAccount-1024x311.png)
-
