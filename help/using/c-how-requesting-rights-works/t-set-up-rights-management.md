@@ -1,22 +1,18 @@
 ---
-description: Definiera inställningarna för att begära rättigheter för Instagram- och Twitter-inlägg.
-seo-description: Definiera inställningarna för att begära rättigheter för Instagram- och Twitter-inlägg.
-seo-title: Konfigurera Rights Management
-solution: Experience Manager
+description: Ange inställningar för att begära rättigheter för Instagram- och Twitter-inlägg.
 title: Konfigurera Rights Management
-uuid: 3ffcbc95-484f-4eba-b817-658c1d658bf8
+exl-id: d3d3e837-0ed0-47a8-ac5c-7b9da431d149
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-
 # Konfigurera Rights Management{#set-up-rights-management}
 
-Definiera inställningarna för att begära rättigheter för Instagram- och Twitter-inlägg.
+Ange inställningar för att begära rättigheter för Instagram- och Twitter-inlägg.
 
 Innan du kan definiera inställningar för rättighetsbegäran måste du konfigurera ett eller flera sociala konton för Instagram eller Twitter. Mer information om hur du konfigurerar ett socialt konto finns i [Lägg till ett socialt konto](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
 
@@ -35,11 +31,11 @@ Innan du kan definiera inställningar för rättighetsbegäran måste du konfigu
 
    >[!NOTE]
    >
-   >För Instagram-konton måste du ha ett Instagram-företagskonto för att begära rättigheter med partiell automatisering. Mer information om olika typer av Instagram-konton och hur du använder dem finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+   >För Instagram-konton måste du ha ett Instagram-konto för att begära rättigheter med partiell automatisering. Mer information om olika typer av Instagram-konton och hur du använder dem finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 1. Fyll i de visade fälten. Alla fält är obligatoriska.
 
-   * **[!UICONTROL Display name:]** Ange ett visningsnamn för att identifiera det Twitter- eller Instagram-konto som ska användas för ditt Rights Request-konto. Det här namnet är bara internt.
+   * **[!UICONTROL Display name:]** Ange ett visningsnamn som identifierar det Twitter- eller Instagram-konto som ska användas för ditt Rights Request-konto. Det här namnet är bara internt.
    * **[!UICONTROL Enabled:]**Använd som standard. Aktiverar rättighetshantering för kontot.
    * **[!UICONTROL Approval hashtag:]** Den hashtagg som innehållsägaren använder för att ange att de godkänner att använda innehållet.
    * **[!UICONTROL Terms and conditions:]** En länk till ditt nätverks villkor för återanvändning av innehåll. Det här fältet är skiftlägeskänsligt.
