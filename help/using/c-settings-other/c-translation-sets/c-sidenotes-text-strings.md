@@ -1,18 +1,14 @@
 ---
 description: Anpassa textsträngar för Livefyre Sidenotes
-seo-description: Anpassa textsträngar för Livefyre Sidenotes
-seo-title: Textsträngar för sidenotes
-solution: Experience Manager
 title: Textsträngar för sidenotes
-uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
+exl-id: 132a7c8d-10e1-419c-9d79-a40553e70785
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
-
 
 # Sidenotes Text Strings{#sidenotes-text-strings}
 
@@ -164,4 +160,3 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorDuplicate | Vi gillar din anteckning också, men du kan inte publicera den två gånger. |
 |  | errorGeneral | Ett fel har inträffat. Försök igen. |
 |  | errorServer | Något gick fel med vår server. Försök igen? |
-
