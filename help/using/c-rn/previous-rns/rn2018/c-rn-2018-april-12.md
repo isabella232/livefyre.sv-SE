@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för versionen från 12 april 2018.
-seo-description: Versionsinformation för versionen från 12 april 2018.
-seo-title: 12 april 2018
-solution: Experience Manager
 title: 12 april 2018
-uuid: f6c3f1f1-d716-4da3-9ba9-3f3623d8d9f5
+exl-id: caa7a8e9-0648-4d5b-8623-390c904cf750
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
-
 
 # 12 april 2018{#april}
 
@@ -42,7 +38,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | Förbättring | Bildband | Korrigerade några problem som gjorde bildbandet mer tillgängligt. |
 | Förbättring | Bibliotek, appar | Ett problem har korrigerats där videoklipp från Instagram som var äldre än tre månader inte återges korrekt i biblioteket och appar. |
 | Förbättring | Media Wall | Förbättrad tillgänglighet för medievägg på följande sätt: <br>Om du öppnar och stänger modulerna via tangentbordskommandon flyttas fokus inte längre tillbaka<br>till sidans överkant. Fokusera istället på det element som senast fokuserades före modala popup-fönster.  <br>Knappen Läs in mer kan tabbas till och aktiveras med tangenten Enter. |
-| Förbättring | Media Wall | Ett problem har korrigerats där du kom till startsidan när du klickade på en Twitter-, Instagram- eller Facebook-ikon, men där det i skärmläsare felaktigt angavs att ikonen tog dig till det enskilda inlägget. Detta har korrigerats för att identifiera att ikonen tar dig till hemsidan, inte till inlägget. |
+| Förbättring | Media Wall | Ett problem där du kom till startsidan när du klickade på en Twitter-, Instagram- eller Facebook-ikon har åtgärdats, men skärmläsarna har felaktigt angett att ikonen tar dig till det enskilda inlägget. Detta har korrigerats för att identifiera att ikonen tar dig till hemsidan, inte till inlägget. |
 | Fel | Mosaik | Ett problem har korrigerats där en Mosaic-app inte visade rätt färg från App Designer. |
 | Fel | Rights Management | Ett problem har korrigerats där rättighetsförfrågningar inte fungerade för resurser efter att de hade hittats i en social sökning. |
 | Förbättring | Sidenotes | Korrigerade ett problem med tillgänglighet i Sidenotes-appen där knappens roll inte presenteras tydligt för skärmläsarprogram. |
@@ -59,4 +55,3 @@ Problemen i följande tabeller löstes i den här versionen.
 |---|---|---|
 | Förbättring | UGC | Ett problem har korrigerats där UGC Commerce-flaggan var inställd på &quot;off&quot; som standard i stället för &quot;on&quot;. |
 | Förbättring | Strömmar |  |
-
