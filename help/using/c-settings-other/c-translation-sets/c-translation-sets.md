@@ -1,18 +1,14 @@
 ---
 description: Med översättningsuppsättningar kan du ange ett annat språk för appar.
-seo-description: Med översättningsuppsättningar kan du ange ett annat språk för appar.
-seo-title: Översättningsuppsättningar
-solution: Experience Manager
 title: Översättningsuppsättningar
-uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
+exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
-
 
 # Översättningsuppsättningar{#translation-sets}
 
@@ -332,4 +328,3 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorDuplicate | Vi gillar din anteckning också, men du kan inte publicera den två gånger. |
 |  | errorGeneral | Ett fel har inträffat. Försök igen. |
 |  | errorServer | Något gick fel med vår server. Försök igen? |
-
