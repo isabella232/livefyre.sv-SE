@@ -1,18 +1,14 @@
 ---
 description: Använd fliken Moderation för att ange förhandsmodereringsregler för inkommande innehåll, inklusive avstavningslistor, flaggregler och förbjudna IP-adresser.
-seo-description: Använd fliken Moderation för att ange förhandsmodereringsregler för inkommande innehåll, inklusive avstavningslistor, flaggregler och förbjudna IP-adresser.
-seo-title: Ställa in moderering
-solution: Experience Manager
 title: Ställa in moderering
-uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
+exl-id: 09fc44c4-7ee1-47fd-ae68-885532a6f03f
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurerar moderering{#setting-up-moderation}
 
@@ -33,7 +29,7 @@ Du kan förmåtta innehåll automatiskt på följande sätt:
 
    * Ange flaggregler för innehåll som flaggas av webbplatsens besökare med **[!UICONTROL Settings > Moderation > Rules]**
    * Konfigurera SAFE-regler med **[!UICONTROL Settings > Moderation > Rules]**
-   * Förbjud specifika Twitter-användare som använder **[!UICONTROL Settings > Streams]**
+   * Förbjud specifika Twitter-användare att använda **[!UICONTROL Settings > Streams]**
    * Bannlys IP-adresser med **[!UICONTROL Settings > Bans]**
    * Förbjud IP-regioner per landskod på begäran. Bannlyst innehåll markeras som SPAM.
 
@@ -68,7 +64,7 @@ Innan innehållet från en direktuppspelning publiceras till en app utför Livef
 1. Om du konfigurerar ModQ-regler skickar Livefyre innehållet till ModQ.
 1. Om du inte har aktiverat förmoderering kontrollerar Livefyre om innehållet har flaggats som SAFE.
 1. Om SAFE flaggade innehållet godkänner Livefyre innehållet och publicerar det i appen.
-1. Om SAFE flaggar innehållet och du inte konfigurerade SAFE-regler, godkänner Livefyre innehållet och publicerar innehållet till appen.
+1. Om SAFE flaggar innehållet och du inte konfigurerade SAFE-regler, godkänner Livefyre innehållet och publicerar innehållet i appen.
 1. Om SAFE flaggar innehållet och du ställer in SAFE-regler, kontrollerar Livefyre om du ställer in SAFE-regler för strömmen.
 1. Om du ställer in SAFE-regler för direktuppspelningen godkänner Livefyre innehållet och publicerar innehållet i appen. Om du inte har konfigurerat SAFE-regler för strömmen använder Livefyre de modererade SAFE-reglerna för att avgöra hur innehållet ska hanteras (skicka till ModQ, papperskorgen osv.).
 
@@ -81,7 +77,7 @@ Innan innehållet från ett appinlägg publiceras i en app utför Livefyre följ
 1. Om SAFE-filtret flaggar innehållet som släppt, släpper Livefyre innehållet.
 1. Om SAFE inte flaggar innehållet som släppt kontrollerar Livefyre om det är aktiverat för förhandsmoderering. Om du aktiverar förmoderering markeras innehållet som väntande. Om du konfigurerar ModQ-regler skickar Livefyre innehållet till ModQ som oförändrat. Om det inte är det förblir innehållet i en väntande status i App Content i Library.
 1. Om du inte har aktiverat förmoderering kontrollerar Livefyre om innehållet har flaggats som SAFE. Annars godkänner Livefyre innehållet och publicerar innehållet i appen.
-1. Om SAFE flaggar innehållet och du ställer in SAFE-regler, använder Livefyre SAFE-regeln för att avgöra hur innehållet ska hanteras (skicka till ModQ, papperskorgen osv.). Om SAFE flaggar innehållet och du inte konfigurerade SAFE-regler, godkänner Livefyre innehållet och publicerar innehållet till appen.
+1. Om SAFE flaggar innehållet och du ställer in SAFE-regler, använder Livefyre SAFE-regeln för att avgöra hur innehållet ska hanteras (skicka till ModQ, papperskorgen osv.). Om SAFE flaggar innehållet och du inte konfigurerade SAFE-regler, godkänner Livefyre innehållet och publicerar innehållet i appen.
 
 ## Massfilter {#section_lyk_ktx_vy}
 
