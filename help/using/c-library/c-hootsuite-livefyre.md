@@ -1,17 +1,14 @@
 ---
 description: Lär dig hur du använder Experience Manager Livefyre med Hootsuite och kan strukturera, hantera och dela användargenererat innehåll direkt från Hootsuite-instrumentpanelen.
-seo-description: Lär dig hur du använder Experience Manager Livefyre med Hootsuite och kan strukturera, hantera och dela användargenererat innehåll direkt från Hootsuite-instrumentpanelen.
-seo-title: Använd Adobe Experience Manager Livefyre med Hootsuite
 title: Använd Adobe Experience Manager Livefyre med Hootsuite
-uuid: ebf2ba17-1622-4bbe-a374-fb325357ef9f
+exl-id: 1ca84c72-95ec-485d-9c8e-ace4487225d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
-
 
 # Använd Adobe Experience Manager Livefyre med Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
@@ -96,7 +93,7 @@ Klicka på menyn ![](assets/menu.png)
 
 ## Experience Manager Livefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
-Förutom att du kan visa dina resursbibliotek i en Hootsuite-ström kan du även spara objekt från Instagram, Twitter, Facebook och YouTube till dina Experience Manager Livefyre-bibliotek.
+Förutom att du kan visa dina resursbibliotek i en Hootsuite-ström kan du även spara objekt från Instagram, Twitter, Facebook och YouTube i dina Experience Manager Livefyre-bibliotek.
 
 1. Klicka på menyikonen längst ned i varje objekt.
 
@@ -109,11 +106,11 @@ Förutom att du kan visa dina resursbibliotek i en Hootsuite-ström kan du även
 
 1. Klicka på **Spara i bibliotek** så sparas objektet i de bibliotek du har valt.
 
-## Experience Manager Livefyre Media Library-komponent {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
+## Experience Manager Livefyre Media Library Component {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
 Du kommer åt dina resurser via Mediekomponenter i Composer i Hootsuite.
 
-1. Klicka på länken **Öppna mediebibliotek** i avsnittet **Media** i Composer.
+1. Klicka på länken **Öppna Media Library** i avsnittet **Media** i Composer.
 
    ![](assets/hootsuite-open-media-library.png)
 
