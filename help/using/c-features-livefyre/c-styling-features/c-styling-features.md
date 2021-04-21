@@ -1,17 +1,14 @@
 ---
 description: Ni kan utforma Livefyre-apparna så att de fungerar på olika sätt eller ändra dem så att de ser ut och känns som resten av er varumärkeskampanj.
-seo-description: Ni kan utforma Livefyre-apparna så att de fungerar på olika sätt eller ändra dem så att de ser ut och känns som resten av er varumärkeskampanj.
-seo-title: Formateringsfunktioner
 title: Formateringsfunktioner
-uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
+exl-id: d2ba6865-566a-4258-9c5f-3b4c6780907f
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
-
 
 # Formateringsfunktioner{#styling-features}
 
@@ -45,4 +42,3 @@ Program som använder den här funktionen:
 
 * [Chatt](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md)
-
