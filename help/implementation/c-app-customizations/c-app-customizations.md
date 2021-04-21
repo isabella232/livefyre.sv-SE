@@ -1,18 +1,14 @@
 ---
 description: Anpassa visningsalternativen för appen så att de matchar ditt varumärke och din stil och lägger till anpassade funktioner.
-seo-description: Anpassa visningsalternativen för appen så att de matchar ditt varumärke och din stil och lägger till anpassade funktioner.
-seo-title: Appanpassningar
-solution: Experience Manager
 title: Appanpassningar
-uuid: 6f27654d-c2b4-45b5-aae7-6fbf312fb829
+exl-id: 897579fb-11b5-4a00-b2bf-86f505b79003
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Appanpassningar{#app-customizations}
 
@@ -41,4 +37,3 @@ Livefyre erbjuder flera sätt att ändra interaktionen och visningsalternativen 
 * **Lyssna på apphändelser**
 
    Använd tillgängliga JavaScript-händelser för att ytterligare anpassa och spåra användarupplevelsen.
-
