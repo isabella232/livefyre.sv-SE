@@ -1,17 +1,14 @@
 ---
 description: På fliken Appinnehåll i biblioteket kan du moderera innehåll som publiceras i olika appar.
-seo-description: På fliken Appinnehåll i biblioteket kan du moderera innehåll som publiceras i olika appar.
-seo-title: Moderera innehåll med appinnehåll
 title: Moderera innehåll med appinnehåll
-uuid: 1c648128-e7ef-4836-afe5-eff52de30e7e
+exl-id: cbcea643-df5f-44d5-ad8c-b057495fd648
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
-
 
 # Moderera innehåll med hjälp av appinnehåll{#moderate-content-using-app-content}
 
