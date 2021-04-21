@@ -1,18 +1,14 @@
 ---
 description: Anpassa strängarna för Livefyre-apparna.
-seo-description: Anpassa strängarna för Livefyre-apparna.
-seo-title: Lokalisera strängar
-solution: Experience Manager
 title: Lokalisera strängar
-uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
+exl-id: 5eb452e3-3b33-4861-9b62-5a41221defab
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisera strängar{#localize-strings}
 
@@ -545,5 +541,3 @@ Strängar tillgängliga för Livefyre Identity.
 | passwordErrorMissingUppercase | Lösenordet måste innehålla minst ett versaltecken |
 | passwordErrorMissingLowercase | Lösenordet måste innehålla minst ett tecken med gemener |
 | passwordErrorMissingSymbol | Lösenordet måste innehålla minst en symbol i uppsättningen `!@#$%^&*()?.,<>\’;:”[]{}|` |
-
-
