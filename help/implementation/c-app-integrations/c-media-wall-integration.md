@@ -1,18 +1,14 @@
 ---
 description: Skapa en mediemur med strömmande innehåll i realtid.
-seo-description: Skapa en mediemur med strömmande innehåll i realtid.
-seo-title: Media Wall
-solution: Experience Manager
 title: Media Wall
-uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
+exl-id: 597af7e1-9ada-4893-9071-e17c21ef0d04
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
-
 
 # Medievägg{#media-wall}
 
@@ -61,7 +57,7 @@ Nu har du en mur! Se allt detta i [det här exemplet](https://codepen.io/gobengo
 
 >[!NOTE]
 >
->All formatanpassning av tweets som återges av Media Wall App måste göras i enlighet med Twitters [krav på visning](https://dev.twitter.com/terms/display-requirements).
+>All formatanpassning av tweets som återges av din Media Wall App måste göras i enlighet med Twitter [krav för visning](https://dev.twitter.com/terms/display-requirements).
 
 ## Konfigurationsalternativ {#section_ucv_qvb_c1b}
 
