@@ -1,18 +1,14 @@
 ---
 description: Bygg Ping for Pull-svaret för att skicka uppdaterad användarinformation till Livefyre.
-seo-description: Bygg Ping for Pull-svaret för att skicka uppdaterad användarinformation till Livefyre.
-seo-title: Bygg Ping for Pull Response
-solution: Experience Manager
 title: Bygg Ping for Pull Response
-uuid: f90871d5-601f-40dc-b3d2-ab78635e4a88
+exl-id: 81c398fd-2acb-4e39-a2b3-c96921b1192b
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
-
 
 # Bygg Ping för pull-svar{#build-the-ping-for-pull-response}
 
