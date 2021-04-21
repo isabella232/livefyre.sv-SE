@@ -1,26 +1,22 @@
 ---
-description: Du kan skapa direktuppspelningsregler som hämtar innehåll från Facebook-sidor.
-seo-description: Du kan skapa direktuppspelningsregler som hämtar innehåll från Facebook-sidor.
-seo-title: Regler för Facebook-sidor
-solution: Experience Manager
-title: Regler för Facebook-sidor
-uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
+description: Du kan skapa strömregler som hämtar innehåll från Facebook Pages.
+title: Facebook sidlinjaler
+exl-id: 1dc728c6-81fa-4c6c-acba-d9a4aea71ed2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
+# Facebook Page Rules{#facebook-page-rules}
 
-# Facebook-sidregler{#facebook-page-rules}
+Du kan skapa strömregler som hämtar innehåll från Facebook Pages.
 
-Du kan skapa direktuppspelningsregler som hämtar innehåll från Facebook-sidor.
+Du kan använda Facebook sidregler för att direktuppspela offentligt publicerat innehåll från Facebook Pages. Innehållet hämtas till appen eller mappen med samma frekvens som SocialSync, som ändras baserat på Facebook Page och posttrafikmönster. Länkar på Facebook Pages stöds också och kommer att visas i strömmen.
 
-Du kan använda regler för Facebook-sidor för att direktuppspela offentligt publicerat innehåll från Facebook-sidor. Innehållet hämtas till appen eller mappen med samma frekvens som SocialSync, som ändras baserat på Facebook-sidan och posttrafikmönster. Länkar på Facebook-sidor stöds också och visas i strömmen.
-
-Om du vill skapa sidregler för Facebook för att hämta innehåll från Facebook-sidor till din app eller mapp kan du filtrera efter:
+Om du vill skapa Facebook Page Rules för att hämta innehåll från Facebook sidor till din app eller mapp kan du filtrera efter:
 
 * **[!UICONTROL Facebook Page]**
 
@@ -33,13 +29,13 @@ Ytterligare alternativ för strömningsregler för alla strömregler finns i [Al
 
 >[!NOTE]
 >
->Livefyre är begränsat till innehåll som tas emot från Facebook och kan därför inte garantera att alla inlägg på en Facebook-sida inkluderas i strömmen.
+>Livefyre är begränsat till innehåll som tas emot från Facebook och kan därför inte garantera att alla inlägg på en Facebook Page kommer att tas med i strömmen.
 
 >[!NOTE]
 >
->Om både Facebook SocialSync och en Facebook-sidregel är aktiverade för en viss Facebook-sida, och användarkommentarer är aktiverade för Facebook-sidregeln, åsidosätts SocialSync av strömningsregeln. Innehållet kommer att direktuppspelas i appen enbart baserat på Facebooks regel för sidurval, och inte med SocialSync.
+>Om både Facebook SocialSync och en Facebook-sidregel är aktiverade för en viss Facebook-sida, och användarkommentarer är aktiverade för Facebook sidregel, åsidosätts SocialSync av flödesregeln. Innehållet direktuppspelas i appen endast baserat på Facebook-regeln för sidurval, och inte med SocialSync.
 
-De typer av innehåll som stöds av Facebook-sidurval är bland annat:
+De typer av innehåll som stöds av Facebook Page Curate är:
 
 * Sidägare eller administratör
 
@@ -47,7 +43,7 @@ De typer av innehåll som stöds av Facebook-sidurval är bland annat:
    * Foton
    * Videofilmer som länkar
 
-* Standard Facebook-användare
+* Facebook Standard
 
    * Status
    * Foton
@@ -56,4 +52,3 @@ De typer av innehåll som stöds av Facebook-sidurval är bland annat:
 * Tredje part
 
    * Status
-
