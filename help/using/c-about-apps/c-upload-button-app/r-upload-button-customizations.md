@@ -1,18 +1,14 @@
 ---
 description: Ändra storleks-, bredd- och interaktionsalternativ för knappen Överför.
-seo-description: Ändra storleks-, bredd- och interaktionsalternativ för knappen Överför.
-seo-title: Anpassningar för knappen Överför
-solution: Experience Manager
 title: Anpassningar för knappen Överför
-uuid: d820bbec-8c76-4864-9e70-55394010c35d
+exl-id: 7481911f-2fb5-4721-8345-cbdd5e4ea202
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 8%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
-
 
 # Anpassningar för knappen Överför{#upload-button-customizations}
 
@@ -52,4 +48,3 @@ Du kan anpassa knappen Överför med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar
 
 * Integreringsverktyg. Mer information om hur du anpassar program med integreringsverktyg finns i Programintegreringar.
-
