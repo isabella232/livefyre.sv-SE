@@ -1,18 +1,14 @@
 ---
 description: Du kan hantera flera nätverk från ett enda Studio-konto.
-seo-description: Du kan hantera flera nätverk från ett enda Studio-konto.
-seo-title: Användare som byter nätverk
-solution: Experience Manager
 title: Användare som byter nätverk
-uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
+exl-id: 5f48a4a5-a951-40db-bf73-609041b469fb
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # Användare som byter nätverk{#users-switching-networks}
 
@@ -29,4 +25,3 @@ I listrutan **[!UICONTROL Account]** visas alla användarnamn som är kopplade t
 >De flesta användare har endast behörighet för ett nätverk, men vissa Studio-användare kan äga eller moderera flera platser. Med Studio-kontot kan de logga in med ett enda användarnamn och lösenord och sedan växla mellan olika åtkomstnivåer.
 
 ![](assets/UsersChangeAccount-285x300.png)
-
