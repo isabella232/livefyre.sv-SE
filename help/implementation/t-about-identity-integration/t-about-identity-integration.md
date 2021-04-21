@@ -1,18 +1,14 @@
 ---
 description: Beskriver alternativ för att lägga till användarautentisering i Livefyre-appar, inklusive Janrain Capture eller din egen identitetstjänst.
-seo-description: Beskriver alternativ för att lägga till användarautentisering i Livefyre-appar, inklusive Janrain Capture eller din egen identitetstjänst.
-seo-title: Identitetsintegrering
-solution: Experience Manager
 title: Identitetsintegrering
-uuid: 079dc9c7-656a-49d0-920d-9e5a421a319c
+exl-id: a3b849fc-0182-4fed-94b5-6d7199fc4e44
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Identitetsintegrering{#identity-integration}
 
