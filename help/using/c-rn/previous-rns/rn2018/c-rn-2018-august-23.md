@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för utgåva 23 augusti 2018.
-seo-description: Versionsinformation för utgåva 23 augusti 2018.
-seo-title: 23 augusti 2018
-solution: Experience Manager
 title: 23 augusti 2018
-uuid: 668058d8-cd31-416e-afc3-eaf158109e3e
+exl-id: 13117917-6137-49f1-a138-4d4d2e76f17f
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
-
 
 # 23 augusti 2018{#august}
 
@@ -32,7 +28,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Fel | Kommentarer | Alternativet för genvägslänk till dialogrutan Dela-knapp för kommentarer och andra konversationsappar har återställts. |
-| Fel | GDPR | Ett problem har korrigerats där avanmälningsmeddelanden inte visades för vissa Instagram-videor. |
+| Fel | GDPR | Ett problem där avanmälningsmeddelanden inte visades för vissa Instagram-videofilmer har korrigerats. |
 | Fel | Bibliotek | Ett problem har korrigerats där användare inte kunde publicera inbyggda Livefyre-videor från biblioteksmappen till en app. |
 | Fel | Bibliotek | Ett problem där en resurs inte kunde sparas i en mapp har korrigerats. |
 | Fel | Bibliotek/sökning | Möjligheten att söka efter URL:er från Instagram i Social Search återställdes. |
