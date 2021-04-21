@@ -1,17 +1,14 @@
 ---
 description: Använd CSS med användartaggar för att skapa användarmärken för medlemmar i din community.
-seo-description: Använd CSS med användartaggar för att skapa användarmärken för medlemmar i din community.
-seo-title: Användarmärken
 title: Användarmärken
-uuid: ff1451e1-7eb3-45dc-8c5a-1a6d1313e344
+exl-id: ae51ee10-4536-43d9-abf2-8a724924a45f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # Användaremblem{#user-badges}
 
@@ -25,4 +22,3 @@ Program som använder den här funktionen:
 * [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Recensioner](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
