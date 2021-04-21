@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för 2 november 2017.
-seo-description: Versionsinformation för 2 november 2017.
-seo-title: 2 november 2017
 title: 2 november 2017
-uuid: 496fdc55-3386-48f2-a491-26dc2bc8aa72
+exl-id: bfc8fd65-550b-477e-be96-aa310bc64ea0
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
-
 
 # 2 november 2017{#november}
 
@@ -35,7 +32,6 @@ Versionsinformation för 2 november 2017.
 | Förbättring | Funktionskort | Funktionskortappen har alla e-handelsfunktioner aktiverade. |
 | Förbättring | Bildband | Vi har lagt till alternativ för storleksändring för bildbandet så att användaren kan få mer kontroll över hur bilderna ser ut i appen. |
 | Förbättring | Bibliotek | När en kund sparar en resurs i biblioteket använder Livefyre Adobe Sensei maskininlärningsteknik för att lägga till taggar som automatiskt beskriver vad som finns i bilden av resursen. Detta gör att användaren kan söka efter dessa taggar i systemet. SP |
-| Förbättring | Rights Management | För begäran om öppna rättigheter med Instagram-innehåll som fortsätter att markeras som borttagen eller kontot har gjorts privat, visas rättighetsstatusen&quot;Förfallen&quot; och en aktivitetshistorikpost som anger att innehållet nu är privat/borttaget. |
+| Förbättring | Rights Management | För begäran om öppna rättigheter med Instagram-innehåll som fortsätter att markeras som borttagen eller ett konto som gjorts privat, visas rättighetsstatusen&quot;Förfallen&quot; och en aktivitetshistorikpost som anger att innehållet nu är privat/borttaget. |
 | Förbättring | Inställningar | Kunder kan nu gå till vår integritetspolicy och Adobe användarvillkor i en sidfot i Inställningar. |
-| Fel | Studio | Livefyre kan nu återge Twitter-resurser med 280 tecken i Studio och Apps. |
-
+| Fel | Studio | Livefyre kan nu återge Twitter-resurser med 280 tecken fullständigt i Studio och Apps. |
