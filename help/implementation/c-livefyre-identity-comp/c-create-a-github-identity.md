@@ -1,17 +1,14 @@
 ---
 description: Du kan använda Livefyre Identity med GitHub Identity för att tillåta användare att använda sina GitHub-inloggningar för att interagera med appar på webbplatsen.
-seo-description: Du kan använda Livefyre Identity med GitHub Identity för att tillåta användare att använda sina GitHub-inloggningar för att interagera med appar på webbplatsen.
-seo-title: Skapa en GitHub-identitetsapp för Livefyre-identitet
 title: Skapa en GitHub-identitetsapp för Livefyre-identitet
-uuid: cf56164c-1521-4a42-89cb-39483764807e
+exl-id: f25ffd0e-ea4f-42ac-abfc-c02018421b85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en GitHub-identitetsapp för användning med Livefyre-identitet{#create-a-github-identity-app-for-use-with-livefyre-identity}
 
