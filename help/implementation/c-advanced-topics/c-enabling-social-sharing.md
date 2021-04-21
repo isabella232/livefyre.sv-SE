@@ -1,18 +1,14 @@
 ---
 description: Konfigurera autentiseringsuppgifter som gör att dina användare kan dela innehåll till olika sociala nätverk.
-seo-description: Konfigurera autentiseringsuppgifter som gör att dina användare kan dela innehåll till olika sociala nätverk.
-seo-title: Aktivera delning via sociala medier
-solution: Experience Manager
 title: Aktivera delning via sociala medier
-uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
+exl-id: 08ac9766-52ea-432f-8b4f-bf68cb8b62bc
 translation-type: tm+mt
-source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
-
 
 # Aktiverar delning via sociala medier {#enabling-social-sharing}
 
@@ -26,7 +22,7 @@ Om du vill att användare ska kunna dela innehåll på webbplatser för sociala 
 
 ## Nödvändiga sociala autentiseringsuppgifter {#section_gff_cjm_b1b}
 
-Om du använder ett anpassat användaridentitetssystem måste du ange dina sociala inloggningsuppgifter för att användare ska kunna dela till Twitter, Facebook eller LinkedIn från en Livefyre-app.
+Om du använder ett anpassat användaridentitetssystem måste du ange dina sociala autentiseringsuppgifter för att användare ska kunna dela till Twitter, Facebook eller LinkedIn från en Livefyre-app.
 
 >[!NOTE]
 >
@@ -44,44 +40,44 @@ Använd panelen Integrationsinställningar i Admin Console för att ange eller u
 
 Twitter-autentiseringsuppgifter är tillgängliga från Twitter App Dashboard. Så här hittar du dessa autentiseringsuppgifter:
 
-* Öppna [Twitters App Dev Page](https://dev.twitter.com/apps) som appägare, hitta ditt program och klicka på titeln.
+* Öppna [Twitter App Dev Page](https://dev.twitter.com/apps) som appägare, hitta ditt program och klicka på titeln.
 * Bläddra ned till &quot;Din åtkomsttoken&quot; och hämta värdena från &quot;Åtkomsttoken&quot; och &quot;Åtkomsttokenhemlighet&quot;.
 
 Du måste:
 
-* Ange ett värde för fältet Återanrops-URL i Twitter-appen. Det här fältet kan vara en enkel platshållare, men kan inte lämnas tomt.
+* Ange ett värde för fältet Återanrops-URL i Twitter App. Det här fältet kan vara en enkel platshållare, men kan inte lämnas tomt.
 * Ange att programtypen ska ha tillgång till både **read** och **write**.
-* Bekräfta att webbadressen till Twitter-appens webbplats finns på samma värddomän som kärnappen Livefyre.
+* Bekräfta att webbadressen till Twitter App-webbplatsen finns på samma värddomän som kärnappen Livefyre.
 
 >[!NOTE]
 >
->Alla program som visar Twitter-innehåll måste uppfylla kraven för visning. Mer information finns i [Twitter-riktlinjerna](https://dev.twitter.com/terms/display-requirements).
+>Alla program som visar Twitter-innehåll måste uppfylla kraven för visning. Mer information finns i [Twitter Display Guidelines](https://dev.twitter.com/terms/display-requirements).
 
-## LinkedIn {#section_lfz_zxl_b1b}
+## linkedIn {#section_lfz_zxl_b1b}
 
-Inloggningsuppgifterna för LinkedIn finns i avsnittet OAuth-nycklar i LinkedIn-programmets API-nycklar.
+linkedIn-autentiseringsuppgifter finns tillgängliga i avsnittet OAuth-nycklar i API-nycklarna för ditt LinkedIn-program.
 
-* Logga in på ditt konto från LinkedIns utvecklarsida [https://developer.linkedin.com/](https://developer.linkedin.com/).
+* Logga in på ditt konto från LinkedIn utvecklarsida [https://developer.linkedin.com/](https://developer.linkedin.com/).
 * Hovra över ditt namn i det övre högra hörnet och välj API-nycklar i listrutan.
 * Klicka på programtiteln.
 * Hämta API-nyckelvärden och hemlig nyckel från avsnittet OAuth-nycklar
 
 ## Facebook {#section_zyb_gpl_b1b}
 
-Facebook-inloggningsuppgifterna finns på din sida med utvecklarappar.
+Facebook-inloggningsuppgifter finns på din Developer Apps-sida.
 
-* Öppna [Facebooks sida för utvecklarappar](https://developers.facebook.com/apps) som appägare, hitta ditt program och klicka på titeln.
+* Öppna [Facebook Developer Apps Page](https://developers.facebook.com/apps) som appägare, hitta ditt program och klicka på titeln.
 * Hämta in värdena för App ID och App Secret. För programhemligheten kan du behöva klicka på knappen Visa för att visa den.
 
-Om du vill dela på Facebook måste du konfigurera en omdirigeringssida så att den tar Facebook-begäranden och följer de domänrutiner som krävs av [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). Sidan måste finnas på din domän så att Facebook kan verifiera att begäran kommer från en giltig källa.
+När du delar till Facebook måste du konfigurera en omdirigeringssida så att du kan ta Facebook-förfrågningar och följa de domänrutiner som krävs av [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). Sidan måste finnas på din domän så att Facebook kan verifiera att begäran kommer från en giltig källa.
 
-### Omdirigering till Facebook
+### Facebook Redirect
 
 Värdsidan ska innehålla följande kod:
 
 ### Ruby
 
-Det här är ett exempel där Ruby och Rails används för att omdirigera Facebook OAuth.
+Detta är ett exempel där Ruby och Rails används för att utföra Facebook OAuth-omdirigeringen.
 
 ```ruby
 require "base64" 
@@ -118,7 +114,7 @@ end
 
 ### Python
 
-Det här är ett exempel på hur Python och Django använder omdirigeringen till Facebook OAuth.
+Detta är ett exempel på hur Python och Django använder omdirigeringen Facebook OAuth.
 
 ```python
 import base64, re 
@@ -160,7 +156,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-Det här är ett exempel som använder NodeJS och Sail/Express för att utföra omdirigeringen av Facebook OAuth.
+Detta är ett exempel där NodeJS och Sail/Express används för att utföra Facebook OAuth-omdirigeringen.
 
 ```nodejs
 /* 
@@ -205,7 +201,7 @@ module.exports = {
 
 ### Java
 
-Det här är ett exempel på hur du använder Java- och Spring-kontroller för att göra omdirigeringen av Facebook OAuth.
+Detta är ett exempel på hur du använder Java- och Spring-kontroller för att utföra Facebook OAuth-omdirigeringen.
 
 ```java
 /* 
@@ -334,7 +330,7 @@ if (isset($_GET['lfoauth'])) {
 
 ## Konfigurerar &quot;Skicka till&quot;-providers {#section_rdk_dpl_b1b}
 
-Som standard visas Facebook-, LinkedIn- och Twitter-knapparna &quot;Skicka till&quot; i Livefyre Core-program. Använd parametern postToButtons för att konfigurera vilka providers som ska visas när du bäddar in Livefyre-appen.
+Som standard visas Facebook-, LinkedIn- och Twitter-knapparna &quot;Post to&quot; i Livefyre Core-program. Använd parametern postToButtons för att konfigurera vilka providers som ska visas när du bäddar in Livefyre-appen.
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
@@ -346,4 +342,4 @@ fyre.conv.load(networkConfig, [convConfig], function() {});
 
 * tw: Twitter
 * fb: Facebook
-* li: LinkedIn
+* li: linkedIn
