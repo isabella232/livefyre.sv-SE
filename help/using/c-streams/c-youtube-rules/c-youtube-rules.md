@@ -1,26 +1,22 @@
 ---
-description: Du kan skapa strömregler som hämtar innehåll från YouTube-regler.
-seo-description: Du kan skapa strömregler som hämtar innehåll från YouTube-regler.
-seo-title: YouTube-regler
-solution: Experience Manager
-title: YouTube-regler
-uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
+description: Du kan skapa strömregler som hämtar innehåll från YouTube regler.
+title: YouTube Rules
+exl-id: 720a6fc6-d5de-4c78-a14e-51bced6e8dda
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
+# YouTube Rules {#youtube-rules}
 
-# YouTube-regler {#youtube-rules}
-
-Du kan skapa strömregler som hämtar innehåll från YouTube-regler.
+Du kan skapa strömregler som hämtar innehåll från YouTube regler.
 
 Skapa YouTube-regler baserat på Användare, Kanal eller Spellista.
 
-Om du vill skapa YouTube-regler för att hämta innehåll från YouTube till din app eller mapp kan du filtrera efter:
+Om du vill skapa YouTube Rules för att hämta innehåll från YouTube till din app eller mapp kan du filtrera efter:
 
 * **[!UICONTROL User]**
    * Ange huvudsträngen för en **[!UICONTROL User]** för att inkludera videor från användaren i strömmen.
