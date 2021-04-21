@@ -1,18 +1,14 @@
 ---
 description: Ta bort en översättningsuppsättning när som helst genom att klicka på papperskorgsikonen bredvid den översättningsuppsättning som du vill ta bort.
-seo-description: Ta bort en översättningsuppsättning när som helst genom att klicka på papperskorgsikonen bredvid den översättningsuppsättning som du vill ta bort.
-seo-title: Ta bort en översättningsuppsättning
-solution: Experience Manager
 title: Ta bort en översättningsuppsättning
-uuid: 8a098100-e51e-4554-83b8-a91fdb204a49
+exl-id: 0d3267ed-b359-45eb-86a4-d44fc9b9ed5b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
-
 
 # Ta bort en översättningsuppsättning{#delete-a-translation-set}
 
