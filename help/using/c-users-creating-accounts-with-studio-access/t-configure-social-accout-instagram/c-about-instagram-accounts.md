@@ -1,27 +1,23 @@
 ---
-description: Lär dig reglerna och kraven för Instagram som skiljer sig från andra sociala konton.
-seo-description: Lär dig reglerna och kraven för Instagram som skiljer sig från andra sociala konton.
-seo-title: Om Instagram-konton
-solution: Experience Manager
+description: Lär dig de regler och krav som gäller för Instagram och som skiljer sig från andra konton för sociala medier.
 title: Om Instagram-konton
-uuid: 1fa2b4ca-264c-42c8-8dcb-57f7543ed2f7
+exl-id: 6b337c5f-c0b2-4f27-947f-a3e72b65d8de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-
 # Om Instagram-konton{#about-instagram-accounts}
 
-Lär dig reglerna och kraven för Instagram som skiljer sig från andra sociala konton.
+Lär dig de regler och krav som gäller för Instagram och som skiljer sig från andra konton för sociala medier.
 
 Du måste konfigurera ett *Instagram-företagskonto* till:
 
-* Utför en social sökning i Instagram per användare (användaren måste vara ett Instagram-affärskonto).
+* Utför en social sökning från Instagram per användare (användaren måste vara ett Instagram-företagskonto).
 * Skapa Instagram-strömmar från ett specifikt Instagram-användarkonto (kontot måste vara ett företagskonto).
 * Begär rättigheter för resurser från Instagram via ett delvis automatiserat arbetsflöde
 
-Mer information om hur du skapar ett Instagram-affärskonto eller konverterar ett Instagram-eget konto till ett företagskonto finns i [Hur skapar jag en företagsprofil på Instagram?](https://www.facebook.com/help/502981923235522)
+Mer information om hur du skapar ett Instagram-företagskonto eller konverterar ett Instagram-konto till ett företagskonto finns i [Hur skapar jag en företagsprofil på Instagram?](https://www.facebook.com/help/502981923235522)
