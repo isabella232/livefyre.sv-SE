@@ -1,21 +1,18 @@
 ---
-description: Använd Social Search för att söka efter Twitter-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
-seo-description: Använd Social Search för att söka efter Twitter-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
-seo-title: Sök efter Twitter-innehåll
+description: Använd social sökning för att söka efter Twitter-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
 title: Sök efter Twitter-innehåll
-uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
+exl-id: 25cb5b74-0e6c-4f00-90f9-1022a13406ca
 translation-type: tm+mt
-source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-
 # Sök efter Twitter-innehåll{#search-for-twitter-content}
 
-Använd Social Search för att söka efter Twitter-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
+Använd social sökning för att söka efter Twitter-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
 
 Du kan spara och återanvända sökningar. Klicka i sökfältet för att visa en lista över dina senaste och sparade sökningar.
 
@@ -27,7 +24,7 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
    * **[!UICONTROL Subject Search:]** standardinställningen söker igenom alla tillgängliga fält efter indatatexten.
    * **[!UICONTROL User Search:]** söker efter tweets av indataförfattaren.
-   * **[!UICONTROL List Search:]** söker endast i Twitter-listans indata-URL.
+   * **[!UICONTROL List Search:]** söker endast i indata-URL för Twitter List.
 
 1. När du har angett sökvillkoren klickar du på **[!UICONTROL Show Filter]** för att förfina sökningen.
 
