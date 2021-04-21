@@ -1,18 +1,14 @@
 ---
 description: Betygsätt och granska allt innehåll på er webbplats i realtid.
-seo-description: Betygsätt och granska allt innehåll på er webbplats i realtid.
-seo-title: Recensioner
-solution: Experience Manager
 title: Recensioner
-uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
+exl-id: e065319b-5ee6-40c4-8d04-56a06e0c92fa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
-
 
 # Recensioner{#reviews}
 
@@ -38,4 +34,3 @@ Recensioner innehåller flera funktioner som är specifika för den här appen.
 * Köa granskningar som ska visas, samtidigt som du behåller användarens granskning överst i listan för att visa dem.
 * Låt användarna rösta om granskningarnas användbarhet och sedan sortera efter Mest användbar och/eller Högsta klassificering.
 * Mobilvänligt gränssnitt.
-
