@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för versionen från 18 januari 2018.
-seo-description: Versionsinformation för versionen från 18 januari 2018.
-seo-title: 18 januari 2018
-solution: Experience Manager
 title: 18 januari 2018
-uuid: 8141f431-c154-4c8f-bbcd-b7c712fe5f7d
+exl-id: aaf49dc9-64eb-4354-8bcb-04039fa25f10
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # 18 januari 2018{#january}
 
@@ -35,7 +31,6 @@ Versionsinformation för versionen från 18 januari 2018.
 |---|---|---|
 | Fel | Bibliotek | Säkerhetsbuggfixen. Alla autentiseringsanrop görs nu med HTTPS-protokollet i stället för HTTP. |
 | Förbättring | Smarta taggar | Strömmat innehåll taggas nu automatiskt av Adobe Sensei när det sparas i en mapp eller publiceras i en app. |
-| Fel | Strömmar | Ett problem har korrigerats där reglerna för Instagram-strömmen inte kände igen japanska tecken. |
+| Fel | Strömmar | Ett problem har korrigerats där japanska tecken inte kunde identifieras av Instagram-strömregler. |
 | Förbättring | Strömmar | Kunderna kan nu använda de logiska operatorerna (ANY, ALL, NOT) för att skapa detaljerade smarta taggfilter i strömmar som strukturerar mycket mer exakt innehåll. Om jag till exempel använder hashtaggen #himalyas kan jag välja att bara visa bilder som innehåller&quot;snögubbe&quot;&quot;berg&quot;. |
 | Fel | Studio | Åtgärda ett fel som visade specialtecken i namn som HTML. |
-
