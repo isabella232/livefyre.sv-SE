@@ -1,17 +1,14 @@
 ---
 description: Egna format används genom ett objekt som injiceras i Sidenotes-konstruktorn.
-seo-description: Egna format används genom ett objekt som injiceras i Sidenotes-konstruktorn.
-seo-title: Egna format för sidenotes
 title: Egna format för sidenotes
-uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
+exl-id: 846605b7-a21e-4600-bf17-18841d2ed96d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Sidenotes Custom Styles{#sidenotes-custom-styles}
 
@@ -57,4 +54,3 @@ new Livefyre.Sidenotes({
 | `streamPoweredBy` | backgroundColor, borderColor, lineHeight | &quot;Powered by&quot; footer on the pover. |
 | `streamQueueButton` | backgroundColor, borderColor, borderWidth, fontColor, fontFamily, fontSize, fontWeight, lineHeight | Knapp som anger när nya anteckningar direktuppspelas i en öppen pover. |
 | `userAvatar` | &quot;height&quot;,&quot;width&quot; | Autentiserad användares avatarbild, till vänster om textområdesredigeraren. |
-
