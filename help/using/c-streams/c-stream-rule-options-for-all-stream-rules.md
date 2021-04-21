@@ -1,18 +1,14 @@
 ---
 description: Dessa alternativ gäller för alla flödesregler från alla sociala nätverk eller bokföringsmetoder.
-seo-description: Dessa alternativ gäller för alla flödesregler från alla sociala nätverk eller bokföringsmetoder.
-seo-title: Direktuppspelningsregelalternativ för alla flödesregler
-solution: Experience Manager
 title: Direktuppspelningsregelalternativ för alla flödesregler
-uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
+exl-id: eff1a3cb-395f-4eb1-be93-f0f09bba95e2
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # Direktuppspelningsregelalternativ för alla direktuppspelningsregler{#stream-rule-options-for-all-stream-rules}
 
@@ -31,7 +27,7 @@ Sökfunktioner för text och nyckelordsfält:
 * **[!UICONTROL Media]**. Välj något av följande:
 
    * **[!UICONTROL All Content.]** Tillåt allt innehåll.
-   * **[!UICONTROL Media Required.]** Tillåt endast innehåll med bilder och videoklipp. (För Instagram- och Facebook-innehåll kan du bara ange **[!UICONTROL Photos]** eller **[!UICONTROL Videos]**).
+   * **[!UICONTROL Media Required.]** Tillåt endast innehåll med bilder och videoklipp. (För Instagram- och Facebook-innehåll kan du endast ange **[!UICONTROL Photos]** eller **[!UICONTROL Videos]**).
 
 * **[!UICONTROL Language]**. Välj vilket språk du vill söka i. Engelska är standardspråket.
 * **[!UICONTROL Smart Tags]**. Välj de taggar som ska användas för att identifiera innehåll. Livefyre använder dataveteknik för att identifiera foton och videoklipp med specifika smarta taggar för att göra sökningen mer exakt. Använd modifieraren **[!UICONTROL ANY]** för att filtrera innehåll i strömmen med valfri tagg eller modifieraren **[!UICONTROL ALL]** för att filtrera innehåll i strömmen som använder alla taggar. Använd fältet **[!UICONTROL Image contains none of these smart tags]** för att ange taggar för foton som innehåller innehåll som du inte vill ha i strömmen. Det här alternativet fungerar inte för textinnehåll.
@@ -50,7 +46,7 @@ Sökfunktioner för text och nyckelordsfält:
 
 Information om alternativ för strömningsregler som är specifika för ett socialt nätverk eller en innehållstyp finns i följande dokumentation för respektive typ av socialt nätverk eller innehåll:
 
-* [Facebook-sidor](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
+* [Facebook Pages](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
 * [E-post](../c-streams/c-email-rules.md#c_email_rules)
 * [Instagram](../c-streams/c-instagram-rules.md#c_instagram_rules)
 * [Tumblr](../c-streams/c-tumblr-rules.md#c_tumblr_rules)
