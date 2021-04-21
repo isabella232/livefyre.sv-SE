@@ -1,17 +1,14 @@
 ---
 description: Genom att filtrera UGC efter produkt-ID kan du bädda in exakt samma app på flera sidor samtidigt som du visar olika produktspecifika UGC för varje sida.
-seo-description: Genom att filtrera UGC efter produkt-ID kan du bädda in exakt samma app på flera sidor samtidigt som du visar olika produktspecifika UGC för varje sida.
-seo-title: Filtrera UGC efter produkt-ID
 title: Filtrera UGC efter produkt-ID
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+exl-id: c98ee899-fcac-45dd-a26a-f678814776fd
 translation-type: tm+mt
-source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Filtrera UGC efter produkt-ID {#filter-ugc-product-id}
 
