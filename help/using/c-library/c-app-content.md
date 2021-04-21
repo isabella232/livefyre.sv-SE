@@ -1,18 +1,14 @@
 ---
 description: Hantera innehåll i Livefyre-nätverket.
-seo-description: Hantera innehåll i Livefyre-nätverket.
-seo-title: Fliken Appinnehåll
-solution: Experience Manager
 title: Fliken Appinnehåll
-uuid: 65b23085-2b79-4a6f-96c9-44b421805312
+exl-id: 8b3e5281-59ba-4321-8fee-4160ab7a5d5e
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
-
 
 # Fliken Appinnehåll{#app-content-tab}
 
@@ -150,4 +146,3 @@ De flesta vanliga åtgärder för innehåll kan utföras på Aktuellt innehåll,
 
 * Det aktuella innehållet kan inte flaggas.
 * Användarna kan inte redigera sitt innehåll efter att det har funnits, men de kan fortfarande ta bort det om de vill. Moderatorer kan redigera aktuellt innehåll.
-
