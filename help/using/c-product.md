@@ -1,18 +1,14 @@
 ---
 description: Den ledande plattformen för socialt djup med de verktyg ni behöver för att engagera målgrupperna med de röster de litar mest på.
-seo-description: Den ledande plattformen för socialt djup med de verktyg ni behöver för att engagera målgrupperna med de röster de litar mest på.
-seo-title: Om Livefyre
-solution: Experience Manager
 title: Om Livefyre
-uuid: b864afe0-9ccb-4607-b735-69ce42cd8199
+exl-id: 37aa41c5-6fa7-4a0d-8f8e-4210ca8ade0c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Om Livefyre{#about-livefyre}
 
@@ -31,4 +27,3 @@ Med Livefyre Studio kan du
 * [Moderera innehållet för att säkerställa innehållskvaliteten](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md#c_setting_up_moderation)
 * [Öka försäljningen och ytterligare åtgärder från webbplatsbesökare med hjälp av knapparna Call-to-Action för delar av innehåll](c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
 * [Hantera användare, roller och behörigheter](c-about-apps/c-about-apps.md#c_about_apps)
-
