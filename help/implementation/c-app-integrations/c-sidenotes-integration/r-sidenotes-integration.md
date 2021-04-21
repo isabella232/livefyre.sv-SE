@@ -1,18 +1,14 @@
 ---
 description: Integrera en Sidenotes-app genom att följa en process som liknar Core Applications.
-seo-description: Integrera en Sidenotes-app genom att följa en process som liknar Core Applications.
-seo-title: Integrering av sidenotes
-solution: Experience Manager
 title: Integrering av sidenotes
-uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
+exl-id: 368951b1-fef2-46d8-b89c-68c46962e937
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
-
 
 # Sidenotes Integration{#sidenotes-integration}
 
