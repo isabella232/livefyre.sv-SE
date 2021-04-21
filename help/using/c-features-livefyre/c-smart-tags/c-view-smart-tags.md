@@ -1,17 +1,14 @@
 ---
 description: Visa taggar som läggs till automatiskt i bilder av Sensei-driven bildigenkänningsprogramvara.
-seo-description: Visa taggar som läggs till automatiskt i bilder av Sensei-driven bildigenkänningsprogramvara.
-seo-title: Visa smarta taggar
 title: Visa smarta taggar
-uuid: 787c7d86-2c68-4c4c-b687-cf2390bcf233
+exl-id: 204394bb-ca61-4727-976d-2a549e307053
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
-
 
 # Visa smarta taggar{#view-smart-tags}
 
@@ -29,4 +26,3 @@ Så här visar du smarta taggar för innehåll:
 1. Klicka på fliken **[!UICONTROL Tags]** i den nedre högra panelen
 1. Se listan över smarta taggar ordnade efter kategori.
 1. Ta bort taggar som du inte vill ha genom att klicka på **[!UICONTROL X]** bredvid en tagg.
-
