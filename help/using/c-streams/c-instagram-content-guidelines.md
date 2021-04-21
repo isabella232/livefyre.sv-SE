@@ -1,24 +1,20 @@
 ---
 description: När du strukturerar innehåll från Instagram måste du följa deras riktlinjer och bästa praxis.
-seo-description: När du strukturerar innehåll från Instagram måste du följa deras riktlinjer och bästa praxis.
-seo-title: Riktlinjer för innehåll i Instagram
-solution: Experience Manager
-title: Riktlinjer för innehåll i Instagram
-uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
+title: Instagram Content Guidelines
+exl-id: 74ef8556-8f65-4406-871c-5b9f1887ec9c
 translation-type: tm+mt
-source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
-# Riktlinjer för innehåll i Instagram{#instagram-content-guidelines}
+# Instagram Content Guidelines{#instagram-content-guidelines}
 
 När du strukturerar innehåll från Instagram måste du följa deras riktlinjer och bästa praxis.
 
-Du måste konfigurera ett *Instagram-företagskonto* för att skapa Instagram-strömmar från ett annat specifikt Instagram-affärskonto genom att använda fältet **[!UICONTROL By Author]**. Användarkontot som du identifierar i fältet **[!UICONTROL By Author]** måste vara ett företagskonto.
+Du måste konfigurera ett *Instagram-företagskonto* för att skapa Instagram-strömmar från ett annat specifikt Instagram-företagskonto med hjälp av fältet **[!UICONTROL By Author]**. Användarkontot som du identifierar i fältet **[!UICONTROL By Author]** måste vara ett företagskonto.
 
 Mer information om hur du skapar ett Instagram-företagskonto i Livefyre finns i [Om Instagram-konton](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
@@ -36,9 +32,9 @@ Livefyre rekommenderar att du följer följande riktlinjer för att maximera sö
 * Undvik att använda företagskonton i mer än ett nätverk.
 * Prioritera aktiva strömmar och ta bort oanvända för att minska antalet hashtaggar du använder.
 
-Instagram, liksom andra varumärken, har också krav på att använda sina varumärkestillgångar. Foton måste till exempel:
+Instagram har, precis som andra varumärken, också krav på att använda sina varumärkestillgångar. Foton måste till exempel:
 
-* Ge attribuering till Instagram och innehållets ägare.
+* Ger attribuering till Instagram och ägaren av innehållet.
 * Var tydligt skild från annat innehåll i sociala medier om det visas tillsammans med andra nätverks medier.
 
-Mer information finns i Instagrams dokument: [Använder Instagram Brand Assets](https://help.instagram.com/304689166306603).
+Mer information finns i Instagram dokument: [Använda Instagram Brand Assets](https://help.instagram.com/304689166306603).
