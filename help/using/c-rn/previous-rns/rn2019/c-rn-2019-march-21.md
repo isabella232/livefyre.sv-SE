@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för Livefyre den 21 mars 2019.
-seo-description: Versionsinformation för Livefyre den 21 mars 2019.
-seo-title: Versionsinformation
-solution: Experience Manager
 title: Versionsinformation för Livefyre för 21 mars 2019
+exl-id: 965432d1-e706-48a8-ad58-8b3c28fdcf6f
 translation-type: tm+mt
-source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---
-
 
 # Versionsinformation för uppdateringen 21 mars 2019
 
@@ -26,4 +23,4 @@ ht-degree: 1%
 
 ## Felkorrigeringar
 
-* Ett problem har korrigerats där &quot;Odefinierade&quot; Instagram-inlägg i ModQ inte kunde tas bort.
+* Ett problem har korrigerats där&quot;Odefinierade&quot; Instagram-inlägg i ModQ inte kunde tas bort.
