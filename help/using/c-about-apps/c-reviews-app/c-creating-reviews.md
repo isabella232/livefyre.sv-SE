@@ -1,18 +1,14 @@
 ---
 description: Granskningar erbjuder ett brett urval av anpassningar så att du kan skapa en granskningsapp som passar dina behov och ditt varumärke.
-seo-description: Granskningar erbjuder ett brett urval av anpassningar så att du kan skapa en granskningsapp som passar dina behov och ditt varumärke.
-seo-title: Skapa en app för granskningar
-solution: Experience Manager
 title: Skapa en app för granskningar
-uuid: 6caeafe7-c04e-484e-b02f-98dc6d9b3184
+exl-id: 14f074d2-922c-4997-8d7d-f2c92f069e07
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en granskningsapp{#creating-a-reviews-app}
 
