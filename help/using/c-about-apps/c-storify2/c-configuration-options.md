@@ -1,18 +1,14 @@
 ---
 description: Välj konfigurationsalternativen Format, Visning och Användarengagemang för Storify 2 från Livefyre Studio.
-seo-description: Välj konfigurationsalternativen Format, Visning och Användarengagemang för Storify 2 från Livefyre Studio.
-seo-title: Konfigurationsalternativ
-solution: Experience Manager
 title: Konfigurationsalternativ
-uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
+exl-id: bdb5210e-860c-477f-95cd-37a1233469f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurationsalternativ{#configuration-options}
 
@@ -70,7 +66,7 @@ Välj konfigurationsalternativen Format, Visning och Användarengagemang för St
 
 * **[!UICONTROL Users may share posts]**
 
-   Om det här alternativet är aktiverat kan användarna dela din berättelse till Twitter eller Facebook. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
+   Om du aktiverar det här alternativet kan användare dela din berättelse till Twitter eller Facebook. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
 
 * **[!UICONTROL Users may add sidenotes]**
 
@@ -79,4 +75,3 @@ Välj konfigurationsalternativen Format, Visning och Användarengagemang för St
 * **[!UICONTROL Number of views]**
 
    Om alternativet är aktiverat visas antalet gånger som artikeln har visats.
-
