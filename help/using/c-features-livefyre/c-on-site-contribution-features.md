@@ -1,18 +1,14 @@
 ---
 description: Välj hur besökarna ska interagera med appar och på vilka sätt de ska kunna interagera med innehållet.
-seo-description: Välj hur besökarna ska interagera med appar och på vilka sätt de ska kunna interagera med innehållet.
-seo-title: Funktioner för bidrag på plats
-solution: Experience Manager
 title: Funktioner för bidrag på plats
-uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
+exl-id: 5f7d065b-cd9b-4939-8029-e593583a3b07
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
-
 
 # Funktioner för bidrag på plats{#on-site-contribution-features}
 
@@ -80,4 +76,3 @@ Visa det antal gånger en användare har valt varje svar i en omröstning.
 Program som använder den här funktionen:
 
 * [Omröstningar](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
-
