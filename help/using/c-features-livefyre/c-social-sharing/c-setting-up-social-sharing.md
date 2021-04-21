@@ -1,17 +1,14 @@
 ---
 description: På panelen Social Sharing (Delning via sociala medier) kan du lägga till dina inloggningsuppgifter för sociala medienätverk.
-seo-description: På panelen Social Sharing (Delning via sociala medier) kan du lägga till dina inloggningsuppgifter för sociala medienätverk.
-seo-title: Konfigurera delning via sociala medier
 title: Konfigurera delning via sociala medier
-uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
+exl-id: aa940263-4cec-4ca3-aa74-84749e4cf2d0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera delning via sociala medier{#setting-up-social-sharing}
 
@@ -19,11 +16,11 @@ På panelen Social Sharing (Delning via sociala medier) kan du lägga till dina 
 
 Livefyre använder den här informationen för att ansluta till de sociala nätverk som visas för din sociala app och för att publicera delat innehåll för dina användare för deras räkning. Ange dessa värden för att aktivera social integrering. De kan redigeras när som helst.
 
-De inställningar som är tillgängliga på den här sidan uppdateras för att återspegla ditt sociala delningssystem, enligt definitionen under integreringsprocessen i Livefyre. De som integrerar med sina egna anpassade användaridentitetssystem måste ange inloggningsuppgifter för sociala nätverk för Facebook, LinkedIn och Twitter, om de vill tillåta slutanvändarna att dela på dessa plattformar. Janrain Engage-kunder behöver bara ange sina Janrain-behörigheter, inte Facebook, Twitter eller LinkedIn.
+De inställningar som är tillgängliga på den här sidan uppdateras för att återspegla ditt sociala delningssystem, enligt definitionen under integreringsprocessen i Livefyre. De som integrerar med sina egna anpassade användaridentitetssystem måste ange inloggningsuppgifter för sociala nätverk för Facebook, LinkedIn och Twitter om de vill tillåta sina slutanvändare att dela på dessa plattformar. Janrain Engage-kunder behöver bara ange sina Janrain-behörigheter, inte Facebook, Twitter eller LinkedIn.
 
 >[!NOTE]
 >
->Endast en app per webbplats för sociala medier kan aktiveras för ditt nätverk. Du kan inkludera de här apparna på flera webbplatser, men ditt nätverk kanske bara har en Facebook, en Twitter, en LinkedIn och en Bitly-integrering.
+>Endast en app per webbplats för sociala medier kan aktiveras för ditt nätverk. Du kan inkludera dessa appar på flera webbplatser, men ditt nätverk kanske bara har en Facebook, en Twitter, en LinkedIn och en Bitly-integrering.
 
 ## Janrain Engage {#section_dzq_1p1_21b}
 
@@ -34,26 +31,26 @@ Om du vill aktivera Janrain Engage-integrering anger du följande autentiserings
 
 ## Facebook {#section_tch_gp1_21b}
 
-Om du vill dela till Facebook anger du följande autentiseringsuppgifter för Facebook-appen:
+Om du vill dela till Facebook anger du följande inloggningsuppgifter för Facebook-programmet:
 
 * **[!UICONTROL Client ID:]** Klient-ID:t som ingår i din Facebook-app.
-* **[!UICONTROL Client Secret:]** Klienthemligheten som tillhandahålls med din Facebook-app.
-* **[!UICONTROL OAuth Proxy Redirect:]** Din omdirigeringssida för att ta emot Facebook-begäranden.
+* **[!UICONTROL Client Secret:]** Klienthemligheten som finns i din Facebook-app.
+* **[!UICONTROL OAuth Proxy Redirect:]** Din omdirigeringssida där du kan ta emot förfrågningar från Facebook.
 
 ## Twitter {#section_xkd_kp1_21b}
 
-Om du vill dela till Twitter anger du följande Twitter-appautentiseringsuppgifter:
+Om du vill dela till Twitter anger du följande inloggningsuppgifter för Twitter App:
 
-* **[!UICONTROL Access Token:]** Din Twitter-token för att göra API-förfrågningar.
-* **[!UICONTROL Access Token Secret:]** Din Twitter-hemlighet för att göra API-förfrågningar.
-* **[!UICONTROL API Key:]** Din Twitter-tillhandahållna API-nyckel.
+* **[!UICONTROL Access Token:]** Din token som tillhandahålls av Twitter för att skapa API-förfrågningar.
+* **[!UICONTROL Access Token Secret:]** Din hemlighet som tillhandahålls av Twitter för att göra API-förfrågningar.
+* **[!UICONTROL API Key:]** Din API-nyckel som tillhandahålls av Twitter.
 * **[!UICONTROL API Secret:]** Din API-hemlighet som tillhandahålls av Twitter.
 
-## LinkedIn {#section_tqh_mp1_21b}
+## linkedIn {#section_tqh_mp1_21b}
 
 Om du vill dela till LinkedIn anger du följande autentiseringsuppgifter för dina LinkedIn API-begäranden:
 
-* **[!UICONTROL API Key:]** Din LinkedIn--levererade API-nyckel.
+* **[!UICONTROL API Key:]** Din API-nyckel som tillhandahålls av LinkedIn.
 * **[!UICONTROL API Secret:]** Din API-hemlighet som tillhandahålls av LinkedIn.
 
 ## Bitvis {#section_ur2_np1_21b}
@@ -78,4 +75,3 @@ Program som använder den här funktionen:
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Trender](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
-
