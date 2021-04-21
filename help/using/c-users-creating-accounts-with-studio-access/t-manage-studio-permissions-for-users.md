@@ -1,18 +1,14 @@
 ---
 description: Ändra behörigheter för olika nivåer av användare, inklusive administratörer, moderatorer och besökare.
-seo-description: Ändra behörigheter för olika nivåer av användare, inklusive administratörer, moderatorer och besökare.
-seo-title: Hantera Studio-behörigheter för användare
-solution: Experience Manager
 title: Hantera Studio-behörigheter för användare
-uuid: 15c395c8-a9bb-4b0b-9586-61ac36810730
+exl-id: 14540432-a1be-4a33-b9ed-670425112df2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # Hantera Studio-behörigheter för användare{#manage-studio-permissions-for-users}
 
