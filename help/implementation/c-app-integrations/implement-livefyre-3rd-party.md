@@ -1,18 +1,14 @@
 ---
 description: Skapa Livefyre-appar från grunden för att skapa anpassade upplevelser och datavisualiseringar.
-seo-description: Skapa Livefyre-appar från grunden för att skapa anpassade upplevelser och datavisualiseringar.
-seo-title: Integrera Livefyre med tredjepartsintegrering
-solution: Experience Manager
 title: Integrera Livefyre i ett CMS-system
-uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
+exl-id: 05d85792-de97-47b1-90cc-ad7e841754b5
 translation-type: tm+mt
-source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
-
 
 # Implementera Livefyre med tredjepartsintegrering
 
