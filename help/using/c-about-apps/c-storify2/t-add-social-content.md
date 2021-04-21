@@ -1,18 +1,14 @@
 ---
 description: Storify 2 har flera innehållskällor för att lägga till socialt innehåll.
-seo-description: Storify 2 har flera innehållskällor för att lägga till socialt innehåll.
-seo-title: Lägg till socialt innehåll
-solution: Experience Manager
 title: Lägg till socialt innehåll
-uuid: 0bd6579e-ac55-4201-a403-4fcb19e8684b
+exl-id: 2277b525-ef0e-4e66-9260-f81898d93bf1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # Lägg till socialt innehåll{#add-social-content}
 
@@ -26,7 +22,7 @@ På fliken Sök kan du söka i sociala medienätverk, allmänna webbsidor och bi
 
 >[!NOTE]
 >
->Twitters sökAPI returnerar bara de senaste 7 dagarnas innehåll.
+>Twitter Search API returnerar bara de senaste 7 dagarnas innehåll.
 
 Så här lägger du till innehåll i en berättelse:
 
