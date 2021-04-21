@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för appen Sidenotes.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för appen Sidenotes.
-seo-title: Anpassa sidenotes
-solution: Experience Manager
 title: Anpassa sidenotes
-uuid: fb50285a-3b2d-497d-bfda-7e89c485b65c
+exl-id: c0662c7e-ae46-4755-85d0-25d2df9c33b6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
-
 
 # Sidenotes Customization{#sidenotes-customizations}
 
@@ -23,4 +19,3 @@ Du kan anpassa sidomärken med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se omröstningar för mer information om hur du anpassar appar med integreringsverktyg.
-
