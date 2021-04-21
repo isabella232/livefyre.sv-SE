@@ -1,17 +1,14 @@
 ---
 description: Moderera innehåll från ett enda intelligent gränssnitt.
-seo-description: Moderera innehåll från ett enda intelligent gränssnitt.
-seo-title: Moderera innehåll med hjälp av ModQ
 title: Moderera innehåll med hjälp av ModQ
-uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
+exl-id: 694b1f45-2b24-4e80-99a1-788e2cecc8a4
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
-
 
 # Moderera innehåll med hjälp av ModQ{#moderate-content-using-modq}
 
@@ -26,7 +23,7 @@ Med ModQ kan du:
 * Moderera i sitt sammanhang, visa hela trådar och Godkänn, Skräp eller Bozo antingen enskilda innehållsdelar eller hela trådar med ett klick.
 * Snabbare och effektivare arbetsflöde.
 * Svara på innehåll och öka engagemanget i communityn.
-* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras material.
+* Möjliggör för flera moderatorer att arbeta igenom materialet utan att behöva duplicera varandras arbete.
 
 Livefyre-innehåll listas i ModQ i upp till 6 veckor, och förmodererat ströminnehåll som inte har adresserats listas i ModQ i 90 dagar.
 
@@ -103,7 +100,7 @@ Följande alternativ är tillgängliga för ModQ under både **[!UICONTROL Items
 
 Följande alternativ är tillgängliga för ModQ under **[!UICONTROL Streams Premoderation]**:
 
-* **[!UICONTROL Social Source]** Filtrera innehåll efter den sociala källan som innehållet kommer från. Alternativ för sociala källor är till exempel Twitter, Instagram, Facebook och RSS.
+* **[!UICONTROL Social Source]** Filtrera innehåll efter den sociala källan som innehållet kommer från. Exempel: Twitter, Instagram, Facebook och RSS.
 
 Följande alternativ är tillgängliga för ModQ under **[!UICONTROL Items]**:
 
@@ -120,7 +117,7 @@ Du kan bestämma vad du ska göra med varje del av innehållet i ModQ.
 Välj något av följande alternativ:
 
 * Ikonen **[!UICONTROL Checkbox]** för att godkänna innehållet
-* Ikonen **[!UICONTROL Trash can]** som skickar innehållet till papperskorgen
+* **[!UICONTROL Trash can]**-ikonen som skickar innehållet till papperskorgen
 * **[!UICONTROL Request Rights]** om du vill begära rättigheter till innehållet från innehållsägaren.
 
    >[!NOTE]
@@ -171,4 +168,3 @@ Appar som använder ModQ:
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Knappen Överför](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
