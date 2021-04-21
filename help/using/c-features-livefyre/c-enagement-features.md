@@ -1,18 +1,14 @@
 ---
 description: Engagera besökarna på webbplatsen med funktioner som får dem att komma tillbaka till webbplatsen när de upptäcker ert innehåll.
-seo-description: Engagera besökarna på webbplatsen med funktioner som får dem att komma tillbaka till webbplatsen när de upptäcker ert innehåll.
-seo-title: Enagement Features
-solution: Experience Manager
 title: Enagement Features
-uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
+exl-id: 2e5554ad-42f8-445f-90f7-e12d320416d0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
-
 
 # Enhetsfunktioner{#enagement-features}
 
@@ -97,4 +93,3 @@ Efter en konversation kan användare ta emot e-postmeddelanden baserat på aktiv
 >[!NOTE]
 >
 >E-postmeddelanden skickas endast för manuellt publicerat innehåll, inte för innehåll som hämtas till strömmen via SocialSync eller Curate.
-
