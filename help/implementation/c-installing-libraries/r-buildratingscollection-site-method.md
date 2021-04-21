@@ -1,17 +1,14 @@
 ---
 description: Returnerar ett Collection-objekt som har instansierats som en graderingstyp. Kör create_or_update() från Collection-objektet för att slutföra byggprocessen.
-seo-description: Returnerar ett Collection-objekt som har instansierats som en graderingstyp. Kör create_or_update() från Collection-objektet för att slutföra byggprocessen.
-seo-title: buildRatingsCollection, webbplatsmetod
 title: buildRatingsCollection, webbplatsmetod
-uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
+exl-id: 84af3bb2-95f0-40e0-9a4e-830772a71862
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
-
 
 # buildRatingsCollection-webbplatsmetod{#buildratingscollection-site-method}
 
@@ -52,4 +49,3 @@ collection = site.build_ratings_collection(title, articleId, url)
 ```
 collection = site.build_ratings_collection(title, articleId, url) 
 ```
-
