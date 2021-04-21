@@ -1,17 +1,14 @@
 ---
 description: Visa innehållsinformationen för att samla in mer information om en del av innehållet innan du publicerar det.
-seo-description: Visa innehållsinformationen för att samla in mer information om en del av innehållet innan du publicerar det.
-seo-title: Visa innehållsinformation
 title: Visa innehållsinformation
-uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
+exl-id: c859f67f-494e-4ed9-9214-ed363e04cac1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Visa innehållsinformation{#view-content-details}
 
