@@ -1,18 +1,14 @@
 ---
 description: Analysera användare, innehåll och moderatoraktivitet för din webbplats.
-seo-description: Analysera användare, innehåll och moderatoraktivitet för din webbplats.
-seo-title: Analyser
-solution: Experience Manager
 title: Analyser
-uuid: b022aa77-59b9-422a-8d9f-fb9d8a1b0478
+exl-id: dc0545ec-2294-44ab-87c4-67eb30c3f787
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
-
 
 # Analyser{#analytics}
 
@@ -66,7 +62,7 @@ Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive komm
 
 ![](assets/analytics-show-hide-activities.png)
 
-Vilka aktiviteter som är tillgängliga varierar beroende på kontrollpanelens typ och exportering, och kan omfatta:
+Vilka aktiviteter som är tillgängliga varierar beroende på kontrollpanelens typ och export, och kan omfatta:
 
 * **Inlägg:** Visar data från midnatt på morgonen den aktuella dagen till den sista fullständiga timmen före den här stunden.
 * **Svar:** Visar data för föregående 24 timmar.
@@ -114,4 +110,3 @@ Kontrollpanelen Moderering visar händelser efter moderator, så att du kan utv�
 På kontrollpanelen Användare visas webbplatsaktivitet per användare, vilket gör att du kan analysera hur enskilda användare interagerar med webbplatsen. Använd den här instrumentpanelen för att hitta dina mest aktiva användare på webbplatsen och för att utvärdera de populäraste webbplatsaktiviteterna.
 
 ![](assets/analytics-users.png)
-
