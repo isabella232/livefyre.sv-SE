@@ -1,18 +1,14 @@
 ---
 description: Skapa Android-appar med Livefyre i botten.
-seo-description: Skapa Android-appar med Livefyre i botten.
-seo-title: Android SDK
-solution: Experience Manager
 title: Android SDK
-uuid: 68793fa9-3ea1-4890-b36d-b631f1c6f7de
+exl-id: 54ea6537-5f27-4174-af25-d17257f23e48
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Android SDK{#android-sdk}
 
@@ -84,4 +80,3 @@ StreamHub Android SDK visar flera klientklasser som kan användas för att begä
 * **** StreamClientAvsök en ström efter en samling för att hämta nytt, uppdaterat och borttaget innehåll.
 
 * **WriteClientPost,** flagga och liknande innehåll i en samling.
-
