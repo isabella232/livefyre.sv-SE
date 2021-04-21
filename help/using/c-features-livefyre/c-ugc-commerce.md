@@ -1,14 +1,10 @@
 ---
 description: Leverera produktspecifik användargenererat innehåll vid specifika punkter av kundresan för att öka inköpsengagemanget och konverteringsgraden med hjälp av funktionen för UGC-handel.
-seo-description: Leverera produktspecifik användargenererat innehåll vid specifika punkter av kundresan för att öka inköpsengagemanget och konverteringsgraden med hjälp av funktionen för UGC-handel.
-seo-title: UGC Commerce
-solution: Experience Manager
 title: UGC Commerce
-uuid: 71e64901-a2b6-4957-ba88-058e4eaca537
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
