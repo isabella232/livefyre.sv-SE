@@ -1,18 +1,14 @@
 ---
 description: Du kan förbjuda IP-adresser om en oärlig användare skapar flera konton från samma IP-adress.
-seo-description: Du kan förbjuda IP-adresser om en oärlig användare skapar flera konton från samma IP-adress.
-seo-title: Bannlys-IP-adresser
-solution: Experience Manager
 title: Bannlys-IP-adresser
-uuid: 4d21b53e-4cf7-4da3-8910-9716709721f5
+exl-id: 1b5dde79-fea5-45f3-a832-8d5e4497c3cf
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # Förbjuden IP-adress{#ban-ip-addresses}
 
