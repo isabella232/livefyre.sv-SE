@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Använd Livefyre med andra analysverktyg
-solution: Experience Manager
 title: Använd Livefyre med andra analysverktyg
-uuid: 26c835f6-aced-41f7-aabe-418afce8a829
+description: Använd Livefyre med andra analysverktyg
+exl-id: da29e281-5095-4e99-a248-19390f2059a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # Använd Livefyre med andra analysverktyg{#use-livefyre-with-other-analytics-tool}
 
@@ -61,4 +57,3 @@ När Livefyre.analytics-funktionen är tillgänglig på sidan implementerar du f
 1. Analyshanteraren tar emot en array med händelser som måste itereras igenom och skickas individuellt eller som en grupp, om din leverantör stöder det.
 1. Mappa händelsedata som tas emot av hanteraren till ett format som analysleverantören kräver.
 1. Skicka data till analysleverantören.
-
