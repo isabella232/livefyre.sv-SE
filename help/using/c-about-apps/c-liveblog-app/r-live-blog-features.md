@@ -1,18 +1,14 @@
 ---
 description: Live Blog App har följande funktioner för din webbplats.
-seo-description: Live Blog App har följande funktioner för din webbplats.
-seo-title: Live-bloggfunktioner
-solution: Experience Manager
 title: Live-bloggfunktioner
-uuid: 5a9fede3-e150-4655-b5e1-3ddaee9a6ba1
+exl-id: f61ff31d-baf1-4862-b7ad-f2a8eb912000
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # Live Blog Features{#live-blog-features}
 
@@ -25,4 +21,3 @@ Live Blog App har följande funktioner för din webbplats.
 * Uppdatera din Live-blogg från din mobila enhet.
 * Aktivera svar på varje blogguppdatering för att uppmuntra ökat samtal och engagemang kring varje uppdatering av Live Blog.
 * Överför foton och lägg till egen HTML-kod i inlägg på den översta nivån
-
