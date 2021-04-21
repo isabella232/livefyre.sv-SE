@@ -1,22 +1,18 @@
 ---
-description: Använd Social Search för att söka efter Instagram-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
-seo-description: Använd Social Search för att söka efter Instagram-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
-seo-title: Sök efter Instagram-innehåll
-solution: Experience Manager
+description: Använd social sökning för att söka efter Instagram-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
 title: Sök efter Instagram-innehåll
-uuid: 38a7185d-9936-4eaa-97e9-5b23b3566496
+exl-id: 2f5cc1d7-a345-4e65-a740-8ce7f5791fdd
 translation-type: tm+mt
-source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # Sök efter Instagram-innehåll{#search-for-instagram-content}
 
-Använd Social Search för att söka efter Instagram-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
+Använd social sökning för att söka efter Instagram-innehåll som ska inkluderas i resursbiblioteket eller publiceras i appar.
 
 >[!NOTE]
 >
@@ -26,7 +22,7 @@ Du kan spara och återanvända sökningar. Klicka i sökfältet för att visa en
 
 När du lägger till nya resurser i biblioteket markeras resurser som redan finns i biblioteket med en bock.
 
-1. Konfigurera ett Instagram-affärskonto.
+1. Konfigurera ett Instagram-företagskonto.
 1. Navigera till **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
 1. Välj **[!UICONTROL Instagram]** om du vill söka efter Instagram-innehåll.
 1. Ange sökvillkoren och klicka på **[!UICONTROL Show Filter]** för att förfina sökningen.
@@ -35,7 +31,7 @@ När du lägger till nya resurser i biblioteket markeras resurser som redan finn
 
       >[!NOTE]
       >
-      >Om du vill söka efter Instagram efter företagsanvändare måste både du och innehållsförfattaren för Instagram ha ett Instagram-affärskonto.
+      >Om du vill söka i Instagram efter företagsanvändare måste både du och Instagram innehållsförfattare ha ett Instagram-företagskonto.
 
    * **[!UICONTROL Top Tags Search]**: Sök efter det populäraste mediet som taggats med en specifik hashtagg. De vanligaste taggarna avgörs av villkoren som beskrivs här: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
 
