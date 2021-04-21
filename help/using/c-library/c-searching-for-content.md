@@ -1,18 +1,14 @@
 ---
 description: Sök efter innehåll efter URL för att spara i ditt resursbibliotek.
-seo-description: Sök efter innehåll efter URL för att spara i ditt resursbibliotek.
-seo-title: Sök efter URL
-solution: Experience Manager
 title: Sök efter URL
-uuid: 45be6a85-e615-46c6-9601-82df02839315
+exl-id: 24744ab8-6077-4595-a46d-7496ee0ca0b5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # Sök på URL{#search-by-url}
 
@@ -24,5 +20,4 @@ Den returnerade informationen visar en kortsammanfattning av sidan, inklusive de
 
 >[!NOTE]
 >
->För Instagram-sökningar med hjälp av URL-fältet returneras författaren som &quot;Instagram&quot;.
-
+>För Instagram-sökningar i URL-fältet returneras författaren som&quot;Instagram&quot;.
