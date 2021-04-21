@@ -1,34 +1,30 @@
 ---
 description: Dela innehåll eller innehåll från en annan användare till Facebook, Twitter eller LinkedIn.
-seo-description: Dela innehåll eller innehåll från en annan användare till Facebook, Twitter eller LinkedIn.
-seo-title: Delning via sociala medier
-solution: Experience Manager
 title: Delning via sociala medier
-uuid: 3fd8a628-2414-45b5-b91c-2ad33aad2634
+exl-id: 3950fd0c-a121-450a-b9f2-07a0737c2d9b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
-
 
 # Delning via sociala medier{#social-sharing}
 
 Dela innehåll eller innehåll från en annan användare till Facebook, Twitter eller LinkedIn.
 
-Med delning via sociala medier kan din community dela sina tankar från din app med sina vänner i sociala nätverk, inklusive Facebook, Twitter och LinkedIn, och dela andra användares innehåll till Facebook och Twitter. Genom att aktivera delning via sociala medier kan communityn sprida den bästa responsen till ert innehåll och få ut mer trafik till er webbplats.
+Med delning via sociala medier kan communityn dela sina tankar från appen med sina vänner i sociala nätverk, inklusive Facebook, Twitter och LinkedIn, och dela andra användares innehåll med Facebook och Twitter. Genom att aktivera delning via sociala medier kan communityn sprida den bästa responsen till ert innehåll och få ut mer trafik till er webbplats.
 
 ## Dela innehåll till sociala nätverk {#section_t1q_mz2_wy}
 
-Du kan konfigurera ditt nätverk så att användare kan dela till Twitter, Facebook eller LinkedIn när de publicerar innehåll i dina Livefyre-appar. Standardvärdet för Livefyre **[!UICONTROL Share Modal]** innehåller länkar till alla tre webbplatserna. Du kan anpassa det här modala språket med API:t Post To för att åsidosätta Livefyre-standardinställningen och implementera ditt eget. Mer information finns i Avancerade avsnitt > Aktivera delning via sociala medier.
+Du kan konfigurera ditt nätverk så att användare kan dela till Twitter, Facebook eller LinkedIn när de publicerar innehåll i Livefyre-appar. Standardvärdet för Livefyre **[!UICONTROL Share Modal]** innehåller länkar till alla tre webbplatserna. Du kan anpassa det här modala språket med API:t Post To för att åsidosätta Livefyre-standardinställningen och implementera ditt eget. Mer information finns i Avancerade avsnitt > Aktivera delning via sociala medier.
 
-När användare klickar på **[!UICONTROL Share]** för att publicera sina kommentarer i sociala nätverk (Facebook, Twitter eller LinkedIn) uppmanas de att logga in via den sociala appen. (Listan med tillgängliga delningsalternativ kan anpassas. Som standard visas kryssrutor för delning på Facebook och Twitter i alla appar.) För anpassade nätverk bör de sociala apparna konfigureras som dina sociala appar. Som en del av integreringsprocessen lägger du till programinloggningsuppgifter via sidan Integreringsinställningar i Studio.
+När användare klickar på **[!UICONTROL Share]** för att publicera sina kommentarer i sociala nätverk (Facebook, Twitter eller LinkedIn) uppmanas de att logga in via den sociala appen. (Listan med tillgängliga delningsalternativ kan anpassas. Som standard visas kryssrutor för delning mellan Facebook och Twitter i alla program.) För anpassade nätverk bör de sociala apparna konfigureras som dina sociala appar. Som en del av integreringsprocessen lägger du till programinloggningsuppgifter via sidan Integreringsinställningar i Studio.
 
 >[!NOTE]
 >
->LinkedIn inkluderas som standard i Livefyre Community-kommentarer. Anpassade nätverk måste ange värdet&quot;li&quot; när de bäddar in appen för att aktivera knappen LinkedIn i kommentarverktygsfältet. (Mer information finns i Aktivera delning via sociala medier i utvecklardokumenten.)
+>linkedIn ingår som standard i Livefyre Community Comments. Anpassade nätverk måste ange värdet&quot;li&quot; när de bäddar in appen för att aktivera LinkedIn-knappen i kommentarverktygsfältet. (Mer information finns i Aktivera delning via sociala medier i utvecklardokumenten.)
 
 ## Dela andra användares innehåll med sociala nätverk {#section_blw_vy2_wy}
 
@@ -36,8 +32,8 @@ När du klickar på **[!UICONTROL Share]** på en annan användares inlägg öpp
 
 Genom att klicka på **[!UICONTROL Share]** för ett inlägg:
 
-* Användarna kan ansluta till sina sociala nätverk genom att klicka på Twitter- eller Facebook-ikonerna.
-* När du har auktoriserat sidan att publicera i användarens sociala nätverk, kommer knapparna på Twitter eller Facebook att visas så att användaren vet att de är aktiva.
+* Användarna kan ansluta till sina sociala nätverk genom att klicka på ikonerna för Twitter eller Facebook.
+* När du har auktoriserat sidan att publicera i användarens sociala nätverk öppnas knapparna i Twitter eller Facebook så att användaren vet att de är aktiva.
 * Användarna kan anpassa innehållet i delningsrutan.
 * Om du klickar på **[!UICONTROL Share]** skickas innehåll till användarens aktiva sociala nätverk, med en länk som tar andra till exakt det inlägg som användaren vill dela.
 * Användare kan också välja att dela en länk till en viss kommentar genom att klistra in Permalink i ett e-postmeddelande, blogginlägg eller socialt nätverk.
@@ -50,8 +46,8 @@ När du klickar på **[!UICONTROL Share]** på en annan användares inlägg öpp
 
 Genom att klicka på **[!UICONTROL Share]** för ett inlägg:
 
-* Användarna kan ansluta till sina sociala nätverk genom att klicka på Twitter- eller Facebook-ikonerna.
-* När du har auktoriserat sidan att publicera i användarens sociala nätverk, kommer knapparna på Twitter eller Facebook att visas så att användaren vet att de är aktiva.
+* Användarna kan ansluta till sina sociala nätverk genom att klicka på ikonerna för Twitter eller Facebook.
+* När du har auktoriserat sidan att publicera i användarens sociala nätverk öppnas knapparna i Twitter eller Facebook så att användaren vet att de är aktiva.
 * Användarna kan anpassa innehållet i delningsrutan.
 * Om du klickar på **[!UICONTROL Share]** skickas innehåll till användarens aktiva sociala nätverk, med en länk som tar andra till exakt det inlägg som användaren vill dela.
 * Användare kan också välja att dela en länk till en viss kommentar genom att klistra in Permalink i ett e-postmeddelande, blogginlägg eller socialt nätverk.
@@ -76,4 +72,3 @@ Program som använder den här funktionen:
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [Trender](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
-
