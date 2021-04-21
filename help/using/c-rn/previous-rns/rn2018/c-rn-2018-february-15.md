@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för februari 2018-utgåvan.
-seo-description: Versionsinformation för februari 2018-utgåvan.
-seo-title: 15 februari 2018
-solution: Experience Manager
 title: 15 februari 2018
-uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
+exl-id: 7276de37-c8cd-4e85-bc92-90c272e5bf94
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # 15 februari 2018{#february}
 
@@ -44,7 +40,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Problem | ModQ | Korrigerade ett problem där Instagram-inlägg som markerats som godkända eller hashas återgick till kön. |
-| Förbättring | Rights Management | En förbättring har lagts till för att visa en varning vid försök att använda instagramkonton som har gått ut när rättighetsbegäranden görs. |
+| Förbättring | Rights Management | En förbättring har lagts till för att visa en varning vid försök att använda utgångna Instagram-konton när rättighetsbegäranden görs. |
 | Problem | Trender | Korrigerade ett problem med Trends App som fortfarande tillåter HTTP vid olika tillfällen i stället för HTTPS. |
 
 ## UAT-release
@@ -54,4 +50,3 @@ Problemen i följande tabeller löstes i den här versionen.
 | Förbättring | Appar | Lagt till möjligheten att ta bort appar från Livefyre. |
 | Problem | Omröstningar | Ändrade omröstningar så att enbart HTTPS används. Tidigare tilläts omröstningar fortfarande användas med HTTP. |
 | Problem | UGC | Ett problem har korrigerats där UGC i en visualiseringsapp inte filtrerade efter produkt-ID som förväntat. |
-
