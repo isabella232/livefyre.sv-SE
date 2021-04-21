@@ -1,17 +1,14 @@
 ---
 description: Paketet Livefyre.js Auth ser till att alla sociala komponenter på sidan kan upptäcka en enda autentiseringsintegrering.
-seo-description: Paketet Livefyre.js Auth ser till att alla sociala komponenter på sidan kan upptäcka en enda autentiseringsintegrering.
-seo-title: Initiera Livefyre-identitet
 title: Initiera Livefyre-identitet
-uuid: 9365d827-2734-4a84-bfe7-9be573b2b03e
+exl-id: 9990d284-a21e-49fb-932c-62906b41484a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # Initiera Livefyre-identitet{#initialize-livefyre-identity}
 
