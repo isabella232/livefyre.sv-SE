@@ -1,18 +1,14 @@
 ---
 description: CSS-klasser som är tillgängliga för dina Storify-appar.
-seo-description: CSS-klasser som är tillgängliga för dina Storify-appar.
-seo-title: Storify CSS Classes
-solution: Experience Manager
 title: Storify CSS Classes
-uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
+exl-id: b0e61aaf-0da9-45fa-9ce3-3c633940480d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
-
 
 # Storify CSS Classes{#storify-css-classes}
 
@@ -77,7 +73,7 @@ Här kan du anpassa format för elementen i artikeln.
 | .s-element-text blockquote:after | Ikonen för slutet av ett blockcitat |
 | .s-element-image | Elementbehållare för infogad bild |
 | .s-img | `<img>` element |
-| .s-image-caption | Bildtext för bilder och videor som finns på sociala medier (t.ex.: Instagrambild) |
+| .s-image-caption | Bildtext för bilder och videor som finns på sociala medier (t.ex.: Instagram-bild) |
 | .s-upload-image-caption | Bildtext för bilder och videor som överförts via Textbehandlaren |
 | .s-element-video | Videoelement |
 | .s-element-quote | Offertelement (t.ex.: Tweet (endast med text) |
