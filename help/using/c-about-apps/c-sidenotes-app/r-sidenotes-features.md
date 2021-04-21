@@ -1,18 +1,14 @@
 ---
 description: Sidenotes-appen har dessa funktioner för din webbplats.
-seo-description: Sidenotes-appen har dessa funktioner för din webbplats.
-seo-title: Sidenotes-funktioner
-solution: Experience Manager
 title: Sidenotes-funktioner
-uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
+exl-id: 94830b1a-0faa-43f4-aec4-17c44adf0d0f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
-
 
 # Sidenotes Features{#sidenotes-features}
 
@@ -27,5 +23,4 @@ Sidenotes-appen har dessa funktioner för din webbplats.
 * Läs andras kommentarer genom att klicka på tankebubblan i Livefyre som visar hur många kommentarer som finns på en del av sidan.
 * Svara på befintliga sidenotes.
 * Rösta om hur användbar anteckningen är och skicka därför mer användbar information högst upp i listan över anteckningar.
-* Dela specifika sidobjekt på Facebook eller Twitter genom att klicka på de ellipser som visas när du hovrar över anteckningen.
-
+* Dela specifika sidobjekt till Facebook eller Twitter genom att klicka på de ellipser som visas när du hovrar över anteckningen.
