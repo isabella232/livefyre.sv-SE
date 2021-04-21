@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för versionen från 27 april 2017.
-seo-description: Versionsinformation för versionen från 27 april 2017.
-seo-title: 27 april 2017
 title: 27 april 2017
-uuid: 30284115-92c0-4a85-acdb-adc70605ed5f
+exl-id: ebafb0ee-bb72-4187-ae35-316135434740
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '300'
 ht-degree: 1%
 
 ---
-
 
 # 27 april 2017{#april}
 
@@ -39,4 +36,3 @@ Versionsinformation för versionen från 27 april 2017.
 | Förbättring | API | Ett nytt API har släppts för att hämta appinbäddningskoder. Mer information finns på https://api.livefyre.com/docs/apis/by-category/apps. |
 | Fel | Resursbibliotek | Korrigerade ett fel som kopplade den första sidan i biblioteksresultatet till 10 resurser. |
 | Förbättring | Studio | Förbättrad kontrast i olika komponenter i Studio för enklare synlighet. |
-
