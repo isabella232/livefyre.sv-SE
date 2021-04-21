@@ -1,18 +1,14 @@
 ---
 description: Lär dig hur du skapar Livefyre-tokens med språket "C#".
-seo-description: Lär dig hur du skapar Livefyre-tokens med språket "C#".
-seo-title: Skapar Livefyre-token`C#`
-solution: Experience Manager
 title: Skapar Livefyre-token`C#`
-uuid: c5e05625-8550-4b51-9211-134600e20ec7
+exl-id: 6360c325-0c3f-4ecb-90f7-951ef4e6f410
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
-
 
 # Skapar Livefyre-token C\# {#creating-livefyre-tokens-c}
 
