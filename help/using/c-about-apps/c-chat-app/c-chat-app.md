@@ -1,18 +1,14 @@
 ---
 description: Aktivera chatt i realtid på era webbplatser.
-seo-description: Aktivera chatt i realtid på era webbplatser.
-seo-title: Chatt
-solution: Experience Manager
 title: Chatt
-uuid: 1da65e9a-736c-46d3-87e1-371b77f94661
+exl-id: 0ddd0b43-2bfc-49ec-a7cd-95855e559764
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # Chatt{#chat}
 
@@ -23,4 +19,3 @@ Med chatt kan målgrupper engagera sig i realtidskonversationer om live-event, m
 Fox News använde Chat för att fånga åskådarnas åsikter och reflektioner kring valet av påven Bergoglio. Fox News visste att det skulle bli en ökning av relevant och aktivt deltagande och lanserade en chatt inom några minuter efter meddelandet för att skapa en direkt konversation.
 
 ![](assets/chat_example.png)
-
