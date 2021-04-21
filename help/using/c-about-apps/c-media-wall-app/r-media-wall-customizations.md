@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för Media Wall-appen.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för Media Wall-appen.
-seo-title: Anpassningar av medieväggen
-solution: Experience Manager
 title: Anpassningar av medieväggen
-uuid: 79aecd92-3937-4bb4-a1a6-b090fb39afb0
+exl-id: bc34d8da-9e14-4226-b38d-128889bc31cc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
-
 
 # Anpassningar av medieväggen{#media-wall-customizations}
 
@@ -82,4 +78,3 @@ Du kan anpassa medievägg med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se [Integrering av medievägg](/help/implementation/c-app-integrations/c-media-wall-integration.md) för mer information om hur du anpassar en medievägg med integreringsverktyg.
-
