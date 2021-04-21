@@ -1,22 +1,18 @@
 ---
-description: Aktivera Livefyre Identity-paketet så att dina användare kan logga in på Livefyre-apparna via e-post, Twitter, Facebook, Yahoo! eller Google-inloggning.
-seo-description: Aktivera Livefyre Identity-paketet så att dina användare kan logga in på Livefyre-apparna via e-post, Twitter, Facebook, Yahoo! eller Google-inloggning.
-seo-title: Aktivera Livefyre-identitet
-solution: Experience Manager
+description: Aktivera Livefyre Identity-paketet så att användarna kan logga in på Livefyre-apparna via e-post, Twitter, Facebook, Yahoo! eller Google.
 title: Aktivera Livefyre-identitet
-uuid: 9bb5e168-4596-42a7-9105-e09c65c5e3ae
+exl-id: 5eda2be7-26fd-4730-a1ad-95421c773cbe
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-
 # Aktivera Livefyre-identitet{#enable-livefyre-identity}
 
-Aktivera Livefyre Identity-paketet så att dina användare kan logga in på Livefyre-apparna via e-post, Twitter, Facebook, Yahoo! eller Google-inloggning.
+Aktivera Livefyre Identity-paketet så att användarna kan logga in på Livefyre-apparna via e-post, Twitter, Facebook, Yahoo! eller Google.
 
 Så här aktiverar du den här funktionen:
 
