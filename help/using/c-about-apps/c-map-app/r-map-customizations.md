@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för appen Karta.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för appen Karta.
-seo-title: Kartanpassningar
-solution: Experience Manager
 title: Kartanpassningar
-uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
+exl-id: 71d3bb65-cd10-48c6-bf6b-8442b0fdb891
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # Kartanpassningar{#map-customizations}
 
@@ -59,4 +55,3 @@ Du kan anpassa appen Karta med:
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Se Karta för mer information om hur du anpassar program med integreringsverktyg.
-
