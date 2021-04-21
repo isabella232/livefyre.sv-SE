@@ -1,18 +1,14 @@
 ---
 description: Ändra storlek, bredd och interaktionsalternativ för Carousel-appen.
-seo-description: Ändra storlek, bredd och interaktionsalternativ för Carousel-appen.
-seo-title: Anpassa en Carousel med Studio
-solution: Experience Manager
 title: Anpassa en Carousel med Studio
-uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
+exl-id: f6f681ac-c601-40b9-9e99-bf5495f505f8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # Anpassa en Carousel med Studio{#customize-a-carousel-using-studio}
 
