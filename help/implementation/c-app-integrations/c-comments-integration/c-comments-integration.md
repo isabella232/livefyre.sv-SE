@@ -1,18 +1,14 @@
 ---
 description: Aktivera live-kommentarer på sidan.
-seo-description: Aktivera live-kommentarer på sidan.
-seo-title: Kommentarer
-solution: Experience Manager
 title: Kommentarer
-uuid: decad9b0-2074-4748-bd77-914008817bfa
+exl-id: d62b3dc1-3c5e-45f6-9b21-ea1edcda9812
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
-
 
 # Kommentarer{#comments}
 
@@ -121,7 +117,7 @@ Objektet `ConvConfig` kan även innehålla följande valfria parametrar:
 | **initialNumVisible** | ** valfritt heltal | Gör att du kan ange det standardantal kommentarer som visas i appen vid inläsning. Detta kan vara ett heltal mellan 1 och 50. |
 | **initialNumVisibleLegacy** | ** valfritt heltal | Gör att du kan ange standardantalet äldre innehållsobjekt som visas i appen vid inläsning. Detta kan vara ett heltal mellan 1 och 50. Om den här parametern inte anges används initialNumVisible som standard.  Till exempel: Om din samling innehåller 100 aktiva och 100 äldre kommentarer anger du initialNumVisible:10 och initialNumVisibleLegacy:5 för att visa 10 aktiva kommentarer (med knappen Visa mer) + 5 arkivkommentarer (med knappen Visa mer). |
 | **maxVisible** | ** valfritt heltal | Anger det maximala antalet synliga delar av innehåll på översta nivån i chattappen. Om nya innehållsdelar direktuppspelas i tas innehåll längst ned i flödet bort från sidan. Om du klickar på knappen Visa fler.. ignoreras parametern och användaren kan visa så mycket innehåll som du vill. (Använd den här parametern för att styra antalet objekt som visas på sidan i strömmar med hög hastighet.) |
-| **postToButtons** | ** optionalarray | Används för att konfigurera vilka leverantörer som ska visas när du bäddar in Live Blog App. Tillgängliga alternativ är två (Twitter), fb (Facebook) och li (LinkedIn). Standardvärdet är [ tw, fb ]. |
+| **postToButtons** | ** optionalarray | Används för att konfigurera vilka leverantörer som ska visas när du bäddar in Live Blog App. Det finns två alternativ (Twitter), fb (Facebook) och li (LinkedIn). Standardvärdet är [ tw, fb ]. |
 | **readOnly** | ** valfri boolesk | Inaktiverar all interaktivitet för samlingen. Om värdet är true kan användarna inte logga in i strömmen och kan inte publicera, redigera, svara på eller gilla-innehåll. När värdet är true kan användarna flagga och dela innehåll. Standardvärdet är false. |
 | **stream** | ** alternativt objekt | Innehåller alternativ för att konfigurera direktuppspelning av appen. |
 | **stream.catchup** | ** valfritt heltal | Anger antalet sekunder som strömmen ska läsas in innan den aktuella tidpunkten. Som standard läser Livefyre in 50 innehållsdelar och läser sedan in allt innehåll som skickas mellan dessa och den aktuella tiden. I mycket snabba fall kan innehåll publiceras för snabbt för att appen ska kunna&quot;hinna ifatt&quot;. Använd den här inställningen för att definiera hur många sekunder före nu som innehållet ska bokföras (efter den första inläsningen av innehållet). |
