@@ -1,18 +1,14 @@
 ---
 description: Anpassa alla textsträngar i appen för internationalisering eller branding.
-seo-description: Anpassa alla textsträngar i appen för internationalisering eller branding.
-seo-title: Översättning och anpassade textsträngar
-solution: Experience Manager
 title: Översättning och anpassade textsträngar
-uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
+exl-id: 23018217-6bf8-415e-8801-584b0492734b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
-
 
 # Översättning och anpassade textsträngar{#translation-and-custom-text-strings}
 
@@ -36,4 +32,3 @@ Program som använder den här funktionen:
 * [Sidenotes](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Trender](../c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [Knappen Överför](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
