@@ -1,18 +1,14 @@
 ---
 description: Arbeta med Livefyres sociala användarhanteringssystem.
-seo-description: Arbeta med Livefyres sociala användarhanteringssystem.
-seo-title: Livefyre-identitet
-solution: Experience Manager
 title: Livefyre-identitet
-uuid: 5e9219b4-fbd7-40c6-9d57-129bb0649714
+exl-id: 1e6149b6-dcdb-4e2a-a19d-06b24fe1288a
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # Använd Livefyre-identitet{#livefyre-identity}
 
@@ -31,5 +27,4 @@ Så här lägger du till social inloggning i Livefyre-integreringen:
 
 >[!NOTE]
 >
->I det här dokumentet listas Livefyre-specifika aspekter för den sociala leverantörens appskapandeprocess. Livefyre ansvarar inte för några ändringar i gränssnittet och Livefyre kan inte heller hjälpa till med att skapa dessa appar eller deras godkännandeprocess. Använd tillgänglig information om Twitter, Facebook, Yahoo! och Google-utvecklare för att skapa de här apparna och navigera i deras godkännandeprocess (om det behövs).
-
+>I det här dokumentet listas Livefyre-specifika aspekter för den sociala leverantörens appskapandeprocess. Livefyre ansvarar inte för några ändringar i gränssnittet och Livefyre kan inte heller hjälpa till med att skapa dessa appar eller deras godkännandeprocess. Använd tillgänglig information om Twitter, Facebook, Yahoo! och Google-utvecklare för att skapa de här apparna och navigera i godkännandeprocessen (om det behövs).
