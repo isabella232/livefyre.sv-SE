@@ -1,18 +1,14 @@
 ---
 description: Anpassa formatet och hur kommentarerna visas på bloggen.
-seo-description: Anpassa formatet och hur kommentarerna visas på bloggen.
-seo-title: Live Blog-anpassningar
-solution: Experience Manager
 title: Live Blog-anpassningar
-uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
+exl-id: 388b700b-c7bc-47ef-a0f3-dac0b01fcb2b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Live-blogganpassningar{#live-blog-customizations}
 
@@ -60,11 +56,10 @@ Med Live Blog kan du lägga upp uppdateringar i realtid av pågående artiklar o
 
 * **[!UICONTROL Users may share comments]**
 
-   Om det här alternativet är aktiverat kan användare dela publicerat innehåll på Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
+   Om det här alternativet är aktiverat kan användare dela publicerat innehåll till Twitter, Facebook eller LinkedIn. Mer information om hur du aktiverar delning finns i Inställningar > Integreringsinställningar > Delning via sociala medier.
 
 Du kan anpassa Live-bloggen med:
 
 * **[!UICONTROL Style]** och  **[!UICONTROL Config]** alternativ för alla program i  **[!UICONTROL App Designer]**. Mer information om standardalternativen **[!UICONTROL Style]** och **[!UICONTROL Config]** för alla program i **[!UICONTROL App Designer]** finns i Anpassa appar.
 
 * Integreringsverktyg. Mer information om hur du anpassar appar med integreringsverktygen finns i Live-bloggen.
-
