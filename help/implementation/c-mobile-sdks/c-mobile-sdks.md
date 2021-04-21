@@ -1,18 +1,14 @@
 ---
 description: Lägg till Livefyre i era mobilappar.
-seo-description: Lägg till Livefyre i era mobilappar.
-seo-title: SDK för mobiler
-solution: Experience Manager
 title: SDK för mobiler
-uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
+exl-id: e05001a4-6199-4d98-a661-123e031b657b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
-
 
 # SDK för mobiler{#mobile-sdks}
 
@@ -66,4 +62,3 @@ HTTP-API:erna är den grupp slutpunkter som du kan använda för att skapa konve
 >[!IMPORTANT]
 >
 >**Skapa** inte autentiseringstoken för användare i den mobila klienten eftersom du då måste visa den hemliga nätverksnyckeln för Livefyre i en oskyddad app. En mer robust och säker lösning finns i avsnittet för token för användarautentisering.
-
