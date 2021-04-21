@@ -1,18 +1,14 @@
 ---
 description: Installera autentiseringspaketet för att aktivera användarautentisering så att användarna kan interagera med dina appar.
-seo-description: Installera autentiseringspaketet för att aktivera användarautentisering så att användarna kan interagera med dina appar.
-seo-title: Autentiseringspaket
-solution: Experience Manager
 title: Autentiseringspaket
-uuid: 4eec30cf-66b6-408d-985d-3e23b8b70d01
+exl-id: 639032ee-ed7d-4cb0-83ba-f11d3dc607b6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
-
 
 # Autentiseringspaket{#authentication-package}
 
@@ -44,4 +40,3 @@ När autentiseringsmodulen har inkluderats enligt ovan med `Livefyre.require`, v
 | `.logout(callback)` | Meddela autentiseringen att slutanvändaren har loggat ut på något externt sätt och att alla förlitande appar ska rensa autentiseringsstatusen fram till nästa inloggning. Detta rensar den interna sessionen som underhålls av Auth. |
 | `.authenticate(credentials)` | Meddela Auth att en användare har autentiserats på något externt sätt och att en Livefyre Authentication Token har erhållits för slutanvändaren. Använd det här alternativet om du anger en cookie med Livefyre-token, eller om du har en token för användaren och vill logga in användaren explicit. Exempel: <br>`auth.authenticate({&nbsp;livefyre:&nbsp;`<br>`'<insert&nbsp;lftoken&nbsp;string&nbsp;for&nbsp;newly&nbsp;logged-in&nbsp;user>'&nbsp;});` |
 | `.delegate(authDelegate)` | Delegera implementeringsinformationen för autentisering (till exempel ditt anpassade autentiseringsflöde) till ett objekt som du definierar. Detta måste anropas av värdsidan för att aktivera interaktiva funktioner i Livefyre-appar. |
-
