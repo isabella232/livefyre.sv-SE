@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för versionen från 26 april 2018.
-seo-description: Versionsinformation för versionen från 26 april 2018.
-seo-title: 26 april 2018
-solution: Experience Manager
 title: 26 april 2018
-uuid: a84ebe5c-40d5-43b5-a300-3e041ab22046
+exl-id: af0ee64d-d60c-4b21-a628-08848313781c
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 # 26 april 2018{#april}
 
@@ -38,7 +34,7 @@ Problemen i följande tabeller löstes i den här versionen.
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Fel | Rights Management | Ett problem har korrigerats där rättighetsförfrågningar inte fungerade för resurser efter att de hade hittats i en social sökning. |
-| Förbättring | Strömmar | Uppdaterade strömningsfunktionen som tillåter att innehåll strömmas från Facebook för att följa en backend-ändring som skapats av Facebook. |
+| Förbättring | Strömmar | Den strömningsmekanism som gör att innehåll kan strömmas från Facebook för att följa en backend-ändring som skapats av Facebook har uppdaterats. |
 | Fel | UGC Commerce | Ett problem har korrigerats där CTA-knappen &quot;Shop&quot; inte visades i en Mosaic- eller bildbandsapp eller i en produkt när du hovrar över ett kort med en produkt när CTA-knappen är aktiverad. |
 | Förbättring | UGC Commerce | Ett problem har korrigerats där UGC Commerce-flaggan var inställd på &quot;off&quot; som standard i stället för &quot;on&quot;. |
 
@@ -48,4 +44,3 @@ Problemen i följande tabeller löstes i den här versionen.
 |---|---|---|
 | Fel | Bibliotek/sökning | Ett problem med att videoklipp inte överfördes korrekt har korrigerats. |
 | Förbättring | Studio | Lagt till möjlighet att se föreslagna ord när du skriver i taggnamn. |
-
