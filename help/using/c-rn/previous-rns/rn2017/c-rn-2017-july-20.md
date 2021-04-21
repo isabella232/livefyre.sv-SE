@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för versionen från 20 juli 2017.
-seo-description: Versionsinformation för versionen från 20 juli 2017.
-seo-title: 20 juli 2017
 title: 20 juli 2017
-uuid: 550815a9-a6e2-4e98-b5d6-7f4897373716
+exl-id: 1bf17703-0913-41f0-a897-ba8323992f71
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
-
 
 # 20 juli 2017{#july}
 
@@ -43,8 +40,7 @@ I följande tabeller visas versionsinformationen för produktion och UAT för ve
 
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
-| Fel | Carousel | Korrigerade ett fel som orsakade att Instagram Carousel-inlägg utan bildtexter hämtades till Studio. |
-| Förbättring | Storify 2 | Facebook-kommentarer har tagits bort av sökalternativet ID i Storify Search på grund av att funktionen är inaktuell. |
-| Fel | Storify 2 | Förbättrade stabiliteten i att hämta Facebook-kommentarer via URL-resultat i Storify 2. |
+| Fel | Carousel | Korrigerade ett fel som gjorde att Instagram Carousel-inlägg utan bildtexter hämtades till Studio. |
+| Förbättring | Storify 2 | Alternativet Facebook Comments by ID-sökning i Storify Search har tagits bort på grund av att Facebook har ersatt funktionen. |
+| Fel | Storify 2 | Förbättrade stabiliteten vid hämtning av Facebook-kommentarer via URL-resultat i Storify 2. |
 | Fel | Strömmar | Korrigerade ett fel som orsakade att textpiller i textrutorna för formatregelkonfiguration togs bort när användaren klickade. |
-
