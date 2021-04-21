@@ -1,18 +1,14 @@
 ---
 description: Lägg till en livlig och dynamisk vägg med färger, foton och videor på webbplatsen med en Mosaic-app.
-seo-description: Lägg till en livlig och dynamisk vägg med färger, foton och videor på webbplatsen med en Mosaic-app.
-seo-title: Mosaik
-solution: Experience Manager
 title: Mosaik
-uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
+exl-id: 79259c77-169d-4819-a7b0-39f64d92ea1e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
 
 # Mosaik{#mosaic}
 
@@ -103,4 +99,3 @@ Lokalisering är tillgängligt för Mosaik. Du kan:
 * Skapa och ändra en översättningsuppsättning för Mosaik
 * Tillämpa en översättningsuppsättning på en webbplats
 * Använda en översättningsuppsättning på ett nätverk
-
