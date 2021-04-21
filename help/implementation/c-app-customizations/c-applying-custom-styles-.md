@@ -1,18 +1,14 @@
 ---
 description: Om du vill anpassa formatinnehåll för användargrupper måste du först lägga till en användartagg i kontot och sedan formatera innehållet med CSS.
-seo-description: Om du vill anpassa formatinnehåll för användargrupper måste du först lägga till en användartagg i kontot och sedan formatera innehållet med CSS.
-seo-title: Använda anpassade format
-solution: Experience Manager
 title: Använda anpassade format
-uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
+exl-id: 54692525-32ce-487a-b3c3-da1261b58da1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Använda anpassade format{#applying-custom-styles}
 
@@ -82,4 +78,3 @@ Använd CSS-klassens fyre-author-tag-****&lt;your_group>*** eller fyre-tag-autho
     padding-top: 4px; 
 }
 ```
-
