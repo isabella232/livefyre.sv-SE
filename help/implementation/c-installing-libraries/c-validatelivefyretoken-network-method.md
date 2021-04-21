@@ -1,18 +1,14 @@
 ---
 description: Kontrollerar om en Livefyre-token fortfarande är giltig för det här nätverket. Returnerar ett booleskt värde.
-seo-description: Kontrollerar om en Livefyre-token fortfarande är giltig för det här nätverket. Returnerar ett booleskt värde.
-seo-title: validateLivefyreToken-nätverksmetod
-solution: Experience Manager
 title: validateLivefyreToken-nätverksmetod
-uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
+exl-id: c311005d-65fa-4f82-b482-8d173d6275cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
-
 
 # validateLivefyreToken-nätverksmetod{#validatelivefyretoken-network-method}
 
@@ -81,4 +77,3 @@ Exempelutdata:
 ```
 true 
 ```
-
