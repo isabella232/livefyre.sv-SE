@@ -1,18 +1,14 @@
 ---
 description: Returnerar en krypterad användarautentiserad token för det nätverk den anropas från.
-seo-description: Returnerar en krypterad användarautentiserad token för det nätverk den anropas från.
-seo-title: buildUserAuthToken-nätverksmetod
-solution: Experience Manager
 title: buildUserAuthToken-nätverksmetod
-uuid: 8828d356-c3c6-46a6-91bf-83bd59e35050
+exl-id: dcc61c4b-90d9-42a0-9f46-73a843a4ad78
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # buildUserAuthToken-nätverksmetod{#builduserauthtoken-network-method}
 
