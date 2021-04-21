@@ -1,17 +1,14 @@
 ---
 description: Moderera innehåll som kommer från en ström med biblioteket.
-seo-description: Moderera innehåll som kommer från en ström med biblioteket.
-seo-title: Moderera innehåll från en ström
 title: Moderera innehåll från en ström
-uuid: 38faf651-c547-49b3-b3d1-1a1d65c0f81c
+exl-id: 60111467-be63-4236-a06a-eb59b4c29bbe
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # Moderera innehåll från en ström{#moderate-content-from-a-stream}
 
@@ -34,7 +31,7 @@ Muspekaren över kommentarsutrymmet och följande modereringsalternativ visas:
 * **[!UICONTROL Bozo:]** Skapar innehåll för författaren. För Sidenotes kan användare bara vara Bozo’d inifrån Studio, inte inifrån strömmen.
 * **[!UICONTROL Delete:]** Tar bort innehållet från tråden.
 * **[!UICONTROL Flag:]** Öppnar en spärrflagga, så att du kan välja en flagga för innehållet (Spam, Offensive, Disagree eller Off-Topic), ange en e-postadress att koppla till flaggan, om du vill, och lägg till en anteckning.
-* **[!UICONTROL Share:]** Öppnar ett delningsalternativ, som gör att du kan dela på Facebook eller Twitter, redigera texten och inkludera en permanent länk till själva innehållet.
+* **[!UICONTROL Share:]** Öppnar ett delningsalternativ, som gör att du kan dela till Facebook eller Twitter, redigera texten och inkludera en permanent länk till själva innehållet.
 * **[!UICONTROL Feature:]** Innehåller.
 
 
@@ -46,4 +43,3 @@ Program som använder den här funktionen:
 * [Recensioner](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-
