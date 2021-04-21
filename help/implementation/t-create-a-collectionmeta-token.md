@@ -1,18 +1,14 @@
 ---
 description: Skapa en ny samling genom att skapa en collectionMeta-token som skickas till Livefyre.
-seo-description: Skapa en ny samling genom att skapa en collectionMeta-token som skickas till Livefyre.
-seo-title: Skapa en samling med CollectionMeta-token
-solution: Experience Manager
 title: Skapa en samling med CollectionMeta-token
-uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
+exl-id: d2dafc90-de21-4998-8e85-83f970524329
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en samling med CollectionMeta Token{#create-a-collection-using-the-collectionmeta-token}
 
