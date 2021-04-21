@@ -1,18 +1,14 @@
 ---
 description: Spåra klickningar från hänvisningstrafik till sidan.
-seo-description: Spåra klickningar från hänvisningstrafik till sidan.
-seo-title: Referensspårning
-solution: Experience Manager
 title: Referensspårning
-uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
+exl-id: 9955d4a4-184d-421f-bcde-b19342b0b181
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # Hänvisningsspårning{#referral-tracking}
 
@@ -28,7 +24,7 @@ Hänvisningstrafiken för Livefyre från sociala nätverk och e-postmeddelanden 
 
 ## Implementeringsexempel {#section_xvs_x44_xz}
 
-Om trafiken kom från ett StreamHub-drivet meddelande kommer det att finnas en hubbRefSrc-frågesträngsparameter med värdet för e-post, Facebook, twitter, länkad eller permanent länk. Parameternamnet hubRefSrc kan konfigureras på nätverksnivå av ditt Livefyre-leveransteam.
+Om trafiken kom från ett StreamHub-drivet meddelande kommer det att finnas en hubbRefSrc-frågesträngsparameter med värdet e-post, facebook, twitter, länkad eller permanent länk. Parameternamnet hubRefSrc kan konfigureras på nätverksnivå av ditt Livefyre-leveransteam.
 
 Om du vill integrera med en analysplattform måste sidan leta efter navRefSrc vid inläsning och registrera trafiken om den finns.
 
