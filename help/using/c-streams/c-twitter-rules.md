@@ -1,40 +1,36 @@
 ---
 description: Du kan skapa strömregler som hämtar innehåll från Twitter.
-seo-description: Du kan skapa strömregler som hämtar innehåll från Twitter.
-seo-title: Twitter-regler
-solution: Experience Manager
-title: Twitter-regler
-uuid: a7fd2398-fd6b-4c24-92b2-7471176d7648
+title: Twitter Rules
+exl-id: 3a5081eb-048d-4dcf-80a2-366af2cb2c86
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-
-# Twitter-regler{#twitter-rules}
+# Twitter Rules{#twitter-rules}
 
 Du kan skapa strömregler som hämtar innehåll från Twitter.
 
-Skapa Twitter-regler baserade på hashtaggar, nyckelord, @mentions eller författare.
+Skapa Twitter-regler baserat på hashtaggar, nyckelord, @mentions eller författare.
 
 Om du lägger till **[!UICONTROL Words]** och **[!UICONTROL Username]** för regeln returneras innehåll som innehåller båda posterna.
 
 >[!NOTE]
 >
->Livefyre följer riktlinjerna för Twitters webbannonsering, och kunderna ansvarar också för att följa dessa riktlinjer. Mer information finns i Twitters dokumentation om deras [krav för visning](https://dev.twitter.com/terms/display-requirements).
+>Livefyre följer Twitter riktlinjer för webbannonsering och kunderna ansvarar också för att följa dessa riktlinjer. Mer information finns i Twitter dokumentation om deras [krav](https://dev.twitter.com/terms/display-requirements).
 
-Om du vill skapa Twitter-regler för att hämta innehåll från Twitter-flöden till din app eller mapp kan du filtrera efter:
+Om du vill skapa Twitter Rules för att hämta innehåll från Twitter-flöden till din app eller mapp kan du filtrera efter:
 
 * **[!UICONTROL Keywords]**
-   * Ange **[!UICONTROL Keywords]** som ska inkluderas i eller exkluderas från Twitter-strömmen. Om du anger värden för både **[!UICONTROL Contains any of these words]**- och **[!UICONTROL Does not contain any of these words]**-fälten returneras tweets som innehåller den första och inte den andra. Flera värden kan anges för ett enskilt fält och returnerar resultat som innehåller något av värdena. Om du vill använda den booleska operatorn AND för att söka efter interpoleringar med två eller flera ord i dem använder du två et-tecken (*&amp;*) för att skilja de två orden åt.
+   * Ange **[!UICONTROL Keywords]** som ska inkluderas i eller exkluderas från din Twitter-ström. Om du anger värden för både **[!UICONTROL Contains any of these words]**- och **[!UICONTROL Does not contain any of these words]**-fälten returneras tweets som innehåller den första och inte den andra. Flera värden kan anges för ett enskilt fält och returnerar resultat som innehåller något av värdena. Om du vill använda den booleska operatorn AND för att söka efter interpoleringar med två eller flera ord i dem använder du två et-tecken (*&amp;*) för att skilja de två orden åt.
    * Om du till exempel anger nyckelorden **[!UICONTROL Contains any of these words]** Giants, Posey och **[!UICONTROL Does not contain any of these words]** nyckelordet Dodger, returneras alla Tweets som innehåller ordet *Giants* eller *Posey* och inte innehåller ordet *Dodger*.
 Om du vill söka efter tweets som innehåller båda orden *Giants* och *Posey* anger du &quot;Giants &amp;&amp; Posey&quot;. Den här funktionen stöds bara för fälten **[!UICONTROL Contains any of these words]** och **[!UICONTROL Does not contain any of these words]** i Twitter-regler.
 
 * **[!UICONTROL Hashtags]**.
-   * Ange **[!UICONTROL Hashtags]** som ska inkluderas i eller exkluderas från Twitter-strömmen. Om du anger värden för både **[!UICONTROL Contains any of these words]**- och **[!UICONTROL Does not contain any of these words]**-fälten returneras tweets som innehåller hashtaggar i det första fältet och som inte innehåller hashtaggar i det andra fältet. Du kan ange flera värden för ett enskilt fält. Strömmen returnerar resultat som innehåller något av värdena.
+   * Ange **[!UICONTROL Hashtags]** som ska inkluderas i eller exkluderas från din Twitter-ström. Om du anger värden för både **[!UICONTROL Contains any of these words]**- och **[!UICONTROL Does not contain any of these words]**-fälten returneras tweets som innehåller hashtaggar i det första fältet och som inte innehåller hashtaggar i det andra fältet. Du kan ange flera värden för ett enskilt fält. Strömmen returnerar resultat som innehåller något av värdena.
 
 * **[!UICONTROL Usernames]**
    * Ange **[!UICONTROL @mentions]** eller **[!UICONTROL authors]** för att hämta till strömmen eller exkludera från strömmen. Använd kryssrutorna för att ange om **[!UICONTROL Retweets]** eller **[!UICONTROL replies]** från valda författare också ska inkluderas.
