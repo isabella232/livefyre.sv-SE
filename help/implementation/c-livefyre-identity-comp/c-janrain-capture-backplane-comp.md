@@ -1,18 +1,14 @@
 ---
 description: Kunder som använder Janrain Capture och Backplane kan använda Livefyre Auth för enkel inloggning (SSO), vilket gör att användare kan använda dina Livefyre-appar direkt när de loggar in på din webbplats.
-seo-description: Kunder som använder Janrain Capture och Backplane kan använda Livefyre Auth för enkel inloggning (SSO), vilket gör att användare kan använda dina Livefyre-appar direkt när de loggar in på din webbplats.
-seo-title: Janrain Capture/Backplane
-solution: Experience Manager
 title: Janrain Capture/Backplane
-uuid: 776e9626-db04-4c34-adfe-681a71b552c5
+exl-id: c7e6cfef-7570-4f9c-9d2c-79f890ee5c49
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
-
 
 # Janrain Capture/Backplane{#janrain-capture-backplane}
 
@@ -95,7 +91,7 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 Nedan följer några exempel på hur en auth-delegat kan leta efter en Janrain Capture-integrering.
 
-* `errback`: Det återanrop som skickas till inloggningsmetoden för din auth-delegat
+* `errback`: Det återanrop som skickas till autentiseringsdelegatens inloggningsmetod
 * `janrain`: Referensen till din Janrain-fångstvariabel.
 * `window.Backplane`: En referens till objektet Backplan.
 
