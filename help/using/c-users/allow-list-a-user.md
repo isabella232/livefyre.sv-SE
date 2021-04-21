@@ -1,16 +1,14 @@
 ---
 description: Tillåt att en användare listas så att de kan publicera direkt i appar utan att modereras.
-solution: Experience Manager
 title: Tillåt att en användare visas
-uuid: c58f7279-5fde-419a-a833-3c639d469421
+exl-id: d291c62a-03a1-4a1e-a0b3-efeb270e519a
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # Tillåt lista en användare{#allow-list-a-user}
 
