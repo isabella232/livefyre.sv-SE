@@ -1,18 +1,14 @@
 ---
 description: Carousel-appen har dessa funktioner för din webbplats.
-seo-description: Carousel-appen har dessa funktioner för din webbplats.
-seo-title: Carousel-funktioner
-solution: Experience Manager
 title: Carousel-funktioner
-uuid: c5c95675-d7ca-4677-b293-16de5ccf0022
+exl-id: bb3555fd-e861-4100-a1ce-c6f22ca9dbfc
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # Carousel Features {#carousel-features}
 
@@ -30,4 +26,3 @@ Följande funktioner finns i Carousel:
 * [SAFE](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Översättningsuppsättningar](/help/using/c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
 * [Bidrag på plats](/help/using/c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
-
