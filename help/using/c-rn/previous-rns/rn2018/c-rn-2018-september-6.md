@@ -1,18 +1,14 @@
 ---
 description: Versionsinformation för versionen från 6 september 2018.
-seo-description: Versionsinformation för versionen från 6 september 2018.
-seo-title: 6 september 2018
-solution: Experience Manager
 title: 6 september 2018
-uuid: 8dbe8be0-cc3c-4d96-af56-1808d8555af3
+exl-id: 61a4b43e-d40f-41bf-b9cc-0303b0232c6b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
-
 
 # 6 september 2018{#september}
 
@@ -49,8 +45,8 @@ Problemen i följande tabeller löstes i produktionsversionen av den här versio
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Fel | Kommentarer | Korrigerade ett problem där ljudfiler inte spelades upp korrekt i kommentarappen. |
-| Fel | Bibliotek | Ett problem har korrigerats där en uppspelningsknapp visades vid sökning i Instagram med hjälp av biblioteks-URL:en när kortet visade en bild, inte en video. |
-| Fel | Bibliotek | Ett problem har korrigerats där publicering av innehåll till ett program som gjorts vid en sökning i Instagram-URL inte visade någon miniatyrbild. |
+| Fel | Bibliotek | Ett problem där en uppspelningsknapp visades vid sökning i Instagram med hjälp av biblioteks-URL:en när kortet visade en bild, inte en video, har åtgärdats. |
+| Fel | Bibliotek | Ett problem har korrigerats där publicering av innehåll till ett program som gjorts vid en Instagram URL-sökning inte visade någon miniatyrbild. |
 | Fel | Bibliotek | Ett problem har korrigerats där produkterna för resursen inte visades när en produkt har lagts till i en resurs, öppnat informationen för resursen och sedan klickat på konverteringsfliken. |
 
 ## UAT-version {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
@@ -60,4 +56,3 @@ Problemen i följande tabeller löstes i UAT-versionen av den här versionen.
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Fel | Social komponent: Medieöverföring | Korrigerade ett problem där användare inte kunde överföra media till bildbandet som förväntat. |
-
