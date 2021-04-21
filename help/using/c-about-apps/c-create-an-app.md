@@ -1,18 +1,14 @@
 ---
 description: Om du vill lägga till en app på webbplatsen måste du först skapa en app i Livefyre Studio.
-seo-description: Om du vill lägga till en app på webbplatsen måste du först skapa en app i Livefyre Studio.
-seo-title: Skapa en app
-solution: Experience Manager
 title: Skapa en app
-uuid: 8c2c07fb-a951-47d9-b498-4c487ee83a18
+exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en app {#create-an-app}
 
@@ -174,4 +170,3 @@ Så här tar du bort ett program:
 1. Klicka på **[!UICONTROL Apps]**.
 1. Klicka på ellipsen till höger om namnet på appen som ska tas bort.
 1. Klicka på **[!UICONTROL Delete App]** för att ta bort appen.
-
