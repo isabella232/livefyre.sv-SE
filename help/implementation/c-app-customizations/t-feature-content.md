@@ -1,18 +1,14 @@
 ---
 description: Använd anpassad formatering för att framhäva aktuellt innehåll.
-seo-description: Använd anpassad formatering för att framhäva aktuellt innehåll.
-seo-title: Innehåll
-solution: Experience Manager
 title: Innehåll
-uuid: c45f594b-69de-4db4-820b-465015d74825
+exl-id: 9fc66560-0d7e-4c14-805c-9c2e212f4c16
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
-
 
 # Funktionsinnehåll{#feature-content}
 
@@ -21,7 +17,7 @@ Använd anpassad formatering för att framhäva aktuellt innehåll.
 Med innehåll kan du rikta uppmärksamheten mot valda användarinlägg. Aktuellt innehåll kan ha ett annat format än annat innehåll på sidan, och det aktuella innehållet i Livefyre visas ovanför redigeraren. När innehållet väl har valts innehåller det ett aktuellt märke och kan ha anpassats med den förbättrade CSS-klassen. De två senast inbyggda innehållsobjekten för Livefyre visas också ovanför redigeraren i strömmen.
 
 1. Aktivera alternativet i Studio. Se [](../c-app-customizations/t-enable-featuring-content-in-studio.md#t_enable_featuring_content_in_studio).
-1. Utbilda moderatorerna för att identifiera och välja innehåll som ska presenteras direkt från en kommentar, Live-blogg eller en app för granskningar, eller från avsnitten App Content och ModQ i Studio.
+1. Utbilda moderatorerna för att identifiera och välja innehåll som ska visas direkt i en kommentar, i en Live-blogg eller i en granskningsapp, eller i avsnitten App Content och ModQ i Studio.
 
        Moderatorer kan:
    
@@ -40,4 +36,3 @@ Med innehåll kan du rikta uppmärksamheten mot valda användarinlägg. Aktuellt
    * [Aktuell (webbplats)](#c_aggregated_featured_content_using_the_featured_apis/section_lq5_ymw_xz)
    * [Aktuell (samling)](#c_aggregated_featured_content_using_the_featured_apis/section_kgc_xmw_xz)
    * [Aktuellt (huvud)](#c_aggregated_featured_content_using_the_featured_apis/section_n4b_lmw_xz)
-
