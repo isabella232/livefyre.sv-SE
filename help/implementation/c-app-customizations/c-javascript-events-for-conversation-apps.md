@@ -1,18 +1,14 @@
 ---
 description: Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
-seo-description: Tillgängliga händelser som du kan binda JavaScript till för konversationsappar (till exempel kommentarer, chatt, live-blogg, granskningar och sidobjekt).
-seo-title: JavaScript-händelser för konversationsappar
-solution: Experience Manager
 title: JavaScript-händelser för konversationsappar
-uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
+exl-id: 2497346e-b2cc-44b2-bcd9-906dd443fe38
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 11%
+source-wordcount: '516'
+ht-degree: 8%
 
 ---
-
 
 # JavaScript-händelser för konversationsappar{#javascript-events-for-conversation-apps}
 
@@ -31,8 +27,8 @@ Här följer en matris med de händelser som är tillgängliga för konversation
 | Visa | X | X | X | X |  |  |  |
 | Bokför | X | X | X | X |  | Ej tillämpligt | Ej tillämpligt |
 | Bokfört | X | X | X | X | X | Ej tillämpligt | Ej tillämpligt |
-| Twitter-svar | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
-| Twitter gillar | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
+| Twitter Reply | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
+| Twitter Gilla | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
 | LF gillar | X | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
 | LF ogilla | X | X | X | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
 | Dela efter | X | X |  | X | Ej tillämpligt | Ej tillämpligt | Ej tillämpligt |
@@ -66,4 +62,3 @@ Här följer en matris med de händelser som är tillgängliga för konversation
 | Innehållstyp | X | X | X | X |  |  |  |
 | Publicerat datum till app |  |  |  |  |  |  |  |
 | Inloggad i slutanvändarappen |  |  |  |  |  |  |  |
-
