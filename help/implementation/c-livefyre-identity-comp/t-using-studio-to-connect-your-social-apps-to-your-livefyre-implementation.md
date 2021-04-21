@@ -1,17 +1,14 @@
 ---
 description: Om du vill aktivera en social inloggning använder du Studio för att lägga till inloggningsuppgifterna för dina sociala appar i Livefyre-integreringen och för att anpassa inloggningsmodulen.
-seo-description: Om du vill aktivera en social inloggning använder du Studio för att lägga till inloggningsuppgifterna för dina sociala appar i Livefyre-integreringen och för att anpassa inloggningsmodulen.
-seo-title: Använda Studio för att ansluta sociala appar till Livefyre-implementeringen
 title: Använda Studio för att ansluta sociala appar till Livefyre-implementeringen
-uuid: be14869c-e0df-48cd-a1f3-99eb953dd9ce
+exl-id: 2ccb9737-8c59-4c1d-93d3-61f913b3cdd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
-
 
 # Använda Studio för att ansluta sociala appar till din Livefyre-implementering{#using-studio-to-connect-your-social-apps-to-your-livefyre-implementation}
 
@@ -51,7 +48,7 @@ Så här aktiverar du inloggning med ett Facebook-konto:
 
 1. Växla **[!UICONTROL Enable Login with Facebook]** till **[!UICONTROL ON]**.
 
-1. Lägg till din Facebook-apps **[!UICONTROL App ID]** och **[!UICONTROL App Secret]**.
+1. Lägg till din Facebook-app **[!UICONTROL App ID]** och **[!UICONTROL App Secret]**.
 
    Dessa värden listas i din Facebook-utvecklarinstrumentpanel för appen, som är tillgänglig från [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/675503539257343/dashboard/).
 
@@ -67,7 +64,7 @@ Så här aktiverar du inloggning med ett Google+-konto:
 
    Dessa värden listas i ditt projektgränssnitt för Google Cloud Platform, som finns på [https://console.cloud.google.com/](https://console.cloud.google.com/apis/library). Om du vill hämta den här informationen går du till **[!UICONTROL API Manager > Credentials]** och klickar på projektnamnet.
 
-## Aktivera en inloggning med ett Twitter-konto {#section_iyz_wb5_bbb}
+## Aktivera inloggning med ett Twitter-konto {#section_iyz_wb5_bbb}
 
 Anslut ditt Twitter-konto till Livefyre så att användarna kan använda sina Twitter-inloggningar för att interagera med appar på din webbplats.
 
@@ -77,7 +74,7 @@ Så här aktiverar du inloggning med ett Twitter-konto:
 
 1. Lägg till din Twitter-app **[!UICONTROL Consumer Key (API Key)]** och **[!UICONTROL Consumer Secret (API Secret)]**.
 
-   Dessa värden listas på din Twitter-apps **[!UICONTROL Keys and Access Tokens]**-sida, som är tillgänglig från [https://apps.twitter.com/](https://apps.twitter.com/).
+   Dessa värden listas på **[!UICONTROL Keys and Access Tokens]**-sidan för ditt Twitter-program, som är tillgänglig från [https://apps.twitter.com/](https://apps.twitter.com/).
 
 ## Aktivera inloggning med Yahoo! Konto {#section_s1q_3c5_bbb}
 
