@@ -1,17 +1,14 @@
 ---
 description: Versionsinformation för versionen från 28 september 2017.
-seo-description: Versionsinformation för versionen från 28 september 2017.
-seo-title: 28 september 2017
 title: 28 september 2017
-uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
+exl-id: fa572f36-0b6f-4451-8a4e-1437469ce906
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # 28 september 2017{#september}
 
@@ -29,4 +26,3 @@ Versionsinformation för versionen från 28 september 2017.
 | **Ärendetyp** | **Komponent** | **Versionsinformation** |
 |---|---|---|
 | Förbättring | Bibliotek | Filer som en kund laddar upp till biblioteket tilldelas automatiskt rättigheter. Det här är en användbar funktion när användarna har aktiverat filtret&quot;kräver behörighet&quot; i sina appar. |
-
