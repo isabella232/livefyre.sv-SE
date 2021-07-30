@@ -2,8 +2,7 @@
 description: Om du vill lägga till en app på webbplatsen måste du först skapa en app i Livefyre Studio.
 title: Skapa en app
 exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 64596886ff960b34cee08b2a91cba5390a593089
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -85,11 +84,9 @@ I förhandsgranskningsläget finns följande alternativ:
 
 * **[!UICONTROL Preview Options]**: Använd listrutan för att välja ett förhandsgranskningsformat (mobil, surfplatta eller dator) och om appens Stream-data ska visas  **[!UICONTROL Sample Data]** eller inte.
 
-* 
-
->[!NOTE]
->
->Om du avmarkerar **[!UICONTROL Sample Data]** och ingen ström är aktiverad för appen visas inget innehåll i förhandsgranskningsläget.
+   >[!NOTE]
+   >
+   >Om du avmarkerar **[!UICONTROL Sample Data]** och ingen ström är aktiverad för appen visas inget innehåll i förhandsgranskningsläget.
 
 * **[!UICONTROL Share]**: Öppnar appen på en ny flik i webbläsaren och skapar en URL som kan användas för att tillåta vänner, kollegor och andra användare att granska din app och testa den i olika webbläsare och enheter.
 
@@ -157,7 +154,7 @@ När en app publiceras genererar och visar Livefyre en inbäddningskod, som kan 
 
    För program som kräver användarautentisering måste integreringen för användarautentisering vara fullständig och finnas på sidan innan inbäddningskoden läggs till.
 
-## Ta bort en app {#section_zyx_zyx_xcb}
+## Ta bort ett program {#section_zyx_zyx_xcb}
 
 Du kan ta bort ett program från applistan i Livefyre Studio. När du tar bort appen från Studio döljs appen, den tas inte bort eller stoppas:
 
