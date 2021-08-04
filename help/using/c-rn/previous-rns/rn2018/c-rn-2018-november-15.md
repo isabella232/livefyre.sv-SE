@@ -2,10 +2,9 @@
 description: Versionsinformation för 15 november 2018.
 title: Versionsinformation
 exl-id: 3f904022-b770-4f35-a3b0-790e15748763
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: beb224fdccf68c98fc3eff62b0867f22fa52902b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Följande nya funktioner släpptes i produktionsversionen av den här versionen:
 
 Mer information om hur du begär rättigheter för Instagram-konton finns i [Skicka en begäran om Instagram-rättigheter manuellt](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) och [Skicka en delvis automatiserad begäran om Instagram-rättigheter](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integrering med Adobe Target.** Integreringen med Adobe Target gör att du kan dela Livefyre-appar direkt i ditt Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Måldokumentation](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
+* **Integrering med Adobe Target.** Integreringen med Adobe Target gör att du kan dela Livefyre-appar direkt i ditt Adobe Target Offers Library. Mer information om hur du använder Livefyre med Adobe Target finns i [Måldokumentation](https://experienceleague.adobe.com/docs/livefyre/using/library/livefyre-target.html).
 
 ## Problem {#section_ehw_ndt_wcb}
 
