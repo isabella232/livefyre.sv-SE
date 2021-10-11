@@ -2,8 +2,7 @@
 title: Livefyre Analytics Events
 description: Livefyre Analytics Events
 exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -12,7 +11,7 @@ ht-degree: 0%
 
 # Livefyre Analytics Events
 
-## Händelseobjektsdefinition {#section_dh1_yhn_pdb}
+## Definition av händelseobjekt {#section_dh1_yhn_pdb}
 
 Följande kod definierar de fält i händelseobjektet som tas emot av analyshanteraren på en sida.
 
@@ -41,9 +40,9 @@ Följande kod definierar de fält i händelseobjektet som tas emot av analyshant
 }
 ```
 
-## Livefyre Analytics Events och eVars {#section_u3k_tft_mcb}
+## Livefyre Analytics Events and eVars {#section_u3k_tft_mcb}
 
-Följande Livefyre-händelser som ska mappas till anpassade händelser som ska användas i rapporter med Report Suite Manager. Mer information om rapportsviter i Adobe Analytics finns i [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Mer information om hur du använder Livefyre-händelser med Report Suite Manager finns i [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+Följande Livefyre-händelser som ska mappas till anpassade händelser som ska användas i rapporter med Report Suite Manager. Mer information om rapportsviter i Adobe Analytics finns i [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en). Mer information om hur du använder Livefyre-händelser med Report Suite Manager finns i [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Livefyre Analytics Events
 
@@ -96,7 +95,7 @@ Nedan följer en lista med konverteringsvariabler (eVars) som finns i Livefyre.
 
 Mer information om ämnen som behandlas på den här sidan finns i:
 
-* [Report Suite ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Report Suite ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)[ManagerDTM](https://experienceleague.adobe.com/docs/livefyre/using/apps/filmstrip/c-filmstrip-app.html?lang=en)
 
-* [Regler](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
+* [Regler](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

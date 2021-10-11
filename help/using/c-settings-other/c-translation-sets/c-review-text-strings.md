@@ -2,10 +2,9 @@
 description: Anpassa textsträngarna för Livefyre-recensioner.
 title: Granska textsträngar
 exl-id: 82ced091-d573-4514-9b91-3451a94ed5d3
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 1d9088eecf797e1af881cb6be55b3c96284f75e5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -31,34 +30,34 @@ Om du vill implementera den här funktionen skickar du en 1-1-objektmappning av 
 Exempel:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" }; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text" };
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
-## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
 | Element | Nyckel | Standardtext |
 |--- |--- |--- |
 | Knappar | editReviewBtn | Redigera granskning |
-|  | reviewBtn | [Skriv recension](https://d.pr/i/QscA) |
-|  | granskningarStängda | [Granskningar stängda](https://d.pr/i/zr7M) |
-|  | showReviewBtn | [Visa granskning](https://d.pr/i/onxU) |
+|  | reviewBtn | Skriv recension |
+|  | granskningarStängda | Granskningar stängda |
+|  | showReviewBtn | Visa granskning |
 |  | följ | Jag är intresserad |
 |  | shareText | Jag skrev just en recension. Kolla in den! |
 | Tips för klassificeringsverktyg | ratingValues | En array. Standard = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Obs! Värdena i arrayen måste dupliceras för att tilldela både den vänstra och den högra halvan av varje stjärna samma namn. |
 | Klassificera underdelar | ratingSubpartPlaceholder | En array. Standard = `[]` |
 |  | ratingSubpartTitles | En array. Standard = `[]` |
 |  | reviewStreamTitle | Tom som standard. Titel på sammanfattningsavsnittet i granskningen. |
-| Diverse | AverageRating | [Genomsnittlig användarklassificering](https://d.pr/i/QscA) |
-|  | breakHeader | [Värderingsfördelning](https://d.pr/i/QscA) |
+| Diverse | AverageRating | Genomsnittlig användarklassificering |
+|  | breakHeader | Värderingsfördelning |
 |  | hjälpsam | %s av %s hittade användbar |
 |  | hjälpsamPlural | %s av %s hittade användbar |
 |  | outOf | / |
@@ -71,9 +70,9 @@ Strängar som är tillgängliga för information och visning av innehållsström
 | Element | Nyckel | Standardtext |
 |---|---|---|
 | Sortering | sortBy | Tom som standard. |
-|  | sortHighestRated | [Högsta omdöme](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Lägsta omdöme](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Mest användbara](https://d.pr/i/huTd) |
+|  | sortHighestRated | Högsta omdöme |
+|  | sortLowestRated | Lägsta omdöme |
+|  | sortMostHelpful | Mest användbara |
 | Strömfel. | showMore | Visa fler |
 | Strömma hög hastighet | newComment | Ny granskning |
 |  | newComments | Nya granskningar |
@@ -90,7 +89,7 @@ Inställningar som är tillgängliga för information om författare och individ
 
 | Element | Nyckel | Standardtext |
 |---|---|---|
-| Trådbrytning | reviewsInnehållHittadeMsg | [Den här granskningen visas inte längre](https://d.pr/i/svXs) |
+| Trådbrytning | reviewsInnehållHittadeMsg | Den här granskningen visas inte längre |
 |  | backToComments | Tillbaka till Recensioner |
 
 ## Användaråtgärder {#section_tlx_wj4_xz}
@@ -99,12 +98,12 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 
 | Element | Nyckel | Standardtext |
 |---|---|---|
-| Kommentarsidfot | wasReviewHelpful | [En bra hjälp?](https://d.pr/i/Q0mA) |
+| Kommentarsidfot | wasReviewHelpful | En bra hjälp? |
 |  | wasReviewHelpfulMobile | En bra hjälp? |
-|  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
-|  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Hjälpte. |
+|  | reviewwasHelpful | Ja |
+|  | hjälpsamDelare | &amp;vert; |
+|  | reviewwasNotHelpful | Nej |
 | Rösta modalt | voiceTitle | Hjälpte den här recensionen? |
 |  | röstaNedröst | Nej |
 |  | voiceReplyTitle | Hjälpte svaret? |

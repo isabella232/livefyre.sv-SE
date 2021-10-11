@@ -2,8 +2,7 @@
 description: Tack vare Livefyre-integreringen med Adobe Target kan du dela Livefyre-appar direkt i ditt målbibliotek.
 title: Använd Adobe Experience Manager Livefyre med Adobe Target
 exl-id: 0110fb81-9051-4f8c-9195-dff1a5eed029
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -14,7 +13,7 @@ ht-degree: 1%
 
 Tack vare Livefyre-integreringen med Adobe Target kan du dela Livefyre-appar direkt i ditt målbibliotek.
 
-## Anslut en Livefyre-instans med målet {#connect-livefyre-target}
+## Anslut en Livefyre-instans med Target {#connect-livefyre-target}
 
 Koppla en Livefyre-instans till Adobe Target genom att länka ditt Adobe IMS-konto i användarinställningarna.
 
@@ -52,4 +51,4 @@ En lista över målinstanser visas.
 
 1. Klicka på  **[!UICONTROL Publish]**.
 
-Livefyre-appen är nu tillgänglig för användning i ditt måloffertbibliotek. Mer information om att publicera appar finns i [Publicera innehåll](/help/using/c-library/t-publish-content.md) och [erbjudanden](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) i Target-dokumentationen.
+Livefyre-appen är nu tillgänglig för användning i ditt måloffertbibliotek. Mer information om att publicera appar finns i [Publicera innehåll](/help/using/c-library/t-publish-content.md) och [erbjudanden](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) i Target-dokumentationen.

@@ -2,10 +2,9 @@
 description: Med översättningsuppsättningar kan du ange ett annat språk för appar.
 title: Översättningsuppsättningar
 exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 1d9088eecf797e1af881cb6be55b3c96284f75e5
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -49,17 +48,17 @@ Om du vill implementera den här funktionen skickar du en 1-1-objektmappning av 
 Exempel:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" }; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text" };
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
-## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
@@ -89,9 +88,9 @@ Strängar som är tillgängliga för information och visning av innehållsström
 | Element | Nyckel | Standardtext |
 |---|---|---|
 | Sortering | sortBy | *Tom som standard.* |
-|  | sortHighestRated | [Högsta omdöme](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Lägsta omdöme](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Mest användbara](https://d.pr/i/huTd) |
+|  | sortHighestRated | Högsta omdöme |
+|  | sortLowestRated | Lägsta omdöme |
+|  | sortMostHelpful | Mest användbara |
 | Strömfel. | showMore | Visa fler |
 | Strömma hög hastighet | newComment | Ny granskning |
 |  | newComments | Nya granskningar |
@@ -108,7 +107,7 @@ Inställningar som är tillgängliga för information om författare och individ
 
 | Element | Nyckel | Standardtext |
 |---|---|---|
-| Trådbrytning | reviewsInnehållHittadeMsg | [Den här granskningen visas inte längre](https://d.pr/i/svXs) |
+| Trådbrytning | reviewsInnehållHittadeMsg | Den här granskningen visas inte längre |
 |  | backToComments | Tillbaka till Recensioner |
 
 ## Användaråtgärder {#section_tlx_wj4_xz}
@@ -117,12 +116,12 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 
 | Element | Nyckel | Standardtext |
 |---|---|---|
-| Kommentarsidfot | wasReviewHelpful | [En bra hjälp?](https://d.pr/i/Q0mA) |
+| Kommentarsidfot | wasReviewHelpful | En bra hjälp? |
 |  | wasReviewHelpfulMobile | En bra hjälp? |
-|  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
-|  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Hjälpte. |
+|  | reviewwasHelpful | Ja |
+|  | hjälpsamDelare | &amp;vert; |
+|  | reviewwasNotHelpful | Nej |
 | Rösta modalt | voiceTitle | Hjälpte den här recensionen? |
 |  | röstaNedröst | Nej |
 |  | voiceReplyTitle | Hjälpte svaret? |
@@ -178,7 +177,7 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorTitleMaxChars | Din titel är för lång. Redigera och försök igen. |
 |  | errorvoiceOwnComment | Du kan inte rösta på din egen recension |
 
-## Sidenotes Text Strings {#c_sidenotes_text_strings}
+## Textsträngar för sidenotes {#c_sidenotes_text_strings}
 
 Anpassa textsträngar för Livefyre Sidenotes
 
@@ -200,14 +199,14 @@ Om du vill implementera den här funktionen skickar du en 1-1-objektmappning av 
 Exempel:
 
 ```
-var customStrings = { 
-   postAsButton: "New Post As Text", 
-   postEditButton: "New Post Edit Text" 
-}; 
-networkConfig["strings"] = customStrings; fyre.conv.load( 
-   networkConfig, 
-   [convConfig], 
-   function(){} 
+var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text"
+};
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
 );
 ```
 
