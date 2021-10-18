@@ -2,10 +2,9 @@
 description: Med översättningsuppsättningar kan du ange ett annat språk för appar.
 title: Översättningsuppsättningar
 exl-id: 688138bf-f8e9-4fe5-99e2-2451deefd217
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,10 +12,6 @@ ht-degree: 0%
 # Översättningsuppsättningar {#translation-sets}
 
 Med översättningsuppsättningar kan du ange ett annat språk för appar.
-
-<!-- 
-c_translation_sets.dita
--->
 
 Använd översättningsinställningar för att lokalisera appar på olika språk eller för att ange alternativ text för flera appar från en plats i Studio. Du kan till exempel se till att alla spanska webbplatser använder spanska för alla programfält. Du kan också ändra texten så att alla fält matchar rösten och känslan på platsen eller nätverket.
 
@@ -63,7 +58,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Gransknings-/klassificeringsgränssnitt {#section_iyv_zj4_xz}
+## Gransknings-/värderingsgränssnitt {#section_iyv_zj4_xz}
 
 Strängar som är tillgängliga för användargränssnittet Granska och Klassificera.
 
@@ -99,9 +94,9 @@ Strängar som är tillgängliga för information och visning av innehållsström
 |---|---|---|
 | *Sortering* |  |  |
 |  | sortBy | *Tom som standard.* |
-|  | sortHighestRated | [Högsta omdöme](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Lägsta omdöme](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Mest användbara](https://d.pr/i/huTd) |
+|  | sortHighestRated | Högsta omdöme |
+|  | sortLowestRated | Lägsta omdöme |
+|  | sortMostHelpful | Mest användbara |
 | *Strömfel.* |  |  |
 |  | showMore | Visa fler |
 | *Strömma hög hastighet* |  |  |
@@ -124,7 +119,7 @@ Inställningar som är tillgängliga för information om författare och individ
 | Element | Nyckel | Standardtext |
 |---|---|---|
 | *Trådbrytning* |  |  |
-|  | reviewsInnehållHittadeMsg | [Den här granskningen visas inte längre](https://d.pr/i/svXs) |
+|  | reviewsInnehållHittadeMsg | Den här granskningen visas inte längre |
 |  | backToComments | Tillbaka till Recensioner |
 
 ## Användaråtgärder {#section_tlx_wj4_xz}
@@ -134,12 +129,12 @@ Strängar som är tillgängliga för användaråtgärder: flagga, dela och marke
 | Element | Nyckel | Standardtext |
 |---|---|---|
 | *Kommentarsidfot* |  |  |
-|  | wasReviewHelpful | [En bra hjälp?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpful | En bra hjälp? |
 |  | wasReviewHelpfulMobile | En bra hjälp? |
-|  | ownwasReviewHelpful | [Hjälpte.](https://d.pr/i/Q0mA) |
-|  | reviewwasHelpful | [Ja](https://d.pr/i/Q0mA) |
-|  | hjälpsamDelare | [&amp;Invertera;](https://d.pr/i/Q0mA) |
-|  | reviewwasNotHelpful | [Nej](https://d.pr/i/Q0mA) |
+|  | ownwasReviewHelpful | Hjälpte. |
+|  | reviewwasHelpful | Ja |
+|  | hjälpsamDelare | &amp;vert; |
+|  | reviewwasNotHelpful | Nej |
 | *Rösta modalt* |  |  |
 |  | voiceTitle | Hjälpte den här recensionen? |
 |  | röstaNedröst | Nej |
@@ -202,7 +197,7 @@ Strängar som är tillgängliga för allmänna felmeddelanden.
 |  | errorTitleMaxChars | Din titel är för lång. Redigera och försök igen. |
 |  | errorvoiceOwnComment | Du kan inte rösta på din egen recension |
 
-## Sidenotes Text Strings {#c_sidenotes_text_strings}
+## Textsträngar för sidenotes {#c_sidenotes_text_strings}
 
 Anpassa textsträngar för Livefyre Sidenotes
 

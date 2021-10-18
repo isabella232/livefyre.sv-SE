@@ -2,10 +2,9 @@
 description: Installera bibliotek för uppgifter på serversidan för Livefyre
 title: Installation
 exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -113,7 +112,7 @@ PHP-biblioteket är beroende av följande moduler:
 
 Mer information finns i PHP-dokumenten eller i källan på [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
-Länkar: [ext-json](https://php.net/manual/en/book.json.php), [Begäranden](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+Länkar: [ext-json](https://www.php.net/manual/en/book.json.php), [Begäranden](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 

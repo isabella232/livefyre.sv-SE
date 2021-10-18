@@ -2,15 +2,14 @@
 description: Använd Bootstrap och Stream API med Livefyre-appar.
 title: Visa kontoinformation
 exl-id: b8458954-3727-4c4d-93dd-d21a4328e069
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Använd Bootstrap och Stream API med Livefyre Apps {#bootstrap-stream-api}
+# Använd Bootstrap och Stream API med Livefyre-appar {#bootstrap-stream-api}
 
 ## Bootstrap API {#bootstrap-api}
 
@@ -30,11 +29,9 @@ Ett exempelprogram har t.ex. 120 innehållsdelar. Innehållet&quot;1&quot; är d
 
 * `Init` läser in ~120-70 innehållsdelar i fallande ordning:  [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
-* `O.json` läser in ~ 1-50 innehållsdelar i stigande ordning:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json)
-
-* `1.json` läser in ~ 51-100 innehållsdelar i stigande ordning:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json)
-
-* `2.json` läser in ~101-120 innehållsdelar i stigande ordning:[https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json)
+* `O.json` läser in ~ 1-50 innehållsdelar i stigande ordning:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json`
+* `1.json` läser in ~ 51-100 innehållsdelar i stigande ordning:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json`
+* `2.json` läser in ~101-120 innehållsdelar i stigande ordning:`https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json`
 
 [Klicka här för att visa flödesschemat för Bootstrap-omröstningar.](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
 
@@ -47,7 +44,7 @@ Denna slutpunkt för långvarig avsökning strömmar nytt innehåll (t.ex. en an
 
 Begäran till Stream API ska vara ~30 sekunder (långavsökning) med förväntad tidsgräns efter 30 sekunder när inget nytt innehåll strömmas in.
 
-API-referens: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
+API-referens: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:åtgärder:v3.1:collection:uppdateringar:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
 
 Exempelbegäran:
 

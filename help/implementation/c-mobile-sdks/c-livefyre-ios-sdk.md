@@ -1,22 +1,21 @@
 ---
-description: Lägg till Livefyre i din iOS-app.
+description: Lägg till Livefyre i iOS-appen.
 title: Livefyre iOS SDK
 exl-id: 961c41dc-fee8-480c-a189-a20a689e705f
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Livefyre iOS SDK{#livefyre-ios-sdk}
 
-Lägg till Livefyre i din iOS-app.
+Lägg till Livefyre i iOS-appen.
 
-Använd det här biblioteket med öppen källkod för att integrera Livefyre-tjänster i din iOS-app. Livefyre StreamHub iOS SDK har ett tunt lager runt våra gemensamma API-funktioner, baserat på det utmärkta AFNetworking-biblioteket.
+Använd det här biblioteket med öppen källkod för att integrera Livefyre-tjänster i era iOS-program. Livefyre StreamHub iOS SDK har ett tunt lager runt våra gemensamma API-funktioner, baserat på det utmärkta AFNetworking-biblioteket.
 
-Livefyre innehåller även två exempelappar för iOS som baseras på denna SDK: en kommentarström och en exempelapp för recensioner.
+Livefyre innehåller även två exempelappar för iOS baserat på denna SDK: en kommentarström och en exempelapp för recensioner.
 
 ## Integrera SDK i ditt projekt som en Cocoa Pod (rekommenderas) {#section_qc5_h3v_zz}
 
@@ -78,14 +77,14 @@ open CommentStream.xcworkspace
 
 Du behöver filen LFSTestConfig.plist från Livefyre, som Livefyre tillhandahåller på begäran.
 
-## Xcode Documentation {#section_arl_b3v_zz}
+## Xcode-dokumentation {#section_arl_b3v_zz}
 
-Du kan bläddra i [dokumentationen](https://livefyre.github.com/StreamHub-iOS-SDK/) eller så kan du skapa dokumentationsmålet i Xcode (kräver att appledoc är installerat) på datorn.
+Du kan bläddra i [dokumentationen](https://github.com/Livefyre/StreamHub-iOS-SDK) eller så kan du skapa dokumentationsmålet i Xcode (kräver att appledoc är installerat) på datorn.
 
 ## Krav {#section_m5l_13v_zz}
 
-StreamHub iOS SDK-versioner eftersom v0.2.0 kräver iOS 6.0 eller senare.
+StreamHub iOS SDK-versioner sedan v0.2.0 kräver iOS 6.0 eller senare.
 
 ## Bilaga (JSON-stöd) {#section_pcd_5hv_zz}
 
-Observera att för dem som tittar på interna StreamHub-iOS SDK:er använder vi en modifierad version av [JSONKit](https://github.com/escherba/JSONKit) som JSON-standardtolk (i stället för Apple-tillhandahållen NSJSONSerialization). Vi var tvungna att göra detta eftersom den Apple-matade tolken inte stöder avkodning av JSON-filer som innehåller heltal eller flyttal som är större än de som kan representeras av systemet. Vår ändrade version av JSONKit trunkerar mycket stora tal till motsvarande systemmaximum i stället för att generera ett undantag.
+Observera att för dem som tittar på interna StreamHub-iOS SDK-sidor använder vi en modifierad version av [JSONKit](https://github.com/escherba/JSONKit) som JSON-standardtolk (i stället för Apple-tillhandahållen NSJSONSerialization). Vi var tvungna att göra detta eftersom den parser som tillhandahålls av Apple inte stöder avkodning av JSON-filer som innehåller heltal eller flyttal som är större än de som kan representeras av systemet. Vår ändrade version av JSONKit trunkerar mycket stora tal till motsvarande systemmaximum i stället för att generera ett undantag.

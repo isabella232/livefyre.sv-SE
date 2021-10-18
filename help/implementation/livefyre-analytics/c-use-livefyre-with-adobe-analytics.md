@@ -2,9 +2,9 @@
 description: Konfigurera Adobe Analytics och Dynamic Tag Manager (DTM) för att samla in data för Livefyre-appar.
 title: Använd Livefyre med Adobe Analytics och Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,16 @@ Mappa Livefyre-konverteringsvariabler (eVars) till konverteringsvariabler i Adob
 
 1. Klicka på **[!UICONTROL Edit Settings > Conversion > Conversion Variables]** i Report Suite Manager.
 1. Välj de anpassade konverteringsvariabler (eVars) som ska användas och mappa dem till konverteringsvariablerna Livefyre. Så här mappar du en Livefyre-konverteringsvariabel till en anpassad konverteringsvariabel:
-* Aktivera konverteringsvariabeln
-* Namnge konverteringsvariabeln
-* Ge konverteringsvariabeln en typ
+
+   * Aktivera konverteringsvariabeln
+   * Namnge konverteringsvariabeln
+   * Ge konverteringsvariabeln en typ
+
 1. Spara de anpassade konverteringsvariablerna.
 
 ## Steg 3: Använd DTM för att lägga till din Report Suite med Livefyre Events {#section_t15_2hd_4cb}
 
-Lägg till Adobe Analytics i DTM för att få Analytics att fungera. Det gör du genom att skapa en ny egenskap och ett nytt verktyg och lägga till den nya rapportsviten med Livefyre-händelser till egenskapen. Mer information om DTM finns i [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+Använd taggar för att integrera Analytics med Livefyre-händelser. Det gör du genom att skapa en ny egenskap och ett nytt verktyg och lägga till den nya rapportsviten med Livefyre-händelser till egenskapen. Mer information finns i [Översikt över taggar](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
 Du behöver inte utföra det här steget om du redan har ställt in en egenskap eller ett verktyg för rapportsviten som du konfigurerade med Livefyre-händelser.
 
@@ -65,7 +67,7 @@ Ställ in en sidinläsningsregel för att hämta alla data. Med sidinläsningsre
 1. Klicka på knappen **[!UICONTROL Create New Rule]**.
 1. Öppna avsnittet **[!UICONTROL Conditions]** genom att klicka på knappen **[!UICONTROL Plus]**.
 1. Utlös regeln. Välj utlösartyperna **[!UICONTROL DOM Ready]** eller **[!UICONTROL Onload]** om du vill fördröja eller implementera regeln asynkront.
-1. (Valfritt) Lägg till ytterligare parametrar för att begränsa vilka sidor som visas i Livefyre-appar. Mer information om ytterligare konfigurationsalternativ finns i [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+1. (Valfritt) Lägg till ytterligare parametrar för att begränsa vilka sidor som visas i Livefyre-appar. Mer information om ytterligare konfigurationsalternativ finns i [Översikt över taggar](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 1. Klicka på fliken **[!UICONTROL Non-sequential]** under **[!UICONTROL Javascript/ Third Party Tags]** och klicka sedan på **[!UICONTROL Add New Script]**.
 1. Välj **[!UICONTROL Sequential HTML]** som skripttyp.
 1. Lägg till följande skript i kodredigeraren och klicka på **[!UICONTROL Save Code]**.
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 Mer information om ämnen som behandlas på den här sidan finns i:
 
 * [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [Regler](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [Översikt över taggar](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

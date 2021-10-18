@@ -2,9 +2,9 @@
 title: Livefyre Analytics Events
 description: Livefyre Analytics Events
 exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,6 @@ Nedan följer en lista med konverteringsvariabler (eVars) som finns i Livefyre.
 
 Mer information om ämnen som behandlas på den här sidan finns i:
 
-* [Report Suite ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)[ManagerDTM](https://experienceleague.adobe.com/docs/livefyre/using/apps/filmstrip/c-filmstrip-app.html?lang=en)
-
-* [Regler](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
+* [Taggar](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
