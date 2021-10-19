@@ -2,9 +2,9 @@
 title: Påminnelse om tjänstens slut för Livefyre
 description: Påminnelse och arkiverade meddelanden om att Livefyre och Livefyre Studio har upphört med tjänsten.
 exl-id: 78fe3f11-2365-4765-a0af-f817e9c80ea9
-source-git-commit: c1f1f501203ea64a282abc631318983011eb4e5b
+source-git-commit: 96f4e5f196446834cdf92a2774bd26f02b6b58a4
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Förra året förändrades dynamiken hos leverantörer av sociala medier, bland annat Facebook och Twitter, och det är en utmaning att fortsätta erbjuda Adobe kunder en robust UGC-lösning (User-Generated Content). På grund av dessa utmaningar har Adobe tagit det svåra beslutet att avsluta Livefyre-tjänsten. Den sista dagen som kunderna kommer att ha tillgång till Livefyre är den 30 november 2021. Sedan januari 2021 har Adobe samarbetat med kunder som använder Livefyre för en smidig övergång till betrodda Adobe-partners och rekommenderat alternativa lösningar. Påminnelsen är för att säkerställa synlighet för sista giltighetsdatum för Livefyre. Adobe strävar efter att tillhandahålla det som behövs för en smidig överlämning. Om du har frågor kan du kontakta din Customer Success Manager eller Account Manager.
 
-## Frågor och svar om hur Livefyre upphör {#livefyre-eos-faq}
+## Vanliga frågor och svar om Livefyre Slutservice {#livefyre-eos-faq}
 
 ### **_Vad förändras med Livefyre?_**
 
