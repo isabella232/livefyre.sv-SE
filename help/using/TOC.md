@@ -3,10 +3,9 @@ product: livefyre
 audience: end-user
 user-guide-title: Livefyre Guide
 user-guide-description: Använd Livefyre Studio för att skapa appar, samla användargenererat innehåll och moderera innehåll.
-translation-type: tm+mt
-source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
+source-git-commit: fac5ebba6a8d67efe59e4daabc8c11955ed04480
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -14,8 +13,8 @@ ht-degree: 0%
 
 # Livefyre Guide {#using}
 
++ [Påminnelse om tjänstens slut för Livefyre](c-anouncements.md)
 + [Hjälp för Livefyre](home.md)
-+ [Meddelanden](c-anouncements.md)
 + [Öppna utbildningsvideor](c-access-training-videos.md)
 + [Om Livefyre](c-product.md)
 + Appar {#apps}
@@ -41,7 +40,7 @@ ht-degree: 0%
       + [Bildband](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [Bildbandsfunktioner](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [Anpassningar av bildband](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + Live-blogg {#liveblog}
+   + Live Blog {#liveblog}
       + [Live Blog](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [Live-bloggfunktioner](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [Live Blog-anpassningar](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,7 +48,7 @@ ht-degree: 0%
       + [Karta](c-about-apps/c-map-app/c-map-app.md)
       + [Kartfunktioner](c-about-apps/c-map-app/r-map-features.md)
       + [Kartanpassningar](c-about-apps/c-map-app/r-map-customizations.md)
-   + Medievägg {#mediawall}
+   + Media Wall {#mediawall}
       + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [Medieväggningsfunktioner](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [Anpassningar av medieväggen](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
@@ -85,7 +84,7 @@ ht-degree: 0%
       + [Arbeta med flera redigerare på samma artikel](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
       + [Använd strömmar för att lägga till socialt innehåll i din artikel](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [Fäst ett inlägg i Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-      + Navigeringsguide {#navigation-guide}
+      + Navigeringshandbok {#navigation-guide}
          + [Navigeringshandbok](c-about-apps/c-storify2/c-navigation-guide.md)
          + [Lägga till en navigeringsguide till en Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [Lägga till en titel i navigeringsguiden](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
@@ -114,7 +113,7 @@ ht-degree: 0%
       + [Ändra samling](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [Filtrera sökning efter samling eller innehållstagg](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
       + [Filtrera sökning efter innehållstagg](c-features-livefyre/c-content-collection-tags/t-filter-search-by-content-tag.md)
-      + [Embedly-integrering ](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
+      + [Embedly-integrering](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
       + [Innehåll](c-features-livefyre/c-content-collection-tags/c-featured-content.md)
       + [Innehåll](c-features-livefyre/c-content-collection-tags/t-feature-content.md)
       + [Välj innehåll från Studio](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature-from-studio.md)
@@ -196,23 +195,23 @@ ht-degree: 0%
    + [Skapa en ny ström](c-streams/t-create-a-new-stream.md)
    + [Lägg till regler för strömmen](c-streams/t-add-rules-for-your-stream.md)
    + [Direktuppspelningsregelalternativ för alla flödesregler](c-streams/c-stream-rule-options-for-all-stream-rules.md)
-   + [Regler för Facebook-sidor](c-streams/c-facebook-page-rules.md)
+   + [Facebook sidlinjaler](c-streams/c-facebook-page-rules.md)
    + [E-postregler](c-streams/c-email-rules.md)
-   + [Instagramregler](c-streams/c-instagram-rules.md)
-   + [Riktlinjer för innehåll i Instagram](c-streams/c-instagram-content-guidelines.md)
-   + [Begränsning av mellanrumsfrekvens](c-streams/c-instagram-rate-limiting.md)
+   + [Instagram Rules](c-streams/c-instagram-rules.md)
+   + [Instagram Content Guidelines](c-streams/c-instagram-content-guidelines.md)
+   + [Instagram Rate Limiting](c-streams/c-instagram-rate-limiting.md)
    + [RSS-regler](c-streams/c-rss-rules-streams.md)
    + [Tumblr-regler](c-streams/c-tumblr-rules.md)
-   + [Twitter-regler](c-streams/c-twitter-rules.md)
+   + [Twitter Rules](c-streams/c-twitter-rules.md)
    + [Begränsning och tweetfrekvens](c-streams/c-throttling-and-frequency-of-tweets.md)
-   + [YouTube-regler](c-streams/c-youtube-rules/c-youtube-rules.md)
+   + [YouTube Rules](c-streams/c-youtube-rules/c-youtube-rules.md)
 + Rättighetsförfrågningar {#rights-requests}
    + [Begär rättigheter](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [Hantera rättighetsbegäranden](c-how-requesting-rights-works/c-managing-rights-requests.md)
    + [Konfigurera Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [Skicka en begäran om Twitter-rättigheter](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
-   + [Skicka en delvis automatiserad begäran om instagramrättigheter](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
-   + [Skicka rättighetsbegäran för Instagram manuellt](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
+   + [Skicka en delvis automatiserad Instagram Rights Request](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+   + [Skicka Instagram Rights Request manuellt](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
    + [Visa aktivitetshistorik för rättigheter](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [Hantera innehåll med väntande rättighetsförfrågningar från resursbiblioteket](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [Bevilja eller återkalla behörigheter manuellt för en resurs från resursbiblioteket](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
@@ -225,7 +224,7 @@ ht-degree: 0%
    + [Länka användarkonton](c-users/t-link-user-accounts.md)
    + [Användare som byter nätverk](c-users/c-users-switching-networks.md)
    + [Användarsynkronisering](c-users/t-set-up-user-sync.md)
-+ Användare: Skapar användarkonton {#users-creating-accounts}
++ Användare: Skapa användarkonton {#users-creating-accounts}
    + [Användare: Skapa användarkonton](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Bjud in en användare att skapa ett Studio-konto](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Acceptera en inbjudan att skapa ett Studio-konto](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
@@ -236,7 +235,7 @@ ht-degree: 0%
       + [Lägg till ett socialt konto](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Om Instagram-konton](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Uppdatera en token för ett socialt konto](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ Inställningar: Annan {#settings-other}
++ Inställningar: Övriga {#settings-other}
    + [Konfigurera autentiseringsuppgifter](c-settings-other/t-set-up-credentials.md)
    + [Lägg till en plats i ett nätverk](c-settings-other/t-add-a-site.md)
    + Översättningsuppsättningar {#translation-sets}
