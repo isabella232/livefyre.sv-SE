@@ -2,8 +2,7 @@
 description: Lär dig hur du använder Experience Manager Livefyre med Hootsuite och kan strukturera, hantera och dela användargenererat innehåll direkt från Hootsuite-instrumentpanelen.
 title: Använd Adobe Experience Manager Livefyre med Hootsuite
 exl-id: 1ca84c72-95ec-485d-9c8e-ace4487225d6
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: ecac8943330cc0dd8ae3ce0ba4ba66948c502b9e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -24,12 +23,12 @@ Aktivitetskontext
 
 1. Installera Adobe Experience Manager Livefyre för Hootsuite från appkatalogen Hootsuite.
 
-1. Klicka på **Logga in med Adobe** på din Hootsuite-instrumentpanel.
+1. På din Hootsuite-panel klickar du på **Logga in med Adobe**.
 
    ![](assets/hootsuite-login.png)
 
 1. Logga in på Experience Manager Livefyre med dina Livefyre-inloggningsuppgifter.
-1. Klicka på **Auktorisera** för att ge Hootsuite behörighet att komma åt dina bibliotek.
+1. Klicka **Auktorisera** för att ge Hootsuite behörighet att komma åt dina bibliotek.
 
    ![](assets/hootsuite-authorize.png)
 
@@ -43,12 +42,12 @@ Aktivitetskontext
 
    ![](assets/hootsuite-search.png)
 
-1. Klicka på **Välj** så visas ett popup-fönster med alla dina bibliotek.
+1. Klicka **Välj** och ett popup-fönster visas med alla dina bibliotek.
 1. Klicka på biblioteksmappen och sedan på **Välj mapp** för att välja det bibliotek som ska visas i din Hootsuite-ström.
 
    ![](assets/hootsuite-select.png)
 
-## Filteralternativ {#concept_5D062A9CD61A4B2E90784E5AA31CB16D}
+## Filtreringsalternativ {#concept_5D062A9CD61A4B2E90784E5AA31CB16D}
 
 Du kan filtrera sökresultaten genom att använda avsnitten Visa resurser från, Rätt, Nyckelord och Taggar.
 
@@ -69,7 +68,7 @@ När du har valt sökparametrar visas dina resurser i strömmen när du söker:
 
 ### Alternativ på menyn Direktuppspelning
 
-Om du klickar på användarens namn eller ikon visas användaren i respektive nätverk. När du klickar på tiden visas den ursprungliga artikeln. När du för musen över objektet visas fler alternativ. Klicka på resursen ![](assets/share.png)
+Om du klickar på användarens namn eller ikon visas användaren i respektive nätverk. När du klickar på tiden visas den ursprungliga artikeln. När du för musen över objektet visas fler alternativ. Klicka på Dela ![](assets/share.png)
 
 kommer att lägga till den aktuella resursen i nätverksdispositionsrutan, så att du kan dela den med dina nätverk via Hootsuite.
 
@@ -77,19 +76,13 @@ kommer att lägga till den aktuella resursen i nätverksdispositionsrutan, så a
 >
 >Delningsknappen visas bara när du filtrerar efter resurser med behörighet.
 
-Klicka på ikonen Tilldela ![](assets/assign.png) för att tilldela det aktuella objektet till en av dina medlemmar i Hootsuite-teamet. Om ett objekt redan har tilldelats, åtgärdar du ![](assets/resolve.png)
-
-visas. Klicka på det för att matcha det aktuella uppdraget.
+Klicka på Tilldela  ![](assets/assign.png) om du vill tilldela det aktuella objektet till någon av dina medlemmar i Hootsuite-teamet. Om ett objekt redan har tilldelats, åtgärdar du ![](assets/resolve.png) visas. Klicka på det för att matcha det aktuella uppdraget.
 
 ### Andra programmenyer
 
-Klicka på inställningarna ![](assets/settings.png)
+Klicka på Inställningar  ![](assets/settings.png) kan du koppla från det aktuella Experience Manager Livefyre-kontot och ansluta till ett annat.
 
-kan du koppla från det aktuella Experience Manager Livefyre-kontot och ansluta till ett annat.
-
-Klicka på menyn ![](assets/menu.png)
-
--ikonen visar länkar för det här dokumentet, support och Synaptive:s webbplats.
+Klicka på menyn  ![](assets/menu.png) -ikonen visar länkar för det här dokumentet, support och Synaptive:s webbplats.
 
 ## Experience Manager Livefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
@@ -104,13 +97,13 @@ Förutom att du kan visa dina resursbibliotek i en Hootsuite-ström kan du även
 
    ![](assets/hootsuite-save.png)
 
-1. Klicka på **Spara i bibliotek** så sparas objektet i de bibliotek du har valt.
+1. Klicka **Spara i bibliotek** och objektet sparas i de bibliotek som du har valt.
 
 ## Experience Manager Livefyre Media Library Component {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
 Du kommer åt dina resurser via Mediekomponenter i Composer i Hootsuite.
 
-1. Klicka på länken **Öppna Media Library** i avsnittet **Media** i Composer.
+1. Klicka på knappen **Öppna Media Library** i **Media** -avsnitt.
 
    ![](assets/hootsuite-open-media-library.png)
 
@@ -118,4 +111,4 @@ Du kommer åt dina resurser via Mediekomponenter i Composer i Hootsuite.
 
    ![](assets/hootsuite-aem-files.png)
 
-1. Om du vill lägga till en resurs i det aktuella inlägget som du skriver klickar du på det. Om du vill söka efter en viss resurs anger du söktermerna i rutan **Sök media** så visas resultaten.
+1. Om du vill lägga till en resurs i det aktuella inlägget som du skriver klickar du på det. Om du vill söka efter en viss resurs anger du söktermerna i **Sök media** och resultatet visas.

@@ -2,8 +2,7 @@
 description: På panelen Social Sharing (Delning via sociala medier) kan du lägga till dina inloggningsuppgifter för sociala medienätverk.
 title: Konfigurera delning via sociala medier
 exl-id: aa940263-4cec-4ca3-aa74-84749e4cf2d0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: b1177a52f3c4eb20b684dbf26bf699912937b988
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -60,9 +59,8 @@ Om du vill aktivera bitvisa länkar anger du följande information för Bitly-in
 * **[!UICONTROL Login:]** Användarnamn som tillhandahålls av användaren Bitly.
 * **[!UICONTROL API Key:]** Din bitvisa API-nyckel.
 
-
-
 Program som använder den här funktionen:
+
 * [Carousel](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chatt](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Kommentarer](/help/using/c-about-apps/c-comments/c-comments.md)

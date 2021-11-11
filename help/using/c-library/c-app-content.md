@@ -2,10 +2,9 @@
 description: Hantera innehåll i Livefyre-nätverket.
 title: Fliken Appinnehåll
 exl-id: 8b3e5281-59ba-4321-8fee-4160ab7a5d5e
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 600c9712366f5de303de27cf39045beccd4145eb
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 Hantera innehåll i Livefyre-nätverket.
 
-På fliken Appinnehåll i biblioteket kan du söka efter och moderera innehåll som publicerats i olika appar. På fliken **[!UICONTROL App Content]** kan du använda flera sökfilter med jokertecken för att snabbt och enkelt definiera sökparametrar.
+På fliken Appinnehåll i biblioteket kan du söka efter och moderera innehåll som publicerats i olika appar. The **[!UICONTROL App Content]** Med -fliken kan du använda flera sökfilter med jokertecken för att snabbare och enklare definiera sökparametrar.
 
 Använd fliken Appinnehåll för att:
 
@@ -25,7 +24,7 @@ Använd fliken Appinnehåll för att:
 * Innehåll
 * Associera innehåll med produkter från produktkatalogen
 
-Mer information om hur du modererar innehåll med fliken App Content finns i [](../c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+Mer information om hur du modererar innehåll med fliken Appinnehåll finns i [Moderera innehåll med fliken App Content](../c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
 
 ## Sökning med jokertecken {#section_jvr_ntm_zz}
 
@@ -44,43 +43,43 @@ På panelen Appinnehåll kan du begränsa sökningen med hjälp av flera olika a
 
 ![](assets/PublishedState-1024x367.png)
 
-Använd listrutan **[!UICONTROL Quick Filters]** för att begränsa returnerat innehåll till **[!UICONTROL All Content]**, **[!UICONTROL All Sidenotes]**, **[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]**, **[!UICONTROL Pending]** eller **[!UICONTROL Rights Requests]**. Välj sedan ett **[!UICONTROL Filter by]**-alternativ och använd kryssrutorna eller inmatningsfälten som är tillgängliga för att begränsa sökningen.
+Använd **[!UICONTROL Quick Filters]** pulldown to nardown returned content to **[!UICONTROL All Content]**, **[!UICONTROL All Sidenotes]**, **[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]**, **[!UICONTROL Pending]**, eller **[!UICONTROL Rights Requests]** status. Välj sedan en **[!UICONTROL Filter by]** och använda kryssrutorna eller inmatningsfälten för att begränsa sökningen.
 
-Använd listrutan för att sortera innehållet i listan efter **[!UICONTROL Newest]**, **[!UICONTROL Oldest]**, **[!UICONTROL Recently updated]**, **[!UICONTROL Most flags]** eller **[!UICONTROL Most liked]**.
+Använd listrutemenyn för att sortera innehållet i listan efter **[!UICONTROL Newest]**, **[!UICONTROL Oldest]**, **[!UICONTROL Recently updated]**, **[!UICONTROL Most flags]** eller **[!UICONTROL Most liked]**.
 
 ## Filtrera efter alternativ {#section_aqn_xqm_zz}
 
-Använd fältet **[!UICONTROL Filter by]** för att filtrera efter följande alternativ:
+Använd **[!UICONTROL Filter by]** fält för att filtrera efter följande alternativ:
 
-* **Tillstånd** Används för att filtrera efter innehållets aktuella modereringstillstånd:**  [!UICONTROL All Content]**,  **[!UICONTROL Approved]**,  **[!UICONTROL Pending]** eller  **[!UICONTROL Bozo]**.
+* **Läge** Används för att filtrera efter innehållets aktuella modereringstillstånd:** [!UICONTROL All Content]**, **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, eller **[!UICONTROL Bozo]**.
 
-* **** KällaAnvänds för att filtrera efter innehållets källa. Välj **[!UICONTROL Livefyre]** om du vill visa användargenererat innehåll som publicerats direkt i strömmen. Välj **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]** eller **[!UICONTROL RSS]** om du vill inkludera innehåll som hämtas till dina appar från dessa källor.
+* **Källa** Gör att du kan filtrera efter innehållets källa. Välj **[!UICONTROL Livefyre]** för att lista användargenererat innehåll som publicerats direkt i flödet. Välj **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]**, eller **[!UICONTROL RSS]** för att inkludera innehåll som hämtas in i apparna från dessa källor.
 
-* **Med** flaggorVälja flaggor kan du filtrera efter  **[!UICONTROL User Flags]** (skräppost, ämne, stötande eller inte), som  **[!UICONTROL System Flags]** används av SAFE (Profanity, Spam eller Magically Moderated) eller  **[!UICONTROL Moderation Recommendations]**.  ![](assets/appcontentfilter.png)
+* **Flaggor** Om du väljer flaggor kan du filtrera efter **[!UICONTROL User Flags]** (Spam, Offtopic, Offensive eller Disagree), **[!UICONTROL System Flags]** tillämpas av SAFE (Profanity, Spam eller Magically Moderated), eller **[!UICONTROL Moderation Recommendations]**. ![](assets/appcontentfilter.png)
 
-* **Datum/** tidAnvänds för att filtrera efter när innehållet ursprungligen skapades  **[!UICONTROL Created]** (eller hämtades till appen via SocialSync eller en direktuppspelning) eller senast  **[!UICONTROL Modified]** (redigerades, flaggades eller läget ändrades).
+* **Datum/tid** Gör att du kan filtrera efter när innehållet ursprungligen fanns **[!UICONTROL Created]** (eller hämtas till appen via SocialSync eller en Stream), eller senast **[!UICONTROL Modified]** (redigerad, flaggad eller statusen ändrad).
 
-* **** FörfattareAnvänds för att filtrera efter författarens  **[!UICONTROL IP]** adress  **[!UICONTROL Display Name]** (finns på panelen Användare eller ovanför det innehåll som författaren har angett) eller  **[!UICONTROL User ID]**(finns på panelen Användare).
+* **Upphovsman** Gör att du kan filtrera efter författarens **[!UICONTROL IP]** adress, **[!UICONTROL Display Name]** (finns på panelen Användare eller ovanför det innehåll som författaren publicerat), eller **[!UICONTROL User ID]**(finns på panelen Användare).
 
-* **** InnehållerGör att du kan filtrera de senaste 90 dagarna med innehåll efter  **[!UICONTROL Keyword]** eller  **[!UICONTROL Content Tag]**. Markera kryssrutan **[!UICONTROL Media]** om du bara vill returnera innehåll som innehåller media. (Om du vill söka efter allt innehåll bläddrar du nedåt genom allt innehåll i listan och klickar sedan på **[!UICONTROL Search full data]**.)
+* **Innehåller** Med det här alternativet kan du filtrera de senaste 90 dagarnas innehåll efter **[!UICONTROL Keyword]** eller **[!UICONTROL Content Tag]**. Välj **[!UICONTROL Media]** om du bara vill returnera innehåll som innehåller media. (Om du vill söka efter allt innehåll bläddrar du nedåt genom allt innehåll i listan och klickar sedan på **[!UICONTROL Search full data]**.)
 
-   **Obs!Sökning efter** flera nyckelord och innehållstaggar stöds inte. Om du anger flera nyckelord eller taggar används det sista ordet i sökningen.
+   **Obs!** Det går inte att söka efter flera nyckelord och innehållstaggar. Om du anger flera nyckelord eller taggar används det sista ordet i sökningen.
 
-   När du söker efter innehållstagg fylls de föreslagna taggarna i automatiskt när du skriver i sökfältet. Sökresultaten returnerar allt innehåll som någonsin har tilldelats taggen. (Använd det här fältet om du vill söka efter Aktuellt innehåll eller klicka på etiketten **[!UICONTROL Featured]** för något av det innehåll som finns i Studio.)
+   När du söker efter innehållstagg fylls de föreslagna taggarna i automatiskt när du skriver i sökfältet. Sökresultaten returnerar allt innehåll som någonsin har tilldelats taggen. (Använd det här fältet om du vill söka efter Aktuellt innehåll eller klicka på **[!UICONTROL Featured]** etikett på allt innehåll i Studio.)
 
    **Obs!** Använd ett minustecken (-) före ett taggnamn om du vill söka efter innehåll som inte innehåller den taggen. Till exempel: Sök efter&quot;-Miley&quot; om du vill söka efter allt innehåll som inte innehåller&quot;Miley&quot;-taggen.
 
-* **** AppAnvänds för att filtrera efter  **[!UICONTROL Collection ID]**,  **[!UICONTROL App Tag]** eller efter  **överordnat ID**. Filtrering med överordnat ID returnerar allt innehåll som är ett svar på inmatat innehålls-ID. (Filtrera efter flera taggar genom att ange taggar avgränsade med kommatecken.)
+* **App** Gör att du kan filtrera efter **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]**, eller **Överordnat ID**. Filtrering med överordnat ID returnerar allt innehåll som är ett svar på inmatat innehålls-ID. (Filtrera efter flera taggar genom att ange taggar avgränsade med kommatecken.)
 
-* **** RättigheterGör att du kan filtrera efter status för rättighetsbegäranden:**  [!UICONTROL Requested]**,  **[!UICONTROL Granted]**,  **[!UICONTROL Replied]** eller  **[!UICONTROL Expired]**.
+* **Rättigheter** Gör att du kan filtrera efter status för rättighetsbegäranden:** [!UICONTROL Requested]**, **[!UICONTROL Granted]**, **[!UICONTROL Replied]**, eller **[!UICONTROL Expired]**.
 
 ## Bozo-innehåll {#section_afl_vqm_zz}
 
-I appar visas **[!UICONTROL Bozo]**-innehåll endast för den som skapat innehållet. På så sätt kan användaren tro att deras innehåll har godkänts, samtidigt som det döljs för alla andra användare och moderatorer.
+I appar **[!UICONTROL Bozo]** innehållet visas endast för den som skapat innehållet. På så sätt kan användaren tro att deras innehåll har godkänts, samtidigt som det döljs för alla andra användare och moderatorer.
 
 >[!NOTE]
 >
->Socialt innehåll som kommer från SocialSync eller Streams **[!UICONTROL cannot]** måste anges till Bozo.
+>Socialt innehåll som kommer från SocialSync eller Streams **[!UICONTROL cannot]** bli inställd på Bozo.
 
 Du kan använda Bozo-innehåll av följande skäl:
 
@@ -96,25 +95,25 @@ På innehållspanelen kan du granska historiken för allt innehåll i listan, in
 Använd flikarna längst ned på innehållspanelen för att visa historiken.
 
 * **[!UICONTROL More Info:]** innehåller en lista över all aktivitet i det här innehållet, inklusive överföring, redigering, skräppostkontroll, tillståndsändring och anteckningar. Livefyres innehålls-ID och användarens IP-adress visas också i det här avsnittet.
-* **[!UICONTROL Replies:]** innehåller högst sex svar. Klicka på **[!UICONTROL Show all replies]** för att visa alla svar på inlägget.
+* **[!UICONTROL Replies:]** innehåller högst sex svar. Klicka **[!UICONTROL Show all replies]** för att visa alla svar på inlägget.
 
 * **[!UICONTROL Flags & Reports:]** visar alla användarflaggor, med avataren för den användare som flaggade innehållet och alla rapporter (anteckningar som lades till av användaren när innehållet flaggas).
 * **[!UICONTROL Add a note:]** gör att du kan lägga till en anteckning som är synlig för andra administratörer eller moderatorer.
-* **[!UICONTROL Request Rights:]** öppnar  **[!UICONTROL New Rights Request]** dialogrutan där en rättighetsbegäran kan utfärdas.
+* **[!UICONTROL Request Rights:]** öppnar **[!UICONTROL New Rights Request]** dialogrutan, från vilken en rättighetsbegäran kan utfärdas.
 
-* **[!UICONTROL Save as Asset:]**öppnar dialogrutan **[!UICONTROL Advanced Options]** där du kan spara det valda objektet i ditt resursbibliotek, publicera det i en app eller begära återanvändningsbehörighet från författaren.
+* **[!UICONTROL Save as Asset:]**öppnar **[!UICONTROL Advanced Options]** som gör att du kan spara det markerade objektet i ditt resursbibliotek, publicera det i en app eller begära återanvändningsbehörighet från författaren.
 
 ![](assets/PublishedMoreInfo-1024x462.png)
 
-## Lägg till en tagg i innehållet {#section_xb4_mxr_rdb}
+## Lägga till en tagg i innehållet {#section_xb4_mxr_rdb}
 
 Genom att tagga innehåll kan du kategorisera och ordna innehåll för enkel hämtning och anpassning av format, eller markera innehåll som det är.
 
-Om du vill lägga till taggar klickar du bara på plusikonen ( **[!UICONTROL +]**) under innehållet. Ange en ny tagg eller välj i en lista med befintliga taggar.
+Om du vill lägga till taggar klickar du på plustecknet ( **[!UICONTROL +]**) under innehållet. Ange en ny tagg eller välj i en lista med befintliga taggar.
 
 ![](assets/PublishedAddTag-1024x338.png)
 
-## Söker efter bilder i alla resurser {#section_zxf_hsf_wcb}
+## Söka efter bilder i alla resurser {#section_zxf_hsf_wcb}
 
 När du har lagt till innehållet i biblioteket kan du söka efter innehåll med smarta taggar.
 
@@ -122,19 +121,19 @@ I biblioteket under Alla resurser kan du söka efter befintliga bilder genom att
 
 * Ange text att söka i sökfältet
 * Sortering efter relevans
-* Ange text i fältet **[!UICONTROL Tags]** om du vill söka efter smarta taggar. Rankningsalgoritmen för smarta taggar filtrerar innehåll med hjälp av ett smart kodkonfidensresultat, hur nytt innehållet är och hur många stjärnor en användare gav innehållet.
+* Skriva text i **[!UICONTROL Tags]** fält att söka efter med smarta taggar. Rankningsalgoritmen för smarta taggar filtrerar innehåll med hjälp av ett smart kodkonfidensresultat, hur nytt innehållet är och hur många stjärnor en användare gav innehållet.
 
 ## Innehåll {#section_emb_kqm_zz}
 
-Välj standardtaggen **[!UICONTROL Featured]** för att markera innehållet som aktuellt och markera det som viktigt för användarna. När du har taggat det kan du använda anpassade formateringsalternativ för att anpassa det aktuella innehållet i dina appar.
+Välj standard **[!UICONTROL Featured]** markera innehållet som aktuellt och markera det som viktigt för användarna. När du har taggat det kan du använda anpassade formateringsalternativ för att anpassa det aktuella innehållet i dina appar.
 
 ## Till innehåll eller ta bort funktion {#section_ojx_3qm_zz}
 
-* I Studio klickar du på **[!UICONTROL +]**-tecknet bredvid en del av innehållet, markerar taggen **[!UICONTROL Featured]** i listrutan och klickar på **[!UICONTROL Enter]** för att visa innehåll. Taggen sparas och visas bredvid innehållet.
+* I Studio klickar du på **[!UICONTROL +]** signera bredvid en del av innehållet, markera **[!UICONTROL Featured]** i listrutan och klicka på **[!UICONTROL Enter]** till Innehåll. Taggen sparas och visas bredvid innehållet.
 
-* Om du vill ta bort en funktion klickar du på **[!UICONTROL x]** på taggen **[!UICONTROL Featured]** som visas på innehållet.
+* Om du vill ta bort funktionen klickar du på **[!UICONTROL x]** på **[!UICONTROL Featured]** -tagg som visas på innehållet.
 
-* Håll muspekaren över det innehåll du vill använda i en kommentar, Live-blogg eller Granskningsapp, och klicka på **[!UICONTROL Feature]**. Om du vill ta bort funktionen håller du muspekaren över innehållet och klickar på **[!UICONTROL Unfeature]**.
+* Håll muspekaren över det innehåll du vill använda och klicka på **[!UICONTROL Feature]**. Om du vill ta bort en funktion håller du muspekaren över innehållet och klickar **[!UICONTROL Unfeature]**.
 
 >[!NOTE]
 >
