@@ -2,10 +2,9 @@
 description: Analysera användare, innehåll och moderatoraktivitet för din webbplats.
 title: Analyser
 exl-id: dc0545ec-2294-44ab-87c4-67eb30c3f787
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 9cd6617c4204b2c09787ea294227f640018928ce
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -24,37 +23,37 @@ Instrumentpaneler kan filtreras efter plats, datum och aktivitet. Använd listru
 
 Den här sidan beskriver:
 
-* Välja ett [datumintervall](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#DateRange) för instrumentpanelen
-* [Visa/dölja tillgängliga aktiviteter](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ShowHideActivities)
-* [Exporterar instrumentpanelsdata](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ExportDashboardData)
-* [Kontrollpanelen Samlingar](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#CollectionsDashboard)
-* [Kontrollpanelen för moderering](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ModerationDashboard)
-* [Kontrollpanelen Användare](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#UsersDashboard)
+* Välja datumintervall för instrumentpanelen
+* Visa/dölja tillgängliga aktiviteter
+* Exporterar instrumentpanelsdata
+* Kontrollpanelen Samlingar
+* Kontrollpanelen för moderering
+* Kontrollpanelen Användare
 
 >[!NOTE]
 >
->Analyserna stöder för närvarande aktiviteter som kommer från Livefyres Core Apps och moderation. De flesta aktiviteter som ingår i dessa instrumentpaneler är också tillgängliga via [Livefyre JavaScript Events](https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/), som kan användas som stöd för ditt eget anpassade eller externa analysverktyg.
+>Analyserna stöder för närvarande aktiviteter som kommer från Livefyres Core Apps och moderation. De flesta aktiviteter som ingår i dessa instrumentpaneler är också tillgängliga via Livefyre JavaScript Events, som kan användas som stöd för ditt eget anpassade eller externa analysverktyg.
 
 ## Datumintervall {#concept_798C438120E643B6BE262C9997DC87C4}
 
-Klicka på listrutan med datum för att välja ett intervall som ska visas. Använd snabbdatumen eller välj ett start- och slutdatum i de kalendrar som finns.
+Klicka på datumlistrutan för att välja ett intervall som ska visas. Använd snabbdatumen eller välj ett start- och slutdatum i de kalendrar som finns.
 
 ![](assets/analytics-date-range.png)
 
 Snabbdatum:
 
-* **I dag:** Visar data från midnatt på morgonen den aktuella dagen till den sista fullständiga timmen före den här stunden.
+* **Idag:** Visar data från midnatt på morgonen den aktuella dagen, till den sista fullständiga timmen före den här stunden.
 * **I går:** Visar data för föregående 24 timmar.
-* **7 dagar:** Visar de 7 föregående dagarnas data, förutom idag.
-* **30 dagar:** Visar de föregående 30 dagarnas data, med undantag för idag.
-* **Den här veckan:** Visar data från midnatt på morgonen förra söndagen, till den sista hela timmen före denna stund.
-* **Den här månaden:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, till den sista fullständiga timmen före det här tillfället.
+* **7 dagar:** Visar data för de föregående 7 dagarna, med undantag för idag.
+* **30 dagar:** Visar de föregående 30 dagarnas data, förutom idag.
+* **Den här veckan:** Visar data från midnatt på morgonen förra söndagen, till den sista fullständiga timmen före denna stund.
+* **Den här månaden:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, fram till den sista fullständiga timmen före den här stunden.
 * **Förra veckan:** Visar förra veckans data.
 * **Förra månaden:** Visar data för förra månaden.
 
-## Visar/döljer aktiviteter {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
+## Visa/dölja aktiviteter {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
 
-Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive kommentering, flaggning, delning och moderering. Använd listrutan **Visa/dölj aktiviteter** för att välja aktiviteter som du vill ska ingå i instrumentpanelen.
+Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive kommentering, flaggning, delning och moderering. Använd **Visa/dölj aktiviteter** för att välja vilka aktiviteter du vill ska ingå i din instrumentpanel.
 
 >[!NOTE]
 >
@@ -62,24 +61,24 @@ Aktiviteter är åtgärder som användare utför på webbplatsen, inklusive komm
 
 ![](assets/analytics-show-hide-activities.png)
 
-Vilka aktiviteter som är tillgängliga varierar beroende på kontrollpanelens typ och export, och kan omfatta:
+Vilka aktiviteter som är tillgängliga varierar beroende på kontrollpanelens typ och exportering, och kan omfatta:
 
-* **Inlägg:** Visar data från midnatt på morgonen den aktuella dagen till den sista fullständiga timmen före den här stunden.
+* **Inlägg:** Visar data från midnatt på morgonen den aktuella dagen, till den sista fullständiga timmen före den här stunden.
 * **Svar:** Visar data för föregående 24 timmar.
-* **gilla-markeringar:** Visar de 7 föregående dagarnas data, med undantag för idag.
-* **Ogilla-markeringar:** Visar de senaste 30 dagarnas data, med undantag för idag.
+* **gilla:** Visar data för de föregående 7 dagarna, med undantag för idag.
+* **Ogillar:** Visar de föregående 30 dagarnas data, förutom idag.
 * **Innehåller media:** Visar data från midnatt på morgonen förra söndagen, till den sista fullständiga timmen före denna stund.
-* **Posten har fotouppladdning:** Visar data från midnatt den första dagen i den aktuella månaden, till den sista fullständiga timmen före den här stunden.
+* **Posten har fotouppladdning:** Visar data från midnatt på morgonen den första dagen i den aktuella månaden, fram till den sista fullständiga timmen före den här stunden.
 * **Posten har en länk:** Visar förra veckans data.
-* **Posten har @mentions:** Visar data för förra månaden.
+* **Inlägget innehåller @omnämns:** Visar data för förra månaden.
 * **Godkänd:** Visar data för förra månaden.
-* **Bozo&#39;d:** Visar förra månadens data.
+* **Bozo&#39;d:** Visar data för förra månaden.
 * **Streckad:** Visar data för förra månaden.
-* **Måttsumma:** Visar data för förra månaden.
+* **Moderering totalt:** Visar data för förra månaden.
 
 ## Exporterar instrumentpanelsdata {#concept_730DB61A9F894BE6BFB34E0E2A421ED3}
 
-Använd listrutan **Exportera** för att exportera dina instrumentpanelsdata som en CSV-fil.
+Använd **Exportera** listruta om du vill exportera dashboard-data som en CSV-fil.
 
 * Daglig sammanfattning (endast samlingar): exporterar de dagliga tallierna för den senaste fullständiga veckan för varje samling.
 * Tabelldata: exporterar alla sammanslagna samlingsdata (alla kolumner och alla rader i den aktuella rapporten).
